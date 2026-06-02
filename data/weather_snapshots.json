@@ -1,0 +1,47 @@
+[
+  {
+    "id": "weather_420100_seed",
+    "city": "武汉市",
+    "adcode": "420100",
+    "weather": "多云",
+    "temperature_c": 28,
+    "feels_like_c": 30,
+    "wind_direction": "西南风",
+    "wind_level": 3,
+    "humidity": 58,
+    "pressure_hpa": 1008,
+    "visibility_km": 12,
+    "alerts": ["无明显极端天气"],
+    "source": "seed",
+    "updated_at": "2026-06-02T00:00:00+00:00",
+    "forecast": [
+      {
+        "date": "今天",
+        "dayweather": "多云",
+        "nightweather": "多云",
+        "daytemp": "29",
+        "nighttemp": "22",
+        "daywind": "西南风",
+        "daypower": "3"
+      },
+      {
+        "date": "明天",
+        "dayweather": "多云",
+        "nightweather": "阵雨",
+        "daytemp": "28",
+        "nighttemp": "23",
+        "daywind": "东风",
+        "daypower": "2"
+      },
+      {
+        "date": "后天",
+        "dayweather": "晴",
+        "nightweather": "晴",
+        "daytemp": "30",
+        "nighttemp": "24",
+        "daywind": "东南风",
+        "daypower": "2"
+      }
+    ]
+  }
+]

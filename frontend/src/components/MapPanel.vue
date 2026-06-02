@@ -23,8 +23,6 @@ const popupPoi = ref(null);
 const popupStyle = ref({});
 
 let map;
-let satelliteLayer;
-let roadNetLayer;
 let markers = [];
 let routePolylines = [];
 let startMarker = null;
@@ -270,11 +268,9 @@ async function initMap() {
       center,
       zoom: 12,
       viewMode: "2D",
+      mapStyle: "amap://styles/normal",
       resizeEnable: true
     });
-    satelliteLayer = new window.AMap.TileLayer.Satellite();
-    roadNetLayer = new window.AMap.TileLayer.RoadNet();
-    map.add([satelliteLayer, roadNetLayer]);
     map.addControl(new window.AMap.Scale());
     map.addControl(new window.AMap.ToolBar({ position: "RT" }));
     syncMarkers();

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/weather_snapshots.schema.json",
+  "title": "WeatherSnapshotCollection",
+  "description": "天气快照集合。MVP 期间取匹配城市的最新一条作为当前天气。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "city",
+      "weather",
+      "temperature_c",
+      "wind_level",
+      "alerts",
+      "source",
+      "updated_at"
+    ],
+    "properties": {
+      "id": { "type": "string", "description": "集合内唯一天气快照 ID。" },
+      "city": { "type": "string", "description": "城市名称。" },
+      "adcode": { "type": ["string", "null"], "description": "城市行政区划代码。" },
+      "weather": { "type": "string", "description": "天气现象。" },
+      "temperature_c": { "type": "number", "description": "摄氏温度。" },
+      "feels_like_c": { "type": ["number", "null"], "description": "体感温度。" },
+      "wind_direction": { "type": ["string", "null"], "description": "风向。" },
+      "wind_level": { "type": "integer", "minimum": 0, "description": "风力等级。" },
+      "humidity": { "type": ["integer", "null"], "minimum": 0, "maximum": 100, "description": "湿度百分比。" },
+      "pressure_hpa": { "type": ["number", "null"], "description": "气压，单位 hPa。" },
+      "visibility_km": { "type": ["number", "null"], "description": "能见度，单位 km。" },
+      "alerts": { "type": "array", "items": { "type": "string" }, "description": "天气风险提示。" },
+      "source": { "type": "string", "description": "数据来源，如 seed、amap。" },
+      "updated_at": { "type": "string", "format": "date-time", "description": "更新时间。" },
+      "forecast": { "type": "array", "items": { "type": "object" }, "description": "未来天气简表。" }
+    }
+  }
+}

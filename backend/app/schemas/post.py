@@ -21,7 +21,7 @@ class CatchPost(BaseModel):
     likes: int = 0
     comments: int = 0
     saves: int = 0
-    cover_tone: str = "blue"
+    coverTone: str = "blue"
     visibility: str = "public"
     location_text: str | None = None
     latitude: float | None = None

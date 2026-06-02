@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from app.core.config import settings
-from app.data.seed_data import SEED_WEATHER
+from app.data.json_store import load_latest_weather
 from app.services.amap_service import fetch_amap_weather_snapshot
 
 
@@ -34,4 +34,4 @@ async def get_current_weather(*, city: str | None = None) -> dict:
         if live:
             return _to_weather_snapshot(live, "amap")
 
-    return _to_weather_snapshot(SEED_WEATHER, "seed")
+    return _to_weather_snapshot(load_latest_weather(city_code), "seed")

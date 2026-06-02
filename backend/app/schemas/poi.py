@@ -14,6 +14,7 @@ class FishingPOI(BaseModel):
     location: str
     lng: float
     lat: float
+    distance: str
     distance_m: int
     distance_text: str | None = None
     score: int

@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "backend": "cd backend && uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
-    "backend:legacy": "node backend/server.js",
     "frontend:dev": "npm --prefix frontend run dev",
     "frontend:build": "npm --prefix frontend run build",
     "frontend:install": "npm --prefix frontend install"

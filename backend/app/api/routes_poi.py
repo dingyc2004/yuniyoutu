@@ -26,7 +26,7 @@ async def read_pois(
         limit=None,
     )
     total = len(items)
-    return {"data": items[:limit], "meta": {"total": total, "source": "seed"}}
+    return {"data": items[:limit], "meta": {"total": total, "source": "json"}}
 
 
 @router.get("/pois/{poi_id}", response_model=FishingPOIDetailResponse)

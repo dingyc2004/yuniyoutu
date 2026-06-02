@@ -1,15 +1,14 @@
-from copy import deepcopy
 from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import APIRouter, Body, Query
 
-from app.data.seed_data import SEED_POSTS
+from app.data.json_store import load_collection
 from app.schemas.post import CatchPostCreate, CatchPostListResponse, CatchPostResponse
 
 router = APIRouter()
 
-POSTS_STORAGE: list[dict[str, Any]] = deepcopy(SEED_POSTS)
+POSTS_STORAGE: list[dict[str, Any]] = load_collection("posts")
 
 
 def _sort_posts(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -48,7 +47,7 @@ def _build_post_record(payload: CatchPostCreate) -> dict[str, Any]:
         "likes": 0,
         "comments": 0,
         "saves": 0,
-        "cover_tone": "blue",
+        "coverTone": "blue",
         "visibility": payload.visibility,
         "location_text": payload.location_text,
         "latitude": payload.latitude,
@@ -80,7 +79,7 @@ async def read_posts(
         ]
     total = len(items)
     items = _sort_posts(items)[:limit]
-    return {"data": items, "meta": {"total": total, "source": "seed"}}
+    return {"data": items, "meta": {"total": total, "source": "json"}}
 
 
 @router.get("/feed", response_model=CatchPostListResponse)

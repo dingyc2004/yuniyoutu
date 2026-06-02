@@ -26,6 +26,15 @@ project-root/
 │   │   └── data/
 │   ├── requirements.txt
 │   └── README.md
+├── data/
+│   ├── pois.json
+│   ├── pois.schema.json
+│   ├── posts.json
+│   ├── posts.schema.json
+│   ├── tutorials.json
+│   ├── tutorials.schema.json
+│   ├── weather_snapshots.json
+│   └── weather_snapshots.schema.json
 ├── docs/
 │   └── 开发设计书.md
 ├── .env.example
@@ -93,6 +102,17 @@ APP_ENV=development
 
 返回值统一以 `data` 为主，便于前端对接和后续扩展。
 
+## 数据存储说明
+
+当前不引入正式数据库，根目录 `data/` 用 JSON 模拟 NoSQL 集合：
+
+- `pois.json`：垂钓 POI 集合
+- `posts.json`：鱼获、空军、探点等帖子集合
+- `tutorials.json`：教程集合
+- `weather_snapshots.json`：天气快照集合
+
+每个集合都有对应的 `.schema.json` 描述文件，用 JSON Schema 说明字段类型、必填项和业务含义。后端启动后读取这些 JSON 作为初始数据，`POST /api/posts` 当前仍只写入内存态列表，服务重启后新增内容会丢失。
+
 ## 前端页面说明
 
 - 地图页：查看附近钓点、搜索、筛选、点选 POI、查看路线
@@ -107,7 +127,7 @@ APP_ENV=development
 - 已完成 Vue3 + Vite 前端基础
 - 已完成 FastAPI 后端骨架
 - 已完成 POI、帖子、推荐、天气、AI 解释的接口骨架
-- 已完成 seed data 和内存态发布链路
+- 已完成 JSON 集合模拟 NoSQL 数据层和内存态发布链路
 - 已完成高德 Key、DeepSeek Key 的环境变量方案
 - 已完成开发设计书更新
 - 旧版 Node 后端已保留为 legacy，不再作为主入口
@@ -127,4 +147,3 @@ APP_ENV=development
 3. 第三方密钥不写死在仓库
 4. 前端和后端改动尽量分批提交，方便联调
 5. 每次合并前先确认地图页、详情页、发布页和社区页的闭环没有断
-

@@ -5,11 +5,11 @@ from typing import Any
 import httpx
 
 from app.core.config import settings
-from app.data.seed_data import SEED_POIS
+from app.data.json_store import load_collection
 
 
 def _build_mock_advice(candidate_pois: list[dict], recommendation: dict | None, user_intent: str | None) -> dict[str, Any]:
-    top_candidates = candidate_pois[:2] if candidate_pois else SEED_POIS[:2]
+    top_candidates = candidate_pois[:2] if candidate_pois else load_collection("pois")[:2]
     summary = "今天优先选择近距离、合规分高且风力较小的钓点。"
     if user_intent:
         summary = f"围绕“{user_intent}”来看，建议先确认规则和天气，再决定出钓点。"

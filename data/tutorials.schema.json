@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/tutorials.schema.json",
+  "title": "TutorialCollection",
+  "description": "教程内容集合。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "type", "title", "level", "duration", "summary", "tags", "coverTone"],
+    "properties": {
+      "id": { "type": "string", "description": "集合内唯一教程 ID。" },
+      "type": { "type": "string", "description": "教程形式，如图文、视频。" },
+      "title": { "type": "string", "description": "教程标题。" },
+      "level": { "type": "string", "description": "难度等级，如入门、进阶、安全。" },
+      "duration": { "type": "string", "description": "预计学习时长。" },
+      "summary": { "type": "string", "description": "教程摘要。" },
+      "tags": { "type": "array", "items": { "type": "string" }, "description": "教程标签。" },
+      "coverTone": { "type": "string", "description": "前端封面色调。" }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, reactive, ref } from "vue";
+import { computed, onBeforeUnmount, onMounted, reactive, ref, watch } from "vue";
 import CommunityView from "./components/CommunityView.vue";
 import MapPanel from "./components/MapPanel.vue";
 import MineView from "./components/MineView.vue";
@@ -31,8 +31,10 @@ const activeFilter = ref("全部");
 const selectedPoiId = ref("");
 const navTarget = ref(null);
 const detailPoi = ref(null);
+const galleryIndex = ref(0);
 const toast = ref("");
 let toastTimer;
+let galleryTimer;
 
 const state = reactive({
   pois: seedData.pois,
@@ -54,6 +56,40 @@ const weatherText = computed(() => {
 const shownPois = computed(() => {
   if (activeFilter.value === "全部") return state.pois;
   return state.pois.filter((poi) => poi.type === activeFilter.value || (poi.tags || []).includes(activeFilter.value));
+});
+
+const detailGallery = computed(() => {
+  if (!detailPoi.value) return [];
+  const poi = detailPoi.value;
+  const imageUrls = Array.isArray(poi.images) ? poi.images.filter(Boolean) : [];
+  if (imageUrls.length) {
+    return imageUrls.map((url, index) => ({
+      id: `${poi.id || poi.name}-image-${index}`,
+      title: `${poi.name} · ${index + 1}`,
+      subtitle: poi.address || poi.type,
+      url
+    }));
+  }
+  return [
+    {
+      id: `${poi.id || poi.name}-waterside`,
+      title: "水域环境",
+      subtitle: poi.name,
+      tone: "green"
+    },
+    {
+      id: `${poi.id || poi.name}-shore`,
+      title: "岸线入口",
+      subtitle: poi.address || "位置待确认",
+      tone: "blue"
+    },
+    {
+      id: `${poi.id || poi.name}-catch`,
+      title: "鱼获参考",
+      subtitle: (poi.fish || []).join(" / ") || "暂无鱼种数据",
+      tone: "amber"
+    }
+  ];
 });
 
 function showToast(message) {
@@ -88,7 +124,36 @@ function startNav(poi) {
 }
 
 function openDetail(poi) {
+  galleryIndex.value = 0;
   detailPoi.value = poi;
+}
+
+function closeDetail() {
+  detailPoi.value = null;
+}
+
+function showGallerySlide(index) {
+  const total = detailGallery.value.length;
+  if (!total) return;
+  galleryIndex.value = (index + total) % total;
+}
+
+function nextGallerySlide() {
+  showGallerySlide(galleryIndex.value + 1);
+}
+
+function previousGallerySlide() {
+  showGallerySlide(galleryIndex.value - 1);
+}
+
+function startGalleryPlayback() {
+  window.clearInterval(galleryTimer);
+  if (detailGallery.value.length <= 1) return;
+  galleryTimer = window.setInterval(nextGallerySlide, 3200);
+}
+
+function stopGalleryPlayback() {
+  window.clearInterval(galleryTimer);
 }
 
 async function loadInitialData() {
@@ -105,6 +170,12 @@ async function loadInitialData() {
 }
 
 onMounted(loadInitialData);
+onBeforeUnmount(stopGalleryPlayback);
+
+watch(detailPoi, (poi) => {
+  stopGalleryPlayback();
+  if (poi) startGalleryPlayback();
+});
 </script>
 
 <template>
@@ -163,9 +234,38 @@ onMounted(loadInitialData);
     </Transition>
 
     <Transition name="modal">
-      <div v-if="detailPoi" class="modal-overlay" @click.self="detailPoi = null">
+      <div v-if="detailPoi" class="modal-overlay" @click.self="closeDetail">
         <article class="detail-card">
-          <button class="detail-close" type="button" @click="detailPoi = null">✕</button>
+          <button class="detail-close" type="button" @click="closeDetail">✕</button>
+
+          <section class="detail-gallery" aria-label="钓点图片集">
+            <div
+              v-for="(slide, index) in detailGallery"
+              :key="slide.id"
+              :class="['gallery-slide', `tone-${slide.tone || 'green'}`, { active: index === galleryIndex }]"
+            >
+              <img v-if="slide.url" :src="slide.url" :alt="slide.title" />
+              <div v-else class="gallery-fallback">
+                <span>{{ slide.title }}</span>
+                <strong>{{ slide.subtitle }}</strong>
+              </div>
+            </div>
+
+            <button class="gallery-control previous" type="button" aria-label="上一张" @click="previousGallerySlide">‹</button>
+            <button class="gallery-control next" type="button" aria-label="下一张" @click="nextGallerySlide">›</button>
+
+            <div class="gallery-dots" aria-label="图片位置">
+              <button
+                v-for="(_, index) in detailGallery"
+                :key="index"
+                :class="{ active: index === galleryIndex }"
+                type="button"
+                :aria-label="`查看第 ${index + 1} 张`"
+                @click="showGallerySlide(index)"
+              ></button>
+            </div>
+          </section>
+
           <div class="detail-hero">
             <span class="detail-score">{{ detailPoi.score }}</span>
             <span class="detail-type">{{ detailPoi.type }}</span>
@@ -173,11 +273,6 @@ onMounted(loadInitialData);
           <h2>{{ detailPoi.name }}</h2>
           <p class="detail-address" v-if="detailPoi.address">{{ detailPoi.address }}</p>
           <p class="detail-distance">{{ detailPoi.distance }}</p>
-
-          <div class="detail-section">
-            <h4>推荐理由</h4>
-            <p>{{ detailPoi.reason }}</p>
-          </div>
 
           <div class="detail-section">
             <h4>安全提示</h4>

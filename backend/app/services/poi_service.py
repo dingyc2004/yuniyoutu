@@ -3,9 +3,8 @@ from __future__ import annotations
 from copy import deepcopy
 from datetime import datetime, timezone
 from math import asin, cos, radians, sin, sqrt
-from typing import Iterable
 
-from app.data.seed_data import SEED_POIS, SEED_TUTORIALS
+from app.data.json_store import load_collection
 
 
 def _distance_text(distance_m: int) -> str:
@@ -25,7 +24,8 @@ def _haversine_distance_m(lat1: float, lng1: float, lat2: float, lng2: float) ->
 
 def _clone_poi(poi: dict) -> dict:
     item = deepcopy(poi)
-    item["distance_text"] = _distance_text(int(item["distance_m"]))
+    item["distance"] = item.get("distance") or _distance_text(int(item["distance_m"]))
+    item["distance_text"] = item["distance"]
     item["updated_at"] = item.get("updated_at") or datetime.now(timezone.utc).isoformat()
     return item
 
@@ -57,7 +57,7 @@ def list_pois(
     radius_m: int | None = None,
     limit: int | None = None,
 ) -> list[dict]:
-    items = [_clone_poi(poi) for poi in SEED_POIS]
+    items = [_clone_poi(poi) for poi in load_collection("pois")]
 
     if city:
         items = [poi for poi in items if poi.get("city") == city or poi.get("city") == "武汉市"]
@@ -75,7 +75,8 @@ def list_pois(
     if lat is not None and lng is not None:
         for poi in items:
             poi["distance_m"] = _haversine_distance_m(lat, lng, float(poi["lat"]), float(poi["lng"]))
-            poi["distance_text"] = _distance_text(int(poi["distance_m"]))
+            poi["distance"] = _distance_text(int(poi["distance_m"]))
+            poi["distance_text"] = poi["distance"]
         items.sort(key=lambda poi: poi["distance_m"])
         if radius_m:
             items = [poi for poi in items if int(poi["distance_m"]) <= radius_m]
@@ -89,11 +90,11 @@ def list_pois(
 
 
 def get_poi_by_id(poi_id: str) -> dict | None:
-    for poi in SEED_POIS:
+    for poi in load_collection("pois"):
         if poi["id"] == poi_id:
             return _clone_poi(poi)
     return None
 
 
 def get_tutorials() -> list[dict]:
-    return deepcopy(SEED_TUTORIALS)
+    return load_collection("tutorials")
