@@ -1,63 +1,130 @@
 # 鱼你有图
 
-鱼类识别科普与钓点推荐应用。前端 Vue3 + Vite，后端 Node.js 无依赖 HTTP 服务，地图基于高德 JS API v2.0。
+“鱼你有图”是面向钓鱼爱好者的垂钓 GIS 社交平台。它把地图找点、POI 详情、规则推荐、鱼获发布、社区展示和教程学习放在同一个链路里，目标是让用户更快判断“去哪钓、能不能钓、现在适不适合钓”。
+
+## 技术栈
+
+- 前端：Vue3 + Vite + 高德 JS API
+- 后端：FastAPI + Pydantic + httpx
+- 环境：conda + `requirements.txt`
+
+## 项目结构
+
+```text
+project-root/
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/
+│   │   ├── core/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── data/
+│   ├── requirements.txt
+│   └── README.md
+├── docs/
+│   └── 开发设计书.md
+├── .env.example
+├── .gitignore
+└── README.md
+```
 
 ## 快速开始
 
-```bash
-# 终端1：启动后端
-cd backend
-node server.js
+### 1. 启动后端
 
-# 终端2：启动前端
+```bash
+conda create -n yuniyoutu-backend python=3.11
+conda activate yuniyoutu-backend
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+### 2. 启动前端
+
+```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-后端端口 `3001`，前端 `5173`（Vite 已配置 `/api` 代理到后端）。
+前端默认运行在 `http://localhost:5173`，后端默认运行在 `http://127.0.0.1:8000`。
 
-## 项目结构
+## 环境变量
 
-```
-├── backend/
-│   ├── server.js          # Node HTTP 服务，代理高德 API + seed 数据
-│   └── README.md
-├── frontend/
-│   ├── src/
-│   │   ├── App.vue        # 主组件：Tab 导航、详情弹窗、数据加载
-│   │   ├── main.js        # Vue 入口
-│   │   ├── styles.css     # 全局样式
-│   │   ├── components/
-│   │   │   ├── MapPanel.vue      # 地图面板：卫星图、钓点标记、路线规划
-│   │   │   ├── PoiCard.vue       # 钓点卡片：点击定位/导航/详情
-│   │   │   ├── CommunityView.vue # 社区鱼获动态
-│   │   │   ├── PublishView.vue   # 发布页
-│   │   │   ├── TutorialsView.vue # 教程页
-│   │   │   └── MineView.vue      # 个人页
-│   │   ├── data/
-│   │   │   └── seedData.js       # 示例数据（兜底用）
-│   │   └── services/
-│   │       └── api.js            # API 请求封装
-│   ├── vite.config.js
-│   └── package.json
-├── 高德key.txt            # 高德 Web 服务 Key（前端 JS API 共用）
-├── 高德security.txt       # 高德 JS API 安全密钥（可选）
-└── package.json           # 根目录脚本
+项目根目录使用 `.env`，模板见 `.env.example`。
+
+```env
+AMAP_WEB_SERVICE_KEY=
+AMAP_SECURITY_CODE=
+DEEPSEEK_API_KEY=
+APP_ENV=development
 ```
 
-## 功能
+说明：
 
-- 卫星地图 + 路网注记（高德 JS API v2.0）
-- 钓点搜索与推荐，marker 点选弹出详情
-- POI 卡片点击跳转地图定位
-- 路线规划：驾车/步行/公交三种方式，起点"武汉大学信息学部南二门"
-- 钓点详情弹窗（推荐理由、安全提示、鱼种、标签）
-- 社区鱼获动态、教程、发布、个人主页
+- `AMAP_WEB_SERVICE_KEY`：高德 Web 服务 Key，放后端使用
+- `AMAP_SECURITY_CODE`：高德 JS API 安全码
+- `DEEPSEEK_API_KEY`：DeepSeek Key，当前 AI 接口默认仍是 mock
+- `APP_ENV`：开发环境建议 `development`
 
-## 高德配置
+## 后端接口说明
 
-1. 在[高德开放平台](https://console.amap.com)创建应用，获取 Key
-2. 将 Key 写入项目根目录 `高德key.txt`
-3. 确保 Key 已开通以下服务：Web服务 API、Web端 JS API（含 WebGL 地图可选）
-4. 如有 JS API 安全密钥，写入 `高德security.txt` 或设置环境变量 `AMAP_SECURITY_CODE`
+当前 MVP 阶段接口如下：
+
+- `GET /api/health`
+- `GET /api/amap/config`
+- `GET /api/pois`
+- `GET /api/pois/{poi_id}`
+- `GET /api/posts`
+- `POST /api/posts`
+- `GET /api/feed`
+- `POST /api/catches`
+- `POST /api/recommendations`
+- `POST /api/ai/fishing-advice`
+- `GET /api/weather/current`
+- `GET /api/weather`
+- `GET /api/tutorials`
+
+返回值统一以 `data` 为主，便于前端对接和后续扩展。
+
+## 前端页面说明
+
+- 地图页：查看附近钓点、搜索、筛选、点选 POI、查看路线
+- 钓点详情：查看推荐理由、安全提示、鱼种和标签
+- 发布页：发布鱼获、空军和探点记录
+- 社区页：展示鱼获流和互动内容
+- 教程页：展示新手和进阶教程
+- 我的页：当前为基础骨架，后续接个人数据
+
+## 当前完成情况
+
+- 已完成 Vue3 + Vite 前端基础
+- 已完成 FastAPI 后端骨架
+- 已完成 POI、帖子、推荐、天气、AI 解释的接口骨架
+- 已完成 seed data 和内存态发布链路
+- 已完成高德 Key、DeepSeek Key 的环境变量方案
+- 已完成开发设计书更新
+- 旧版 Node 后端已保留为 legacy，不再作为主入口
+
+## 后续开发计划
+
+1. 继续把前端页面逐步切到 FastAPI 的稳定数据结构
+2. 接入真实高德 POI 和天气服务
+3. 把帖子、收藏、评论和 POI 详情联动做深
+4. 引入数据库和用户系统
+5. 在规则推荐基础上继续增强 AI 解释和复盘能力
+
+## 小组协作规范
+
+1. 先对齐设计书，再改代码
+2. 接口字段先兼容后收敛，不要一次性大改
+3. 第三方密钥不写死在仓库
+4. 前端和后端改动尽量分批提交，方便联调
+5. 每次合并前先确认地图页、详情页、发布页和社区页的闭环没有断
+

@@ -1,34 +1,47 @@
 # 鱼你有图 Backend
 
-当前后端是无依赖 Node.js API。已接入高德 Web 服务代理：`/api/pois` 会读取项目根目录的 `高德key.txt` 或环境变量 `AMAP_KEY`，优先请求高德 POI；`/api/weather` 会请求高德天气。高德不可达或无结果时自动回落到示例数据。
+当前后端已切换为 FastAPI。MVP 阶段先跑通接口骨架、规则推荐和内容发布闭环，数据库暂不引入，全部先用 seed data 和内存数据承接。
 
-DeepSeek 现阶段仍是 mock 返回，后续可按同样方式放在后端代理，避免前端暴露密钥。
+## 环境
 
-## 运行
+建议使用 conda：
 
 ```bash
-node server.js
+conda create -n yuniyoutu-backend python=3.11
+conda activate yuniyoutu-backend
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-默认端口：`3001`
+## 目录
 
-## API
+- `app/main.py`：FastAPI 入口，挂载 router 和 CORS
+- `app/api/`：接口路由
+- `app/core/config.py`：环境变量读取
+- `app/schemas/`：请求和响应模型
+- `app/services/`：规则推荐、POI、天气、AI 解释和第三方封装
+- `app/data/seed_data.py`：MVP 示例数据
+
+## 可用接口
 
 - `GET /api/health`
 - `GET /api/amap/config`
-- `GET /api/pois?city=420100`
-- `GET /api/pois?lng=114.3055&lat=30.5928&radius=8000`
-- `GET /api/weather?city=420100`
+- `GET /api/pois`
+- `GET /api/pois/{poi_id}`
+- `GET /api/posts`
 - `GET /api/feed`
-- `GET /api/tutorials`
-- `GET /api/recommendations`
+- `POST /api/posts`
 - `POST /api/catches`
+- `POST /api/recommendations`
 - `POST /api/ai/fishing-advice`
+- `GET /api/weather/current`
+- `GET /api/weather`
+- `GET /api/tutorials`
 
-## 高德接入说明
+## 接入说明
 
-- 当前支持两种 Key 来源：`AMAP_KEY` 环境变量优先，其次读取 `../高德key.txt`。
-- 高德 JS API 如需安全密钥，可设置 `AMAP_SECURITY_CODE` 或创建 `../高德security.txt`。
-- 前端只调用业务 API，例如 `/api/pois`、`/api/weather`、`/api/recommendations`。
-- 后端负责代理高德 Web 服务、清洗 POI、合并平台自有垂钓字段，不把 Key 返回给前端。
-- `/api/amap/config` 仅用于前端加载高德 JS API；JS API key 本身会出现在浏览器请求中。
+- 高德 Web 服务 Key 通过 `AMAP_WEB_SERVICE_KEY` 读取，JS API 所需安全码通过 `AMAP_SECURITY_CODE` 读取。
+- DeepSeek Key 通过 `DEEPSEEK_API_KEY` 读取。当前 AI 接口默认仍以 mock 返回为主，只在生产配置下预留真实调用结构。
+- 后端暂不引入数据库，帖子和推荐结果先走 seed data 与内存态，后续再接持久化层。
+- 旧版 `server.js` 作为 legacy 保留，不作为当前主入口。

@@ -9,6 +9,10 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
 
 # IDE
 .idea/

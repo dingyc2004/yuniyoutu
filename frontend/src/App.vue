@@ -42,11 +42,13 @@ const state = reactive({
 });
 
 const weatherText = computed(() => {
-  const live = state.weather?.live;
+  const live = state.weather?.live || state.weather;
   if (!live) return "天气信息暂不可用";
-  const direction = live.winddirection || "风向未知";
-  const wind = live.windpower ? `${live.windpower}级` : "";
-  return `${live.weather} · ${live.temperature}℃ · ${direction} ${wind}`;
+  const direction = live.winddirection || live.wind_direction || "风向未知";
+  const windLevel = live.windpower || live.wind_level;
+  const temperature = live.temperature || live.temperature_c || live.feels_like_c || "";
+  const wind = windLevel ? `${windLevel}级` : "";
+  return `${live.weather} · ${temperature}℃ · ${direction} ${wind}`;
 });
 
 const shownPois = computed(() => {
