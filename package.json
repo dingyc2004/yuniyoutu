@@ -1,0 +1,11 @@
+{
+  "name": "yuni-map-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:install": "npm --prefix frontend install"
+  }
+}

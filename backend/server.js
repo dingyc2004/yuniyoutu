@@ -6,6 +6,7 @@ const { URL } = require("url");
 const PORT = Number(process.env.PORT || 3001);
 const AMAP_BASE = "https://restapi.amap.com";
 const AMAP_KEY_PATH = path.join(__dirname, "..", "高德key.txt");
+const AMAP_SECURITY_PATH = path.join(__dirname, "..", "高德security.txt");
 
 const seedData = {
   pois: [
@@ -19,6 +20,8 @@ const seedData = {
       tags: ["免费", "近7天有鱼获", "适合台钓"],
       reason: "近 7 天有 18 条鱼获，风力 2 级，上午窗口较好。",
       risk: "部分岸线较滑，夜钓需结伴。",
+      address: "武汉市武昌区东湖听涛景区附近",
+      location: "114.3691,30.5567",
       x: 66,
       y: 38
     },
@@ -32,6 +35,8 @@ const seedData = {
       tags: ["路亚", "停车方便", "晚口较好"],
       reason: "缓流区近期翘嘴活跃，傍晚更适合搜索。",
       risk: "临水护栏低，注意安全。",
+      address: "武汉市青山区江滩公园附近",
+      location: "114.4154,30.6278",
       x: 28,
       y: 55
     },
@@ -45,6 +50,8 @@ const seedData = {
       tags: ["收费", "新手友好", "可夜钓"],
       reason: "设施完整，适合新手练习调漂和抛竿。",
       risk: "周末人多，建议提前预约。",
+      address: "武汉市洪山区南湖附近",
+      location: "114.3316,30.4885",
       x: 74,
       y: 72
     }
@@ -170,11 +177,16 @@ const seedData = {
 };
 
 const amapKey = readAmapKey();
+const amapSecurityCode = readOptionalFile(AMAP_SECURITY_PATH) || process.env.AMAP_SECURITY_CODE || "";
 
 function readAmapKey() {
   if (process.env.AMAP_KEY) return process.env.AMAP_KEY.trim();
+  return readOptionalFile(AMAP_KEY_PATH);
+}
+
+function readOptionalFile(filePath) {
   try {
-    return fs.readFileSync(AMAP_KEY_PATH, "utf8").trim();
+    return fs.readFileSync(filePath, "utf8").trim();
   } catch {
     return "";
   }
@@ -255,6 +267,9 @@ function synthesizePoi(poi, index) {
     type: mapPoiType(poi.name, poi.typecode || poi.type),
     distance: poi.distance ? `${Math.round(Number(poi.distance) / 100) / 10}km` : `${Math.max(1, index + 1)}km`,
     score,
+    location: Number.isFinite(lng) && Number.isFinite(lat) ? `${lng},${lat}` : "",
+    lng,
+    lat,
     fish: ["鲫鱼", "翘嘴", "鲤鱼"].slice(0, 2 + (index % 2)),
     tags: [
       poi.address ? "高德POI" : "平台整理",
@@ -378,6 +393,16 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === "GET" && url.pathname === "/api/health") {
     sendJson(res, 200, { ok: true, service: "yuni-api", amap_key_loaded: Boolean(amapKey) });
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/api/amap/config") {
+    sendJson(res, 200, {
+      data: {
+        key: amapKey,
+        securityCode: amapSecurityCode
+      }
+    });
     return;
   }
 

@@ -15,6 +15,7 @@ node server.js
 ## API
 
 - `GET /api/health`
+- `GET /api/amap/config`
 - `GET /api/pois?city=420100`
 - `GET /api/pois?lng=114.3055&lat=30.5928&radius=8000`
 - `GET /api/weather?city=420100`
@@ -27,5 +28,7 @@ node server.js
 ## 高德接入说明
 
 - 当前支持两种 Key 来源：`AMAP_KEY` 环境变量优先，其次读取 `../高德key.txt`。
+- 高德 JS API 如需安全密钥，可设置 `AMAP_SECURITY_CODE` 或创建 `../高德security.txt`。
 - 前端只调用业务 API，例如 `/api/pois`、`/api/weather`、`/api/recommendations`。
 - 后端负责代理高德 Web 服务、清洗 POI、合并平台自有垂钓字段，不把 Key 返回给前端。
+- `/api/amap/config` 仅用于前端加载高德 JS API；JS API key 本身会出现在浏览器请求中。

@@ -1,15 +1,25 @@
 # 鱼你有图 Frontend
 
-这是一个无构建依赖的移动端 Web 原型，使用 `index.html + styles.css + app.js` 实现。
+Vue 3 + Vite 移动端原型。地图页使用高德 JS API，支持矢量底图和影像图层切换；社区、发布、教程、我的页面使用示例数据驱动。
 
-## 运行方式
+## 运行
 
-直接打开 `frontend/index.html` 即可查看。若同时运行 backend，前端会优先从 `http://localhost:3001` 拉取示例 API；如果 API 不可用，会自动使用内置示例数据。
+```bash
+npm install
+npm run dev
+```
 
-## 页面范围
+开发服务默认端口：`5173`。
 
-- 地图：附近钓点、筛选、推荐卡、POI 列表
-- 社区：小红书风格图文/视频卡片、互动入口、分享按钮
-- 发布：鱼获/空军/探点记录表单
-- 教程：图文/视频教程混合列表
-- 我的：战绩、收藏、会员报告入口
+需要同时启动后端：
+
+```bash
+cd ../backend
+node server.js
+```
+
+## 高德地图
+
+- 前端通过 `/api/amap/config` 获取项目根目录 `高德key.txt` 中的 key，再动态加载高德 JS API。
+- 如果有 JS API 安全密钥，可放在项目根目录 `高德security.txt`，或设置环境变量 `AMAP_SECURITY_CODE`。
+- `/api/pois`、`/api/weather` 仍由后端代理高德 Web 服务；高德不可达时回退到 `src/data/seedData.js`。

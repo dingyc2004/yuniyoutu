@@ -3,29 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>鱼你有图 - 移动端原型</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>鱼你有图</title>
   </head>
   <body>
-    <main class="app-shell" id="app">
-      <section class="topbar">
-        <div>
-          <p class="eyebrow">YUNI MAP</p>
-          <h1 id="screen-title">附近钓点</h1>
-        </div>
-        <button class="icon-btn" id="locate-btn" type="button" aria-label="定位">⌖</button>
-      </section>
-
-      <section id="screen" class="screen"></section>
-
-      <nav class="tabbar" aria-label="主导航">
-        <button class="tab active" data-tab="map" type="button"><span>⌖</span>地图</button>
-        <button class="tab" data-tab="community" type="button"><span>◉</span>社区</button>
-        <button class="tab publish-tab" data-tab="publish" type="button"><span>＋</span>发布</button>
-        <button class="tab" data-tab="tutorials" type="button"><span>▤</span>教程</button>
-        <button class="tab" data-tab="mine" type="button"><span>☻</span>我的</button>
-      </nav>
-    </main>
-    <script src="./app.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
