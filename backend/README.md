@@ -39,6 +39,8 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 - `GET /api/weather/current`
 - `GET /api/weather`
 - `GET /api/tutorials`
+- `GET /api/fish-species`
+- `GET /api/fish-species/{fish_name}`
 
 ## 接入说明
 

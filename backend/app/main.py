@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes_ai import router as ai_router
+from app.api.routes_fish import router as fish_router
 from app.api.routes_meta import router as meta_router
 from app.api.routes_poi import router as poi_router
 from app.api.routes_posts import router as posts_router
@@ -29,4 +30,4 @@ app.include_router(recommend_router, prefix=api_prefix)
 app.include_router(weather_router, prefix=api_prefix)
 app.include_router(ai_router, prefix=api_prefix)
 app.include_router(tutorials_router, prefix=api_prefix)
-
+app.include_router(fish_router, prefix=api_prefix)

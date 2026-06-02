@@ -7,7 +7,7 @@ import PoiCard from "./components/PoiCard.vue";
 import PublishView from "./components/PublishView.vue";
 import TutorialsView from "./components/TutorialsView.vue";
 import { seedData } from "./data/seedData";
-import { fetchCollection } from "./services/api";
+import { fetchCollection, fetchFishSpecies } from "./services/api";
 
 const tabs = [
   { id: "map", label: "地图", icon: "⌖" },
@@ -32,6 +32,8 @@ const selectedPoiId = ref("");
 const navTarget = ref(null);
 const detailPoi = ref(null);
 const galleryIndex = ref(0);
+const fishProfile = ref(null);
+const fishGalleryIndex = ref(0);
 const toast = ref("");
 let toastTimer;
 let galleryTimer;
@@ -92,6 +94,8 @@ const detailGallery = computed(() => {
   ];
 });
 
+const fishGallery = computed(() => fishProfile.value?.gallery || []);
+
 function showToast(message) {
   toast.value = message;
   window.clearTimeout(toastTimer);
@@ -130,6 +134,34 @@ function openDetail(poi) {
 
 function closeDetail() {
   detailPoi.value = null;
+}
+
+async function openFishProfile(fishName) {
+  fishGalleryIndex.value = 0;
+  const profile = await fetchFishSpecies(fishName);
+  if (!profile) {
+    showToast(`暂未收录：${fishName}`);
+    return;
+  }
+  fishProfile.value = profile;
+}
+
+function closeFishProfile() {
+  fishProfile.value = null;
+}
+
+function showFishGallerySlide(index) {
+  const total = fishGallery.value.length;
+  if (!total) return;
+  fishGalleryIndex.value = (index + total) % total;
+}
+
+function nextFishGallerySlide() {
+  showFishGallerySlide(fishGalleryIndex.value + 1);
+}
+
+function previousFishGallerySlide() {
+  showFishGallerySlide(fishGalleryIndex.value - 1);
 }
 
 function showGallerySlide(index) {
@@ -211,7 +243,15 @@ watch(detailPoi, (poi) => {
             <span class="meta">{{ weatherText }}</span>
           </div>
           <div class="poi-list">
-            <PoiCard v-for="poi in shownPois" :key="poi.id" :poi="poi" @select="focusPoi" @navigate="startNav" @detail="openDetail" />
+            <PoiCard
+              v-for="poi in shownPois"
+              :key="poi.id"
+              :poi="poi"
+              @select="focusPoi"
+              @navigate="startNav"
+              @detail="openDetail"
+              @fish-detail="openFishProfile"
+            />
           </div>
         </section>
       </template>
@@ -273,6 +313,10 @@ watch(detailPoi, (poi) => {
           <h2>{{ detailPoi.name }}</h2>
           <p class="detail-address" v-if="detailPoi.address">{{ detailPoi.address }}</p>
           <p class="detail-distance">{{ detailPoi.distance }}</p>
+          <div class="source-row">
+            <span class="source-pill">{{ detailPoi.source || "平台整理" }}</span>
+            <span class="meta">{{ detailPoi.category || "垂钓点位" }}</span>
+          </div>
 
           <div class="detail-section">
             <h4>安全提示</h4>
@@ -282,15 +326,96 @@ watch(detailPoi, (poi) => {
           <div class="detail-section" v-if="detailPoi.fish?.length">
             <h4>常见鱼种</h4>
             <div class="chips compact">
-              <span v-for="f in detailPoi.fish" :key="f" class="badge">{{ f }}</span>
+              <button
+                v-for="f in detailPoi.fish"
+                :key="f"
+                class="badge fish-badge"
+                type="button"
+                @click="openFishProfile(f)"
+              >
+                {{ f }}
+              </button>
             </div>
           </div>
 
           <div class="detail-section" v-if="detailPoi.tags?.length">
             <h4>标签</h4>
             <div class="chips compact">
-              <span v-for="tag in detailPoi.tags" :key="tag" class="badge">{{ tag }}</span>
+              <span v-for="tag in detailPoi.tags" :key="tag" class="badge tag-badge">{{ tag }}</span>
             </div>
+          </div>
+        </article>
+      </div>
+    </Transition>
+
+    <Transition name="modal">
+      <div v-if="fishProfile" class="modal-overlay fish-overlay" @click.self="closeFishProfile">
+        <article class="detail-card fish-card">
+          <button class="detail-close" type="button" @click="closeFishProfile">✕</button>
+
+          <section class="detail-gallery fish-gallery" aria-label="鱼种图片集">
+            <div
+              v-for="(slide, index) in fishGallery"
+              :key="`${fishProfile.id}-slide-${index}`"
+              :class="['gallery-slide', `tone-${slide.tone || 'green'}`, { active: index === fishGalleryIndex }]"
+            >
+              <img v-if="slide.url" :src="slide.url" :alt="slide.title" />
+              <div v-else class="gallery-fallback">
+                <span>{{ slide.title }}</span>
+                <strong>{{ slide.subtitle }}</strong>
+              </div>
+            </div>
+
+            <button class="gallery-control previous" type="button" aria-label="上一张" @click="previousFishGallerySlide">‹</button>
+            <button class="gallery-control next" type="button" aria-label="下一张" @click="nextFishGallerySlide">›</button>
+
+            <div class="gallery-dots" aria-label="图片位置">
+              <button
+                v-for="(_, index) in fishGallery"
+                :key="index"
+                :class="{ active: index === fishGalleryIndex }"
+                type="button"
+                :aria-label="`查看第 ${index + 1} 张`"
+                @click="showFishGallerySlide(index)"
+              ></button>
+            </div>
+          </section>
+
+          <p class="eyebrow">FISH GUIDE</p>
+          <h2>{{ fishProfile.name }}</h2>
+          <p v-if="fishProfile.alias?.length" class="meta">别名：{{ fishProfile.alias.join(" / ") }}</p>
+
+          <div class="fish-stats">
+            <div>
+              <span>常见体长</span>
+              <strong>{{ fishProfile.length }}</strong>
+            </div>
+            <div>
+              <span>常见重量</span>
+              <strong>{{ fishProfile.weight }}</strong>
+            </div>
+          </div>
+
+          <div class="detail-section">
+            <h4>习性</h4>
+            <p>{{ fishProfile.habits }}</p>
+          </div>
+
+          <div class="detail-section">
+            <h4>攻略</h4>
+            <ul class="fish-strategy">
+              <li v-for="tip in fishProfile.strategy" :key="tip">{{ tip }}</li>
+            </ul>
+          </div>
+
+          <div class="detail-section">
+            <h4>活跃季节</h4>
+            <p>{{ fishProfile.season }}</p>
+          </div>
+
+          <div class="detail-section">
+            <h4>提醒</h4>
+            <p>{{ fishProfile.risk_note }}</p>
           </div>
         </article>
       </div>

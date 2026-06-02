@@ -31,6 +31,8 @@ project-root/
 │   ├── pois.schema.json
 │   ├── posts.json
 │   ├── posts.schema.json
+│   ├── fish_species.json
+│   ├── fish_species.schema.json
 │   ├── tutorials.json
 │   ├── tutorials.schema.json
 │   ├── weather_snapshots.json
@@ -108,6 +110,7 @@ APP_ENV=development
 
 - `pois.json`：垂钓 POI 集合
 - `posts.json`：鱼获、空军、探点等帖子集合
+- `fish_species.json`：鱼种百科集合
 - `tutorials.json`：教程集合
 - `weather_snapshots.json`：天气快照集合
 

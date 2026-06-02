@@ -17,6 +17,7 @@ class FishingPOI(BaseModel):
     distance: str
     distance_m: int
     distance_text: str | None = None
+    source: str
     score: int
     fish: list[str] = Field(default_factory=list)
     tags: list[str] = Field(default_factory=list)

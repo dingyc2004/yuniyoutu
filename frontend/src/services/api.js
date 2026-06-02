@@ -38,3 +38,12 @@ export async function fetchAmapConfig() {
     return {};
   }
 }
+
+export async function fetchFishSpecies(name) {
+  try {
+    const payload = await getJson(`/api/fish-species/${encodeURIComponent(name)}`);
+    return payload.data || null;
+  } catch {
+    return null;
+  }
+}
