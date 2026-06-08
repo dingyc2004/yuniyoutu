@@ -36,7 +36,9 @@ project-root/
 │   ├── tutorials.json
 │   ├── tutorials.schema.json
 │   ├── weather_snapshots.json
-│   └── weather_snapshots.schema.json
+│   ├── weather_snapshots.schema.json
+│   ├── records.json
+│   └── records.schema.json
 ├── docs/
 │   └── 开发设计书.md
 ├── .env.example
@@ -101,8 +103,54 @@ APP_ENV=development
 - `GET /api/weather/current`
 - `GET /api/weather`
 - `GET /api/tutorials`
+- `GET /api/records`
+- `POST /api/records`
+- `GET /api/records/{record_id}`
+- `PATCH /api/records/{record_id}`
+- `DELETE /api/records/{record_id}`
 
 返回值统一以 `data` 为主，便于前端对接和后续扩展。
+
+### 钓鱼记录接口
+
+记录页用于一次出钓从开始计时到结束汇总的全流程。创建记录时主要字段如下：
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| `start_time` / `end_time` | datetime | 开始、结束时间 |
+| `duration_seconds` | int | 钓鱼时长（秒） |
+| `location_name` | string | 位置名称 |
+| `latitude` / `longitude` | float | 经纬度 |
+| `weather` / `temperature` | string / float | 天气与温度 |
+| `fish_count` / `fish_weight` | int / float | 鱼获数量与重量 |
+| `fish_species` / `fishing_method` / `bait` | string | 鱼种、钓法、饵料 |
+| `note` | string | 备注 |
+| `images` | string[] | 图片 URL，MVP 可为空 |
+
+示例：
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/records \
+  -H "Content-Type: application/json" \
+  -d '{
+    "user_id": "demo_user",
+    "start_time": "2026-06-08T08:00:00+08:00",
+    "end_time": "2026-06-08T10:30:00+08:00",
+    "duration_seconds": 9000,
+    "location_name": "东湖绿道",
+    "latitude": 30.55,
+    "longitude": 114.37,
+    "weather": "多云",
+    "temperature": 26,
+    "fish_count": 3,
+    "fish_weight": 2.5,
+    "fish_species": "鲫鱼",
+    "fishing_method": "台钓",
+    "bait": "蚯蚓",
+    "note": "早口不错",
+    "images": []
+  }'
+```
 
 ## 数据存储说明
 
@@ -113,12 +161,14 @@ APP_ENV=development
 - `fish_species.json`：鱼种百科集合
 - `tutorials.json`：教程集合
 - `weather_snapshots.json`：天气快照集合
+- `records.json`：钓鱼记录集合
 
 每个集合都有对应的 `.schema.json` 描述文件，用 JSON Schema 说明字段类型、必填项和业务含义。后端启动后读取这些 JSON 作为初始数据，`POST /api/posts` 当前仍只写入内存态列表，服务重启后新增内容会丢失。
 
 ## 前端页面说明
 
 - 地图页：查看附近钓点、搜索、筛选、点选 POI、查看路线
+- 记录页：开始/结束计时、填写钓点与鱼获、汇总确认后保存钓鱼记录
 - 钓点详情：查看推荐理由、安全提示、鱼种和标签
 - 发布页：发布鱼获、空军和探点记录
 - 社区页：展示鱼获流和互动内容
@@ -131,6 +181,7 @@ APP_ENV=development
 - 已完成 FastAPI 后端骨架
 - 已完成 POI、帖子、推荐、天气、AI 解释的接口骨架
 - 已完成 JSON 集合模拟 NoSQL 数据层和内存态发布链路
+- 已完成钓鱼记录页（计时、汇总弹窗、保存）及 `/api/records` CRUD 接口
 - 已完成高德 Key、DeepSeek Key 的环境变量方案
 - 已完成开发设计书更新
 - 旧版 Node 后端已保留为 legacy，不再作为主入口

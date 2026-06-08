@@ -4,6 +4,7 @@ import FishingView from "./components/FishingView.vue";
 import HomeView from "./components/HomeView.vue";
 import MineView from "./components/MineView.vue";
 import PublishView from "./components/PublishView.vue";
+import RecordView from "./components/RecordView.vue";
 import TutorialsView from "./components/TutorialsView.vue";
 import { seedData } from "./data/seedData";
 import { fetchCollection } from "./services/api";
@@ -11,6 +12,7 @@ import { fetchCollection } from "./services/api";
 const tabs = [
   { id: "home", label: "首页", icon: "⌂" },
   { id: "fish", label: "我要钓鱼", icon: "⌖" },
+  { id: "record", label: "记录", icon: "◉" },
   { id: "publish", label: "发布", icon: "+" },
   { id: "tutorials", label: "教程", icon: "▤" },
   { id: "mine", label: "我的", icon: "●" }
@@ -19,6 +21,7 @@ const tabs = [
 const titles = {
   home: "发现钓鱼新鲜事",
   fish: "我要钓鱼",
+  record: "记录",
   publish: "记一竿",
   tutorials: "钓鱼教程",
   mine: "我的战绩"
@@ -33,6 +36,7 @@ const state = reactive({
   feed: seedData.feed,
   tutorials: seedData.tutorials,
   weather: seedData.weather,
+  records: [],
   myPosts: []
 });
 
@@ -57,6 +61,12 @@ function showToast(message) {
 function addPost(post) {
   state.myPosts.unshift(post);
   state.feed.unshift(post);
+}
+
+function addRecord(record) {
+  if (record) {
+    state.records.unshift(record);
+  }
 }
 
 async function searchPois(keyword) {
@@ -111,6 +121,13 @@ onMounted(loadInitialData);
         :weather-text="weatherText"
         @search="searchPois"
         @action="showToast"
+      />
+      <RecordView
+        v-else-if="activeTab === 'record'"
+        :weather="state.weather"
+        :weather-text="weatherText"
+        @action="showToast"
+        @record-saved="addRecord"
       />
       <PublishView
         v-else-if="activeTab === 'publish'"

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/records.schema.json",
+  "title": "FishingRecordCollection",
+  "description": "一次钓鱼过程结束后生成的结构化记录集合。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "user_id",
+      "start_time",
+      "end_time",
+      "duration_seconds",
+      "location_name",
+      "fish_count",
+      "fish_weight",
+      "images",
+      "created_at",
+      "updated_at"
+    ],
+    "properties": {
+      "id": { "type": "string", "description": "集合内唯一记录 ID。" },
+      "user_id": { "type": "string", "description": "用户 ID，当前 MVP 使用 demo 用户。" },
+      "start_time": { "type": "string", "format": "date-time", "description": "开始钓鱼时间。" },
+      "end_time": { "type": "string", "format": "date-time", "description": "结束钓鱼时间。" },
+      "duration_seconds": { "type": "integer", "minimum": 0, "description": "本次钓鱼持续秒数。" },
+      "fishing_spot_name": { "type": ["string", "null"], "description": "钓点名称，可由用户手动填写。" },
+      "location_name": { "type": "string", "description": "位置名称或定位文本。" },
+      "latitude": { "type": ["number", "null"], "description": "纬度。" },
+      "longitude": { "type": ["number", "null"], "description": "经度。" },
+      "weather": { "type": ["string", "null"], "description": "天气。" },
+      "temperature": { "type": ["number", "null"], "description": "温度，摄氏度。" },
+      "fish_count": { "type": "integer", "minimum": 0, "description": "鱼获数量。" },
+      "fish_weight": { "type": "number", "minimum": 0, "description": "鱼获总重量，单位斤。" },
+      "fish_species": { "type": ["string", "null"], "description": "主要鱼种。" },
+      "fishing_method": { "type": ["string", "null"], "description": "钓法。" },
+      "bait": { "type": ["string", "null"], "description": "饵料或拟饵。" },
+      "note": { "type": ["string", "null"], "description": "备注和复盘。" },
+      "images": { "type": "array", "items": { "type": "string" }, "description": "图片资源地址，MVP 可为空数组。" },
+      "created_at": { "type": "string", "format": "date-time", "description": "创建时间。" },
+      "updated_at": { "type": "string", "format": "date-time", "description": "更新时间。" }
+    }
+  }
+}

@@ -41,6 +41,11 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 - `GET /api/tutorials`
 - `GET /api/fish-species`
 - `GET /api/fish-species/{fish_name}`
+- `GET /api/records`
+- `POST /api/records`
+- `GET /api/records/{record_id}`
+- `PATCH /api/records/{record_id}`
+- `DELETE /api/records/{record_id}`
 
 ## 接入说明
 

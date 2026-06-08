@@ -6,6 +6,7 @@ from app.api.routes_fish import router as fish_router
 from app.api.routes_meta import router as meta_router
 from app.api.routes_poi import router as poi_router
 from app.api.routes_posts import router as posts_router
+from app.api.routes_records import router as records_router
 from app.api.routes_recommend import router as recommend_router
 from app.api.routes_tutorials import router as tutorials_router
 from app.api.routes_weather import router as weather_router
@@ -26,6 +27,7 @@ api_prefix = settings.api_prefix
 app.include_router(meta_router, prefix=api_prefix)
 app.include_router(poi_router, prefix=api_prefix)
 app.include_router(posts_router, prefix=api_prefix)
+app.include_router(records_router, prefix=api_prefix)
 app.include_router(recommend_router, prefix=api_prefix)
 app.include_router(weather_router, prefix=api_prefix)
 app.include_router(ai_router, prefix=api_prefix)
