@@ -11,17 +11,17 @@ import { fetchCollection } from "./services/api";
 
 const tabs = [
   { id: "home", label: "首页", icon: "⌂" },
-  { id: "fish", label: "我要钓鱼", icon: "⌖" },
-  { id: "record", label: "记录", icon: "◉" },
+  { id: "fish", label: "探索", icon: "⌖" },
+  { id: "record", label: "日记", icon: "◷" },
   { id: "publish", label: "发布", icon: "+" },
-  { id: "tutorials", label: "教程", icon: "▤" },
-  { id: "mine", label: "我的", icon: "●" }
+  { id: "tutorials", label: "技巧", icon: "◇" },
+  { id: "mine", label: "我的", icon: "♙" }
 ];
 
 const titles = {
-  home: "发现钓鱼新鲜事",
-  fish: "我要钓鱼",
-  record: "记录",
+  home: "FISH ON!",
+  fish: "钓点探索",
+  record: "钓鱼日记",
   publish: "记一竿",
   tutorials: "钓鱼教程",
   mine: "我的战绩"
@@ -94,18 +94,17 @@ onMounted(loadInitialData);
 <template>
   <main class="app-shell">
     <section class="topbar">
-      <div>
-        <p class="eyebrow">YUNI FISHING</p>
-        <h1>{{ titles[activeTab] }}</h1>
+      <div class="brand-block">
+        <p class="eyebrow">{{ activeTab === "home" ? "EXPLORE · RECORD · ENJOY" : "FISH ON!" }}</p>
+        <h1 :class="{ 'brand-title': activeTab === 'home' }">{{ titles[activeTab] }}</h1>
       </div>
-      <button
-        class="icon-btn"
-        type="button"
-        aria-label="消息"
-        @click="showToast('暂无新消息')"
-      >
-        !
-      </button>
+      <div class="top-actions">
+        <button class="icon-btn notification-btn" type="button" aria-label="消息" @click="showToast('暂无新消息')">
+          ♧
+          <span class="notification-dot"></span>
+        </button>
+        <button class="icon-btn" type="button" aria-label="快捷发布" @click="activeTab = 'publish'">+</button>
+      </div>
     </section>
 
     <section class="screen">
@@ -114,6 +113,7 @@ onMounted(loadInitialData);
         :feed="state.feed"
         :weather-text="weatherText"
         @action="showToast"
+        @navigate="activeTab = $event"
       />
       <FishingView
         v-else-if="activeTab === 'fish'"

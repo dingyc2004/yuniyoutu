@@ -5,6 +5,7 @@ Vue 3 + Vite 移动端原型。地图使用高德 JS API v2.0，默认卫星图 
 ## 运行
 
 ```bash
+cd frontend
 npm install
 npm run dev
 ```

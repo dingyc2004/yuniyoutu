@@ -6,13 +6,14 @@ const props = defineProps({
   weatherText: { type: String, default: "天气信息暂不可用" }
 });
 
-const emit = defineEmits(["action"]);
+const emit = defineEmits(["action", "navigate"]);
 const query = ref("");
 const activeChannel = ref("推荐");
 const hotRail = ref(null);
 const activeHotIndex = ref(0);
 const selectedPost = ref(null);
 const channels = ["推荐", "同城", "路亚", "新手", "热点", "关注"];
+const weatherTemperature = computed(() => props.weatherText.match(/-?\d+(?:\.\d+)?(?=℃)/)?.[0] || "--");
 
 const hotItems = computed(() =>
   [...props.feed]
@@ -75,6 +76,50 @@ function postImages(post) {
 
 <template>
   <section v-if="!selectedPost" class="home-view">
+    <section class="weather-dashboard">
+      <div class="weather-main">
+        <div>
+          <div class="weather-location">
+            <strong>武汉 · 东湖</strong>
+            <span>适宜垂钓</span>
+          </div>
+          <div class="temperature-line">
+            <strong>{{ weatherTemperature }}<small>℃</small></strong>
+            <span class="weather-symbol">☀</span>
+          </div>
+          <p>{{ weatherText }}</p>
+        </div>
+        <div class="fishing-index" aria-label="适钓指数 82">
+          <div class="index-ring"><strong>82</strong></div>
+          <span>适钓指数</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="daily-recommend">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">TODAY'S PICK</p>
+          <h2>今日推荐</h2>
+        </div>
+        <button type="button" class="text-link" @click="emit('navigate', 'fish')">更多 ›</button>
+      </div>
+      <button class="recommend-card tone-blue" type="button" @click="emit('navigate', 'fish')">
+        <span class="recommend-label">翘嘴活跃期</span>
+        <strong>清晨窗口 06:30-09:00</strong>
+        <small>东湖沿岸 · 距离 2.1km · 鱼口良好</small>
+        <span class="fish-silhouette">FISH</span>
+      </button>
+    </section>
+
+    <section class="feature-grid" aria-label="快捷功能">
+      <button type="button" @click="emit('navigate', 'fish')"><span>⌖</span><strong>钓点探索</strong></button>
+      <button type="button" @click="emit('action', '已打开潮汐天气')"><span>☼</span><strong>潮汐天气</strong></button>
+      <button type="button" @click="emit('action', '已打开鱼情预测')"><span>⌁</span><strong>鱼情预测</strong></button>
+      <button type="button" @click="emit('navigate', 'record')"><span>◷</span><strong>钓鱼日记</strong></button>
+      <button type="button" @click="emit('navigate', 'tutorials')"><span>◇</span><strong>技巧百科</strong></button>
+    </section>
+
     <form class="home-search" @submit.prevent="submitSearch">
       <span aria-hidden="true">⌕</span>
       <input v-model="query" type="search" placeholder="搜索钓点、鱼种、教程、装备" />
@@ -93,7 +138,11 @@ function postImages(post) {
       </button>
     </div>
 
-    <section class="hot-zone" aria-label="热点视频资讯">
+    <section class="hot-zone section" aria-label="热点视频资讯">
+      <div class="section-head home-feed-head">
+        <div><p class="eyebrow">FISHING MOMENTS</p><h2>钓友动态</h2></div>
+        <span class="meta">实时更新</span>
+      </div>
       <button class="hot-nav previous" type="button" aria-label="上一个热点" @click="showHot(activeHotIndex - 1)">‹</button>
       <div ref="hotRail" class="hot-rail" @scroll.passive="syncHotIndex">
         <article

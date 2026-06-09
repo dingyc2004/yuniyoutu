@@ -2443,3 +2443,538 @@ h3 {
     display: grid;
   }
 }
+
+/* ---- UIdemo inspired light theme ---- */
+:root {
+  --ink: #101828;
+  --muted: #7b8495;
+  --line: rgba(28, 79, 151, 0.09);
+  --paper: #f6f9fe;
+  --panel: rgba(255, 255, 255, 0.96);
+  --green: #287cf5;
+  --green-deep: #175cc8;
+  --aqua: #46cbd0;
+  --yellow: #ffba3b;
+  --blue: #287cf5;
+  --blue-mid: #3f91ff;
+  --blue-light: #8ec5ff;
+  --blue-wash: #eaf3ff;
+  --red: #ff5d68;
+  --shadow: 0 16px 42px rgba(42, 102, 190, 0.14);
+  --radius: 18px;
+  --phone-width: 430px;
+  --phone-height: 900px;
+  --phone-topbar-height: 94px;
+  --phone-tabbar-height: 76px;
+  --phone-gutter: 18px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% 15%, rgba(104, 174, 255, 0.14), transparent 28%),
+    radial-gradient(circle at 82% 84%, rgba(76, 211, 203, 0.12), transparent 24%),
+    #f7faff;
+}
+
+.app-shell {
+  border-radius: 36px;
+  background:
+    radial-gradient(circle at 90% 8%, rgba(97, 164, 255, 0.09), transparent 23%),
+    linear-gradient(180deg, #fbfdff 0%, #f5f9ff 100%);
+  box-shadow:
+    0 0 0 8px rgba(255, 255, 255, 0.7),
+    0 28px 80px rgba(25, 76, 145, 0.16);
+}
+
+.topbar {
+  padding: 12px 20px 8px;
+  border-bottom: 0;
+  background: rgba(251, 253, 255, 0.84);
+}
+
+.brand-block {
+  display: grid;
+  gap: 2px;
+}
+
+.topbar .eyebrow {
+  margin: 0;
+  color: #8a96a8;
+  font-size: 8px;
+  letter-spacing: 0.14em;
+}
+
+.brand-title {
+  color: #12346b;
+  font-style: italic;
+  letter-spacing: -0.06em;
+}
+
+.top-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(40, 124, 245, 0.08);
+  background: #fff;
+  color: #19365f;
+  font-size: 21px;
+  box-shadow: 0 8px 22px rgba(37, 87, 157, 0.08);
+}
+
+.notification-btn {
+  font-size: 18px;
+}
+
+.notification-dot {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #ff5864;
+}
+
+.screen {
+  padding-top: 8px;
+}
+
+.tabbar {
+  grid-template-columns: repeat(6, 1fr);
+  padding: 7px 8px 9px;
+  border-top: 1px solid rgba(28, 79, 151, 0.07);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 -10px 30px rgba(45, 94, 166, 0.05);
+}
+
+.tab {
+  position: relative;
+  min-height: 58px;
+  gap: 1px;
+  color: #8b94a5;
+  font-size: 9px;
+  border-radius: 16px;
+}
+
+.tab span {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.tab.active {
+  background: transparent;
+  color: var(--blue);
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 14px;
+  height: 3px;
+  border-radius: 99px;
+  background: var(--blue);
+}
+
+.tab.publish-tab {
+  transform: translateY(-12px);
+  color: white;
+}
+
+.tab.publish-tab span {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #4f9cff, #176bea);
+  color: white;
+  box-shadow: 0 9px 22px rgba(40, 124, 245, 0.35);
+}
+
+.tab.publish-tab.active::after {
+  display: none;
+}
+
+.card,
+.publish-composer,
+.smart-rod-page,
+.trip-panel,
+.spot-detail {
+  border: 1px solid rgba(28, 79, 151, 0.06);
+  box-shadow: 0 12px 32px rgba(47, 91, 153, 0.08);
+}
+
+.weather-dashboard {
+  margin-bottom: 18px;
+  padding: 19px;
+  overflow: hidden;
+  border: 1px solid rgba(47, 124, 232, 0.08);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 86% 18%, rgba(70, 203, 208, 0.2), transparent 26%),
+    linear-gradient(135deg, #f4f8ff, #fff 62%);
+  box-shadow: 0 14px 34px rgba(38, 90, 164, 0.09);
+}
+
+.weather-main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 16px;
+}
+
+.weather-location {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.weather-location strong {
+  font-size: 15px;
+}
+
+.weather-location span,
+.recommend-label {
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: #e7f1ff;
+  color: var(--blue);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.temperature-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 7px 0 3px;
+}
+
+.temperature-line strong {
+  font-size: 38px;
+  letter-spacing: -0.06em;
+}
+
+.temperature-line small {
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.weather-symbol {
+  color: #ffbd38;
+  font-size: 27px;
+  filter: drop-shadow(0 5px 8px rgba(255, 186, 59, 0.28));
+}
+
+.weather-main p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.fishing-index {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  color: #657087;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.index-ring {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #fff 59%, transparent 61%),
+    conic-gradient(#42c9ac 0 25%, #287cf5 25% 82%, #e9eef6 82%);
+  box-shadow: inset 0 0 0 1px rgba(40, 124, 245, 0.04);
+}
+
+.index-ring strong {
+  color: var(--ink);
+  font-size: 25px;
+}
+
+.daily-recommend {
+  margin-bottom: 16px;
+}
+
+.daily-recommend .section-head {
+  margin-bottom: 9px;
+}
+
+.section-head h2,
+.home-feed-head h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.section-head .eyebrow,
+.home-feed-head .eyebrow {
+  margin-bottom: 2px;
+  color: var(--blue);
+  font-size: 8px;
+  letter-spacing: 0.12em;
+}
+
+.text-link {
+  background: transparent;
+  color: #929cab;
+  font-size: 11px;
+}
+
+.recommend-card {
+  position: relative;
+  display: grid;
+  justify-items: start;
+  width: 100%;
+  min-height: 150px;
+  padding: 18px;
+  overflow: hidden;
+  border-radius: 22px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 16px 32px rgba(28, 102, 205, 0.22);
+}
+
+.recommend-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 75% 35%, rgba(255, 255, 255, 0.3), transparent 18%),
+    linear-gradient(100deg, rgba(10, 44, 102, 0.72), rgba(25, 113, 222, 0.08));
+}
+
+.recommend-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.recommend-card .recommend-label {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.recommend-card strong {
+  margin-top: auto;
+  font-size: 18px;
+}
+
+.recommend-card small {
+  margin-top: 5px;
+  opacity: 0.78;
+  font-size: 10px;
+}
+
+.fish-silhouette {
+  position: absolute;
+  right: -8px;
+  bottom: 12px;
+  z-index: 0;
+  color: rgba(255, 255, 255, 0.14);
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: -0.12em;
+  transform: rotate(-8deg);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.feature-grid button {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  min-width: 0;
+  padding: 10px 2px 8px;
+  border: 1px solid rgba(28, 79, 151, 0.06);
+  border-radius: 16px;
+  background: #fff;
+  color: #33415b;
+  box-shadow: 0 8px 22px rgba(42, 91, 157, 0.07);
+}
+
+.feature-grid span {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  background: #edf5ff;
+  color: var(--blue);
+  font-size: 18px;
+}
+
+.feature-grid strong {
+  overflow: hidden;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.home-search,
+.record-map-search {
+  border: 1px solid rgba(28, 79, 151, 0.06);
+  border-radius: 16px;
+  background: #f0f5fb;
+  box-shadow: none;
+}
+
+.home-search button,
+.record-map-search button {
+  background: var(--blue);
+}
+
+.home-channels {
+  padding: 10px 0 2px;
+}
+
+.home-channels button,
+.segmented button,
+.chip {
+  border: 0;
+  background: #edf2f8;
+  color: #778196;
+}
+
+.home-channels button.active,
+.segmented button.active,
+.chip.active {
+  background: #e3efff;
+  color: var(--blue);
+}
+
+.hot-zone {
+  margin-top: 18px;
+}
+
+.home-feed-head {
+  margin-bottom: 9px;
+}
+
+.hot-cover,
+.video-cover,
+.lesson-cover,
+.note-cover {
+  border-radius: 18px;
+}
+
+.tone-blue {
+  background: linear-gradient(145deg, #0f4eaa, #5ba8ff);
+}
+
+.tone-green {
+  background: linear-gradient(145deg, #3b8ed9, #6fd6c8);
+}
+
+.tone-amber {
+  background: linear-gradient(145deg, #ef9e3e, #ffd98e);
+}
+
+.tone-purple {
+  background: linear-gradient(145deg, #596cc8, #a9bcff);
+}
+
+.home-quick button,
+.fishing-entry {
+  border: 1px solid rgba(28, 79, 151, 0.06);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(42, 91, 157, 0.07);
+}
+
+.fish-intro,
+.community-hero,
+.tutorial-hero {
+  border-radius: 22px;
+  background: linear-gradient(135deg, #195eba, #4d9df4);
+  box-shadow: 0 14px 32px rgba(28, 102, 205, 0.2);
+}
+
+.btn {
+  border-radius: 14px;
+  background: linear-gradient(145deg, #348aff, #1969dc);
+  box-shadow: 0 8px 18px rgba(40, 124, 245, 0.18);
+}
+
+.btn.secondary {
+  background: #e8f2ff;
+  color: var(--blue);
+  box-shadow: none;
+}
+
+.badge,
+.score,
+.mini-btn {
+  background: #e8f2ff;
+  color: var(--blue);
+}
+
+.score {
+  background: var(--blue);
+  color: white;
+}
+
+.profile-panel {
+  padding: 18px;
+  background:
+    radial-gradient(circle at 92% 10%, rgba(70, 203, 208, 0.18), transparent 25%),
+    #fff;
+}
+
+.stat {
+  border-radius: 14px;
+  background: #f0f6ff;
+}
+
+.field input,
+.field select,
+.field textarea {
+  border: 1px solid rgba(28, 79, 151, 0.08);
+  border-radius: 14px;
+  background: #f6f9fd;
+}
+
+.record-timer-button {
+  box-shadow:
+    0 20px 40px rgba(40, 124, 245, 0.25),
+    inset 0 -10px 24px rgba(19, 80, 170, 0.15);
+}
+
+.record-status-grid > div,
+.record-status-grid > .record-status-cell,
+.summary-grid div,
+.comment-item,
+.rod-status div {
+  border-radius: 14px;
+  background: #f0f6ff;
+}
+
+@media (max-width: 380px) {
+  .app-shell {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .feature-grid {
+    gap: 4px;
+  }
+
+  .feature-grid strong {
+    font-size: 8px;
+  }
+}
