@@ -30,7 +30,6 @@ const shown = computed(() => {
 <template>
   <section class="community-hero">
     <div>
-      <p class="eyebrow">COMMUNITY</p>
       <h2>图文晒鱼获，视频讲过程</h2>
       <p class="meta">社区支持鱼获、复盘、探点、教程和空军记录。</p>
     </div>

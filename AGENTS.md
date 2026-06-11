@@ -48,3 +48,16 @@ pip freeze > requirements.txt
 - 每个数据集合都应有对应的 `.schema.json` 字段描述文件。
 - 不要把高德 Key、DeepSeek Key 或其他真实密钥写入代码和提交记录。
 
+## 本地 Codex Skill
+
+项目内安装了 `taste-skill`：
+
+```text
+.codex/skill/taste-skill/SKILL.md
+```
+
+当任务涉及前端落地页、作品集、视觉重设计或需要提升页面审美时，agent 应先阅读该 skill，再修改 Vue3 + Vite 前端代码。该 skill 来自本机：
+
+```text
+/Users/charlezk9/Projects/OpenSourceProjects/taste-skill/skills/taste-skill
+```
