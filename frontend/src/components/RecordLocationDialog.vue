@@ -1,5 +1,6 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
+import { Close, Search } from "@element-plus/icons-vue";
 import { fetchAmapConfig } from "../services/api";
 
 const props = defineProps({
@@ -104,7 +105,8 @@ function submitSearch() {
     emit("action", "请输入要搜索的位置");
     return;
   }
-  emit("action", `位置搜索「${keyword}」后续接入高德 POI 检索`);
+  draftLocationName.value = keyword;
+  emit("action", `已填写位置：${keyword}`);
 }
 
 async function ensureGeocoder() {
@@ -176,8 +178,7 @@ async function initMap() {
   error.value = "";
   try {
     const config = await fetchAmapConfig();
-    if (!config.key) throw new Error("未配置高德 JS API Key");
-    if (!config.securityCode) throw new Error("未配置高德安全密钥（AMAP_SECURITY_CODE）");
+    if (!config.key || !config.securityCode) throw new Error("map unavailable");
     await loadScript(config.key, config.securityCode);
     const center =
       Number.isFinite(props.longitude) && Number.isFinite(props.latitude)
@@ -205,7 +206,7 @@ async function initMap() {
     await new Promise((resolve) => requestAnimationFrame(resolve));
     map.resize();
   } catch (reason) {
-    error.value = reason?.message || "高德地图加载失败";
+    error.value = "可以先手动填写位置名称";
     destroyMap();
   } finally {
     loading.value = false;
@@ -249,11 +250,10 @@ onBeforeUnmount(() => {
   <div v-if="open" class="record-dialog-backdrop" @click.self="closeDialog">
     <section class="record-dialog card record-location-dialog" role="dialog" aria-modal="true" aria-labelledby="location-dialog-title">
       <div class="dialog-head">
-        <div>
-          <p class="eyebrow">LOCATION</p>
-          <h2 id="location-dialog-title">选择位置</h2>
-        </div>
-        <button class="mini-btn" type="button" @click="closeDialog">×</button>
+        <h2 id="location-dialog-title">选择位置</h2>
+        <button class="mini-btn icon-only" type="button" aria-label="关闭" @click="closeDialog">
+          <el-icon><Close /></el-icon>
+        </button>
       </div>
 
       <div class="record-location-dialog-actions">
@@ -263,26 +263,26 @@ onBeforeUnmount(() => {
       </div>
 
       <form class="record-map-search" @submit.prevent="submitSearch">
-        <span aria-hidden="true">⌕</span>
-        <input v-model="searchKeyword" type="search" placeholder="搜索位置、水域、地标" />
-        <button type="submit">搜索</button>
+        <el-icon aria-hidden="true"><Search /></el-icon>
+        <el-input v-model="searchKeyword" type="search" placeholder="搜索位置、水域、地标" clearable />
+        <el-button native-type="submit" type="primary" round>搜索</el-button>
       </form>
 
       <div class="record-map-card">
-        <div ref="mapEl" class="record-map-stage" aria-label="高德地图选点" />
+        <div ref="mapEl" class="record-map-stage" aria-label="地图选点" />
         <div v-if="loading" class="map-status record-map-status">地图加载中</div>
         <div v-else-if="error" class="map-status record-map-status error">
-          <strong>地图暂不可用</strong>
+          <strong>暂时无法显示地图</strong>
           <span>{{ error }}</span>
         </div>
       </div>
 
       <label class="field">
         <span>位置名称</span>
-        <input v-model="draftLocationName" placeholder="自动填充或手动填写" />
+        <input v-model="draftLocationName" placeholder="例如 东湖听涛岸边" />
       </label>
       <p class="meta record-coords">{{ latitude ?? "--" }}, {{ longitude ?? "--" }}</p>
-      <p class="meta record-map-hint">点击地图选点；POI 搜索后续接入高德接口</p>
+      <p class="meta record-map-hint">可点击地图选点，也可以直接填写位置名称。</p>
 
       <button class="btn" type="button" @click="closeDialog">确定</button>
     </section>

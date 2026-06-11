@@ -14,7 +14,7 @@ defineProps({
         <h2>武汉钓友 008</h2>
         <p class="meta">偏好：野钓、路亚、清晨窗口</p>
       </div>
-      <span class="badge">探点官</span>
+      <el-tag round type="primary" effect="light">探点官</el-tag>
     </div>
     <div class="stat-grid">
       <div class="stat"><strong>18</strong><span class="meta">出钓</span></div>
@@ -27,7 +27,7 @@ defineProps({
     <article class="card poi-card">
       <h3>本月报告</h3>
       <p class="meta">你在气温 20-26℃、风力 1-3 级时鱼获率最高。东湖听涛和青山江滩是你的高频点。</p>
-      <button class="btn" type="button">生成会员报告</button>
+      <el-button type="primary" round>生成会员报告</el-button>
     </article>
   </section>
 
@@ -50,8 +50,8 @@ defineProps({
           <h3>{{ post.title }}</h3>
           <p class="meta">{{ post.meta }}</p>
           <div class="chips compact">
-            <span class="badge">{{ post.privacy }}</span>
-            <span v-if="post.catch" class="badge tag-badge">{{ post.catch.species }} / {{ post.catch.weight }}</span>
+            <el-tag round type="info" effect="plain">{{ post.privacy }}</el-tag>
+            <el-tag v-if="post.catch" round type="primary" effect="light">{{ post.catch.species }} / {{ post.catch.weight }}</el-tag>
           </div>
         </div>
       </article>

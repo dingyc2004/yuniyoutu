@@ -1,10 +1,11 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
+import { Search } from "@element-plus/icons-vue";
 import { fetchAmapConfig } from "../services/api";
 
 const props = defineProps({
   pois: { type: Array, default: () => [] },
-  weatherText: { type: String, default: "天气信息暂不可用" },
+  weatherText: { type: String, default: "天气待更新" },
   activePoiId: { type: String, default: "" },
   routeTarget: { type: Object, default: null }
 });
@@ -220,8 +221,8 @@ async function planRoutes(target) {
     if (allPaths.length) {
       map.setFitView([startMarker, ...markers], false, [80, 30, 80, 200], 13);
     }
-  } catch (e) {
-    error.value = e?.message || "路线规划失败";
+  } catch {
+    error.value = "路线暂时没有算出来，可以先查看钓点详情";
   } finally {
     routeLoading.value = false;
   }
@@ -278,7 +279,7 @@ async function initMap() {
     map.on("click", closePopup);
     map.on("mapmove", closePopup);
   } catch (reason) {
-    error.value = reason?.message || "高德地图加载失败";
+    error.value = "可以先查看钓点列表和详情";
   } finally {
     loading.value = false;
   }
@@ -321,10 +322,10 @@ watch(() => props.routeTarget, (target) => { if (target) planRoutes(target); });
 
 <template>
   <section class="map-card">
-    <div ref="mapEl" class="amap-stage" aria-label="高德地图"></div>
+    <div ref="mapEl" class="amap-stage" aria-label="钓点地图"></div>
 
     <form class="map-search" @submit.prevent="submitSearch">
-      <span aria-hidden="true">⌕</span>
+      <el-icon aria-hidden="true"><Search /></el-icon>
       <input v-model="keyword" type="search" placeholder="搜索水库、河流、钓场、鱼种" />
     </form>
 
@@ -332,7 +333,7 @@ watch(() => props.routeTarget, (target) => { if (target) planRoutes(target); });
 
     <div v-if="loading" class="map-status">地图加载中</div>
     <div v-else-if="error" class="map-status error">
-      <strong>高德地图暂不可用</strong>
+      <strong>暂时无法显示地图</strong>
       <span>{{ error }}</span>
     </div>
 

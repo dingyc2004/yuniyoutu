@@ -1,5 +1,15 @@
 <script setup>
 import { computed, onMounted, reactive, ref } from "vue";
+import {
+  Bell,
+  Compass,
+  EditPen,
+  House,
+  Notebook,
+  Plus,
+  Reading,
+  UserFilled
+} from "@element-plus/icons-vue";
 import FishingView from "./components/FishingView.vue";
 import HomeView from "./components/HomeView.vue";
 import MineView from "./components/MineView.vue";
@@ -10,12 +20,12 @@ import { seedData } from "./data/seedData";
 import { fetchCollection } from "./services/api";
 
 const tabs = [
-  { id: "home", label: "首页", icon: "⌂" },
-  { id: "fish", label: "探索", icon: "⌖" },
-  { id: "record", label: "日记", icon: "◷" },
-  { id: "publish", label: "发布", icon: "+" },
-  { id: "tutorials", label: "技巧", icon: "◇" },
-  { id: "mine", label: "我的", icon: "♙" }
+  { id: "home", label: "首页", icon: House },
+  { id: "fish", label: "探索", icon: Compass },
+  { id: "record", label: "日记", icon: Notebook },
+  { id: "publish", label: "发布", icon: EditPen },
+  { id: "tutorials", label: "技巧", icon: Reading },
+  { id: "mine", label: "我的", icon: UserFilled }
 ];
 
 const titles = {
@@ -42,7 +52,7 @@ const state = reactive({
 
 const weatherText = computed(() => {
   const live = state.weather?.live || state.weather;
-  if (!live) return "天气信息暂不可用";
+  if (!live) return "天气待更新";
   const direction = live.winddirection || live.wind_direction || "风向未知";
   const windLevel = live.windpower || live.wind_level;
   const temperature = live.temperature || live.temperature_c || live.feels_like_c || "";
@@ -95,15 +105,17 @@ onMounted(loadInitialData);
   <main class="app-shell">
     <section class="topbar">
       <div class="brand-block">
-        <p class="eyebrow">{{ activeTab === "home" ? "EXPLORE · RECORD · ENJOY" : "FISH ON!" }}</p>
+        <p v-if="activeTab === 'home'" class="eyebrow">EXPLORE · RECORD · ENJOY</p>
         <h1 :class="{ 'brand-title': activeTab === 'home' }">{{ titles[activeTab] }}</h1>
       </div>
       <div class="top-actions">
-        <button class="icon-btn notification-btn" type="button" aria-label="消息" @click="showToast('暂无新消息')">
-          ♧
+        <button class="icon-btn notification-btn" type="button" aria-label="消息" title="消息" @click="showToast('暂无新消息')">
+          <el-icon><Bell /></el-icon>
           <span class="notification-dot"></span>
         </button>
-        <button class="icon-btn" type="button" aria-label="快捷发布" @click="activeTab = 'publish'">+</button>
+        <button class="icon-btn" type="button" aria-label="快捷发布" title="快捷发布" @click="activeTab = 'publish'">
+          <el-icon><Plus /></el-icon>
+        </button>
       </div>
     </section>
 
@@ -143,13 +155,13 @@ onMounted(loadInitialData);
       <button
         v-for="tab in tabs"
         :key="tab.id"
-        :class="{ active: activeTab === tab.id, 'publish-tab': tab.id === 'publish' }"
+        :class="{ active: activeTab === tab.id }"
         class="tab"
         type="button"
         @click="activeTab = tab.id"
       >
-        <span>{{ tab.icon }}</span>
-        {{ tab.label }}
+        <span class="tab-icon"><el-icon><component :is="tab.icon" /></el-icon></span>
+        <span class="tab-label">{{ tab.label }}</span>
       </button>
     </nav>
 

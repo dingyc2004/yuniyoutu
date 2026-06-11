@@ -1,5 +1,6 @@
 <script setup>
 import { computed, ref } from "vue";
+import { VideoPlay } from "@element-plus/icons-vue";
 
 const props = defineProps({
   tutorials: {
@@ -21,7 +22,6 @@ const shown = computed(() => {
 <template>
   <section class="tutorial-hero">
     <div>
-      <p class="eyebrow">LEARN</p>
       <h2>图文能讲步骤，视频能看动作</h2>
       <p class="meta">教程按新手路径拆成可收藏、可复盘的练习单元。</p>
     </div>
@@ -32,31 +32,30 @@ const shown = computed(() => {
     </div>
   </section>
 
-  <div class="segmented">
-    <button v-for="filter in filters" :key="filter" :class="{ active: active === filter }" type="button" @click="active = filter">
-      {{ filter }}
-    </button>
-  </div>
+  <el-segmented v-model="active" class="segmented" :options="filters" />
 
   <section class="lesson-list">
     <article v-for="lesson in shown" :key="lesson.id" class="card lesson-card">
       <div class="lesson-cover" :class="`tone-${lesson.coverTone}`">
-        <span class="note-format">{{ lesson.type === "视频" ? "▶ 视频" : "图文" }}</span>
+        <span class="note-format">
+          <el-icon v-if="lesson.type === '视频'"><VideoPlay /></el-icon>
+          {{ lesson.type === "视频" ? "视频" : "图文" }}
+        </span>
         <span class="note-score">{{ lesson.level }}</span>
       </div>
       <div class="note-body">
         <div class="row">
-          <span class="badge">{{ lesson.duration }}</span>
+          <el-tag round type="info" effect="plain">{{ lesson.duration }}</el-tag>
           <span class="meta">{{ lesson.type }}</span>
         </div>
         <h3 class="note-title">{{ lesson.title }}</h3>
         <p class="note-excerpt">{{ lesson.summary }}</p>
         <div class="chips compact">
-          <span v-for="tag in lesson.tags" :key="tag" class="badge">{{ tag }}</span>
+          <el-tag v-for="tag in lesson.tags" :key="tag" round type="primary" effect="light">{{ tag }}</el-tag>
         </div>
         <div class="actions">
-          <button class="btn secondary" type="button" @click="emit('action', `已收藏 ${lesson.title}`)">收藏</button>
-          <button class="btn" type="button" @click="emit('action', `开始学习 ${lesson.title}`)">开始学习</button>
+          <el-button round @click="emit('action', `已收藏 ${lesson.title}`)">收藏</el-button>
+          <el-button type="primary" round @click="emit('action', `开始学习 ${lesson.title}`)">开始学习</el-button>
         </div>
       </div>
     </article>

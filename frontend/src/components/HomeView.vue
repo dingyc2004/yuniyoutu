@@ -1,9 +1,24 @@
 <script setup>
 import { computed, ref } from "vue";
+import {
+  ArrowLeft,
+  ArrowRight,
+  ChatDotRound,
+  Compass,
+  DataAnalysis,
+  Notebook,
+  Reading,
+  Search,
+  Share,
+  Star,
+  Sunny,
+  TrendCharts,
+  VideoPlay
+} from "@element-plus/icons-vue";
 
 const props = defineProps({
   feed: { type: Array, default: () => [] },
-  weatherText: { type: String, default: "天气信息暂不可用" }
+  weatherText: { type: String, default: "天气待更新" }
 });
 
 const emit = defineEmits(["action", "navigate"]);
@@ -85,7 +100,7 @@ function postImages(post) {
           </div>
           <div class="temperature-line">
             <strong>{{ weatherTemperature }}<small>℃</small></strong>
-            <span class="weather-symbol">☀</span>
+            <span class="weather-symbol"><el-icon><Sunny /></el-icon></span>
           </div>
           <p>{{ weatherText }}</p>
         </div>
@@ -98,11 +113,8 @@ function postImages(post) {
 
     <section class="daily-recommend">
       <div class="section-head">
-        <div>
-          <p class="eyebrow">TODAY'S PICK</p>
-          <h2>今日推荐</h2>
-        </div>
-        <button type="button" class="text-link" @click="emit('navigate', 'fish')">更多 ›</button>
+        <h2>今日推荐</h2>
+        <el-button text class="text-link" :icon="ArrowRight" @click="emit('navigate', 'fish')">更多</el-button>
       </div>
       <button class="recommend-card tone-blue" type="button" @click="emit('navigate', 'fish')">
         <span class="recommend-label">翘嘴活跃期</span>
@@ -113,37 +125,29 @@ function postImages(post) {
     </section>
 
     <section class="feature-grid" aria-label="快捷功能">
-      <button type="button" @click="emit('navigate', 'fish')"><span>⌖</span><strong>钓点探索</strong></button>
-      <button type="button" @click="emit('action', '已打开潮汐天气')"><span>☼</span><strong>潮汐天气</strong></button>
-      <button type="button" @click="emit('action', '已打开鱼情预测')"><span>⌁</span><strong>鱼情预测</strong></button>
-      <button type="button" @click="emit('navigate', 'record')"><span>◷</span><strong>钓鱼日记</strong></button>
-      <button type="button" @click="emit('navigate', 'tutorials')"><span>◇</span><strong>技巧百科</strong></button>
+      <button type="button" @click="emit('navigate', 'fish')"><span><el-icon><Compass /></el-icon></span><strong>钓点探索</strong></button>
+      <button type="button" @click="emit('action', '已打开潮汐天气')"><span><el-icon><Sunny /></el-icon></span><strong>潮汐天气</strong></button>
+      <button type="button" @click="emit('action', '已打开鱼情预测')"><span><el-icon><TrendCharts /></el-icon></span><strong>鱼情预测</strong></button>
+      <button type="button" @click="emit('navigate', 'record')"><span><el-icon><Notebook /></el-icon></span><strong>钓鱼日记</strong></button>
+      <button type="button" @click="emit('navigate', 'tutorials')"><span><el-icon><Reading /></el-icon></span><strong>技巧百科</strong></button>
     </section>
 
     <form class="home-search" @submit.prevent="submitSearch">
-      <span aria-hidden="true">⌕</span>
-      <input v-model="query" type="search" placeholder="搜索钓点、鱼种、教程、装备" />
-      <button type="submit">搜索</button>
+      <el-icon aria-hidden="true"><Search /></el-icon>
+      <el-input v-model="query" type="search" placeholder="搜索钓点、鱼种、教程、装备" clearable />
+      <el-button native-type="submit" type="primary" round>搜索</el-button>
     </form>
 
-    <div class="home-channels" aria-label="内容频道">
-      <button
-        v-for="channel in channels"
-        :key="channel"
-        :class="{ active: activeChannel === channel }"
-        type="button"
-        @click="activeChannel = channel"
-      >
-        {{ channel }}
-      </button>
-    </div>
+    <el-segmented v-model="activeChannel" class="home-channels" :options="channels" aria-label="内容频道" />
 
     <section class="hot-zone section" aria-label="热点视频资讯">
       <div class="section-head home-feed-head">
-        <div><p class="eyebrow">FISHING MOMENTS</p><h2>钓友动态</h2></div>
+        <div><h2>钓友动态</h2></div>
         <span class="meta">实时更新</span>
       </div>
-      <button class="hot-nav previous" type="button" aria-label="上一个热点" @click="showHot(activeHotIndex - 1)">‹</button>
+      <button class="hot-nav previous" type="button" aria-label="上一个热点" @click="showHot(activeHotIndex - 1)">
+        <el-icon><ArrowLeft /></el-icon>
+      </button>
       <div ref="hotRail" class="hot-rail" @scroll.passive="syncHotIndex">
         <article
           v-for="(item, index) in hotItems"
@@ -160,7 +164,9 @@ function postImages(post) {
           </div>
         </article>
       </div>
-      <button class="hot-nav next" type="button" aria-label="下一个热点" @click="showHot(activeHotIndex + 1)">›</button>
+      <button class="hot-nav next" type="button" aria-label="下一个热点" @click="showHot(activeHotIndex + 1)">
+        <el-icon><ArrowRight /></el-icon>
+      </button>
       <div class="hot-dots" aria-label="热点位置">
         <button
           v-for="(_, index) in hotItems"
@@ -193,7 +199,7 @@ function postImages(post) {
       >
         <div :class="['video-cover', `tone-${post.coverTone || 'green'}`]">
           <span class="video-format">{{ post.format }}</span>
-          <span class="play-dot">▶</span>
+          <span class="play-dot"><el-icon><VideoPlay /></el-icon></span>
         </div>
         <h3>{{ post.title }}</h3>
         <p>{{ post.author }} · {{ post.likes }}赞</p>
@@ -202,23 +208,23 @@ function postImages(post) {
   </section>
 
   <section v-else-if="selectedPost.format === '视频'" class="short-video-page">
-    <button class="video-back" type="button" aria-label="返回" @click="closePost">‹</button>
+    <button class="video-back" type="button" aria-label="返回" @click="closePost"><el-icon><ArrowLeft /></el-icon></button>
     <div :class="['short-video-stage', `tone-${selectedPost.coverTone || 'blue'}`]">
       <div class="short-video-copy">
         <strong>{{ selectedPost.title }}</strong>
         <p>@{{ selectedPost.author }} · {{ selectedPost.meta }}</p>
       </div>
       <div class="short-video-actions">
-        <button type="button" @click="emit('action', `喜欢：${selectedPost.title}`)">♥<span>{{ selectedPost.likes }}</span></button>
-        <button type="button" @click="emit('action', `评论：${selectedPost.title}`)">☰<span>{{ selectedPost.comments }}</span></button>
-        <button type="button" @click="emit('action', `收藏：${selectedPost.title}`)">☆<span>{{ selectedPost.saves }}</span></button>
-        <button type="button" @click="emit('action', `分享：${selectedPost.title}`)">↗<span>分享</span></button>
+        <button type="button" @click="emit('action', `喜欢：${selectedPost.title}`)"><el-icon><DataAnalysis /></el-icon><span>{{ selectedPost.likes }}</span></button>
+        <button type="button" @click="emit('action', `评论：${selectedPost.title}`)"><el-icon><ChatDotRound /></el-icon><span>{{ selectedPost.comments }}</span></button>
+        <button type="button" @click="emit('action', `收藏：${selectedPost.title}`)"><el-icon><Star /></el-icon><span>{{ selectedPost.saves }}</span></button>
+        <button type="button" @click="emit('action', `分享：${selectedPost.title}`)"><el-icon><Share /></el-icon><span>分享</span></button>
       </div>
     </div>
   </section>
 
   <section v-else class="post-detail-page">
-    <button class="back-link" type="button" @click="closePost">‹ 返回首页</button>
+    <el-button text class="back-link" :icon="ArrowLeft" @click="closePost">返回首页</el-button>
     <div class="post-image-rail">
       <div
         v-for="image in postImages(selectedPost)"
@@ -230,7 +236,7 @@ function postImages(post) {
     </div>
     <article class="post-detail-body">
       <div class="author-row">
-        <div class="avatar">{{ selectedPost.avatar }}</div>
+        <el-avatar :size="38">{{ selectedPost.avatar }}</el-avatar>
         <div>
           <strong>{{ selectedPost.author }}</strong>
           <p class="meta">{{ selectedPost.meta }}</p>
@@ -239,7 +245,7 @@ function postImages(post) {
       <h2>{{ selectedPost.title }}</h2>
       <p class="spot-copy">{{ selectedPost.excerpt }}</p>
       <div class="chips compact">
-        <span v-for="tag in selectedPost.tags" :key="tag" class="badge tag-badge">{{ tag }}</span>
+        <el-tag v-for="tag in selectedPost.tags" :key="tag" round type="primary" effect="light">{{ tag }}</el-tag>
       </div>
 
       <section class="detail-section">

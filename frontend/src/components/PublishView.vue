@@ -54,8 +54,7 @@ function submit() {
   <section class="publish-page">
     <section class="publish-composer">
       <div class="format-switch" aria-label="发布格式">
-        <button type="button" :class="{ active: form.format === '图文' }" @click="form.format = '图文'">图文</button>
-        <button type="button" :class="{ active: form.format === '视频' }" @click="form.format = '视频'">视频</button>
+        <el-segmented v-model="form.format" :options="['图文', '视频']" />
       </div>
 
       <div :class="['publish-preview', form.format === '视频' ? 'tone-blue' : 'tone-green']">
@@ -66,49 +65,47 @@ function submit() {
       <form class="form" @submit.prevent="submit">
         <div class="field">
           <label for="title">标题</label>
-          <input id="title" v-model="form.title" />
+          <el-input id="title" v-model="form.title" />
         </div>
 
         <div v-if="form.format === '图文'" class="field">
           <label for="image-count">图片数量</label>
-          <input id="image-count" v-model="form.imageCount" type="number" min="1" max="9" />
+          <el-input-number id="image-count" v-model="form.imageCount" :min="1" :max="9" controls-position="right" />
         </div>
 
         <div class="field">
           <label for="note">正文</label>
-          <textarea id="note" v-model="form.note"></textarea>
+          <el-input id="note" v-model="form.note" type="textarea" :rows="4" />
         </div>
 
         <div class="catch-grid">
           <div class="field">
             <label for="fish-species">鱼的品种</label>
-            <input id="fish-species" v-model="form.fishSpecies" />
+            <el-input id="fish-species" v-model="form.fishSpecies" />
           </div>
           <div class="field">
             <label for="fish-size">尺寸</label>
-            <input id="fish-size" v-model="form.fishSize" />
+            <el-input id="fish-size" v-model="form.fishSize" />
           </div>
           <div class="field">
             <label for="fish-weight">重量</label>
-            <input id="fish-weight" v-model="form.fishWeight" />
+            <el-input id="fish-weight" v-model="form.fishWeight" />
           </div>
         </div>
 
         <div class="field">
           <label for="poi">定位信息</label>
-          <select id="poi" v-model="form.poiName">
-            <option value="">不显示具体钓点</option>
-            <option v-for="poi in props.pois" :key="poi.id" :value="poi.name">{{ poi.name }}</option>
-          </select>
+          <el-select id="poi" v-model="form.poiName" placeholder="不显示具体钓点" clearable>
+            <el-option value="" label="不显示具体钓点" />
+            <el-option v-for="poi in props.pois" :key="poi.id" :value="poi.name" :label="poi.name" />
+          </el-select>
         </div>
 
         <div class="privacy-row" aria-label="公开方式">
-          <button type="button" :class="{ active: form.privacy === '私密' }" @click="form.privacy = '私密'">私密</button>
-          <button type="button" :class="{ active: form.privacy === '仅朋友' }" @click="form.privacy = '仅朋友'">仅朋友</button>
-          <button type="button" :class="{ active: form.privacy === '公开' }" @click="form.privacy = '公开'">公开</button>
+          <el-segmented v-model="form.privacy" :options="['私密', '仅朋友', '公开']" />
         </div>
 
-        <button class="btn" type="submit">发布</button>
+        <el-button class="submit-btn" native-type="submit" type="primary" round>发布</el-button>
       </form>
     </section>
   </section>
