@@ -5,6 +5,10 @@ const props = defineProps({
   pois: {
     type: Array,
     default: () => []
+  },
+  records: {
+    type: Array,
+    default: () => []
   }
 });
 
@@ -22,6 +26,39 @@ const form = reactive({
   imageCount: 3
 });
 
+function recordTitle(record) {
+  const species = record.fish_species || "钓鱼";
+  const spot = record.fishing_spot_name || record.location_name || "未命名钓点";
+  return `${spot} · ${species}`;
+}
+
+function formatRecordMeta(record) {
+  const date = record.start_time ? new Date(record.start_time) : null;
+  const dateText = date && !Number.isNaN(date.getTime())
+    ? new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).format(date)
+    : "时间未记录";
+  return [
+    dateText,
+    record.fish_species,
+    record.fish_weight ? `${record.fish_weight}斤` : "",
+    record.weather
+  ].filter(Boolean).join(" · ");
+}
+
+function applyRecord(record) {
+  if (!record) return;
+  const species = record.fish_species || form.fishSpecies;
+  const spot = record.fishing_spot_name || record.location_name || "";
+  form.title = spot ? `${spot}的${species}鱼获` : `${species}鱼获记录`;
+  form.note = record.note || form.note;
+  form.fishSpecies = species;
+  form.fishWeight = record.fish_weight ? `${record.fish_weight}斤` : form.fishWeight;
+  form.fishSize = "";
+  form.poiName = spot;
+  form.imageCount = Math.max(1, Array.isArray(record.images) && record.images.length ? record.images.length : form.imageCount);
+  emit("action", "已从记录填充发布信息");
+}
+
 function submit() {
   const post = {
     id: `mine_${Date.now()}`,
@@ -29,8 +66,10 @@ function submit() {
     author: "武汉钓友 008",
     avatar: "我",
     title: form.title,
+    content: form.note,
     excerpt: form.note,
     meta: `${form.poiName || props.pois[0]?.name || "未选择钓点"} · ${form.fishSpecies} · ${form.fishSize} · ${form.fishWeight}`,
+    postType: form.format === "视频" ? "短视频" : "鱼获分享",
     tags: [`#${form.fishSpecies}`, `#${form.privacy}`, "#鱼获"],
     likes: 0,
     comments: 0,
@@ -61,6 +100,26 @@ function submit() {
         <span>{{ form.format === "视频" ? "短视频封面" : `${form.imageCount} 张图片` }}</span>
         <strong>{{ form.title }}</strong>
       </div>
+
+      <section class="record-picker">
+        <div class="section-head">
+          <h2>从记录快速填充</h2>
+          <span class="meta">{{ props.records.length }} 条</span>
+        </div>
+        <p v-if="!props.records.length" class="meta">还没有可用记录，完成一次钓鱼记录后可在这里一键带入信息。</p>
+        <div v-else class="record-picker-list">
+          <button
+            v-for="record in props.records.slice(0, 4)"
+            :key="record.id || record.start_time"
+            class="record-picker-item"
+            type="button"
+            @click="applyRecord(record)"
+          >
+            <strong>{{ recordTitle(record) }}</strong>
+            <span>{{ formatRecordMeta(record) }}</span>
+          </button>
+        </div>
+      </section>
 
       <form class="form" @submit.prevent="submit">
         <div class="field">

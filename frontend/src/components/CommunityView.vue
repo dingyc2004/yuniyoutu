@@ -1,25 +1,22 @@
 <script setup>
 import { computed, ref } from "vue";
 import {
-  ArrowLeft,
   Bell,
-  ChatDotRound,
-  Collection,
   Search,
-  Share,
   Star
 } from "@element-plus/icons-vue";
+import PostViewer from "./PostViewer.vue";
 
 const props = defineProps({
-  feed: { type: Array, default: () => [] }
+  feed: { type: Array, default: () => [] },
+  favorites: { type: Array, default: () => [] }
 });
 
-const emit = defineEmits(["action"]);
+const emit = defineEmits(["action", "toggle-favorite"]);
 
 const query = ref("");
 const activeChannel = ref("推荐");
 const selectedPost = ref(null);
-const following = ref(new Set());
 
 const channels = ["推荐", "同城", "关注", "路亚", "台钓", "野钓", "海钓", "新手"];
 
@@ -46,10 +43,6 @@ const rightColumn = computed(() => shownFeed.value.filter((_, i) => i % 2 === 1)
 
 function openPost(post) {
   selectedPost.value = post;
-}
-
-function closePost() {
-  selectedPost.value = null;
 }
 
 function submitSearch() {
@@ -104,26 +97,6 @@ function formatPublishedAt(value) {
   return days <= 1 ? "昨天" : `${days}天前`;
 }
 
-function toggleFollow(author) {
-  const next = new Set(following.value);
-  if (next.has(author)) {
-    next.delete(author);
-    emit("action", `已取消关注 ${author}`);
-  } else {
-    next.add(author);
-    emit("action", `已关注 ${author}`);
-  }
-  following.value = next;
-}
-
-function postImages(post) {
-  const count = post.imageCount || (post.format === "图文" ? 3 : 1);
-  return Array.from({ length: count }, (_, index) => ({
-    id: `${post.id}-image-${index}`,
-    tone: ["sand", "mist", "clay", "stone"][index % 4]
-  }));
-}
-
 function coverAspect(post) {
   const seed = (post.id || "").length + (post.imageCount || 1);
   const ratios = ["tall", "medium", "short"];
@@ -132,75 +105,16 @@ function coverAspect(post) {
 </script>
 
 <template>
-  <section v-if="selectedPost" class="community-page community-detail">
-    <header class="community-detail-head">
-      <el-button text class="back-link" :icon="ArrowLeft" @click="closePost">返回社区</el-button>
-    </header>
-
-    <div class="community-detail-images">
-      <div
-        v-for="image in postImages(selectedPost)"
-        :key="image.id"
-        :class="['community-detail-image', `cover-${image.tone}`]"
-      ></div>
-    </div>
-
-    <article class="community-detail-body">
-      <div class="community-detail-author">
-        <el-avatar :size="40">{{ selectedPost.avatar }}</el-avatar>
-        <div class="community-detail-author-copy">
-          <strong>{{ selectedPost.author }}</strong>
-          <p class="meta">{{ selectedPost.publishedAt || "刚刚" }} · {{ selectedPost.postType || selectedPost.format }}</p>
-        </div>
-        <el-button
-          round
-          size="small"
-          :type="following.has(selectedPost.author) ? 'default' : 'primary'"
-          plain
-          @click="toggleFollow(selectedPost.author)"
-        >
-          {{ following.has(selectedPost.author) ? "已关注" : "关注" }}
-        </el-button>
-      </div>
-
-      <h1>{{ selectedPost.title }}</h1>
-      <p class="community-detail-text">{{ selectedPost.excerpt }}</p>
-
-      <div class="chips compact">
-        <el-tag v-for="tag in selectedPost.tags" :key="tag" round effect="light" size="small">{{ tag }}</el-tag>
-      </div>
-
-      <div class="community-detail-actions">
-        <button type="button" @click="emit('action', `点赞：${selectedPost.title}`)">
-          <el-icon><Star /></el-icon>{{ selectedPost.likes }}
-        </button>
-        <button type="button" @click="emit('action', `收藏：${selectedPost.title}`)">
-          <el-icon><Collection /></el-icon>{{ selectedPost.saves }}
-        </button>
-        <button type="button" @click="emit('action', `分享：${selectedPost.title}`)">
-          <el-icon><Share /></el-icon>分享
-        </button>
-      </div>
-
-      <section class="detail-section">
-        <h4>评论 · {{ selectedPost.comments }}</h4>
-        <div class="comment-list">
-          <div class="comment-item">
-            <strong>武汉钓友 008</strong>
-            <p>这个窗口期很有参考价值，准备周末照着试一次。</p>
-          </div>
-          <div class="comment-item">
-            <strong>青山探点</strong>
-            <p>同城钓友确认，最近水位变化比较明显，注意安全。</p>
-          </div>
-        </div>
-        <el-button class="community-comment-btn" round plain @click="emit('action', '写下你的看法')">
-          <el-icon><ChatDotRound /></el-icon>
-          写评论
-        </el-button>
-      </section>
-    </article>
-  </section>
+  <PostViewer
+    v-if="selectedPost"
+    :post="selectedPost"
+    :feed="feedItems"
+    :favorites="favorites"
+    back-label="返回社区"
+    @back="selectedPost = null"
+    @action="(message) => emit('action', message)"
+    @toggle-favorite="(post) => emit('toggle-favorite', post)"
+  />
 
   <section v-else class="community-page">
     <header class="community-topbar">

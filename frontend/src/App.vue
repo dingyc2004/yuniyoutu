@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, reactive, ref } from "vue";
+import { computed, onMounted, reactive, ref, watch } from "vue";
 import { ChatDotRound, EditPen, House, Notebook, Reading, UserFilled } from "@element-plus/icons-vue";
 import CommunityView from "./components/CommunityView.vue";
 import HomeView from "./components/HomeView.vue";
@@ -8,7 +8,33 @@ import PublishView from "./components/PublishView.vue";
 import RecordView from "./components/RecordView.vue";
 import TutorialsView from "./components/TutorialsView.vue";
 import { seedData } from "./data/seedData";
-import { fetchCollection } from "./services/api";
+import { fetchCollection, fetchFishingRecords } from "./services/api";
+
+const storageKeys = {
+  records: "yuni_my_records",
+  posts: "yuni_my_posts",
+  favorites: "yuni_favorites"
+};
+
+function readStoredList(key) {
+  try {
+    const value = window.localStorage.getItem(key);
+    const parsed = value ? JSON.parse(value) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function mergeById(primary, secondary) {
+  const seen = new Set();
+  return [...primary, ...secondary].filter((item) => {
+    const id = item?.id || JSON.stringify(item);
+    if (seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+}
 
 const tabs = [
   { id: "home", label: "首页", icon: House },
@@ -37,8 +63,9 @@ const state = reactive({
   feed: seedData.feed,
   tutorials: seedData.tutorials,
   weather: seedData.weather,
-  records: [],
-  myPosts: []
+  records: readStoredList(storageKeys.records),
+  myPosts: readStoredList(storageKeys.posts),
+  favorites: readStoredList(storageKeys.favorites)
 });
 
 const weatherText = computed(() => {
@@ -75,6 +102,18 @@ function addPost(post) {
   }
 }
 
+function toggleFavorite(post) {
+  if (!post) return;
+  const index = state.favorites.findIndex((item) => item.id === post.id);
+  if (index >= 0) {
+    state.favorites.splice(index, 1);
+    showToast(`已取消收藏：${post.title}`);
+  } else {
+    state.favorites.unshift(post);
+    showToast(`已收藏：${post.title}`);
+  }
+}
+
 function navigateTab(tabId) {
   activeTab.value = tabId;
 }
@@ -86,21 +125,48 @@ async function searchPois(keyword) {
 }
 
 async function loadInitialData() {
-  const [pois, feed, tutorials, weather] = await Promise.all([
+  const [pois, feed, tutorials, weather, records] = await Promise.all([
     fetchCollection("/api/pois?city=420100", "pois"),
     fetchCollection("/api/feed", "feed"),
     fetchCollection("/api/tutorials", "tutorials"),
-    fetchCollection("/api/weather?city=420100", "weather")
+    fetchCollection("/api/weather?city=420100", "weather"),
+    fetchFishingRecords("demo_user")
   ]);
   state.pois = pois.length ? pois : seedData.pois;
   state.feed = feed.length ? feed : seedData.feed;
+  state.feed = mergeById(state.myPosts, state.feed);
   state.tutorials = tutorials.length ? tutorials : seedData.tutorials;
+  state.records = mergeById(state.records, records);
   if (weather && (weather.live || weather.forecast)) {
     state.weather = { ...seedData.weather, ...weather };
   }
 }
 
 onMounted(loadInitialData);
+
+watch(
+  () => state.records,
+  (records) => {
+    window.localStorage.setItem(storageKeys.records, JSON.stringify(records));
+  },
+  { deep: true }
+);
+
+watch(
+  () => state.myPosts,
+  (posts) => {
+    window.localStorage.setItem(storageKeys.posts, JSON.stringify(posts));
+  },
+  { deep: true }
+);
+
+watch(
+  () => state.favorites,
+  (favorites) => {
+    window.localStorage.setItem(storageKeys.favorites, JSON.stringify(favorites));
+  },
+  { deep: true }
+);
 </script>
 
 <template>
@@ -132,7 +198,9 @@ onMounted(loadInitialData);
       <CommunityView
         v-else-if="activeTab === 'community'"
         :feed="state.feed"
+        :favorites="state.favorites"
         @action="showToast"
+        @toggle-favorite="toggleFavorite"
       />
       <RecordView
         v-else-if="activeTab === 'record'"
@@ -144,11 +212,20 @@ onMounted(loadInitialData);
       <PublishView
         v-else-if="activeTab === 'publish'"
         :pois="state.pois"
+        :records="state.records"
         @action="showToast"
         @submit-post="addPost"
       />
       <TutorialsView v-else-if="activeTab === 'tutorials'" :tutorials="state.tutorials" @action="showToast" />
-      <MineView v-else :posts="state.myPosts" />
+      <MineView
+        v-else
+        :records="state.records"
+        :posts="state.myPosts"
+        :favorites="state.favorites"
+        :feed="state.feed"
+        @action="showToast"
+        @toggle-favorite="toggleFavorite"
+      />
     </section>
 
     <nav class="tabbar" aria-label="主导航">
