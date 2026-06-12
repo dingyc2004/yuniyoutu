@@ -2,17 +2,24 @@
 import { computed, ref } from "vue";
 import {
   Bell,
+  CirclePlus,
+  Close,
   Search,
   Star
 } from "@element-plus/icons-vue";
 import PostViewer from "./PostViewer.vue";
+import PublishView from "./PublishView.vue";
 
 const props = defineProps({
   feed: { type: Array, default: () => [] },
-  favorites: { type: Array, default: () => [] }
+  favorites: { type: Array, default: () => [] },
+  pois: { type: Array, default: () => [] },
+  records: { type: Array, default: () => [] }
 });
 
-const emit = defineEmits(["action", "toggle-favorite"]);
+const emit = defineEmits(["action", "toggle-favorite", "submit-post"]);
+
+const showPublish = ref(false);
 
 const query = ref("");
 const activeChannel = ref("推荐");
@@ -206,5 +213,30 @@ function coverAspect(post) {
         </article>
       </div>
     </div>
+
+    <button class="community-fab" type="button" aria-label="发布" @click="showPublish = true">
+      <el-icon><CirclePlus /></el-icon>
+    </button>
+
+    <Transition name="slide-up">
+      <div v-if="showPublish" class="publish-overlay">
+        <div class="publish-sheet">
+          <header class="publish-sheet-head">
+            <h2>发布动态</h2>
+            <button class="drawer-close-btn" type="button" aria-label="关闭" @click="showPublish = false">
+              <el-icon><Close /></el-icon>
+            </button>
+          </header>
+          <div class="publish-sheet-body">
+            <PublishView
+              :pois="pois"
+              :records="records"
+              @action="(msg) => emit('action', msg)"
+              @submit-post="(post) => { emit('submit-post', post); showPublish = false; }"
+            />
+          </div>
+        </div>
+      </div>
+    </Transition>
   </section>
 </template>
