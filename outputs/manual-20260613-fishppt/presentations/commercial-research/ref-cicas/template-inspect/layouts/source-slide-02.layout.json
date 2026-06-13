@@ -1,0 +1,2135 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pg3ex0nu",
+    "id": "pg3ex0nu",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "10_自定义版式",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "谱慧麦寿",
+    "colors": {
+      "accent1": "#176B1E",
+      "accent2": "#92B70C",
+      "accent3": "#F3D66A",
+      "accent4": "#5A886C",
+      "accent5": "#7AA972",
+      "accent6": "#71A14D",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "WPS",
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Open Sans",
+      "华文中宋",
+      "微软雅黑"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "10_自定义版式",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/31",
+          "id": "31",
+          "name": "任意多边形: 形状 30",
+          "bbox": [
+            0,
+            45.22,
+            1000.98,
+            676.53
+          ],
+          "rotation": 0,
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none"
+          },
+          "lineWidth": 2
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/32",
+          "id": "32",
+          "name": "任意多边形: 形状 31",
+          "bbox": [
+            0,
+            45.22,
+            790.34,
+            676.53
+          ],
+          "rotation": 0,
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/76",
+          "id": "76",
+          "name": "Picture 183",
+          "bbox": [
+            0,
+            290.72,
+            790.26,
+            431.02
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 2638927
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 2638927
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/75",
+          "id": "75",
+          "name": "Title 21",
+          "bbox": [
+            64.45,
+            99.09,
+            987.56,
+            55.5
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 2.88,
+              "right": 5.76,
+              "bottom": 2.88,
+              "left": 5.76
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "marginLeft": 0,
+              "lineSpacingPercent": 120000,
+              "spaceAfter": 500,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/67",
+          "id": "67",
+          "name": "梯形 24",
+          "bbox": [
+            -14.43,
+            39.98,
+            46.81,
+            13.58
+          ],
+          "rotation": 90,
+          "geometry": "trapezoid",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 2
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/68",
+          "id": "68",
+          "name": "梯形 25",
+          "bbox": [
+            -22.99,
+            33.3,
+            59.65,
+            25.17
+          ],
+          "rotation": 90,
+          "geometry": "trapezoid",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0.67
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/77",
+          "id": "77",
+          "name": "图片 76",
+          "bbox": [
+            1056.69,
+            18.6,
+            56.51,
+            53.23
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0.54607,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 169913
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 169913
+          }
+        },
+        {
+          "order": 8,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/78",
+          "id": "78",
+          "name": "图片 77",
+          "bbox": [
+            1103.04,
+            14.78,
+            172.27,
+            60.87
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image4.png",
+            "contentType": "image/png",
+            "byteLength": 22145
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image4.png",
+            "contentType": "image/png",
+            "byteLength": 22145
+          }
+        },
+        {
+          "order": 9,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/79",
+          "id": "79",
+          "name": "图片 2",
+          "bbox": [
+            -1.51,
+            0,
+            1285.28,
+            80.62
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "矩形 3",
+          "bbox": [
+            -0.53,
+            0,
+            1280.53,
+            720
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "33",
+      "name": "矩形: 圆顶角 32",
+      "bbox": [
+        520.94,
+        103.01,
+        726.4,
+        151.47
+      ],
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFFFFF",
+      "lineWidth": 2
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "34",
+      "name": "矩形: 圆顶角 33",
+      "bbox": [
+        530.67,
+        110.48,
+        706.47,
+        145.76
+      ],
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 2
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "35",
+      "name": "六边形 166",
+      "bbox": [
+        520.02,
+        249.68,
+        727.32,
+        4.8
+      ],
+      "geometry": "hexagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "36",
+      "name": "文本框 35",
+      "bbox": [
+        536.28,
+        107.85,
+        706.47,
+        103.76
+      ],
+      "geometry": "rect",
+      "text": "民为国基，谷为民命。\n粮食事关国运民生，粮食安全是国家安全的重要基础。",
+      "textPreview": "民为国基，谷为民命。 | 粮食事关国运民生，粮食安全是国家安全的重要基础。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "民为国基，谷为民命。"
+          },
+          {
+            "index": 2,
+            "text": "粮食事关国运民生，粮食安全是国家安全的重要基础。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "民为国基，谷为民命。",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 140000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "民为国基，谷为民命。",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#3A3A3A",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "粮食事关国运民生，粮食安全是国家安全的重要基础。",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 140000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "粮食事",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#3A3A3A",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "关",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#3A3A3A",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "国运民生，粮食安全是国家安全的重要基础。",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#3A3A3A",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bi9s36hc",
+      "id": "65",
+      "name": "图片 37",
+      "bbox": [
+        -46.67,
+        330.29,
+        438.3,
+        378.21
+      ],
+      "rotation": 0,
+      "horizontalFlip": true,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.11511
+      },
+      "asset": {
+        "assetId": "/ppt/media/image15.png",
+        "contentType": "image/png",
+        "byteLength": 59105
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image15.png",
+        "contentType": "image/png",
+        "byteLength": 59105
+      }
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/032lszqt",
+      "id": "66",
+      "name": "图片 38",
+      "bbox": [
+        -9.88,
+        655.02,
+        438.3,
+        65.52
+      ],
+      "rotation": 0,
+      "horizontalFlip": true,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.14825,
+        "right": 0.03521,
+        "bottom": 0.67314
+      },
+      "asset": {
+        "assetId": "/ppt/media/image16.png",
+        "contentType": "image/png",
+        "byteLength": 267527
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image16.png",
+        "contentType": "image/png",
+        "byteLength": 267527
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "42",
+      "name": "文本框 41",
+      "bbox": [
+        18,
+        129.8,
+        93.74,
+        106.63
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "“",
+      "textPreview": "“",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "“"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "“",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“",
+              "fontSize": 80,
+              "typeface": "华文中宋",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "43",
+      "name": "文本框 42",
+      "bbox": [
+        58.24,
+        143.51,
+        358.67,
+        215.13
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "       在粮食安全问题上千万不可掉以轻心。要确保谷物基本自给、口粮绝对安全，确保中国人的饭碗牢牢端在自己手中。",
+      "textPreview": "在粮食安全问题上千万不可掉以轻心。要确保谷物基本自给、口粮绝对安全，确保中国人的饭碗牢牢端在自己手中。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "       "
+          },
+          {
+            "index": 2,
+            "text": "在粮食安全问题上千万不可掉"
+          },
+          {
+            "index": 3,
+            "text": "以轻心。要确保谷物基本自给"
+          },
+          {
+            "index": 4,
+            "text": "、口粮绝对安全，"
+          },
+          {
+            "index": 5,
+            "text": "确保中国人的饭碗牢牢端"
+          },
+          {
+            "index": 6,
+            "text": "在自己手中。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "       在粮食安全问题上千万不可掉以轻心。要确保谷物基本自给、口粮绝对安全，确保中国人的饭碗牢牢端在自己手中。",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 120000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "       在粮食安全问题上千万不可掉以轻心。要确保谷物基本自给、口粮绝对安全，",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "确保中国人的饭碗牢牢端在自己手中。",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "44",
+      "name": "任意多边形: 形状 22",
+      "bbox": [
+        249.77,
+        387.53,
+        174.4,
+        17.5
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": {
+        "type": "theme",
+        "value": "bg1",
+        "transform": {
+          "darken": 0.15
+        }
+      },
+      "lineWidth": 3.33
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "45",
+      "name": "文本框 44",
+      "bbox": [
+        274.47,
+        298.4,
+        93.74,
+        106.63
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "”",
+      "textPreview": "”",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "”"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "”",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "”",
+              "fontSize": 80,
+              "typeface": "华文中宋",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "55",
+      "name": "矩形: 圆角 54",
+      "bbox": [
+        912.48,
+        269.11,
+        339.12,
+        421.91
+      ],
+      "rotation": 0,
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "bg1"
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "56",
+      "name": "文本框 170",
+      "bbox": [
+        923.04,
+        269.11,
+        318,
+        54.93
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "端牢 中国 饭碗",
+      "textPreview": "端牢 中国 饭碗",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "端牢 中国 饭碗"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "端牢 中国 饭碗",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "端牢 ",
+              "fontSize": 26.67,
+              "typeface": "Arial",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "中国 ",
+              "fontSize": 37.33,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "饭碗",
+              "fontSize": 26.67,
+              "typeface": "Arial",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "57",
+      "name": "矩形: 圆角 56",
+      "bbox": [
+        892.86,
+        382.81,
+        378.36,
+        308.65
+      ],
+      "rotation": 0,
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "58",
+      "name": "JZFY",
+      "bbox": [
+        906.8,
+        575.8,
+        350.48,
+        71.93
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "我国以全球9%的耕地\n养育世界近1/5的人口",
+      "textPreview": "我国以全球9%的耕地 | 养育世界近1/5的人口",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "我国以全球9%的耕地"
+          },
+          {
+            "index": 2,
+            "text": "养育世界近1/5的人口"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "我国以全球9%的耕地",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 130000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "我国以全球",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "9%",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "的耕地",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "养育世界近1/5的人口",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 130000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "养育世界近",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "1/5",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "的人口",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "59",
+      "name": "文本框 58",
+      "bbox": [
+        895.6,
+        658.71,
+        372.88,
+        29.08
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "——《经济日报》2023年6月21日第10版",
+      "textPreview": "——《经济日报》2023年6月21日第10版",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "fontSize": 18.67,
+        "typeface": "Open Sans",
+        "color": "#333333",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "——《经济日报》2023年6月21日第10版"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "——《经济日报》2023年6月21日第10版",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "——《",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "经济日报",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "》2023",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "年",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "6",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "月",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "21",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": "日第",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 9,
+              "text": "10",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 10,
+              "text": "版",
+              "fontSize": 16,
+              "typeface": "Open Sans",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tovahoza",
+      "id": "67",
+      "name": "图片 59",
+      "bbox": [
+        902.71,
+        328.1,
+        358.67,
+        239.39
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 278063
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 278063
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1orytsv",
+      "id": "49",
+      "name": "矩形: 圆角 48",
+      "bbox": [
+        513.51,
+        269.11,
+        339.12,
+        421.91
+      ],
+      "rotation": 0,
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "bg1"
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "50",
+      "name": "文本框 170",
+      "bbox": [
+        524.07,
+        269.11,
+        318,
+        54.93
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "全球 粮安不稳",
+      "textPreview": "全球 粮安不稳",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "全球 粮安不稳"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "全球 粮安不稳",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "全球 ",
+              "fontSize": 37.33,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "粮安不稳",
+              "fontSize": 26.67,
+              "typeface": "Arial",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "51",
+      "name": "矩形: 圆角 50",
+      "bbox": [
+        493.89,
+        382.81,
+        378.36,
+        308.65
+      ],
+      "rotation": 0,
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "52",
+      "name": "JZFY",
+      "bbox": [
+        507.83,
+        575.8,
+        350.48,
+        71.93
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "当前，全球粮食产业链、供应链\n不确定风险增加",
+      "textPreview": "当前，全球粮食产业链、供应链 | 不确定风险增加",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前，全球粮食产业链、供应链"
+          },
+          {
+            "index": 2,
+            "text": "不确定风险增加"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前，全球粮食产业链、供应链",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 130000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前，全球粮食产业链、供应链",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "不确定风险增加",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 130000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "不确定风险增加",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFFFFF",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "53",
+      "name": "文本框 52",
+      "bbox": [
+        496.63,
+        658.71,
+        372.88,
+        29.08
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "—— 国粮发〔2022〕164号",
+      "textPreview": "—— 国粮发〔2022〕164号",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "fontSize": 18.67,
+        "typeface": "Open Sans",
+        "color": "#333333",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "—— 国粮发〔2022〕164号"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "—— 国粮发〔2022〕164号",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "—— ",
+              "fontSize": 16,
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "国粮发",
+              "fontSize": 16,
+              "color": "#000000"
+            },
+            {
+              "index": 3,
+              "text": "〔2022〕164",
+              "fontSize": 16,
+              "color": "#000000"
+            },
+            {
+              "index": 4,
+              "text": "号",
+              "fontSize": 16,
+              "color": "#000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/il0rqd4v",
+      "id": "68",
+      "name": "Picture 2",
+      "bbox": [
+        503.74,
+        328.1,
+        358.67,
+        239.39
+      ],
+      "rotation": 0,
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image18.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 102119
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image18.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 102119
+      }
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "61",
+      "name": "文本框 60",
+      "bbox": [
+        225.77,
+        406.88,
+        191.14,
+        80.78
+      ],
+      "geometry": "rect",
+      "text": "           2020年10月29日，\n习近平总书记在党的十九届五中全会第二次全体会议上的讲话",
+      "textPreview": "2020年10月29日， | 习近平总书记在党的十九届五中全会第二次全体会议上的讲话",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "           2020年10月29日，"
+          },
+          {
+            "index": 2,
+            "text": "习近平总书记在党的十九届五"
+          },
+          {
+            "index": 3,
+            "text": "中全会第二次全体会议上的讲"
+          },
+          {
+            "index": 4,
+            "text": "话"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "           2020年10月29日，",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "           ",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "2020",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "年",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "10",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "月",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "29",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "日，",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "习近平总书记在党的十九届五中全会第二次全体会议上的讲话",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "习近平总书记在党的十九届五中全会第二次全体会议上的讲话",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "64",
+      "name": "文本框 63",
+      "bbox": [
+        531.58,
+        218.11,
+        717.9,
+        29.08
+      ],
+      "geometry": "rect",
+      "text": "——《中国的粮食安全》白皮书（2019年10月）中华人民共和国国务院新闻办公室",
+      "textPreview": "——《中国的粮食安全》白皮书（2019年10月）中华人民共和国国务院新闻办公室",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "——《中国的粮食安全》白皮书（2019年10月）中华人民共和国国务院新闻办公室"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "——《中国的粮食安全》白皮书（2019年10月）中华人民共和国国务院新闻办公室",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "——《",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "中国的粮食安全",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "》",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "白皮书（",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "2019",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "年",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "10",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": "月）中华人民共和国国务院新闻办公室",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "27",
+      "name": "MH_Number_1",
+      "bbox": [
+        429.94,
+        24.78,
+        34,
+        34
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#00B050",
+      "lineWidth": 0.33
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "28",
+      "name": "文本框 27",
+      "bbox": [
+        473.81,
+        10.38,
+        506.6,
+        55.12
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "项目概述及主要亮点——政策背景",
+      "textPreview": "项目概述及主要亮点——政策背景",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目概述及主要亮点——政策背景"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目概述及主要亮点——政策背景",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目概述及主要亮点",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "——",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "政策背景",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/report_snapshots.schema.json",
+  "title": "ReportSnapshotCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "user_id", "period", "period_label", "data", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "period": { "type": "string", "enum": ["month", "year", "lifetime"] },
+      "period_label": { "type": "string" },
+      "data": { "type": "object" },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/users.schema.json",
+  "title": "UserCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "nickname", "city", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "nickname": { "type": "string" },
+      "avatar": { "type": "string" },
+      "city": { "type": "string" },
+      "city_code": { "type": "string" },
+      "level": { "type": "integer", "minimum": 1 },
+      "experience": { "type": "integer", "minimum": 0 },
+      "preferred_methods": { "type": "array", "items": { "type": "string" } },
+      "preferred_species": { "type": "array", "items": { "type": "string" } },
+      "bio": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

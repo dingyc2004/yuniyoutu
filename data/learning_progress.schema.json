@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LearningProgressCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "user_id", "tutorial_id", "status", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "tutorial_id": { "type": "string" },
+      "status": { "type": "string", "enum": ["not_started", "in_progress", "completed", "favorited"] },
+      "practice_notes": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

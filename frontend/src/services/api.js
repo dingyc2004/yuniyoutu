@@ -320,6 +320,13 @@ export async function followUser(userId, followerId) {
   return payload.data || null;
 }
 
+export async function unfollowUser(userId, followerId) {
+  const payload = await sendJson(`/api/users/${encodeURIComponent(userId)}/follow?follower_id=${encodeURIComponent(followerId)}`, {
+    method: "DELETE"
+  });
+  return payload.data || null;
+}
+
 export async function addFriend(userId, requesterId) {
   const payload = await sendJson(`/api/users/${encodeURIComponent(userId)}/friend`, {
     method: "POST",

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "order_1781375715268",
+    "user_id": "demo_user",
+    "equipment_id": "equip_001",
+    "equipment_name": "光威·龙纹鲤 5.4m",
+    "merchant_name": null,
+    "unit_price": 298,
+    "quantity": 1,
+    "total_amount": 298,
+    "status": "paid_demo",
+    "created_at": "2026-06-13T18:35:15.268729+00:00",
+    "updated_at": "2026-06-13T18:35:17.084636+00:00",
+    "paid_at": "2026-06-13T18:35:17.084636+00:00"
+  }
+]

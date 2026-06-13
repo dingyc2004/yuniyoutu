@@ -1,0 +1,970 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/m58z25kb",
+    "id": "m58z25kb",
+    "slide": 19,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560.33,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪铸字烈焰体W"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪雅酷黑-45J"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "汉仪铸字烈焰体W"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "14",
+      "name": "矩形 13",
+      "bbox": [
+        1197.13,
+        1221.8,
+        849.47,
+        177.07
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFF7BC",
+      "lineColor": "#FFF7BC"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "13",
+      "name": "矩形 12",
+      "bbox": [
+        1197.13,
+        1017.73,
+        849.47,
+        177.07
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFF7BC",
+      "lineColor": "#FFF7BC"
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "33",
+      "name": "流程图: 可选过程 32",
+      "bbox": [
+        40.33,
+        264.93,
+        995.47,
+        533.07
+      ],
+      "geometry": "flowChartAlternateProcess",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent4",
+        "transform": {
+          "lighten": 0.8
+        }
+      },
+      "lineColor": "accent4",
+      "lineWidth": 0.67
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "31",
+      "name": "流程图: 可选过程 30",
+      "bbox": [
+        53.67,
+        826.87,
+        995.47,
+        575.13
+      ],
+      "geometry": "flowChartAlternateProcess",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent4",
+        "transform": {
+          "lighten": 0.8
+        }
+      },
+      "lineColor": "accent4",
+      "lineWidth": 0.67
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "2",
+      "name": "Text 0",
+      "bbox": [
+        71,
+        47.07,
+        1611.67,
+        159.33
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "用户为什么愿意贡献数据？",
+      "textPreview": "用户为什么愿意贡献数据？",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用户为什么愿意贡献数据？"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用户为什么愿意贡献数据？",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用户为什么愿意贡献数据？",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5kb6xkf6",
+      "id": "34",
+      "name": "Image 0",
+      "bbox": [
+        71,
+        176.64,
+        607.66,
+        29.76
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      }
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/czed8v6p",
+      "id": "35",
+      "name": "Image 1",
+      "bbox": [
+        2353.89,
+        24.66,
+        154.56,
+        146.88
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/neloj2t8",
+      "id": "36",
+      "name": "Image 3",
+      "bbox": [
+        715.19,
+        788.22,
+        802.54,
+        10.56
+      ],
+      "rotation": 90,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image81.png",
+        "contentType": "image/png",
+        "byteLength": 256
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image81.png",
+        "contentType": "image/png",
+        "byteLength": 256
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ytsvu9kn",
+      "id": "37",
+      "name": "Image 5",
+      "bbox": [
+        1038.7,
+        699.91,
+        86.4,
+        10.56
+      ],
+      "rotation": 180,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image82.png",
+        "contentType": "image/png",
+        "byteLength": 197
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image82.png",
+        "contentType": "image/png",
+        "byteLength": 197
+      }
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/58z25kb6",
+      "id": "38",
+      "name": "Image 7",
+      "bbox": [
+        1110.7,
+        534.79,
+        86.4,
+        12.48
+      ],
+      "rotation": 180,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image83.png",
+        "contentType": "image/png",
+        "byteLength": 210
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image83.png",
+        "contentType": "image/png",
+        "byteLength": 210
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gn29gr2p",
+      "id": "39",
+      "name": "Image 9",
+      "bbox": [
+        1110.7,
+        915.9,
+        86.4,
+        10.56
+      ],
+      "rotation": 180,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image84.png",
+        "contentType": "image/png",
+        "byteLength": 179
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image84.png",
+        "contentType": "image/png",
+        "byteLength": 179
+      }
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/032lszqt",
+      "id": "40",
+      "name": "Image 11",
+      "bbox": [
+        1035.3,
+        1007.19,
+        86.4,
+        10.56
+      ],
+      "rotation": 180,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image82.png",
+        "contentType": "image/png",
+        "byteLength": 197
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image82.png",
+        "contentType": "image/png",
+        "byteLength": 197
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tovahoza",
+      "id": "41",
+      "name": "图片 23",
+      "bbox": [
+        187.93,
+        987.6,
+        739,
+        384.27
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.07554
+      },
+      "asset": {
+        "assetId": "/ppt/media/image85.png",
+        "contentType": "image/png",
+        "byteLength": 1131217
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image85.png",
+        "contentType": "image/png",
+        "byteLength": 1131217
+      }
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ixczed8v",
+      "id": "42",
+      "name": "图片 25",
+      "bbox": [
+        196.8,
+        392.27,
+        736.93,
+        373.33
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.09939
+      },
+      "asset": {
+        "assetId": "/ppt/media/image86.png",
+        "contentType": "image/png",
+        "byteLength": 1135718
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image86.png",
+        "contentType": "image/png",
+        "byteLength": 1135718
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "25",
+      "name": "Text 2",
+      "bbox": [
+        23.67,
+        306.87,
+        903.27,
+        95.53
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "满足用户的即时收益需求",
+      "textPreview": "满足用户的即时收益需求",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "满足用户的即时收益需求"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "满足用户的即时收益需求",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "满足用户的即时收益需求",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "29",
+      "name": "Text 6",
+      "bbox": [
+        1446.2,
+        250.53,
+        600.4,
+        79
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "正向循环生态系统",
+      "textPreview": "正向循环生态系统",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "正向循环生态系统"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "正向循环生态系统",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "正向循环生态系统",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "30",
+      "name": "Text 4",
+      "bbox": [
+        79.53,
+        863.13,
+        998.2,
+        124.47
+      ],
+      "geometry": "rect",
+      "text": "成就系统、积分兑换、趣味化",
+      "textPreview": "成就系统、积分兑换、趣味化",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成就系统、积分兑换、趣味化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成就系统、积分兑换、趣味化",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成就系统、积分兑换、趣味化",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bi9s36hc",
+      "id": "43",
+      "name": "图片 6",
+      "bbox": [
+        1183.8,
+        329.53,
+        1276.07,
+        677.67
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image87.png",
+        "contentType": "image/png",
+        "byteLength": 24972
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image87.png",
+        "contentType": "image/png",
+        "byteLength": 24972
+      }
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "10",
+      "name": "文本框 9",
+      "bbox": [
+        1197.13,
+        1251.2,
+        732,
+        150.8
+      ],
+      "geometry": "rect",
+      "text": "\n\n增加用户粘性",
+      "textPreview": "|  | 增加用户粘性",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "增加用户粘性"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 3,
+          "text": "增加用户粘性",
+          "marginLeft": 0,
+          "indent": 266700,
+          "spaceBefore": 600,
+          "spaceAfter": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": "增加用户粘性",
+              "fontSize": 106.67,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1032lszq",
+      "id": "11",
+      "name": "文本框 10",
+      "bbox": [
+        1197.13,
+        1062.2,
+        859.13,
+        189
+      ],
+      "geometry": "rect",
+      "text": "\n\n控制了获客成本\n\n",
+      "textPreview": "|  | 控制了获客成本 |  |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "控制了获客成本"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 3,
+          "text": "控制了获客成本",
+          "marginLeft": 0,
+          "indent": 266700,
+          "spaceBefore": 600,
+          "spaceAfter": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": "控制",
+              "fontSize": 106.67,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "了获客成本",
+              "fontSize": 106.67,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.5
+                }
+              },
+              "bold": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

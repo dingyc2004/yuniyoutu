@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FriendshipCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "requester_id", "addressee_id", "status", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "requester_id": { "type": "string" },
+      "addressee_id": { "type": "string" },
+      "status": { "type": "string", "enum": ["pending", "accepted", "blocked"] },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

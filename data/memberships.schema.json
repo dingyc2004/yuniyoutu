@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuniyoutu.local/schemas/memberships.schema.json",
+  "title": "MembershipCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "user_id", "status", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "status": { "type": "string", "enum": ["active", "inactive", "expired"] },
+      "started_at": { "type": ["string", "null"], "format": "date-time" },
+      "expires_at": { "type": ["string", "null"], "format": "date-time" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

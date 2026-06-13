@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommentCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "post_id", "user_id", "author", "content", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "post_id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "author": { "type": "string" },
+      "content": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

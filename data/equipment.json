@@ -1,0 +1,41 @@
+[
+  {
+    "id": "equip_001",
+    "name": "光威·龙纹鲤 5.4m",
+    "category": "竿",
+    "merchant_id": null,
+    "merchant_name": null,
+    "price": 298,
+    "usage_count": 5,
+    "best_catch": "鲤鱼 8.2斤",
+    "description": "入门级综合竿，适合野钓和台钓。",
+    "created_at": "2026-01-01T00:00:00+00:00",
+    "updated_at": "2026-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "equip_002",
+    "name": "岸边安全救生腰带",
+    "category": "安全装备",
+    "merchant_id": "merchant_001",
+    "merchant_name": "武汉渔行认证店",
+    "price": 89,
+    "usage_count": 18,
+    "best_catch": "适合夜钓与江滩活动",
+    "description": "活动组织方推荐的轻量救生装备，支持同城自提。",
+    "created_at": "2026-04-01T00:00:00+00:00",
+    "updated_at": "2026-06-01T00:00:00+00:00"
+  },
+  {
+    "id": "equip_003",
+    "name": "7g 银色亮片组合",
+    "category": "拟饵",
+    "merchant_id": "merchant_002",
+    "merchant_name": "江风路亚合作店",
+    "price": 36,
+    "usage_count": 27,
+    "best_catch": "翘嘴 3.6斤",
+    "description": "来自真实路亚记录的高频装备，适合江滩缓流搜索。",
+    "created_at": "2026-04-12T00:00:00+00:00",
+    "updated_at": "2026-06-01T00:00:00+00:00"
+  }
+]

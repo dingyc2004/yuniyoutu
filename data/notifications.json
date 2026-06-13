@@ -1,0 +1,32 @@
+[
+  {
+    "id": "notice_001",
+    "user_id": "demo_user",
+    "type": "event",
+    "title": "活动提醒",
+    "content": "东湖早口约钓还有 7 个名额，报名后自动加入活动群。",
+    "target_id": "event_001",
+    "read": false,
+    "created_at": "2026-06-14T01:00:00+00:00"
+  },
+  {
+    "id": "notice_002",
+    "user_id": "demo_user",
+    "type": "social",
+    "title": "新的钓友互动",
+    "content": "江风路亚关注了你的鱼获记录，并给你发来一条私信。",
+    "target_id": "user_jiangfeng",
+    "read": false,
+    "created_at": "2026-06-14T00:30:00+00:00"
+  },
+  {
+    "id": "notice_003",
+    "user_id": "demo_user",
+    "type": "report",
+    "title": "本月钓鱼报告可生成",
+    "content": "你本月已记录 5 次出钓，可以生成新的会员月报。",
+    "target_id": null,
+    "read": false,
+    "created_at": "2026-06-13T23:00:00+00:00"
+  }
+]

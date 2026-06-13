@@ -1,0 +1,2420 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pg3ex0nu",
+    "id": "pg3ex0nu",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F3F8FF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Microsoft YaHei"
+      },
+      "minorFont": {
+        "latinTypeface": "Microsoft YaHei"
+      }
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        -105.6,
+        -96,
+        384,
+        384
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(234, 244, 255, 0.9)",
+      "lineColor": "rgba(234, 244, 255, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "3",
+      "name": "Shape 1",
+      "bbox": [
+        1017.6,
+        566.4,
+        326.4,
+        249.6
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(220, 238, 255, 0.55)",
+      "lineColor": "rgba(220, 238, 255, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "4",
+      "name": "Shape 2",
+      "bbox": [
+        -48,
+        628.8,
+        720,
+        172.8
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(234, 244, 255, 0.75)",
+      "lineColor": "rgba(234, 244, 255, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "5",
+      "name": "Text 3",
+      "bbox": [
+        52.8,
+        26.88,
+        249.6,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "FishMan / 鱼你有图",
+      "textPreview": "FishMan / 鱼你有图",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FishMan / 鱼你有图"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FishMan / 鱼你有图",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "FishMan / 鱼你有图",
+              "fontSize": 18.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true,
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        52.8,
+        60.48,
+        49.92,
+        30.72
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B7CFF",
+      "lineColor": "#0B7CFF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        52.8,
+        65.28,
+        49.92,
+        16.32
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1046.4,
+        29.76,
+        182.4,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "GO · FISH · RECORD",
+      "textPreview": "GO · FISH · RECORD",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO · FISH · RECORD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO · FISH · RECORD",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO · FISH · RECORD",
+              "fontSize": 12.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd0z6103",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        52.8,
+        107.52,
+        11.52,
+        42.24
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B7CFF",
+      "lineColor": "#0B7CFF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        78.72,
+        94.08,
+        1132.8,
+        55.68
+      ],
+      "geometry": "rect",
+      "text": "市场背景：垂钓需求链路已经形成",
+      "textPreview": "市场背景：垂钓需求链路已经形成",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "市场背景：垂钓需求链路已经形成"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "市场背景：垂钓需求链路已经形成",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "市场背景：垂钓需求链路已经形成",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwval87e",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        78.72,
+        153.6,
+        1104,
+        32.64
+      ],
+      "geometry": "rect",
+      "text": "市场不是“单点工具”，而是内容、位置、出行和分享交叉的完整链路",
+      "textPreview": "市场不是“单点工具”，而是内容、位置、出行和分享交叉的完整链路",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "市场不是“单点工具”，而是内容、位置、出行和分享交叉的完整链路"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "市场不是“单点工具”，而是内容、位置、出行和分享交叉的完整链路",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "市场不是“单点工具”，而是内容、位置、出行和分享交叉的完整链路",
+              "fontSize": 21.33,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "12",
+      "name": "Shape 10",
+      "bbox": [
+        62.4,
+        207.36,
+        412.8,
+        86.4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "13",
+      "name": "Shape 11",
+      "bbox": [
+        86.4,
+        224.64,
+        48,
+        48
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/032lszqt",
+      "id": "66",
+      "name": "Image 0",
+      "bbox": [
+        97.44,
+        235.68,
+        25.92,
+        25.92
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-2.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 235
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-2.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 235
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "15",
+      "name": "Text 12",
+      "bbox": [
+        148.8,
+        222.72,
+        172.8,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "2023 休闲渔业总产值",
+      "textPreview": "2023 休闲渔业总产值",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2023 休闲渔业总产值"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2023 休闲渔业总产值",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2023 休闲渔业总产值",
+              "fontSize": 17.33,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "16",
+      "name": "Text 13",
+      "bbox": [
+        290.88,
+        215.04,
+        115.2,
+        28.8
+      ],
+      "geometry": "rect",
+      "text": "931.47",
+      "textPreview": "931.47",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "931.47"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "931.47",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "931.47",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B7CFF",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "17",
+      "name": "Text 14",
+      "bbox": [
+        409.92,
+        232.32,
+        43.2,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "亿元",
+      "textPreview": "亿元",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "亿元"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "亿元",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "亿元",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "18",
+      "name": "Shape 15",
+      "bbox": [
+        62.4,
+        314.88,
+        412.8,
+        86.4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "19",
+      "name": "Shape 16",
+      "bbox": [
+        86.4,
+        332.16,
+        48,
+        48
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 19,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tovahoza",
+      "id": "67",
+      "name": "Image 1",
+      "bbox": [
+        97.44,
+        343.2,
+        25.92,
+        25.92
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-4.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 228
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-4.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 228
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "21",
+      "name": "Text 17",
+      "bbox": [
+        148.8,
+        330.24,
+        172.8,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "2024 休闲渔业产值",
+      "textPreview": "2024 休闲渔业产值",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2024 休闲渔业产值"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2024 休闲渔业产值",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2024 休闲渔业产值",
+              "fontSize": 17.33,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "22",
+      "name": "Text 18",
+      "bbox": [
+        290.88,
+        322.56,
+        115.2,
+        28.8
+      ],
+      "geometry": "rect",
+      "text": "988.60",
+      "textPreview": "988.60",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "988.60"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "988.60",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "988.60",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B7CFF",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "23",
+      "name": "Text 19",
+      "bbox": [
+        409.92,
+        339.84,
+        43.2,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "亿元",
+      "textPreview": "亿元",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "亿元"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "亿元",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "亿元",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "24",
+      "name": "Shape 20",
+      "bbox": [
+        62.4,
+        422.4,
+        412.8,
+        86.4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "25",
+      "name": "Shape 21",
+      "bbox": [
+        86.4,
+        439.68,
+        48,
+        48
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 25,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/il0rqd4v",
+      "id": "68",
+      "name": "Image 2",
+      "bbox": [
+        97.44,
+        450.72,
+        25.92,
+        25.92
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-6.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 331
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-6.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 331
+      }
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "27",
+      "name": "Text 22",
+      "bbox": [
+        148.8,
+        437.76,
+        172.8,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "2023 接待人数",
+      "textPreview": "2023 接待人数",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2023 接待人数"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2023 接待人数",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2023 接待人数",
+              "fontSize": 17.33,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "28",
+      "name": "Text 23",
+      "bbox": [
+        290.88,
+        430.08,
+        115.2,
+        28.8
+      ],
+      "geometry": "rect",
+      "text": "2.72",
+      "textPreview": "2.72",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2.72"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2.72",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2.72",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#0B7CFF",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "29",
+      "name": "Text 24",
+      "bbox": [
+        409.92,
+        447.36,
+        43.2,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "亿人次",
+      "textPreview": "亿人次",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "亿人"
+          },
+          {
+            "index": 2,
+            "text": "次"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "亿人次",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "亿人次",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "30",
+      "name": "Shape 25",
+      "bbox": [
+        513.6,
+        199.68,
+        696,
+        155.52
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "31",
+      "name": "Shape 26",
+      "bbox": [
+        561.6,
+        226.56,
+        59.52,
+        59.52
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 31,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/b6xkf6dc",
+      "id": "69",
+      "name": "Image 3",
+      "bbox": [
+        575.29,
+        240.25,
+        32.14,
+        32.14
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-8.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 265
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-8.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 265
+      }
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "33",
+      "name": "Text 27",
+      "bbox": [
+        532.8,
+        295.68,
+        115.2,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "看内容",
+      "textPreview": "看内容",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "看内容"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "看内容",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "看内容",
+              "fontSize": 22.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "34",
+      "name": "Shape 28",
+      "bbox": [
+        648,
+        255.36,
+        52.8,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCEBFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "35",
+      "name": "Shape 29",
+      "bbox": [
+        720,
+        226.56,
+        59.52,
+        59.52
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 35,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/hwfyxobm",
+      "id": "70",
+      "name": "Image 4",
+      "bbox": [
+        733.69,
+        240.25,
+        32.14,
+        32.14
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-10.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 277
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-10.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 277
+      }
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "37",
+      "name": "Text 30",
+      "bbox": [
+        691.2,
+        295.68,
+        115.2,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "找地点",
+      "textPreview": "找地点",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "找地点"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "找地点",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "找地点",
+              "fontSize": 22.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "38",
+      "name": "Shape 31",
+      "bbox": [
+        806.4,
+        255.36,
+        52.8,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCEBFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "39",
+      "name": "Shape 32",
+      "bbox": [
+        878.4,
+        226.56,
+        59.52,
+        59.52
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 39,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/obm58z25",
+      "id": "71",
+      "name": "Image 5",
+      "bbox": [
+        892.09,
+        240.25,
+        32.14,
+        32.14
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-12.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 324
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-12.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 324
+      }
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "41",
+      "name": "Text 33",
+      "bbox": [
+        849.6,
+        295.68,
+        115.2,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "出钓",
+      "textPreview": "出钓",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "出钓"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "出钓",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "出钓",
+              "fontSize": 22.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "42",
+      "name": "Shape 34",
+      "bbox": [
+        964.8,
+        255.36,
+        52.8,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCEBFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "43",
+      "name": "Shape 35",
+      "bbox": [
+        1036.8,
+        226.56,
+        59.52,
+        59.52
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 43,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/zqtcj6to",
+      "id": "72",
+      "name": "Image 6",
+      "bbox": [
+        1050.49,
+        240.25,
+        32.14,
+        32.14
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-14.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 298
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-14.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 298
+      }
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "45",
+      "name": "Text 36",
+      "bbox": [
+        1008,
+        295.68,
+        115.2,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "晒鱼获",
+      "textPreview": "晒鱼获",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "晒鱼获"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "晒鱼获",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "晒鱼获",
+              "fontSize": 22.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "46",
+      "name": "Shape 37",
+      "bbox": [
+        513.6,
+        395.52,
+        216,
+        94.08
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "47",
+      "name": "Shape 38",
+      "bbox": [
+        532.8,
+        416.64,
+        42.24,
+        42.24
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 47,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/65wjudg7",
+      "id": "73",
+      "name": "Image 7",
+      "bbox": [
+        542.52,
+        426.36,
+        22.81,
+        22.81
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-16.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 331
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-16.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 331
+      }
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1orytsv",
+      "id": "49",
+      "name": "Text 39",
+      "bbox": [
+        583.68,
+        416.64,
+        69.12,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "年轻化",
+      "textPreview": "年轻化",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "年轻化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "年轻化",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "年轻化",
+              "fontSize": 18.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "50",
+      "name": "Text 40",
+      "bbox": [
+        583.68,
+        443.52,
+        120.96,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "年轻用户与路亚人群增长",
+      "textPreview": "年轻用户与路亚人群增长",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "年轻用户与路亚人"
+          },
+          {
+            "index": 2,
+            "text": "群增长"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "年轻用户与路亚人群增长",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "年轻用户与路亚人群增长",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "51",
+      "name": "Shape 41",
+      "bbox": [
+        745.92,
+        395.52,
+        216,
+        94.08
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "52",
+      "name": "Shape 42",
+      "bbox": [
+        765.12,
+        416.64,
+        42.24,
+        42.24
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 52,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/hk3q5o7q",
+      "id": "74",
+      "name": "Image 8",
+      "bbox": [
+        774.84,
+        426.36,
+        22.81,
+        22.81
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-18.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 265
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-18.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 265
+      }
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "54",
+      "name": "Text 43",
+      "bbox": [
+        816,
+        416.64,
+        69.12,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "内容化",
+      "textPreview": "内容化",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "内容化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "内容化",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "内容化",
+              "fontSize": 18.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "55",
+      "name": "Text 44",
+      "bbox": [
+        816,
+        443.52,
+        120.96,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "短视频、图文驱动出行决策",
+      "textPreview": "短视频、图文驱动出行决策",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "短视频、图文驱动"
+          },
+          {
+            "index": 2,
+            "text": "出行决策"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "短视频、图文驱动出行决策",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "短视频、图文驱动出行决策",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "56",
+      "name": "Shape 45",
+      "bbox": [
+        978.24,
+        395.52,
+        216,
+        94.08
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "57",
+      "name": "Shape 46",
+      "bbox": [
+        997.44,
+        416.64,
+        42.24,
+        42.24
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 57,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/oza1gvy9",
+      "id": "75",
+      "name": "Image 9",
+      "bbox": [
+        1007.16,
+        426.36,
+        22.81,
+        22.81
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-20.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 289
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-20.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 289
+      }
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "59",
+      "name": "Text 47",
+      "bbox": [
+        1048.32,
+        416.64,
+        69.12,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "社区化",
+      "textPreview": "社区化",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "社区化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "社区化",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "社区化",
+              "fontSize": 18.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "60",
+      "name": "Text 48",
+      "bbox": [
+        1048.32,
+        443.52,
+        120.96,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "兴趣互动提升留存与活跃",
+      "textPreview": "兴趣互动提升留存与活跃",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "兴趣互动提升留存"
+          },
+          {
+            "index": 2,
+            "text": "与活跃"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "兴趣互动提升留存与活跃",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "兴趣互动提升留存与活跃",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "61",
+      "name": "Shape 49",
+      "bbox": [
+        62.4,
+        583.68,
+        1147.2,
+        55.68
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E9FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "62",
+      "name": "Shape 50",
+      "bbox": [
+        86.4,
+        594.24,
+        34.56,
+        34.56
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#EAF4FF",
+      "lineColor": "#EAF4FF",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 62,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/zed8v6ps",
+      "id": "76",
+      "name": "Image 10",
+      "bbox": [
+        94.35,
+        602.19,
+        18.66,
+        18.66
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image-2-22.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 279
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image-2-22.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 279
+      }
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "64",
+      "name": "Text 51",
+      "bbox": [
+        139.2,
+        600.96,
+        1008,
+        16.32
+      ],
+      "geometry": "rect",
+      "text": "市场机会：用户需求链路完整，但现有平台信息分散，缺少垂钓场景的一体化入口。",
+      "textPreview": "市场机会：用户需求链路完整，但现有平台信息分散，缺少垂钓场景的一体化入口。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "市场机会：用户需求链路完整，但现有平台信息分散，缺少垂钓场景的一体化入口。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "市场机会：用户需求链路完整，但现有平台信息分散，缺少垂钓场景的一体化入口。",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "市场机会：用户需求链路完整，但现有平台信息分散，缺少垂钓场景的一体化入口。",
+              "fontSize": 19.33,
+              "typeface": "Microsoft YaHei",
+              "color": "#102A56",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "65",
+      "name": "Text 52",
+      "bbox": [
+        62.4,
+        660.48,
+        576,
+        12.48
+      ],
+      "geometry": "rect",
+      "text": "数据来源：中国休闲渔业发展监测报告（2024）等前期调研资料",
+      "textPreview": "数据来源：中国休闲渔业发展监测报告（2024）等前期调研资料",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "数据来源：中国休闲渔业发展监测报告（2024）等前期调研资料"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "数据来源：中国休闲渔业发展监测报告（2024）等前期调研资料",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "数据来源：中国休闲渔业发展监测报告（2024）等前期调研资料",
+              "fontSize": 12.67,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F7F95"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

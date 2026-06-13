@@ -1,0 +1,20 @@
+[
+  {
+    "id": "membership_demo",
+    "user_id": "demo_user",
+    "status": "active",
+    "started_at": "2026-01-15T00:00:00+00:00",
+    "expires_at": "2027-06-12T00:00:00+00:00",
+    "created_at": "2026-01-15T00:00:00+00:00",
+    "updated_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "id": "membership_nonmember",
+    "user_id": "demo_nonmember",
+    "status": "inactive",
+    "started_at": null,
+    "expires_at": null,
+    "created_at": "2026-03-01T00:00:00+00:00",
+    "updated_at": "2026-03-01T00:00:00+00:00"
+  }
+]

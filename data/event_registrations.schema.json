@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventRegistrationCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "event_id", "user_id", "status", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "event_id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "status": { "type": "string", "enum": ["registered", "checked_in", "cancelled"] },
+      "checked_in_at": { "type": ["string", "null"], "format": "date-time" },
+      "record_id": { "type": ["string", "null"] },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

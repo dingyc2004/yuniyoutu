@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gm_1781375345810",
+    "group_id": "group_001",
+    "user_id": "test_event_loop_user",
+    "role": "member",
+    "joined_at": "2026-06-13T18:29:05.810171+00:00"
+  },
+  {
+    "id": "gm_1781375457565",
+    "group_id": "group_001",
+    "user_id": "test_event_loop_user",
+    "role": "member",
+    "joined_at": "2026-06-13T18:30:57.565135+00:00"
+  }
+]

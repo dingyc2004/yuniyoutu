@@ -18,7 +18,7 @@ const props = defineProps({
   backLabel: { type: String, default: "返回" }
 });
 
-const emit = defineEmits(["back", "action", "toggle-favorite"]);
+const emit = defineEmits(["back", "action", "toggle-favorite", "open-author"]);
 
 const liked = ref(false);
 const commentText = ref("");
@@ -147,7 +147,7 @@ function switchVideo(direction) {
         <el-icon><VideoPlay /></el-icon>
       </div>
       <div class="short-video-copy">
-        <span class="short-video-author">@{{ currentPost.author }}</span>
+        <button type="button" class="short-video-author" @click="emit('open-author', currentPost)">@{{ currentPost.author }}</button>
         <strong>{{ currentPost.title }}</strong>
         <p>{{ currentPost.excerpt }}</p>
         <div class="short-video-tags">
@@ -216,13 +216,14 @@ function switchVideo(direction) {
     </div>
 
     <article class="post-detail-body">
-      <div class="community-detail-author">
+      <button type="button" class="community-detail-author community-detail-author-button" @click="emit('open-author', currentPost)">
         <el-avatar :size="40">{{ currentPost.avatar }}</el-avatar>
         <div class="community-detail-author-copy">
           <strong>{{ currentPost.author }}</strong>
           <p class="meta">{{ currentPost.publishedAt }} · {{ currentPost.postType }}</p>
         </div>
-      </div>
+        <span class="author-profile-hint">查看主页</span>
+      </button>
 
       <h1>{{ currentPost.title }}</h1>
       <p class="community-detail-text">{{ currentPost.excerpt }}</p>

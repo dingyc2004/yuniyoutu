@@ -1,0 +1,1586 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bq1oryts",
+    "id": "bq1oryts",
+    "slide": 25,
+    "layoutId": "/ppt/slideLayouts/slideLayout11.xml",
+    "layoutName": "1_标题幻灯片",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "谱慧麦寿",
+    "colors": {
+      "accent1": "#176B1E",
+      "accent2": "#92B70C",
+      "accent3": "#F3D66A",
+      "accent4": "#5A886C",
+      "accent5": "#7AA972",
+      "accent6": "#71A14D",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "WPS",
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "微软雅黑"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout11.xml",
+      "name": "1_标题幻灯片",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/21",
+          "id": "21",
+          "name": "矩形 6",
+          "bbox": [
+            -0.07,
+            0,
+            1280,
+            722.07
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "bg1",
+            "transform": {
+              "opacity": 0.22
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/22",
+          "id": "22",
+          "name": "图片 5",
+          "bbox": [
+            -0.07,
+            0.07,
+            1280.07,
+            719.93
+          ],
+          "rotation": 0,
+          "contentType": "image/jpeg",
+          "asset": {
+            "assetId": "/ppt/media/image8.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 88257
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image8.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 88257
+          }
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/11",
+          "id": "11",
+          "name": "梯形 24",
+          "bbox": [
+            -14.43,
+            39.98,
+            46.81,
+            13.58
+          ],
+          "rotation": 90,
+          "geometry": "trapezoid",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 2
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/12",
+          "id": "12",
+          "name": "梯形 25",
+          "bbox": [
+            -22.99,
+            33.3,
+            59.65,
+            25.17
+          ],
+          "rotation": 90,
+          "geometry": "trapezoid",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0.67
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/23",
+          "id": "23",
+          "name": "图片 8",
+          "bbox": [
+            1056.69,
+            18.6,
+            56.51,
+            53.23
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0.54607,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 169913
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 169913
+          }
+        },
+        {
+          "order": 6,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/24",
+          "id": "24",
+          "name": "图片 9",
+          "bbox": [
+            1103.04,
+            14.78,
+            172.27,
+            60.87
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image4.png",
+            "contentType": "image/png",
+            "byteLength": 22145
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image4.png",
+            "contentType": "image/png",
+            "byteLength": 22145
+          }
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout11.xml/25",
+          "id": "25",
+          "name": "图片 4",
+          "bbox": [
+            -1.51,
+            0,
+            1285.28,
+            80.62
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "矩形 3",
+          "bbox": [
+            -0.53,
+            0,
+            1280.53,
+            720
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dg7adsji",
+      "id": "57",
+      "name": "Picture 8",
+      "bbox": [
+        707.74,
+        121.26,
+        508.54,
+        532.43
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image157.png",
+        "contentType": "image/png",
+        "byteLength": 237702
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image157.png",
+        "contentType": "image/png",
+        "byteLength": 237702
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "29",
+      "name": "八边形 39",
+      "bbox": [
+        63.72,
+        340.25,
+        484.75,
+        315.57
+      ],
+      "geometry": "octagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "9",
+      "name": "文本框 3",
+      "bbox": [
+        325.28,
+        201.86,
+        353.57,
+        30.64
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/61032lsz",
+      "id": "58",
+      "name": "Picture 2",
+      "bbox": [
+        123.79,
+        339.76,
+        353.57,
+        254.67
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image158.png",
+        "contentType": "image/png",
+        "byteLength": 215090
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image158.png",
+        "contentType": "image/png",
+        "byteLength": 215090
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "23",
+      "name": "文本框 22",
+      "bbox": [
+        117.51,
+        594.42,
+        366.13,
+        61.39
+      ],
+      "geometry": "rect",
+      "text": "团队成员方瑞欣等人以校企联合\n培养方式进行研发技术",
+      "textPreview": "团队成员方瑞欣等人以校企联合 | 培养方式进行研发技术",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "团队成员方瑞欣等人以校企联合"
+          },
+          {
+            "index": 2,
+            "text": "培养方式进行研发技术"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "团队成员方瑞欣等人以校企联合",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "团队成员方瑞欣等人以校企联合",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "培养方式进行研发技术",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "培养方式进行研发技术",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "13",
+      "name": "矩形: 圆顶角 12",
+      "bbox": [
+        43.54,
+        135.47,
+        611.31,
+        563.4
+      ],
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image159.png",
+        "contentType": "image/png",
+        "byteLength": 109910
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "51",
+      "name": "矩形: 圆顶角 50",
+      "bbox": [
+        42.64,
+        133.85,
+        611.31,
+        557.99
+      ],
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "bg1",
+        "transform": {
+          "opacity": 0.8
+        }
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "48",
+      "name": "矩形 47",
+      "bbox": [
+        42.15,
+        691.84,
+        612.7,
+        9.33
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "rgba(255, 192, 0, 0.8)"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "33",
+      "name": "矩形 46",
+      "bbox": [
+        29.25,
+        134.87,
+        626.99,
+        225.13
+      ],
+      "geometry": "rect",
+      "text": "2022年10月与                       签订\n技术合作协议 \n提供作物估产技术服务农业信贷",
+      "textPreview": "2022年10月与                       签订 | 技术合作协议  | 提供作物估产技术服务农业信贷",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "2022年10月与                       签订"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "技术合作协议"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "提供作物估产技术服务农业信贷"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2022年10月与                       签订",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 1200,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2022",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "年",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "10",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "月与",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": "                       ",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "签订",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "技术合作协议 ",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 1200,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技术",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "合作协议 ",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "提供作物估产技术服务农业信贷",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 1200,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "提供作物估产技术服务农业信贷",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 2.67
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vmtwra5g",
+      "id": "59",
+      "name": "Picture 2",
+      "bbox": [
+        328.35,
+        150.28,
+        181.21,
+        60.25
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image133.png",
+        "contentType": "image/png",
+        "byteLength": 48537
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image133.png",
+        "contentType": "image/png",
+        "byteLength": 48537
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nqxs72x4",
+      "id": "60",
+      "name": "Picture 7",
+      "bbox": [
+        722.2,
+        461.49,
+        528.72,
+        242.13
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image160.png",
+        "contentType": "image/png",
+        "byteLength": 84186
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image160.png",
+        "contentType": "image/png",
+        "byteLength": 84186
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "42",
+      "name": "直接连接符 61",
+      "bbox": [
+        630.27,
+        244.91,
+        155.85,
+        69.17
+      ],
+      "horizontalFlip": true,
+      "geometry": "line",
+      "lineColor": "#639913",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/u54zidon",
+      "id": "61",
+      "name": "Picture 2",
+      "bbox": [
+        364.66,
+        438.12,
+        265.73,
+        191.4
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image158.png",
+        "contentType": "image/png",
+        "byteLength": 215090
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image158.png",
+        "contentType": "image/png",
+        "byteLength": 215090
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "47",
+      "name": "文本框 46",
+      "bbox": [
+        359.94,
+        629.52,
+        275.17,
+        51.9
+      ],
+      "geometry": "rect",
+      "text": "团队成员方瑞欣等人以校企联合\n培养方式开展技术研发",
+      "textPreview": "团队成员方瑞欣等人以校企联合 | 培养方式开展技术研发",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "团队成员方瑞欣等人以校企联合"
+          },
+          {
+            "index": 2,
+            "text": "培养方式开展技术研发"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "团队成员方瑞欣等人以校企联合",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "团队成员方瑞欣等人以校企联合",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "培养方式开展技术研发",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "培养方式开展技术研发",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "45",
+      "name": "文本框 44",
+      "bbox": [
+        49.61,
+        336.45,
+        586.27,
+        259.31
+      ],
+      "geometry": "rect",
+      "text": "项目为蚂蚁集团提供作物生长模型与AI融合的估产技术，实现田块级农作物估产，为农户做出恰当的信用评估，确定合适的",
+      "textPreview": "项目为蚂蚁集团提供作物生长模型与AI融合的估产技术，实现田块级农作物估产，为农户做出恰当的信用评估，确定合适的",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目为蚂蚁集团提供作物生长模型与AI"
+          },
+          {
+            "index": 2,
+            "text": "融合的估产技术，实现田块级农作物估产，为农户做出"
+          },
+          {
+            "index": 3,
+            "text": "恰当的信用评估，确定合适的"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目为蚂蚁集团提供作物生长模型与AI融合的估产技术，实现田块级农作物估产，为农户做出恰当的信用评估，确定合适的",
+          "marginLeft": 91440,
+          "indent": 365760,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目为蚂蚁集团提供作物生长模型与",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "AI",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "融合的估产技术，",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "实现田块级农作物估产，为农户做出",
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            },
+            {
+              "index": 5,
+              "text": "恰当的信用评估，确定合适的",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "56",
+      "name": "文本框 55",
+      "bbox": [
+        49.61,
+        465.41,
+        308.04,
+        195.21
+      ],
+      "geometry": "rect",
+      "text": "贷款额度，解决农村“无抵押、难贷款”的问题。\n卫星遥感贷款技术推动农村数字普惠金融发展，提升数字金融助农力度。",
+      "textPreview": "贷款额度，解决农村“无抵押、难贷款”的问题。 | 卫星遥感贷款技术推动农村数字普惠金融发展，提升数字金融助农力度。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贷款额度，"
+          },
+          {
+            "index": 2,
+            "text": "解决农村“无抵押、难贷款"
+          },
+          {
+            "index": 3,
+            "text": "”的问题。"
+          },
+          {
+            "index": 4,
+            "text": "卫星遥感贷款技术"
+          },
+          {
+            "index": 5,
+            "text": "推动农村数字普惠金融发展"
+          },
+          {
+            "index": 6,
+            "text": "，提升数字金融助农力度。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贷款额度，解决农村“无抵押、难贷款”的问题。",
+          "marginLeft": 91440,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "贷款额度，",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "解决农村“无抵押、难贷款”的问题",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "。",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "卫星遥感贷款技术推动农村数字普惠金融发展，提升数字金融助农力度。",
+          "marginLeft": 91440,
+          "indent": 365760,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "卫星遥感贷款技术",
+              "typeface": "微软雅黑",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "推动农村数字普惠金融发展，",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "提升数字金融助农力度",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#1F701E",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "。",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "5",
+      "name": "直接连接符 61",
+      "bbox": [
+        942.53,
+        225.98,
+        44.03,
+        88.61
+      ],
+      "geometry": "line",
+      "lineColor": "#639913",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "15",
+      "name": "矩形 14",
+      "bbox": [
+        780.27,
+        208.54,
+        162.73,
+        25.68
+      ],
+      "rotation": 353.37,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#FF0000",
+      "lineWidth": 3
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "4",
+      "name": "任意多边形: 形状 69",
+      "bbox": [
+        628.94,
+        241.22,
+        343.09,
+        135.18
+      ],
+      "rotation": 159.84,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 2.67
+    },
+    {
+      "order": 20,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5sneloj2",
+      "id": "62",
+      "name": "图片 36",
+      "bbox": [
+        635.12,
+        315.16,
+        348.15,
+        68.17
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image161.png",
+        "contentType": "image/png",
+        "byteLength": 12089
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image161.png",
+        "contentType": "image/png",
+        "byteLength": 12089
+      }
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "3",
+      "name": "标题 1",
+      "bbox": [
+        41.55,
+        85.49,
+        987.56,
+        44.59
+      ],
+      "geometry": "rect",
+      "text": "应用案例3：以遥感估产技术赋能农业信贷数字化",
+      "textPreview": "应用案例3：以遥感估产技术赋能农业信贷数字化",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "微软雅黑",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "bold": true,
+        "alignment": "left",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 5.76,
+          "bottom": 2.88,
+          "left": 5.76
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "应用案例3：以遥感估产技术赋能农业信贷数字化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "应用案例3：以遥感估产技术赋能农业信贷数字化",
+          "runs": [
+            {
+              "index": 1,
+              "text": "应用案例",
+              "fontSize": 32
+            },
+            {
+              "index": 2,
+              "text": "3",
+              "fontSize": 32
+            },
+            {
+              "index": 3,
+              "text": "：以遥感估产技术赋能",
+              "fontSize": 32
+            },
+            {
+              "index": 4,
+              "text": "农业信贷数字化",
+              "fontSize": 32,
+              "typeface": "微软雅黑"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "7",
+      "name": "文本框 6",
+      "bbox": [
+        473.81,
+        10.38,
+        536.71,
+        55.12
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "产品服务及应用案例——应用效果",
+      "textPreview": "产品服务及应用案例——应用效果",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "产品服务及应用案例——应用效果"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "产品服务及应用案例——应用效果",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "产品服务及应用案例",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "——",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "应用效果",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "8",
+      "name": "MH_Number_3",
+      "bbox": [
+        437.46,
+        24.88,
+        34.01,
+        34.02
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#00B050",
+      "lineWidth": 0.33
+    }
+  ],
+  "composeRuns": []
+}

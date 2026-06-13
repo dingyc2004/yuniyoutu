@@ -1,0 +1,585 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4fu18jqh",
+    "id": "4fu18jqh",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560.33,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪铸字烈焰体W"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪雅酷黑-45J"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "汉仪铸字烈焰体W"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "29",
+      "name": "矩形 28",
+      "bbox": [
+        98.87,
+        635.53,
+        1093.87,
+        392.47
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "tx1"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "2",
+      "name": "Text 0",
+      "bbox": [
+        98.87,
+        53.8,
+        2042.6,
+        159.33
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "市场窗口—政策支持",
+      "textPreview": "市场窗口—政策支持",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "市场窗口—政策支持"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "市场窗口—政策支持",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "市场窗口",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 2,
+              "text": "—",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 3,
+              "text": "政策支持",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xc3ylc7u",
+      "id": "33",
+      "name": "Image 0",
+      "bbox": [
+        134.4,
+        183.4,
+        560.93,
+        29.73
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mtwra5gb",
+      "id": "34",
+      "name": "Image 1",
+      "bbox": [
+        2335.67,
+        66.27,
+        142.67,
+        146.87
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fepkzupw",
+      "id": "35",
+      "name": "Image 2",
+      "bbox": [
+        2077.44,
+        1224,
+        431.04,
+        180.48
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "22",
+      "name": "Text 0",
+      "bbox": [
+        191.67,
+        1219.13,
+        1867.33,
+        159.33
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "亿级“厕所革命”的数字化缺口",
+      "textPreview": "亿级“厕所革命”的数字化缺口",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "亿级“厕所革命”的数字化缺口"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "亿级“厕所革命”的数字化缺口",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "亿级",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 2,
+              "text": "“",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 3,
+              "text": "厕所革命",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 4,
+              "text": "”",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 5,
+              "text": "的数字化缺口",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4zidonyd",
+      "id": "36",
+      "name": "图片 23",
+      "bbox": [
+        98.93,
+        305.67,
+        1093.87,
+        281.2
+      ],
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.76074
+      },
+      "asset": {
+        "assetId": "/ppt/media/image54.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 354148
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image54.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 354148
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xkf6dcbu",
+      "id": "37",
+      "name": "图片 25",
+      "bbox": [
+        2846.13,
+        466,
+        1228.33,
+        582.67
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0.3021,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image55.png",
+        "contentType": "image/png",
+        "byteLength": 101678
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image55.png",
+        "contentType": "image/png",
+        "byteLength": 101678
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qxs72x4n",
+      "id": "38",
+      "name": "图片 26",
+      "bbox": [
+        104.53,
+        643.93,
+        1081.87,
+        186.53
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image56.png",
+        "contentType": "image/png",
+        "byteLength": 30736
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image56.png",
+        "contentType": "image/png",
+        "byteLength": 30736
+      }
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fil0rqd4",
+      "id": "39",
+      "name": "图片 27",
+      "bbox": [
+        104.6,
+        827.93,
+        1081.73,
+        183.07
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image57.png",
+        "contentType": "image/png",
+        "byteLength": 42335
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image57.png",
+        "contentType": "image/png",
+        "byteLength": 42335
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3m94fu18",
+      "id": "40",
+      "name": "图片 29",
+      "bbox": [
+        3013.2,
+        66.27,
+        618.6,
+        280.6
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.7317,
+        "top": 0.2511,
+        "right": 0,
+        "bottom": 0.38124
+      },
+      "asset": {
+        "assetId": "/ppt/media/image55.png",
+        "contentType": "image/png",
+        "byteLength": 101678
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image55.png",
+        "contentType": "image/png",
+        "byteLength": 101678
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "32",
+      "name": "文本框 31",
+      "bbox": [
+        1850.53,
+        1071.8,
+        675.93,
+        72.4
+      ],
+      "geometry": "rect",
+      "text": "（来源：中华人民共和国中央人民政府）",
+      "textPreview": "（来源：中华人民共和国中央人民政府）",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "（来源：中华人民共和国中央人民政府）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "（来源：中华人民共和国中央人民政府）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "（来源：中华人民共和国中央人民",
+              "fontSize": 37.33,
+              "typeface": "汉仪铸字烈焰体W"
+            },
+            {
+              "index": 2,
+              "text": "政府）",
+              "fontSize": 37.33,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/a5gbq1or",
+      "id": "41",
+      "name": "图片 5",
+      "bbox": [
+        1209.8,
+        313.33,
+        1316.67,
+        714.67
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image58.png",
+        "contentType": "image/png",
+        "byteLength": 349708
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image58.png",
+        "contentType": "image/png",
+        "byteLength": 349708
+      }
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,863 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mhk3q5o7",
+    "id": "mhk3q5o7",
+    "slide": 22,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560.33,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪铸字烈焰体W"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪雅酷黑-45J"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "汉仪铸字烈焰体W"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kb6xkf6d",
+      "id": "47",
+      "name": "图片 7",
+      "bbox": [
+        -2.33,
+        0,
+        1249.67,
+        1440
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.37252,
+        "top": 0.13372,
+        "right": 0.03394,
+        "bottom": 0.07006
+      },
+      "asset": {
+        "assetId": "/ppt/media/image97.png",
+        "contentType": "image/png",
+        "byteLength": 702906
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image97.png",
+        "contentType": "image/png",
+        "byteLength": 702906
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/r2p8nqxs",
+      "id": "48",
+      "name": "Image 1",
+      "bbox": [
+        2335.62,
+        66.26,
+        154.56,
+        146.88
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      }
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2hwfyxob",
+      "id": "49",
+      "name": "Image 2",
+      "bbox": [
+        2129.65,
+        1241.52,
+        431.03,
+        180.48
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "16",
+      "name": "文本框 15",
+      "bbox": [
+        1486.33,
+        1111.47,
+        928.93,
+        116.2
+      ],
+      "geometry": "rect",
+      "text": "闭环模型转化商业价值",
+      "textPreview": "闭环模型转化商业价值",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "闭环模型转化商业价值"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "闭环模型转化商业价值",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "闭环模型转化商业价值",
+              "fontSize": 88,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "accent4",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8nqxs72x",
+      "id": "50",
+      "name": "图片 5",
+      "bbox": [
+        99.47,
+        717,
+        406.47,
+        693.73
+      ],
+      "rotation": 348,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.23802,
+        "top": 0.10046,
+        "right": 0.51884,
+        "bottom": 0.16181
+      },
+      "asset": {
+        "assetId": "/ppt/media/image98.png",
+        "contentType": "image/png",
+        "byteLength": 1003845
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image98.png",
+        "contentType": "image/png",
+        "byteLength": 1003845
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "11",
+      "name": "矩形 10",
+      "bbox": [
+        -2.33,
+        0,
+        1378,
+        1445.4
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/18jqh0fe",
+      "id": "51",
+      "name": "Image 3",
+      "bbox": [
+        1575.62,
+        312,
+        623.7,
+        735.02
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image99.png",
+        "contentType": "image/png",
+        "byteLength": 19436
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image99.png",
+        "contentType": "image/png",
+        "byteLength": 19436
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qh0fepkz",
+      "id": "52",
+      "name": "Image 4",
+      "bbox": [
+        1383,
+        907.61,
+        1008.93,
+        179.53
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image100.png",
+        "contentType": "image/png",
+        "byteLength": 8212
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image100.png",
+        "contentType": "image/png",
+        "byteLength": 8212
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/j2t83itg",
+      "id": "53",
+      "name": "Image 5",
+      "bbox": [
+        1497.53,
+        780.24,
+        779.87,
+        142.41
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image101.png",
+        "contentType": "image/png",
+        "byteLength": 6164
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image101.png",
+        "contentType": "image/png",
+        "byteLength": 6164
+      }
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8bat47y1",
+      "id": "54",
+      "name": "Image 6",
+      "bbox": [
+        1615.24,
+        655.94,
+        543.51,
+        99.3
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image102.png",
+        "contentType": "image/png",
+        "byteLength": 3965
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image102.png",
+        "contentType": "image/png",
+        "byteLength": 3965
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1w7mp0bi",
+      "id": "55",
+      "name": "Image 7",
+      "bbox": [
+        2245.16,
+        871.54,
+        130.15,
+        125.35
+      ],
+      "rotation": 23,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image103.png",
+        "contentType": "image/png",
+        "byteLength": 2186
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image103.png",
+        "contentType": "image/png",
+        "byteLength": 2186
+      }
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q5o7qpg3",
+      "id": "56",
+      "name": "Image 8",
+      "bbox": [
+        2279.5,
+        899.6,
+        65.58,
+        63.16
+      ],
+      "rotation": 23,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image104.png",
+        "contentType": "image/png",
+        "byteLength": 1083
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image104.png",
+        "contentType": "image/png",
+        "byteLength": 1083
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/jqh0fepk",
+      "id": "57",
+      "name": "Image 9",
+      "bbox": [
+        2063.96,
+        317.01,
+        149.96,
+        144.43
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image105.png",
+        "contentType": "image/png",
+        "byteLength": 2965
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image105.png",
+        "contentType": "image/png",
+        "byteLength": 2965
+      }
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/c3ylc7u5",
+      "id": "58",
+      "name": "Image 10",
+      "bbox": [
+        2103.51,
+        347.1,
+        71.87,
+        78.2
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image106.png",
+        "contentType": "image/png",
+        "byteLength": 1538
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image106.png",
+        "contentType": "image/png",
+        "byteLength": 1538
+      }
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1kre1w7m",
+      "id": "59",
+      "name": "Image 11",
+      "bbox": [
+        1443.45,
+        559.63,
+        130.15,
+        125.35
+      ],
+      "rotation": 346,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image103.png",
+        "contentType": "image/png",
+        "byteLength": 2186
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image103.png",
+        "contentType": "image/png",
+        "byteLength": 2186
+      }
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/58z25kb6",
+      "id": "60",
+      "name": "Image 12",
+      "bbox": [
+        1476.71,
+        590.76,
+        69.77,
+        60.17
+      ],
+      "rotation": 346,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image107.png",
+        "contentType": "image/png",
+        "byteLength": 524
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image107.png",
+        "contentType": "image/png",
+        "byteLength": 524
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "44",
+      "name": "Text 2",
+      "bbox": [
+        1580.17,
+        1004.61,
+        639.89,
+        47.14
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "健 康 管 理 闭 环 生 态\n",
+      "textPreview": "健 康 管 理 闭 环 生 态 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "健 康 管 理 闭 环 生 态"
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "健 康 管 理 闭 环 生 态",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "健 康 管 理 闭 环 生 态",
+              "fontSize": 53.33,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.25
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "45",
+      "name": "Text 2",
+      "bbox": [
+        1651.83,
+        838.74,
+        477.86,
+        47.14
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "付 费 会 员 服 务\n",
+      "textPreview": "付 费 会 员 服 务 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "付 费 会 员 服 务"
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "付 费 会 员 服 务",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "付 费 会 员 服 务",
+              "fontSize": 53.33,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.25
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "46",
+      "name": "Text 2",
+      "bbox": [
+        1624.13,
+        672.79,
+        534.55,
+        32.24
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": "肠道健康产品推广",
+      "textPreview": "肠道健康产品推广",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "肠道健康产品推广"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "肠道健康产品推广",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "肠道健康产品推广",
+              "fontSize": 53.33,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.25
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "2",
+      "name": "Text 0",
+      "bbox": [
+        -2.33,
+        53.8,
+        1680.8,
+        127.8
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": " 健康业务为什么是未来金矿？",
+      "textPreview": "健康业务为什么是未来金矿？",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": " "
+          },
+          {
+            "index": 2,
+            "text": "健康业务为什么是未来金矿"
+          },
+          {
+            "index": 3,
+            "text": "？"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 健康业务为什么是未来金矿？",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " ",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 2,
+              "text": "健康业务为什么是未来金矿？",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gn29gr2p",
+      "id": "61",
+      "name": "Image 0",
+      "bbox": [
+        32.06,
+        183.37,
+        607.66,
+        29.76
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      }
+    }
+  ],
+  "composeRuns": []
+}

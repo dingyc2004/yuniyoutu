@@ -1,0 +1,7 @@
+All output slides preserve their mapped source slide skeleton.
+Intentional deviations:
+- Rewrote inherited narrative text across slides 1-14 to create a commercial-plan storyline.
+- Replaced unsupported market totals with official policy targets and explicitly labeled competitor/self-reported signals.
+- Reframed competitive advantage from "complete feature chain" to "explainable compliance GIS + positive/negative feedback + privacy-protected trusted POI".
+- Reframed slide 13 from MVP completion status to business model and scenario calculation using the inherited three-column layout.
+- No inherited images, brand chrome, card geometry, or page layouts were removed or replaced.

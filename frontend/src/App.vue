@@ -210,7 +210,13 @@ watch(
 </script>
 
 <template>
-  <main class="app-shell" :class="{ 'no-topbar': activeTab === 'community' }">
+  <main
+    class="app-shell"
+    :class="{
+      'no-topbar': activeTab === 'community',
+      'home-shell': activeTab === 'home'
+    }"
+  >
     <section class="topbar" :class="{ 'topbar-mini': activeTab === 'community' }">
       <button class="hamburger-btn" type="button" aria-label="我的" @click="showMineDrawer = true">
         <span class="ham-line"></span>
@@ -229,7 +235,7 @@ watch(
           :title="demoMode === 'member' ? '当前：会员演示 · 点击切换非会员' : '当前：非会员演示 · 点击切换会员'"
           @click="switchDemoMode(demoMode === 'member' ? 'nonmember' : 'member')"
         >
-          {{ demoMode === 'member' ? '👑' : '🎣' }}
+          {{ demoMode === 'member' ? 'VIP' : '体验' }}
         </button>
         <button class="icon-btn notification-btn" type="button" aria-label="消息" title="消息" @click="openMessages">
           <el-icon><ChatDotRound /></el-icon>

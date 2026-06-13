@@ -1,0 +1,72 @@
+[
+  {
+    "id": "demo_user",
+    "nickname": "武汉钓友 008",
+    "avatar": "W",
+    "city": "武汉市",
+    "city_code": "420100",
+    "level": 3,
+    "experience": 1280,
+    "preferred_methods": ["野钓", "路亚"],
+    "preferred_species": ["鲫鱼", "鲤鱼", "翘嘴"],
+    "bio": "清晨窗口钓鱼人，热爱野钓和路亚。",
+    "created_at": "2026-01-01T00:00:00+00:00",
+    "updated_at": "2026-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "demo_nonmember",
+    "nickname": "新手钓友 9527",
+    "avatar": "X",
+    "city": "武汉市",
+    "city_code": "420100",
+    "level": 1,
+    "experience": 120,
+    "preferred_methods": ["台钓"],
+    "preferred_species": ["鲫鱼"],
+    "bio": "刚入门三个月，正在积累出钓经验。",
+    "created_at": "2026-03-01T00:00:00+00:00",
+    "updated_at": "2026-03-01T00:00:00+00:00"
+  },
+  {
+    "id": "user_jiangfeng",
+    "nickname": "江风路亚",
+    "avatar": "江",
+    "city": "武汉市",
+    "city_code": "420100",
+    "level": 4,
+    "experience": 2360,
+    "preferred_methods": ["路亚"],
+    "preferred_species": ["翘嘴", "鳜鱼"],
+    "bio": "江边搜索型路亚玩家，周末常驻青山江滩。",
+    "created_at": "2025-10-01T00:00:00+00:00",
+    "updated_at": "2026-06-13T00:00:00+00:00"
+  },
+  {
+    "id": "user_aming",
+    "nickname": "不空军的阿明",
+    "avatar": "明",
+    "city": "武汉市",
+    "city_code": "420100",
+    "level": 5,
+    "experience": 4120,
+    "preferred_methods": ["台钓", "野钓"],
+    "preferred_species": ["鲫鱼", "鲤鱼"],
+    "bio": "爱复盘饵料和窗口期，愿意带新手。",
+    "created_at": "2025-08-01T00:00:00+00:00",
+    "updated_at": "2026-06-13T00:00:00+00:00"
+  },
+  {
+    "id": "user_tanchang",
+    "nickname": "钓场探路客",
+    "avatar": "探",
+    "city": "武汉市",
+    "city_code": "420100",
+    "level": 3,
+    "experience": 1740,
+    "preferred_methods": ["台钓"],
+    "preferred_species": ["草鱼", "鲢鳙"],
+    "bio": "记录武汉周边钓场体验和收费信息。",
+    "created_at": "2025-12-01T00:00:00+00:00",
+    "updated_at": "2026-06-13T00:00:00+00:00"
+  }
+]

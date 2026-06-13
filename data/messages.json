@@ -1,0 +1,82 @@
+[
+  {
+    "id": "msg_001",
+    "group_id": "group_001",
+    "user_id": "demo_user",
+    "author": "武汉钓友 008",
+    "content": "周末东湖约钓还有人吗？我周六早上5点到。",
+    "created_at": "2026-06-13T08:00:00+00:00"
+  },
+  {
+    "id": "msg_002",
+    "group_id": "group_001",
+    "user_id": "user_jiangfeng",
+    "author": "江风路亚",
+    "content": "有的有的！我也报名了，带路亚装备过去。",
+    "created_at": "2026-06-13T08:15:00+00:00"
+  },
+  {
+    "id": "msg_003",
+    "group_id": "group_001",
+    "user_id": "user_aming",
+    "author": "不空军的阿明",
+    "content": "建议大家带腥香拉饵，最近东湖鲫鱼口不错。我带了酒米打窝。",
+    "created_at": "2026-06-13T08:20:00+00:00"
+  },
+  {
+    "id": "msg_004",
+    "group_id": "group_001",
+    "user_id": "demo_user",
+    "author": "武汉钓友 008",
+    "content": "好的，我也带台钓装备。上次在芦苇丛那边连杆，鲫鱼个头都可以。",
+    "created_at": "2026-06-13T08:25:00+00:00"
+  },
+  {
+    "id": "msg_005",
+    "group_id": "group_001",
+    "user_id": "user_jiangfeng",
+    "author": "江风路亚",
+    "content": "芦苇丛那边水深大概多少？我路亚竿比较轻。",
+    "created_at": "2026-06-13T08:30:00+00:00"
+  },
+  {
+    "id": "msg_006",
+    "group_id": "group_001",
+    "user_id": "demo_user",
+    "author": "武汉钓友 008",
+    "content": "大概1.5-2米，岸边水草多，路亚也能玩。上次看到翘嘴在水面炸水。",
+    "created_at": "2026-06-13T08:32:00+00:00"
+  },
+  {
+    "id": "msg_007",
+    "group_id": "group_001",
+    "user_id": "user_aming",
+    "author": "不空军的阿明",
+    "content": "那我也带根路亚竿备用。周六见！",
+    "created_at": "2026-06-13T08:35:00+00:00"
+  },
+  {
+    "id": "msg_008",
+    "group_id": "group_001",
+    "user_id": "user_tanchang",
+    "author": "钓场探路官",
+    "content": "刚看到消息，还能报名吗？我也想去！",
+    "created_at": "2026-06-13T09:00:00+00:00"
+  },
+  {
+    "id": "msg_009",
+    "group_id": "group_001",
+    "user_id": "demo_user",
+    "author": "武汉钓友 008",
+    "content": "应该还有位置，活动限10人现在才4个报名的。",
+    "created_at": "2026-06-13T09:05:00+00:00"
+  },
+  {
+    "id": "msg_010",
+    "group_id": "group_001",
+    "user_id": "user_tanchang",
+    "author": "钓场探路官",
+    "content": "太好了，我去报名。周六带新手装备去学习学习。",
+    "created_at": "2026-06-13T09:10:00+00:00"
+  }
+]

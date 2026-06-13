@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "organizer_id", "city", "event_time", "status", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "title": { "type": "string" },
+      "organizer_id": { "type": "string" },
+      "organizer_name": { "type": "string" },
+      "city": { "type": "string" },
+      "water_name": { "type": "string" },
+      "event_time": { "type": "string", "format": "date-time" },
+      "duration_hours": { "type": "integer", "minimum": 0 },
+      "max_participants": { "type": "integer", "minimum": 1 },
+      "current_participants": { "type": "integer", "minimum": 0 },
+      "fee": { "type": "number", "minimum": 0 },
+      "safety_requirements": { "type": "string" },
+      "description": { "type": "string" },
+      "group_id": { "type": ["string", "null"] },
+      "boat_name": { "type": ["string", "null"] },
+      "captain_name": { "type": ["string", "null"] },
+      "status": { "type": "string", "enum": ["open", "full", "cancelled", "finished"] },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

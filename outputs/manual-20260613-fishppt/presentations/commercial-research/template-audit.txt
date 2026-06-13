@@ -1,0 +1,25 @@
+Task mode: template-following
+Source: D:\大学\空信试验班\6大三下\王少华\fishman_project_report_full.pptx
+Slide count: 14
+Canvas: 1280 x 720
+Typography: Microsoft YaHei, navy/blue hierarchy
+Visual system: pale blue background, inherited rounded cards, blue conclusion rails, product UI evidence
+
+Reusable patterns:
+- Slide 2: three metrics + demand chain + three trend cards
+- Slide 3: four pain cards
+- Slide 4: four comparison cards
+- Slide 5: five-row evidence matrix
+- Slide 6: six-step innovation process
+- Slide 7: product/data loop
+- Slide 9: map + semantic POI fields
+- Slide 11: four capability cards
+- Slide 12: architecture + scoring explanation
+- Slide 13: three-column business/scenario card layout
+- Slide 14: three-stage growth roadmap
+
+Editing contract:
+- Preserve all inherited shapes, images, typography, spacing, page chrome, logo text and visual assets.
+- Rewrite inherited text elements only.
+- Keep product UI evidence pages where they support the commercial narrative.
+- Do not claim unsupported national angler counts or unverified leisure-fishery market totals.

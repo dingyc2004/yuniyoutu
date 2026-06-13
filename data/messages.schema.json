@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MessageCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "group_id", "user_id", "author", "content", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "group_id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "author": { "type": "string" },
+      "content": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

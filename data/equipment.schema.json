@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EquipmentCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "category", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "name": { "type": "string" },
+      "category": { "type": "string" },
+      "merchant_id": { "type": ["string", "null"] },
+      "merchant_name": { "type": ["string", "null"] },
+      "price": { "type": "number", "minimum": 0 },
+      "usage_count": { "type": "integer", "minimum": 0 },
+      "best_catch": { "type": "string" },
+      "description": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FollowCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "follower_id", "following_id", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "follower_id": { "type": "string" },
+      "following_id": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

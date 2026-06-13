@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OrderCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "user_id", "equipment_id", "equipment_name", "unit_price", "quantity", "total_amount", "status", "created_at", "updated_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "equipment_id": { "type": "string" },
+      "equipment_name": { "type": "string" },
+      "merchant_name": { "type": ["string", "null"] },
+      "unit_price": { "type": "number", "minimum": 0 },
+      "quantity": { "type": "integer", "minimum": 1 },
+      "total_amount": { "type": "number", "minimum": 0 },
+      "status": { "type": "string", "enum": ["pending_payment", "paid_demo", "cancelled"] },
+      "paid_at": { "type": "string", "format": "date-time" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

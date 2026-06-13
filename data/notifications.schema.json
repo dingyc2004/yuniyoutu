@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NotificationCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "user_id", "type", "title", "content", "read", "created_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "type": { "type": "string" },
+      "title": { "type": "string" },
+      "content": { "type": "string" },
+      "target_id": { "type": ["string", "null"] },
+      "read": { "type": "boolean" },
+      "created_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

@@ -1,0 +1,3042 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/61032lsz",
+    "id": "61032lsz",
+    "slide": 26,
+    "layoutId": "/ppt/slideLayouts/slideLayout30.xml",
+    "layoutName": "1_标题幻灯片",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "谱慧麦寿",
+    "colors": {
+      "accent1": "#176B1E",
+      "accent2": "#92B70C",
+      "accent3": "#F3D66A",
+      "accent4": "#5A886C",
+      "accent5": "#7AA972",
+      "accent6": "#71A14D",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "WPS",
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "微软雅黑"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout30.xml",
+      "name": "1_标题幻灯片",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout30.xml/21",
+          "id": "21",
+          "name": "矩形 6",
+          "bbox": [
+            -0.07,
+            0,
+            1280,
+            722.07
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "fillColor": {
+            "type": "theme",
+            "value": "bg1",
+            "transform": {
+              "opacity": 0.22
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout30.xml/40",
+          "id": "40",
+          "name": "图片 5",
+          "bbox": [
+            -0.07,
+            0.07,
+            1280.07,
+            719.93
+          ],
+          "rotation": 0,
+          "contentType": "image/jpeg",
+          "asset": {
+            "assetId": "/ppt/media/image8.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 88257
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image8.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 88257
+          }
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout30.xml/39",
+          "id": "39",
+          "name": "Title 21",
+          "bbox": [
+            65.44,
+            18.13,
+            987.56,
+            55.5
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 2.88,
+              "right": 5.76,
+              "bottom": 2.88,
+              "left": 5.76
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "marginLeft": 0,
+              "lineSpacingPercent": 120000,
+              "spaceAfter": 500,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout30.xml/41",
+          "id": "41",
+          "name": "图片 1",
+          "bbox": [
+            -1.51,
+            0,
+            1285.28,
+            80.62
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/7",
+          "id": "7",
+          "name": "矩形 3",
+          "bbox": [
+            -0.53,
+            0,
+            1280.53,
+            720
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "2",
+      "name": "标题 1",
+      "bbox": [
+        37.22,
+        84.85,
+        987.56,
+        44.59
+      ],
+      "geometry": "rect",
+      "text": "核心成员：多学科交叉融合，优势互补，分工明确",
+      "textPreview": "核心成员：多学科交叉融合，优势互补，分工明确",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "微软雅黑",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "bold": true,
+        "alignment": "left",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 5.76,
+          "bottom": 2.88,
+          "left": 5.76
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "核心成员：多学科交叉融合，优势互补，分工明确"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "核心成员：多学科交叉融合，优势互补，分工明确",
+          "runs": [
+            {
+              "index": 1,
+              "text": "核心成员：多学科交叉融合，优势互补，分工明确",
+              "fontSize": 32
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "21",
+      "name": "矩形 20",
+      "bbox": [
+        524.53,
+        651.33,
+        690.3,
+        85.81
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "22",
+      "name": "矩形 21",
+      "bbox": [
+        524.53,
+        647.73,
+        690.3,
+        85.81
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3itgfmlk",
+      "id": "1049266",
+      "name": "Picture 247",
+      "bbox": [
+        477.64,
+        472.64,
+        785.2,
+        227.36
+      ],
+      "geometry": "snip1Rect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0.02945,
+        "top": 0.33628,
+        "right": 0.04738,
+        "bottom": 0.22896
+      },
+      "imageMask": {
+        "geometry": "snip1Rect"
+      },
+      "asset": {
+        "assetId": "/ppt/media/image162.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 4122613
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image162.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 4122613
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "59",
+      "name": "矩形: 圆角 58",
+      "bbox": [
+        477.64,
+        456.24,
+        785.2,
+        91.79
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "24",
+      "name": "Rectangle 248",
+      "bbox": [
+        477.64,
+        463.93,
+        491.28,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "李德仁院士、龚健雅院士与团队成员合影",
+      "textPreview": "李德仁院士、龚健雅院士与团队成员合影",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 李德仁院士、龚健雅院士与团队成员合影"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "李德仁院士、龚健雅院士与团队成员合影",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "李德仁院士、龚健雅院士与团队成员合影",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "3",
+      "name": "矩形 2",
+      "bbox": [
+        30.73,
+        136.09,
+        416.89,
+        561.65
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 2.33
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ex0nuxc3",
+      "id": "1049267",
+      "name": "Picture 183",
+      "bbox": [
+        31.56,
+        276.33,
+        412.42,
+        421.41
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0.1331,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 2638927
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 2638927
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "7",
+      "name": "Freeform 9",
+      "bbox": [
+        15.65,
+        486.73,
+        367.26,
+        263.57
+      ],
+      "rotation": 225.27,
+      "horizontalFlip": true,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent1"
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lkjm1cfa",
+      "id": "1049268",
+      "name": "图片 7",
+      "bbox": [
+        -5.42,
+        364.49,
+        331.64,
+        353.94
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.25495
+      },
+      "asset": {
+        "assetId": "/ppt/media/image163.png",
+        "contentType": "image/png",
+        "byteLength": 778634
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image163.png",
+        "contentType": "image/png",
+        "byteLength": 778634
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "9",
+      "name": "文本框 8",
+      "bbox": [
+        60.61,
+        144.32,
+        384.64,
+        233.22
+      ],
+      "geometry": "rect",
+      "text": "武汉大学遥感研究生在读\n入选人民日报2024年研究生国家奖学金获奖学生代表名录\n湖北青年五四奖章集体\n国家发明专利9项\n国家励志奖学金×3\n国家奖学金×2",
+      "textPreview": "武汉大学遥感研究生在读 | 入选人民日报2024年研究生国家奖学金获奖学生代表名录 | 湖北青年五四奖章集体 | 国家发明专利9项 | 国家励志奖学金×3 | 国家奖学金×2",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 武汉大学遥感研究生在读"
+          },
+          {
+            "index": 2,
+            "text": "• 入选人民日报2024"
+          },
+          {
+            "index": 3,
+            "text": "年研究生国家奖学金获奖学生代表名录"
+          },
+          {
+            "index": 4,
+            "text": "• 湖北青年五四奖章集体"
+          },
+          {
+            "index": 5,
+            "text": "• 国家发明专利9项"
+          },
+          {
+            "index": 6,
+            "text": "• 国家励志奖学金×3"
+          },
+          {
+            "index": 7,
+            "text": "• 国家奖学金×2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "武汉大学遥感研究生在读",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学遥感研究生在读",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "入选人民日报2024年研究生国家奖学金获奖学生代表名录",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "入选人民日报",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "2024",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "年研究生国家奖学金获奖学生代表名录",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "湖北青年五四奖章集体",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "湖北青年五四奖章集体",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "国家发明专利9项",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家发明专利",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "9",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "项",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "国家励志奖学金×3",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家励志奖学金",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "×3",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "国家奖学金×2",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 125000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家奖学金",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "×2",
+              "fontSize": 20,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "14",
+      "name": "文本框 13",
+      "bbox": [
+        291.16,
+        406.41,
+        58.46,
+        161.47
+      ],
+      "geometry": "rect",
+      "text": "李政灿",
+      "textPreview": "李政灿",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "李"
+          },
+          {
+            "index": 2,
+            "text": "政"
+          },
+          {
+            "index": 3,
+            "text": "灿"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "李政灿",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "李政灿",
+              "fontSize": 42.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "18",
+      "name": "八边形 17",
+      "bbox": [
+        366.26,
+        364.49,
+        57.55,
+        218.65
+      ],
+      "geometry": "octagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "bg1"
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "16",
+      "name": "文本框 15",
+      "bbox": [
+        371.07,
+        375.43,
+        47.95,
+        203.57
+      ],
+      "geometry": "rect",
+      "text": "项目负责人",
+      "textPreview": "项目负责人",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项"
+          },
+          {
+            "index": 2,
+            "text": "目"
+          },
+          {
+            "index": 3,
+            "text": "负"
+          },
+          {
+            "index": 4,
+            "text": "责"
+          },
+          {
+            "index": 5,
+            "text": "人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目负责人",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目负责人",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/szqtcj6t",
+      "id": "1049269",
+      "name": "图片 1049259",
+      "bbox": [
+        463.37,
+        131.37,
+        413.66,
+        152.49
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs72x4na",
+      "id": "1049261",
+      "name": "文本框 1049260",
+      "bbox": [
+        622.95,
+        183.28,
+        226.15,
+        98.34
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "武汉大学遥感博士在读\n华为奖学金获得者\n湖北青年五四奖章集体\n发表SCI专业论文3篇\n国家发明专利授权5项",
+      "textPreview": "武汉大学遥感博士在读 | 华为奖学金获得者 | 湖北青年五四奖章集体 | 发表SCI专业论文3篇 | 国家发明专利授权5项",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 武汉大学遥感博士在读"
+          },
+          {
+            "index": 2,
+            "text": "• 华为奖学金获得者"
+          },
+          {
+            "index": 3,
+            "text": "• 湖北青年五四奖章集体"
+          },
+          {
+            "index": 4,
+            "text": "• 发表SCI专业论文3篇"
+          },
+          {
+            "index": 5,
+            "text": "• 国家发明专利授权5项"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "武汉大学遥感博士在读",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学遥感博士在读",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "华为奖学金获得者",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "华为奖学金获得者",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "湖北青年五四奖章集体",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "湖北青年五四奖章集体",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "发表SCI专业论文3篇",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "发表",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "SCI",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "专业论文",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "3",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "篇",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "国家发明专利授权5项",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家发明专利授权",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "5",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "项",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6tovahoz",
+      "id": "1049270",
+      "name": "图片 1049262",
+      "bbox": [
+        499.61,
+        133.07,
+        113.66,
+        122.39
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.22516,
+        "top": 0.01148,
+        "right": 0.25075,
+        "bottom": 0.23935
+      },
+      "asset": {
+        "assetId": "/ppt/media/image165.png",
+        "contentType": "image/png",
+        "byteLength": 2025849
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image165.png",
+        "contentType": "image/png",
+        "byteLength": 2025849
+      }
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z25kb6x",
+      "id": "1049264",
+      "name": "矩形: 圆顶角 1049263",
+      "bbox": [
+        489.19,
+        246.68,
+        136.58,
+        28.15
+      ],
+      "rotation": 0,
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "1049265",
+      "name": "文本框 1049264",
+      "bbox": [
+        497.62,
+        243.8,
+        122.08,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "饶可奕",
+      "textPreview": "饶可奕",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "饶可奕"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "饶可奕",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "饶可奕",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1orytsv",
+      "id": "1049262",
+      "name": "文本框 1049261",
+      "bbox": [
+        639.61,
+        145.25,
+        213.73,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "运营负责人",
+      "textPreview": "运营负责人",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "运营负责人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "运营负责人",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "运营负责人",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#20701C",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "61",
+      "name": "直接连接符 60",
+      "bbox": [
+        780.93,
+        113.19,
+        0,
+        130.02
+      ],
+      "rotation": 270,
+      "horizontalFlip": true,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i9s36hcr",
+      "id": "42",
+      "name": "直接连接符 41",
+      "bbox": [
+        644.75,
+        178.2,
+        157.37,
+        0
+      ],
+      "rotation": 0,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 4
+    },
+    {
+      "order": 23,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vahoza1g",
+      "id": "1049271",
+      "name": "图片 1049228",
+      "bbox": [
+        856.21,
+        132.07,
+        423.79,
+        152.49
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      }
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "1049230",
+      "name": "文本框 1049229",
+      "bbox": [
+        1015.79,
+        183.05,
+        253.58,
+        98.4
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "武汉大学计算机本科在读\n连续两年排名试验班第一\n国家级大创成员\n武汉大学三好学生\nNITORI奖学金获得者",
+      "textPreview": "武汉大学计算机本科在读 | 连续两年排名试验班第一 | 国家级大创成员 | 武汉大学三好学生 | NITORI奖学金获得者",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 武汉大学计算机本科在读"
+          },
+          {
+            "index": 2,
+            "text": "• 连续两年排名试验班第一"
+          },
+          {
+            "index": 3,
+            "text": "• 国家级大创成员"
+          },
+          {
+            "index": 4,
+            "text": "• 武汉大学三好学生"
+          },
+          {
+            "index": 5,
+            "text": "• NITORI奖学金获得者"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "武汉大学计算机本科在读",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学计算机本科在读",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "连续两年排名试验班第一",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "连续两年排名",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "试验班",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            },
+            {
+              "index": 3,
+              "text": "第一",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "国家级大创成员",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家级大创成员",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "武汉大学三好学生",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学三好学生",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "NITORI奖学金获得者",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "NITORI",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "奖学金获得者",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "1049237",
+      "name": "矩形: 圆顶角 1049236",
+      "bbox": [
+        882.03,
+        247.38,
+        136.58,
+        28.15
+      ],
+      "rotation": 0,
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "1049238",
+      "name": "文本框 1049237",
+      "bbox": [
+        890.46,
+        244.5,
+        122.08,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "丁熠晨",
+      "textPreview": "丁熠晨",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "丁熠晨"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "丁熠晨",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "丁熠晨",
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "1049232",
+      "name": "文本框 1049231",
+      "bbox": [
+        1032.45,
+        145.95,
+        213.73,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "财务负责人",
+      "textPreview": "财务负责人",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "财务负责人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "财务负责人",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "财务负责人",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#20701C",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "1049234",
+      "name": "直接连接符 1049233",
+      "bbox": [
+        1173.77,
+        113.89,
+        0,
+        130.02
+      ],
+      "rotation": 270,
+      "horizontalFlip": true,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "1049235",
+      "name": "直接连接符 1049234",
+      "bbox": [
+        1037.59,
+        178.9,
+        157.37,
+        0
+      ],
+      "rotation": 0,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 4
+    },
+    {
+      "order": 30,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ovahoza1",
+      "id": "1049272",
+      "name": "图片 1049252",
+      "bbox": [
+        899.96,
+        136.09,
+        102.46,
+        111.29
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.20859
+      },
+      "asset": {
+        "assetId": "/ppt/media/image166.png",
+        "contentType": "image/png",
+        "byteLength": 816945
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image166.png",
+        "contentType": "image/png",
+        "byteLength": 816945
+      }
+    },
+    {
+      "order": 31,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dg7adsji",
+      "id": "1049273",
+      "name": "图片 46",
+      "bbox": [
+        463.86,
+        293.6,
+        413.66,
+        152.49
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      }
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "48",
+      "name": "文本框 47",
+      "bbox": [
+        620.41,
+        344.57,
+        243.48,
+        98.34
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "武汉大学遥感博士在读\n中级工程师\n2年技术研发部管理经验\n参与重点工程项目9项\n北京市优秀毕业生",
+      "textPreview": "武汉大学遥感博士在读 | 中级工程师 | 2年技术研发部管理经验 | 参与重点工程项目9项 | 北京市优秀毕业生",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 武汉大学遥感博士在读"
+          },
+          {
+            "index": 2,
+            "text": "• 中级工程师"
+          },
+          {
+            "index": 3,
+            "text": "• 2年技术研发部管理经验"
+          },
+          {
+            "index": 4,
+            "text": "• 参与重点工程项目9项"
+          },
+          {
+            "index": 5,
+            "text": "• 北京市优秀毕业生"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "武汉大学遥感博士在读",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学遥感博士在读",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "中级工程师",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "中级工程师",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "2年技术研发部管理经验",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "年技术研发部管理经验",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "参与重点工程项目9项",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "参与重点工程项目",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "9",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "项",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "北京市优秀毕业生",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "北京市优秀毕业生",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6hcrmhk3",
+      "id": "1049274",
+      "name": "图片 54",
+      "bbox": [
+        508.44,
+        301.63,
+        100.45,
+        135.02
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00637,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image167.png",
+        "contentType": "image/png",
+        "byteLength": 915158
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image167.png",
+        "contentType": "image/png",
+        "byteLength": 915158
+      }
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "62",
+      "name": "矩形: 圆顶角 61",
+      "bbox": [
+        489.69,
+        408.91,
+        136.58,
+        28.15
+      ],
+      "rotation": 0,
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "63",
+      "name": "文本框 62",
+      "bbox": [
+        498.12,
+        406.03,
+        122.08,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "程舒鹏",
+      "textPreview": "程舒鹏",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "程舒鹏"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "程舒鹏",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "程舒鹏",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "50",
+      "name": "文本框 49",
+      "bbox": [
+        640.11,
+        307.48,
+        213.73,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "技术负责人",
+      "textPreview": "技术负责人",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "技术负责人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "技术负责人",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技术",
+              "typeface": "微软雅黑",
+              "color": "#20701C",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "负责人",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#20701C",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "53",
+      "name": "直接连接符 52",
+      "bbox": [
+        781.43,
+        275.42,
+        0,
+        130.02
+      ],
+      "rotation": 270,
+      "horizontalFlip": true,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "54",
+      "name": "直接连接符 53",
+      "bbox": [
+        645.24,
+        340.43,
+        157.37,
+        0
+      ],
+      "rotation": 0,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 4
+    },
+    {
+      "order": 39,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/z25kb6xk",
+      "id": "1049275",
+      "name": "图片 1049239",
+      "bbox": [
+        856.71,
+        295.61,
+        423.29,
+        152.49
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image164.png",
+        "contentType": "image/png",
+        "byteLength": 24603
+      }
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "1049241",
+      "name": "文本框 1049240",
+      "bbox": [
+        1015.33,
+        347.54,
+        245.5,
+        116.2
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "武汉大学遥感硕士在读\n受团湖北省委邀请参加湖北青年创新创业项目系列路演首场活动\n国家奖学金\n宏图创展奖学金\n",
+      "textPreview": "武汉大学遥感硕士在读 | 受团湖北省委邀请参加湖北青年创新创业项目系列路演首场活动 | 国家奖学金 | 宏图创展奖学金 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 武汉大学遥感硕士在读"
+          },
+          {
+            "index": 2,
+            "text": "• 受团"
+          },
+          {
+            "index": 3,
+            "text": "湖北省委邀请参加湖北青年创新创"
+          },
+          {
+            "index": 4,
+            "text": "业项目系列路演首场活动"
+          },
+          {
+            "index": 5,
+            "text": "• 国家奖学金"
+          },
+          {
+            "index": 6,
+            "text": "• 宏图创展奖学金"
+          },
+          {
+            "index": 7,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "武汉大学遥感硕士在读",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "武汉大学遥感硕士在读",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "受团湖北省委邀请参加湖北青年创新创业项目系列路演首场活动",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "受",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "团",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            },
+            {
+              "index": 3,
+              "text": "湖北省委邀请参加湖北青年创新创业项目系列路演首场活动",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "国家奖学金",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "国家奖学金",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "宏图创展奖学金",
+          "bulletCharacter": "•",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "宏图创展奖学金",
+              "fontSize": 14.67,
+              "typeface": "微软雅黑",
+              "color": "#000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/onyd0z61",
+      "id": "1049276",
+      "name": "图片 1049246",
+      "bbox": [
+        898.32,
+        300.96,
+        102.04,
+        134.9
+      ],
+      "rotation": 0,
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.0005,
+        "right": 0,
+        "bottom": 0.0005
+      },
+      "asset": {
+        "assetId": "/ppt/media/image168.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 3485496
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image168.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 3485496
+      }
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "1049248",
+      "name": "矩形: 圆顶角 1049247",
+      "bbox": [
+        882.53,
+        410.93,
+        136.58,
+        28.15
+      ],
+      "rotation": 0,
+      "geometry": "round2SameRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "1049249",
+      "name": "文本框 1049248",
+      "bbox": [
+        890.96,
+        408.04,
+        122.08,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "董世鑫",
+      "textPreview": "董世鑫",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "董世鑫"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "董世鑫",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "董世鑫",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "1049243",
+      "name": "文本框 1049242",
+      "bbox": [
+        1032.95,
+        309.5,
+        213.73,
+        35.76
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "市场负责人",
+      "textPreview": "市场负责人",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "市场负责人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "市场负责人",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "市场负责人",
+              "typeface": "微软雅黑",
+              "color": "#20701C",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "1049245",
+      "name": "直接连接符 1049244",
+      "bbox": [
+        1174.27,
+        277.44,
+        0,
+        130.02
+      ],
+      "rotation": 270,
+      "horizontalFlip": true,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "1049246",
+      "name": "直接连接符 1049245",
+      "bbox": [
+        1038.08,
+        342.45,
+        157.37,
+        0
+      ],
+      "rotation": 0,
+      "geometry": "line",
+      "lineColor": "#227749",
+      "lineWidth": 4
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "10",
+      "name": "文本框 9",
+      "bbox": [
+        473.81,
+        10.38,
+        536.71,
+        55.12
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "商业模式及市场计划——核心成员",
+      "textPreview": "商业模式及市场计划——核心成员",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "商业模式及市场计划——核心成员"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "商业模式及市场计划——核心成员",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "商业模式及市场计划",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "——",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "核心成员",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "13",
+      "name": "MH_Number_4",
+      "bbox": [
+        433.65,
+        24.69,
+        34.01,
+        34.02
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050",
+      "lineWidth": 0.33
+    }
+  ],
+  "composeRuns": []
+}

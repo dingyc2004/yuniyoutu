@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "report_1781370757282",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 0,
+      "total_catches": 0,
+      "total_weight": 0,
+      "blank_trips": 0,
+      "blank_rate": 0,
+      "total_hours": 0,
+      "catch_per_hour": 0,
+      "weight_per_hour": 0,
+      "top_spots": [],
+      "top_species_by_count": [],
+      "top_species_by_weight": [],
+      "preference": {
+        "most_used_method": "暂无",
+        "most_used_method_count": 0,
+        "preferred_time_slot": "暂无",
+        "preferred_time_slot_count": 0,
+        "preferred_temp_range": "暂无"
+      },
+      "efficiency": {
+        "most_efficient_method": "暂无",
+        "most_efficient_method_rate": 0,
+        "best_time_slot": "暂无",
+        "best_time_slot_rate": 0
+      },
+      "data_sufficient": false
+    },
+    "created_at": "2026-06-13T17:12:37.282638+00:00"
+  },
+  {
+    "id": "report_1781371476535",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 0,
+      "total_catches": 0,
+      "total_weight": 0,
+      "blank_trips": 0,
+      "blank_rate": 0,
+      "total_hours": 0,
+      "catch_per_hour": 0,
+      "weight_per_hour": 0,
+      "top_spots": [],
+      "top_species_by_count": [],
+      "top_species_by_weight": [],
+      "preference": {
+        "most_used_method": "暂无",
+        "most_used_method_count": 0,
+        "preferred_time_slot": "暂无",
+        "preferred_time_slot_count": 0,
+        "preferred_temp_range": "暂无"
+      },
+      "efficiency": {
+        "most_efficient_method": "暂无",
+        "most_efficient_method_rate": 0,
+        "best_time_slot": "暂无",
+        "best_time_slot_rate": 0
+      },
+      "data_sufficient": false
+    },
+    "created_at": "2026-06-13T17:24:36.535960+00:00"
+  },
+  {
+    "id": "report_1781371569982",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T17:26:09.982122+00:00"
+  },
+  {
+    "id": "report_1781371689776",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T17:28:09.776573+00:00"
+  },
+  {
+    "id": "report_1781371703064",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T17:28:23.064242+00:00"
+  },
+  {
+    "id": "report_1781371937669",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T17:32:17.669043+00:00"
+  },
+  {
+    "id": "report_1781372601331",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T17:43:21.331109+00:00"
+  },
+  {
+    "id": "report_1781374338783",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:12:18.783189+00:00"
+  },
+  {
+    "id": "report_1781374398498",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:13:18.498532+00:00"
+  },
+  {
+    "id": "report_1781374607770",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:16:47.770629+00:00"
+  },
+  {
+    "id": "report_1781374902834",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:21:42.834391+00:00"
+  },
+  {
+    "id": "report_1781375284979",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:28:04.979467+00:00"
+  },
+  {
+    "id": "report_1781375345724",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:29:05.724660+00:00"
+  },
+  {
+    "id": "report_1781375457453",
+    "user_id": "demo_user",
+    "period": "lifetime",
+    "period_label": "生涯汇总",
+    "data": {
+      "total_trips": 12,
+      "total_catches": 61,
+      "total_weight": 57.5,
+      "blank_trips": 1,
+      "blank_rate": 0.083,
+      "total_hours": 51.7,
+      "catch_per_hour": 1.2,
+      "weight_per_hour": 1.1,
+      "top_spots": [
+        {
+          "name": "东湖听涛景区",
+          "count": 4
+        },
+        {
+          "name": "青山江滩",
+          "count": 2
+        },
+        {
+          "name": "南湖",
+          "count": 2
+        },
+        {
+          "name": "汤逊湖",
+          "count": 1
+        },
+        {
+          "name": "府河",
+          "count": 1
+        }
+      ],
+      "top_species_by_count": [
+        {
+          "name": "鲫鱼",
+          "count": 36
+        },
+        {
+          "name": "翘嘴",
+          "count": 7
+        },
+        {
+          "name": "鳊鱼",
+          "count": 5
+        },
+        {
+          "name": "鲤鱼",
+          "count": 5
+        },
+        {
+          "name": "鲢鱼",
+          "count": 4
+        }
+      ],
+      "top_species_by_weight": [
+        {
+          "name": "鲫鱼",
+          "weight": 16.7
+        },
+        {
+          "name": "鲤鱼",
+          "weight": 12.8
+        },
+        {
+          "name": "鲢鱼",
+          "weight": 11.0
+        },
+        {
+          "name": "草鱼",
+          "weight": 7.5
+        },
+        {
+          "name": "翘嘴",
+          "weight": 4.2
+        }
+      ],
+      "preference": {
+        "most_used_method": "台钓",
+        "most_used_method_count": 5,
+        "preferred_time_slot": "清晨 05:00-09:00",
+        "preferred_time_slot_count": 9,
+        "preferred_temp_range": "25-30℃"
+      },
+      "efficiency": {
+        "most_efficient_method": "台钓",
+        "most_efficient_method_rate": 1.5,
+        "best_time_slot": "清晨 05:00-09:00",
+        "best_time_slot_rate": 1.2
+      },
+      "data_sufficient": true
+    },
+    "created_at": "2026-06-13T18:30:57.453128+00:00"
+  }
+]

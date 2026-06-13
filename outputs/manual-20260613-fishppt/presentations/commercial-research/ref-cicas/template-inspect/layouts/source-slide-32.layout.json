@@ -1,0 +1,1914 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/yhgn29gr",
+    "id": "yhgn29gr",
+    "slide": 33,
+    "layoutId": "/ppt/slideLayouts/slideLayout10.xml",
+    "layoutName": "2_标题幻灯片",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "谱慧麦寿",
+    "colors": {
+      "accent1": "#176B1E",
+      "accent2": "#92B70C",
+      "accent3": "#F3D66A",
+      "accent4": "#5A886C",
+      "accent5": "#7AA972",
+      "accent6": "#71A14D",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "WPS",
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "微软雅黑",
+      "思源宋体 CN Heavy"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout10.xml",
+      "name": "2_标题幻灯片",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout10.xml/57",
+          "id": "57",
+          "name": "图片 6",
+          "bbox": [
+            0.47,
+            0,
+            1279,
+            720
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 2004123
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 2004123
+          }
+        },
+        {
+          "order": 2,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout10.xml/58",
+          "id": "58",
+          "name": "图片 1",
+          "bbox": [
+            -1.51,
+            0,
+            1285.28,
+            80.62
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          }
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout10.xml/56",
+          "id": "56",
+          "name": "Title 21",
+          "bbox": [
+            65.44,
+            18.13,
+            987.56,
+            55.5
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 2.88,
+              "right": 5.76,
+              "bottom": 2.88,
+              "left": 5.76
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "marginLeft": 0,
+              "lineSpacingPercent": 120000,
+              "spaceAfter": 500,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "矩形 3",
+          "bbox": [
+            -0.53,
+            0,
+            1280.53,
+            720
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/h0fepkzu",
+      "id": "102",
+      "name": "图片 13",
+      "bbox": [
+        -2.67,
+        448.76,
+        1282.67,
+        270.14
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.39573,
+        "right": 0.00192,
+        "bottom": 0.39112
+      },
+      "asset": {
+        "assetId": "/ppt/media/image199.png",
+        "contentType": "image/png",
+        "byteLength": 6747267
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image199.png",
+        "contentType": "image/png",
+        "byteLength": 6747267
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/sfil0rqd",
+      "id": "103",
+      "name": "图片 34",
+      "bbox": [
+        -2.67,
+        560.09,
+        861.79,
+        158.99
+      ],
+      "rotation": 0,
+      "geometry": "rtTriangle",
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.48342,
+        "right": 0.33006,
+        "bottom": 0.39113
+      },
+      "imageMask": {
+        "geometry": "rtTriangle"
+      },
+      "asset": {
+        "assetId": "/ppt/media/image199.png",
+        "contentType": "image/png",
+        "byteLength": 6747267
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image199.png",
+        "contentType": "image/png",
+        "byteLength": 6747267
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "37",
+      "name": "任意多边形: 形状 36",
+      "bbox": [
+        41.33,
+        139.51,
+        383.71,
+        420.16
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.9,
+          "right": 7.8,
+          "bottom": 3.9,
+          "left": 7.8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 4
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "38",
+      "name": "梯形 37",
+      "bbox": [
+        100.74,
+        113.23,
+        264.89,
+        55.16
+      ],
+      "geometry": "trapezoid",
+      "text": "占领市场",
+      "textPreview": "占领市场",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "占领市场"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "占领市场",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "占领市场",
+              "fontSize": 35.07,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "41",
+      "name": "矩形 40",
+      "bbox": [
+        50.37,
+        172.64,
+        367.17,
+        366.46
+      ],
+      "geometry": "rect",
+      "text": "监测面积>15万亩农田\n与河南“中原农谷”协议合作\n与河南“农业综合应急服务中心”开展合作（每个产粮大县已规划建设6-10个）\n开发针对玉米的遥感监测技术\n",
+      "textPreview": "监测面积>15万亩农田 | 与河南“中原农谷”协议合作 | 与河南“农业综合应急服务中心”开展合作（每个产粮大县已规划建设6-10个） | 开发针对玉米的遥感监测技术 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 13,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "n 监测面积>15万亩农田"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "n 与河南“中原农谷”协议合作"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "n 与河南“农业综合"
+          },
+          {
+            "index": 7,
+            "text": "应急服务中心”"
+          },
+          {
+            "index": 8,
+            "text": "开展合作（每个产粮大县已规划"
+          },
+          {
+            "index": 9,
+            "text": "建设6-10个）"
+          },
+          {
+            "index": 10,
+            "text": ""
+          },
+          {
+            "index": 11,
+            "text": "n 开发针对玉米的遥感监测技术"
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "监测面积>15万亩农田",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "监测面积",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": ">",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "15",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "万",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "亩农田",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "与河南“中原农谷”协议合作",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "与河南",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "“",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "中原农谷”",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "协议合作",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "与河南“农业综合应急服务中心”开展合作（每个产粮大县已规划建设6-10个）",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "与河南",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "“农",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "业综合",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "应急服务中心”",
+              "fontSize": 26.67,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": "开展合作（每个产粮大县已规划建设",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "6-10",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "个）",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "开发针对玉米的遥感监测技术",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "开发针对玉米的遥感监测技术",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "45",
+      "name": "任意多边形: 形状 44",
+      "bbox": [
+        436.54,
+        139.51,
+        383.71,
+        488.44
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.9,
+          "right": 7.8,
+          "bottom": 3.9,
+          "left": 7.8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 4
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "46",
+      "name": "梯形 45",
+      "bbox": [
+        495.95,
+        113.23,
+        264.89,
+        55.16
+      ],
+      "geometry": "trapezoid",
+      "text": "稳步落地",
+      "textPreview": "稳步落地",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "稳步落地"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "稳步落地",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "稳步落地",
+              "fontSize": 35.07,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "48",
+      "name": "矩形 47",
+      "bbox": [
+        449.53,
+        172.64,
+        368.6,
+        381
+      ],
+      "geometry": "rect",
+      "text": "天使轮融资\n监测面积>95万亩农田\n将淇县成功经验推广到“中原农谷”100万 亩高标准农田\n为 1000+“一站式农业综合应急服务中心”提供服务功能\n试点推广玉米遥感监测技术",
+      "textPreview": "天使轮融资 | 监测面积>95万亩农田 | 将淇县成功经验推广到“中原农谷”100万 亩高标准农田 | 为 1000+“一站式农业综合应急服务中心”提供服务功能 | 试点推广玉米遥感监测技术",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "n 天使轮融资"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "n 监测面积>95万亩农田"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "n "
+          },
+          {
+            "index": 7,
+            "text": "将淇县成功经验推广到“中原农"
+          },
+          {
+            "index": 8,
+            "text": "谷”100万 亩高标准农田"
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "n 为 1000+“"
+          },
+          {
+            "index": 11,
+            "text": "一站式农业综合应急服务中心”"
+          },
+          {
+            "index": 12,
+            "text": "提供服务功能"
+          },
+          {
+            "index": 13,
+            "text": ""
+          },
+          {
+            "index": 14,
+            "text": "n 试点推广玉米遥感监测技术"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "天使轮融资",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "天使轮融资",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "监测面积>95万亩农田",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "监测面积",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": ">",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "95",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "万",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "亩农田",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "将淇县成功经验推广到“中原农谷”100万 亩高标准农田",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "将淇县成功经验推广到“中原农谷”",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "100",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "万 ",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "亩高标准农田",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "为 1000+“一站式农业综合应急服务中心”提供服务功能",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "为 ",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "1000+",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "“",
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "一站式农业综合应急服务中心”提供服务功能",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "试点推广玉米遥感监测技术",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "试点推广玉米遥感监测技术",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "49",
+      "name": "任意多边形: 形状 48",
+      "bbox": [
+        832.38,
+        139.51,
+        383.71,
+        488.44
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.9,
+          "right": 7.8,
+          "bottom": 3.9,
+          "left": 7.8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 4
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "50",
+      "name": "梯形 49",
+      "bbox": [
+        891.78,
+        113.23,
+        264.89,
+        55.16
+      ],
+      "geometry": "trapezoid",
+      "text": "持续发展",
+      "textPreview": "持续发展",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "insets": {
+          "top": 4.51,
+          "right": 9.02,
+          "bottom": 4.51,
+          "left": 9.02
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "持续发展"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "持续发展",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "持续发展",
+              "fontSize": 35.07,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "52",
+      "name": "矩形 51",
+      "bbox": [
+        845.36,
+        172.64,
+        368.6,
+        329.3
+      ],
+      "geometry": "rect",
+      "text": "认证高新技术企业\n监测面积>1,200万亩农田\n扩大监测规模推广至山东、黑龙江、河北等粮食种植大省\n拓展作物种类开发大豆、水稻等主要粮食作物监测技术",
+      "textPreview": "认证高新技术企业 | 监测面积>1,200万亩农田 | 扩大监测规模推广至山东、黑龙江、河北等粮食种植大省 | 拓展作物种类开发大豆、水稻等主要粮食作物监测技术",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 12,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "n 认证高新技术企业"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "n 监测面积>1,200万亩农田"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "n 扩大监测规模"
+          },
+          {
+            "index": 7,
+            "text": "推广至山东、黑龙江、河北等粮"
+          },
+          {
+            "index": 8,
+            "text": "食种植大省"
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "n 拓展作物种类"
+          },
+          {
+            "index": 11,
+            "text": "开发大豆、水稻等主要粮食作物"
+          },
+          {
+            "index": 12,
+            "text": "监测技术"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "认证高新技术企业",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "认证高新技术企业",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "监测面积>1,200万亩农田",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "监测面积",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": ">",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "1,200",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "万",
+              "fontSize": 29.33,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "亩农田",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "扩大监测规模推广至山东、黑龙江、河北等粮食种植大省",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "扩大监测规模",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "推广至山东、黑龙江、河北等粮食种植大省",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "拓展作物种类开发大豆、水稻等主要粮食作物监测技术",
+          "bulletCharacter": "n",
+          "marginLeft": 171450,
+          "indent": -171450,
+          "lineSpacingPercent": 150000,
+          "spaceBefore": 600,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "拓展作物种类",
+              "fontSize": 32,
+              "typeface": "微软雅黑",
+              "color": "#FF0000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "开发大豆、水稻等主要粮食作物监测技术",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "101",
+      "name": "方能演亦2",
+      "bbox": [
+        18.55,
+        305.03,
+        1138.31,
+        471.38
+      ],
+      "rotation": 9.85,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 66.67
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/z61032ls",
+      "id": "104",
+      "name": "图片 99",
+      "bbox": [
+        81.33,
+        454.88,
+        1057.95,
+        264.05
+      ],
+      "rotation": 359.2,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image200.png",
+        "contentType": "image/png",
+        "byteLength": 21275
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image200.png",
+        "contentType": "image/png",
+        "byteLength": 21275
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "39",
+      "name": "文本框 38",
+      "bbox": [
+        283.29,
+        535.12,
+        183.64,
+        80.78
+      ],
+      "rotation": 12.58,
+      "geometry": "rect",
+      "text": "2027",
+      "textPreview": "2027",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2027"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2027",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2027",
+              "fontSize": 58.67,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#176B1E",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "47",
+      "name": "文本框 46",
+      "bbox": [
+        504.92,
+        554.67,
+        158.06,
+        80.78
+      ],
+      "rotation": 3.74,
+      "geometry": "rect",
+      "text": "2028",
+      "textPreview": "2028",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2028"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2028",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2028",
+              "fontSize": 58.67,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#176B1E",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "51",
+      "name": "文本框 50",
+      "bbox": [
+        700.96,
+        550.24,
+        158.06,
+        80.78
+      ],
+      "rotation": 351.88,
+      "geometry": "rect",
+      "text": "2029",
+      "textPreview": "2029",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2029"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2029",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2029",
+              "fontSize": 58.67,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#176B1E",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "53",
+      "name": "文本框 52",
+      "bbox": [
+        61.67,
+        494.7,
+        183.64,
+        80.78
+      ],
+      "rotation": 17.29,
+      "geometry": "rect",
+      "text": "2026",
+      "textPreview": "2026",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2026",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2026",
+              "fontSize": 58.67,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#176B1E",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "29",
+      "name": "文本框 28",
+      "bbox": [
+        897.01,
+        511.86,
+        158.06,
+        80.78
+      ],
+      "rotation": 342.62,
+      "geometry": "rect",
+      "text": "2030",
+      "textPreview": "2030",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2030"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2030",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2030",
+              "fontSize": 58.67,
+              "typeface": "思源宋体 CN Heavy",
+              "color": "#176B1E",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "7",
+      "name": "文本框 6",
+      "bbox": [
+        473.81,
+        10.38,
+        536.71,
+        55.12
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "商业模式及市场计划——发展规划",
+      "textPreview": "商业模式及市场计划——发展规划",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "商业模式及市场计划——发展规划"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "商业模式及市场计划——发展规划",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "商业模式及市场计划",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "——",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "发展规划",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "9",
+      "name": "MH_Number_4",
+      "bbox": [
+        433.65,
+        24.69,
+        34.01,
+        34.02
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050",
+      "lineWidth": 0.33
+    }
+  ],
+  "composeRuns": []
+}

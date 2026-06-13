@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GroupMemberCollection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "group_id", "user_id", "role", "joined_at"],
+    "properties": {
+      "id": { "type": "string" },
+      "group_id": { "type": "string" },
+      "user_id": { "type": "string" },
+      "role": { "type": "string", "enum": ["admin", "member"] },
+      "joined_at": { "type": "string", "format": "date-time" }
+    }
+  }
+}

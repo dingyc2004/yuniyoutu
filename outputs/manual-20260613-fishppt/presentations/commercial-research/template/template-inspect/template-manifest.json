@@ -1,0 +1,1256 @@
+{
+  "sourcePptx": "D:\\大学\\空信试验班\\6大三下\\王少华\\fishman_project_report_full.pptx",
+  "workspace": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template",
+  "outDir": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect",
+  "generatedAt": "2026-06-13T07:30:03.265Z",
+  "slideCount": 14,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-03.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-03.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-04.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-04.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-05.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-05.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-06.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-06.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-07.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-07.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-08.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-08.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-09.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-09.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-10.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-10.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-11.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-11.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-11.layout.json"
+    },
+    {
+      "slide": 12,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-12.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-12.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-12.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-12.layout.json"
+    },
+    {
+      "slide": 13,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-13.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-13.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-13.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-13.layout.json"
+    },
+    {
+      "slide": 14,
+      "previewPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\source-slides\\source-slide-14.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-14.png",
+      "layoutPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\layouts\\source-slide-14.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-14.layout.json"
+    }
+  ],
+  "inspectPath": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "1jlro1",
+    "target": {
+      "id": "pr/sgboib"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\media",
+      "relativePath": "template-inspect/assets/ppt/media/media",
+      "bytes": 0
+    },
+    {
+      "entry": "ppt/media/image-1-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-1.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-1-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-2.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-1-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-3.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-1-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-4.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-1-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-5.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-1-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-6.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-1-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-7.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-1-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-1-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-1-8.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-2-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-1.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-2-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-2.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-2-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-3.png",
+      "bytes": 228
+    },
+    {
+      "entry": "ppt/media/image-2-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-4.svg",
+      "bytes": 228
+    },
+    {
+      "entry": "ppt/media/image-2-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-5.png",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-2-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-6.svg",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-2-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-7.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-2-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-8.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-2-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-9.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-2-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-10.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-2-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-11.png",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-2-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-12.svg",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-2-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-13.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-2-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-14.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-2-15.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-15.png",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-2-16.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-16.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-16.svg",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-2-17.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-17.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-17.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-2-18.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-18.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-18.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-2-19.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-19.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-19.png",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-2-20.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-20.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-20.svg",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-2-21.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-21.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-21.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-2-22.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-2-22.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-2-22.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-3-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-1.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-3-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-2.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-3-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-3.png",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-3-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-4.svg",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-3-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-5.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-3-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-6.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-3-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-7.png",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-3-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-8.svg",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-3-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-9.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-3-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-3-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-3-10.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-4-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-1.png",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-4-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-2.svg",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-4-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-3.png",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-4-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-4.svg",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-4-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-5.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-4-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-6.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-4-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-7.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-4-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-8.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-4-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-9.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-4-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-4-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-4-10.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-6-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-1.png",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-6-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-2.svg",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-6-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-3.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-6-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-4.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-6-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-5.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-6-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-6.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-6-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-7.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-6-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-8.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-6-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-9.png",
+      "bytes": 234
+    },
+    {
+      "entry": "ppt/media/image-6-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-10.svg",
+      "bytes": 234
+    },
+    {
+      "entry": "ppt/media/image-6-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-11.png",
+      "bytes": 334
+    },
+    {
+      "entry": "ppt/media/image-6-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-12.svg",
+      "bytes": 334
+    },
+    {
+      "entry": "ppt/media/image-6-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-13.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-6-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-6-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-6-14.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-7-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-1.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-7-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-2.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-7-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-3.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-7-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-4.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-7-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-5.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-7-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-6.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-7-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-7.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-7-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-8.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-7-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-9.png",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-7-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-10.svg",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-7-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-11.png",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-7-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-12.svg",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-7-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-13.png",
+      "bytes": 313
+    },
+    {
+      "entry": "ppt/media/image-7-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-14.svg",
+      "bytes": 313
+    },
+    {
+      "entry": "ppt/media/image-7-15.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-15.png",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-7-16.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-7-16.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-7-16.svg",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-8-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-1.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-8-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-2.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-8-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-3.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-8-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-4.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-8-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-5.png",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-8-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-6.svg",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-8-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-7.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-8-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-8.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-8-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-9.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-8-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-10.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-8-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-11.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-8-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-12.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-8-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-13.png",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-8-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-14.svg",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-8-15.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-15.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-8-16.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-16.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-16.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-8-17.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-17.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-17.png",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-8-18.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-8-18.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-8-18.svg",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-9-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-1.png",
+      "bytes": 241
+    },
+    {
+      "entry": "ppt/media/image-9-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-2.svg",
+      "bytes": 241
+    },
+    {
+      "entry": "ppt/media/image-9-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-3.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-9-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-4.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-9-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-5.png",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-9-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-6.svg",
+      "bytes": 262
+    },
+    {
+      "entry": "ppt/media/image-9-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-7.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-9-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-8.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-9-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-9.png",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-9-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-10.svg",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-9-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-11.png",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-9-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-12.svg",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-9-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-13.png",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-9-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-14.svg",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-9-15.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-15.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-9-16.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-16.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-16.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-9-17.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-17.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-17.png",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-9-18.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-18.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-18.svg",
+      "bytes": 324
+    },
+    {
+      "entry": "ppt/media/image-9-19.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-19.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-19.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-9-20.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-20.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-20.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-9-21.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-21.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-21.png",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-9-22.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-22.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-22.svg",
+      "bytes": 239
+    },
+    {
+      "entry": "ppt/media/image-9-23.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-23.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-23.png",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-9-24.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-24.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-24.svg",
+      "bytes": 260
+    },
+    {
+      "entry": "ppt/media/image-9-25.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-25.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-25.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-9-26.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-9-26.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-9-26.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-10-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-1.png",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-10-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-2.svg",
+      "bytes": 298
+    },
+    {
+      "entry": "ppt/media/image-10-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-3.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-10-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-4.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-10-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-5.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-10-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-6.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-10-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-7.png",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-10-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-8.svg",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-10-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-9.png",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-10-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-10.svg",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-10-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-11.png",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-10-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-12.svg",
+      "bytes": 289
+    },
+    {
+      "entry": "ppt/media/image-10-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-13.png",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-10-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-14.svg",
+      "bytes": 279
+    },
+    {
+      "entry": "ppt/media/image-10-15.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-15.png",
+      "bytes": 228
+    },
+    {
+      "entry": "ppt/media/image-10-16.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-16.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-16.svg",
+      "bytes": 228
+    },
+    {
+      "entry": "ppt/media/image-10-17.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-17.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-17.png",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-10-18.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-10-18.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-10-18.svg",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-11-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-1.png",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-11-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-2.svg",
+      "bytes": 268
+    },
+    {
+      "entry": "ppt/media/image-11-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-3.png",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-11-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-4.svg",
+      "bytes": 265
+    },
+    {
+      "entry": "ppt/media/image-11-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-5.png",
+      "bytes": 301
+    },
+    {
+      "entry": "ppt/media/image-11-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-6.svg",
+      "bytes": 301
+    },
+    {
+      "entry": "ppt/media/image-11-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-7.png",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-11-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-11-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-11-8.svg",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-12-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-1.png",
+      "bytes": 234
+    },
+    {
+      "entry": "ppt/media/image-12-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-2.svg",
+      "bytes": 234
+    },
+    {
+      "entry": "ppt/media/image-12-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-3.png",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-12-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-4.svg",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-12-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-5.png",
+      "bytes": 313
+    },
+    {
+      "entry": "ppt/media/image-12-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-6.svg",
+      "bytes": 313
+    },
+    {
+      "entry": "ppt/media/image-12-7.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-7.png",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-12-8.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-8.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-8.svg",
+      "bytes": 277
+    },
+    {
+      "entry": "ppt/media/image-12-9.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-9.png",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-12-10.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-10.svg",
+      "bytes": 290
+    },
+    {
+      "entry": "ppt/media/image-12-11.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-11.png",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-12-12.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-12.svg",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-12-13.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-13.png",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-12-14.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-12-14.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-12-14.svg",
+      "bytes": 310
+    },
+    {
+      "entry": "ppt/media/image-13-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-1.png",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-13-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-2.svg",
+      "bytes": 211
+    },
+    {
+      "entry": "ppt/media/image-13-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-3.png",
+      "bytes": 302
+    },
+    {
+      "entry": "ppt/media/image-13-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-4.svg",
+      "bytes": 302
+    },
+    {
+      "entry": "ppt/media/image-13-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-5.png",
+      "bytes": 334
+    },
+    {
+      "entry": "ppt/media/image-13-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-13-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-13-6.svg",
+      "bytes": 334
+    },
+    {
+      "entry": "ppt/media/image-14-1.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-1.png",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-14-2.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-2.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-2.svg",
+      "bytes": 235
+    },
+    {
+      "entry": "ppt/media/image-14-3.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-3.png",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-14-4.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-4.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-4.svg",
+      "bytes": 331
+    },
+    {
+      "entry": "ppt/media/image-14-5.png",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-5.png",
+      "bytes": 303
+    },
+    {
+      "entry": "ppt/media/image-14-6.svg",
+      "path": "D:\\大学\\空信试验班\\6大三下\\王少华\\鱼你有图demo\\outputs\\manual-20260613-fishppt\\presentations\\commercial-research\\template\\template-inspect\\assets\\ppt\\media\\image-14-6.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image-14-6.svg",
+      "bytes": 303
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Ebrima",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Iskoola Pota",
+    "Javanese Text",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "Leelawadee UI",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft JhengHei",
+    "Microsoft New Tai Lue",
+    "Microsoft Tai Le",
+    "Microsoft Uighur",
+    "Microsoft YaHei",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Myanmar Text",
+    "Nirmala UI",
+    "Nyala",
+    "Phagspa",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Segoe UI",
+    "Shruti",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "新細明體",
+    "游ゴシック",
+    "游ゴシック Light",
+    "等线",
+    "等线 Light",
+    "맑은 고딕"
+  ],
+  "packageParts": {
+    "mediaCount": 177,
+    "slideXmlCount": 14,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}

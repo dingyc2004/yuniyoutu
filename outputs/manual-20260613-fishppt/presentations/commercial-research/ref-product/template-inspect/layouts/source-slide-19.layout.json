@@ -1,0 +1,1176 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bat47y1k",
+    "id": "bat47y1k",
+    "slide": 20,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 2560.33,
+      "height": 1440
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪铸字烈焰体W"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "汉仪雅酷黑-45J"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Lifeline JL",
+      "汉仪铸字烈焰体W"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/l87ed8ba",
+      "id": "93",
+      "name": "图片 14",
+      "bbox": [
+        0,
+        0,
+        1689.13,
+        1440
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.39078,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.0767
+      },
+      "asset": {
+        "assetId": "/ppt/media/image88.png",
+        "contentType": "image/png",
+        "byteLength": 1139362
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image88.png",
+        "contentType": "image/png",
+        "byteLength": 1139362
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "89",
+      "name": "矩形 88",
+      "bbox": [
+        0,
+        0.13,
+        2560.27,
+        1439.87
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": {
+        "type": "theme",
+        "value": "accent4",
+        "transform": {
+          "lighten": 0.8
+        }
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "2",
+      "name": "Text 0",
+      "bbox": [
+        0,
+        54.87,
+        1493,
+        159.33
+      ],
+      "rotation": 360,
+      "geometry": "rect",
+      "text": " 商家为什么抢着投广告",
+      "textPreview": "商家为什么抢着投广告",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": " 商家为什么抢着投广告"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 商家为什么抢着投广告",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " ",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            },
+            {
+              "index": 2,
+              "text": "商家为什么抢着投广告",
+              "fontSize": 132,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": "#212121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/at47y1kr",
+      "id": "94",
+      "name": "Image 0",
+      "bbox": [
+        27.07,
+        202.6,
+        1364.4,
+        28
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 504
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3ex0nuxc",
+      "id": "95",
+      "name": "Image 1",
+      "bbox": [
+        2335.62,
+        66.26,
+        154.56,
+        146.88
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 7401
+      }
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/szqtcj6t",
+      "id": "96",
+      "name": "Image 2",
+      "bbox": [
+        2077.39,
+        1223.99,
+        431.03,
+        180.48
+      ],
+      "rotation": 360,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 16417
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "39",
+      "name": "文本框 38",
+      "bbox": [
+        2160.46,
+        260.2,
+        366.14,
+        171.13
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "40%",
+      "textPreview": "40%",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "40%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "40%",
+          "runs": [
+            {
+              "index": 1,
+              "text": "40%",
+              "fontSize": 133.33,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.25
+                }
+              },
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "40",
+      "name": "任意多边形 6",
+      "bbox": [
+        1344.7,
+        361,
+        840.02,
+        247
+      ],
+      "rotation": 354.25,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent4",
+        "transform": {
+          "lighten": 0.4
+        }
+      },
+      "lineColor": {
+        "type": "theme",
+        "value": "accent4",
+        "transform": {
+          "lighten": 0.4
+        }
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "41",
+      "name": "直接连接符 8",
+      "bbox": [
+        1412.1,
+        1136.47,
+        818.36,
+        0
+      ],
+      "rotation": 0,
+      "geometry": "line",
+      "fillColor": "accent1",
+      "lineColor": "bg1"
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "42",
+      "name": "矩形 41",
+      "bbox": [
+        1463.14,
+        738.37,
+        140.43,
+        506.3
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#A78D6C"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "43",
+      "name": "矩形 42",
+      "bbox": [
+        1716.6,
+        654.98,
+        140.43,
+        589.68
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "bg1",
+        "transform": {
+          "darken": 0.25
+        }
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "45",
+      "name": "矩形 44",
+      "bbox": [
+        1944.87,
+        581.92,
+        150.51,
+        662.75
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 13.49,
+          "right": 26.99,
+          "bottom": 13.49,
+          "left": 26.99
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#A78D6C"
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "49",
+      "name": "文本框 48",
+      "bbox": [
+        1693.66,
+        669.36,
+        153.3,
+        488.03
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "场景化广告效果\n",
+      "textPreview": "场景化广告效果 |",
+      "resolvedFontSize": 26.67,
+      "resolvedTextStyle": {
+        "fontSize": 26.67,
+        "typeface": "Lifeline JL",
+        "color": "bg1",
+        "alignment": "right",
+        "insets": {
+          "top": 9.59,
+          "right": 19.19,
+          "bottom": 9.59,
+          "left": 19.19
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "场"
+          },
+          {
+            "index": 2,
+            "text": "景"
+          },
+          {
+            "index": 3,
+            "text": "化"
+          },
+          {
+            "index": 4,
+            "text": "广"
+          },
+          {
+            "index": 5,
+            "text": "告"
+          },
+          {
+            "index": 6,
+            "text": "效"
+          },
+          {
+            "index": 7,
+            "text": "果"
+          },
+          {
+            "index": 8,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "场景化广告效果",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "场景化广告效果",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "50",
+      "name": "文本框 49",
+      "bbox": [
+        1462.36,
+        754.81,
+        124.88,
+        563.24
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "广\n告\n即\n服\n务",
+      "textPreview": "广 | 告 | 即 | 服 | 务",
+      "resolvedFontSize": 26.67,
+      "resolvedTextStyle": {
+        "fontSize": 26.67,
+        "typeface": "Lifeline JL",
+        "color": "bg1",
+        "alignment": "right",
+        "insets": {
+          "top": 9.59,
+          "right": 19.19,
+          "bottom": 9.59,
+          "left": 19.19
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "广"
+          },
+          {
+            "index": 2,
+            "text": "告"
+          },
+          {
+            "index": 3,
+            "text": "即"
+          },
+          {
+            "index": 4,
+            "text": "服"
+          },
+          {
+            "index": 5,
+            "text": "务"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "广",
+          "runs": [
+            {
+              "index": 1,
+              "text": "广",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "告",
+          "runs": [
+            {
+              "index": 1,
+              "text": "告",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "即",
+          "runs": [
+            {
+              "index": 1,
+              "text": "即",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "服",
+          "runs": [
+            {
+              "index": 1,
+              "text": "服",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "务",
+          "runs": [
+            {
+              "index": 1,
+              "text": "务",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "54",
+      "name": "文本框 53",
+      "bbox": [
+        1937.15,
+        585.33,
+        139.88,
+        659.34
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "广告精准需求匹配",
+      "textPreview": "广告精准需求匹配",
+      "resolvedFontSize": 26.67,
+      "resolvedTextStyle": {
+        "fontSize": 26.67,
+        "typeface": "Lifeline JL",
+        "color": "bg1",
+        "alignment": "right",
+        "insets": {
+          "top": 9.59,
+          "right": 19.19,
+          "bottom": 9.59,
+          "left": 19.19
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "广"
+          },
+          {
+            "index": 2,
+            "text": "告"
+          },
+          {
+            "index": 3,
+            "text": "精"
+          },
+          {
+            "index": 4,
+            "text": "准"
+          },
+          {
+            "index": 5,
+            "text": "需"
+          },
+          {
+            "index": 6,
+            "text": "求"
+          },
+          {
+            "index": 7,
+            "text": "匹"
+          },
+          {
+            "index": 8,
+            "text": "配"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "广告精准需求匹配",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "广告精准需求匹配",
+              "fontSize": 64,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 2
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lkjm1cfa",
+      "id": "97",
+      "name": "图片 83",
+      "bbox": [
+        780.87,
+        426.07,
+        631.27,
+        631.27
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image90.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 2030
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image90.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 2030
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "86",
+      "name": "文本框 85",
+      "bbox": [
+        2036.67,
+        478.73,
+        471.73,
+        106.53
+      ],
+      "geometry": "rect",
+      "text": "品牌记忆度",
+      "textPreview": "品牌记忆度",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "品牌记忆度"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "品牌记忆度",
+          "runs": [
+            {
+              "index": 1,
+              "text": "品牌记忆度",
+              "fontSize": 80,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "87",
+      "name": "文本框 86",
+      "bbox": [
+        1260.33,
+        319.53,
+        273.4,
+        106.53
+      ],
+      "geometry": "rect",
+      "text": "点击率",
+      "textPreview": "点击率",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "点击率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "点击率",
+          "runs": [
+            {
+              "index": 1,
+              "text": "点击率",
+              "fontSize": 80,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "88",
+      "name": "文本框 87",
+      "bbox": [
+        1495.33,
+        183.87,
+        352.8,
+        171.13
+      ],
+      "geometry": "rect",
+      "text": "18%",
+      "textPreview": "18%",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18%",
+          "runs": [
+            {
+              "index": 1,
+              "text": "18%",
+              "fontSize": 133.33,
+              "typeface": "汉仪铸字烈焰体W",
+              "color": {
+                "type": "theme",
+                "value": "accent4",
+                "transform": {
+                  "darken": 0.25
+                }
+              },
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "91",
+      "name": "Freeform 13",
+      "bbox": [
+        903.8,
+        1136.53,
+        356.47,
+        294.8
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 9.59,
+          "right": 19.19,
+          "bottom": 9.59,
+          "left": 19.19
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#A78D6C"
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "92",
+      "name": "文本框 91",
+      "bbox": [
+        2128.53,
+        1005.6,
+        409.53,
+        151.73
+      ],
+      "geometry": "rect",
+      "text": "广撒网",
+      "textPreview": "广撒网",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "广撒网"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "广撒网",
+          "runs": [
+            {
+              "index": 1,
+              "text": "广撒网",
+              "fontSize": 117.33,
+              "typeface": "汉仪铸字烈焰体W"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ex0nuxc3",
+      "id": "98",
+      "name": "图片 92",
+      "bbox": [
+        2193.2,
+        953.13,
+        256.67,
+        256.67
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image92.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 4632
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image92.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 4632
+      }
+    }
+  ],
+  "composeRuns": []
+}

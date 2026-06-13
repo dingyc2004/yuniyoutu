@@ -1,0 +1,16 @@
+[
+  {
+    "id": "friend_001",
+    "requester_id": "demo_user",
+    "addressee_id": "user_jiangfeng",
+    "status": "accepted",
+    "created_at": "2026-06-10T08:00:00+00:00"
+  },
+  {
+    "id": "friend_1781378275855",
+    "requester_id": "demo_user",
+    "addressee_id": "user_aming",
+    "status": "pending",
+    "created_at": "2026-06-13T19:17:55.855012+00:00"
+  }
+]

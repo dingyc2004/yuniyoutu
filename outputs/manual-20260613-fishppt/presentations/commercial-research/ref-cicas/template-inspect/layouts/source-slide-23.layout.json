@@ -1,0 +1,1820 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/crmhk3q5",
+    "id": "crmhk3q5",
+    "slide": 24,
+    "layoutId": "/ppt/slideLayouts/slideLayout15.xml",
+    "layoutName": "1_Custom Layout",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "谱慧麦寿",
+    "colors": {
+      "accent1": "#176B1E",
+      "accent2": "#92B70C",
+      "accent3": "#F3D66A",
+      "accent4": "#5A886C",
+      "accent5": "#7AA972",
+      "accent6": "#71A14D",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "WPS",
+      "majorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "微软雅黑"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "HarmonyOS Sans SC",
+      "微软雅黑"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout15.xml",
+      "name": "1_Custom Layout",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/5",
+          "id": "5",
+          "name": "任意多边形: 形状 157",
+          "bbox": [
+            676.7,
+            80.62,
+            603.3,
+            639.38
+          ],
+          "geometry": "custom",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none"
+          },
+          "lineWidth": 2
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/6",
+          "id": "6",
+          "name": "任意多边形: 形状 9",
+          "bbox": [
+            729.49,
+            80.62,
+            550.51,
+            639.38
+          ],
+          "geometry": "custom",
+          "text": "中",
+          "textPreview": "中",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "中",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "中",
+                  "fontSize": 24,
+                  "typeface": "HarmonyOS Sans SC",
+                  "color": "#000000",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 2
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/57",
+          "id": "57",
+          "name": "Title 21",
+          "bbox": [
+            70.5,
+            152.53,
+            987.56,
+            55.5
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText",
+            "insets": {
+              "top": 2.88,
+              "right": 5.76,
+              "bottom": 2.88,
+              "left": 5.76
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "marginLeft": 0,
+              "lineSpacingPercent": 120000,
+              "spaceAfter": 500,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/58",
+          "id": "58",
+          "name": "图片 1",
+          "bbox": [
+            -1.51,
+            0,
+            1285.28,
+            80.62
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 148865
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "矩形 3",
+          "bbox": [
+            -0.53,
+            0,
+            1280.53,
+            720
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lwval87e",
+      "id": "1042",
+      "name": "Picture 24",
+      "bbox": [
+        824.43,
+        179.5,
+        391.26,
+        399.44
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image149.png",
+        "contentType": "image/png",
+        "byteLength": 318171
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image149.png",
+        "contentType": "image/png",
+        "byteLength": 318171
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "1029",
+      "name": "任意多边形: 形状 60",
+      "bbox": [
+        744.97,
+        156.6,
+        460.2,
+        75.14
+      ],
+      "rotation": 355.33,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "1030",
+      "name": "直接连接符 62",
+      "bbox": [
+        774.61,
+        194.85,
+        218.36,
+        55.49
+      ],
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "line",
+      "lineColor": "#639913",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "1031",
+      "name": "直接连接符 61",
+      "bbox": [
+        1170.34,
+        154.62,
+        31,
+        81
+      ],
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "line",
+      "lineColor": "#639913",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/wb2hwfyx",
+      "id": "1043",
+      "name": "图片 56",
+      "bbox": [
+        756.35,
+        148.33,
+        415.69,
+        29.69
+      ],
+      "rotation": 356.88,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image150.png",
+        "contentType": "image/png",
+        "byteLength": 19660
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image150.png",
+        "contentType": "image/png",
+        "byteLength": 19660
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "1035",
+      "name": "矩形 34",
+      "bbox": [
+        972.86,
+        229.35,
+        239.82,
+        25.75
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#FF0000"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "52",
+      "name": "八边形 39",
+      "bbox": [
+        38.17,
+        428.92,
+        725.43,
+        279.53
+      ],
+      "geometry": "octagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "18",
+      "name": "平行四边形 74",
+      "bbox": [
+        41.71,
+        425.94,
+        546.63,
+        40.11
+      ],
+      "rotation": 0,
+      "geometry": "parallelogram",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 2.67
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "19",
+      "name": "文本框 5",
+      "bbox": [
+        57.5,
+        431.83,
+        725.43,
+        36.34
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2024年6月 河南省省委书记楼阳生对项目成果表示充分肯定",
+      "textPreview": "2024年6月 河南省省委书记楼阳生对项目成果表示充分肯定",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2024年6月 河南省省委书记楼阳生对项目成果表示充分肯定"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2024年6月 河南省省委书记楼阳生对项目成果表示充分肯定",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2024",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "年",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "6",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "月 河南省省委书记楼阳生对项目成果",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": "表示充分",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 6,
+              "text": "肯定",
+              "typeface": "微软雅黑",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3itgfmlk",
+      "id": "1044",
+      "name": "图片 13",
+      "bbox": [
+        423.13,
+        475.02,
+        299.51,
+        187.14
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image151.png",
+        "contentType": "image/png",
+        "byteLength": 1052030
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image151.png",
+        "contentType": "image/png",
+        "byteLength": 1052030
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "32",
+      "name": "八边形 39",
+      "bbox": [
+        38.17,
+        130.08,
+        725.43,
+        265.86
+      ],
+      "rotation": 0,
+      "geometry": "octagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 1.33
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "50",
+      "name": "文本框 49",
+      "bbox": [
+        94.99,
+        194.37,
+        64.66,
+        27.26
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2020",
+      "textPreview": "2020",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2020"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2020",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2020",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#639913",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "85",
+      "name": "平行四边形 74",
+      "bbox": [
+        45.89,
+        142.58,
+        550.75,
+        40.11
+      ],
+      "rotation": 0,
+      "geometry": "parallelogram",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 2.67
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "86",
+      "name": "文本框 5",
+      "bbox": [
+        67.9,
+        143.14,
+        659.14,
+        72.68
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2023年7月 基于卫星高光谱数据的省域冬小麦生长监测\n",
+      "textPreview": "2023年7月 基于卫星高光谱数据的省域冬小麦生长监测 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2023年7月 基于卫星高光谱数据的省域冬小麦生长监测"
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2023年7月 基于卫星高光谱数据的省域冬小麦生长监测",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2023",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "年",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "7",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "月 基于卫星高光谱数据的省域冬小麦生长监测",
+              "typeface": "微软雅黑",
+              "color": "accent1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "87",
+      "name": "平行四边形 86",
+      "bbox": [
+        45.89,
+        141.62,
+        23.21,
+        38.74
+      ],
+      "rotation": 0,
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "parallelogram",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ex0nuxc3",
+      "id": "1045",
+      "name": "图片 110",
+      "bbox": [
+        84.03,
+        187.73,
+        168.66,
+        126.5
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image152.png",
+        "contentType": "image/png",
+        "byteLength": 399656
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image152.png",
+        "contentType": "image/png",
+        "byteLength": 399656
+      }
+    },
+    {
+      "order": 17,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/loj2t83i",
+      "id": "1046",
+      "name": "图片 5",
+      "bbox": [
+        242.89,
+        193.19,
+        166.29,
+        124.73
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image153.png",
+        "contentType": "image/png",
+        "byteLength": 408448
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image153.png",
+        "contentType": "image/png",
+        "byteLength": 408448
+      }
+    },
+    {
+      "order": 18,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/w3m94fu1",
+      "id": "1047",
+      "name": "图片 4",
+      "bbox": [
+        401.98,
+        194.07,
+        168.66,
+        126.51
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image154.png",
+        "contentType": "image/png",
+        "byteLength": 417792
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image154.png",
+        "contentType": "image/png",
+        "byteLength": 417792
+      }
+    },
+    {
+      "order": 19,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3ex0nuxc",
+      "id": "1048",
+      "name": "图片 6",
+      "bbox": [
+        565.22,
+        196.44,
+        168.66,
+        126.51
+      ],
+      "rotation": 0,
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image155.png",
+        "contentType": "image/png",
+        "byteLength": 423052
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image155.png",
+        "contentType": "image/png",
+        "byteLength": 423052
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "1039",
+      "name": "文本框 1038",
+      "bbox": [
+        244.28,
+        193.58,
+        64.66,
+        27.26
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2021",
+      "textPreview": "2021",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2021"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2021",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2021",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#639913",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "1040",
+      "name": "文本框 1039",
+      "bbox": [
+        413.09,
+        195.84,
+        64.66,
+        27.26
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2022",
+      "textPreview": "2022",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2022"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2022",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2022",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#639913",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "1041",
+      "name": "文本框 1040",
+      "bbox": [
+        561.9,
+        197.58,
+        64.66,
+        27.26
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2023",
+      "textPreview": "2023",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2023"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2023",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2023",
+              "fontSize": 16,
+              "typeface": "微软雅黑",
+              "color": "#639913",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "31",
+      "name": "文本框 30",
+      "bbox": [
+        84.01,
+        324.55,
+        677.47,
+        65.11
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "河南省冬小麦种植集中在北部地区、南阳盆地以及中西部平原\n2020-2023年期间的小麦的种植范围和强度的变化较小",
+      "textPreview": "河南省冬小麦种植集中在北部地区、南阳盆地以及中西部平原 | 2020-2023年期间的小麦的种植范围和强度的变化较小",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "• 河南省冬小麦种植集中在北部地区、南阳盆地以及中西部平原"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "• 2020-2023年期间的小麦的种植范围和强度的变化较小"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "河南省冬小麦种植集中在北部地区、南阳盆地以及中西部平原",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "spaceBefore": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": "河南省",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 2,
+              "text": "冬",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 3,
+              "text": "小麦",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 4,
+              "text": "种植",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 5,
+              "text": "集中在北部地区、南阳盆地以及中西部平原",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "2020-2023年期间的小麦的种植范围和强度的变化较小",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "spaceBefore": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": "2020-2023",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 2,
+              "text": "年期间的小麦的种植范围和强度的变化",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 3,
+              "text": "较",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 4,
+              "text": "小",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/at47y1kr",
+      "id": "1049",
+      "name": "图片 3",
+      "bbox": [
+        84.01,
+        474.21,
+        299.34,
+        187.04
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image156.png",
+        "contentType": "image/png",
+        "byteLength": 575942
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image156.png",
+        "contentType": "image/png",
+        "byteLength": 575942
+      }
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "84",
+      "name": "圆角矩形 2",
+      "bbox": [
+        810.25,
+        605.45,
+        426.73,
+        73
+      ],
+      "geometry": "hexagon",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "38",
+      "name": "文本框 37",
+      "bbox": [
+        823.22,
+        609.63,
+        413.76,
+        67.86
+      ],
+      "geometry": "rect",
+      "text": "2023年已与河南省科学院\n签署合作协议，第一期金额三十万",
+      "textPreview": "2023年已与河南省科学院 | 签署合作协议，第一期金额三十万",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2023年已与河南省科学院"
+          },
+          {
+            "index": 2,
+            "text": "签署合作协议，第一期金额三十万"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2023年已与河南省科学院",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2023",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "年已与",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "河南省",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "科学院",
+              "typeface": "微软雅黑",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "签署合作协议，第一期金额三十万",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "签署合作协议，第一期金额三十万",
+              "fontSize": 24,
+              "typeface": "微软雅黑",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "35",
+      "name": "平行四边形 34",
+      "bbox": [
+        40.62,
+        423.75,
+        23.21,
+        38.74
+      ],
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "parallelogram",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "12",
+      "name": "文本框 11",
+      "bbox": [
+        35.66,
+        667.73,
+        747.02,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "强调带动种植业优化结构、提升品质，促进农业提质提效、农民增产增收",
+      "textPreview": "强调带动种植业优化结构、提升品质，促进农业提质提效、农民增产增收",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 强调带动种植业优化结构、提升品质，促进农业提质提效、农民增产增收"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "强调带动种植业优化结构、提升品质，促进农业提质提效、农民增产增收",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "runs": [
+            {
+              "index": 1,
+              "text": "强调带动种植业优化结构、提升品质，促进农业提质提效、农民增产增收",
+              "fontSize": 21.33,
+              "typeface": "微软雅黑"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "3",
+      "name": "标题 1",
+      "bbox": [
+        41.55,
+        85.49,
+        987.56,
+        44.59
+      ],
+      "geometry": "rect",
+      "text": "应用案例2：为河南省科学院提供河南省域小麦种植信息",
+      "textPreview": "应用案例2：为河南省科学院提供河南省域小麦种植信息",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "微软雅黑",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "bold": true,
+        "alignment": "left",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 5.76,
+          "bottom": 2.88,
+          "left": 5.76
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "应用案例2：为河南省科学院提供河南省域小麦种植信息"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "应用案例2：为河南省科学院提供河南省域小麦种植信息",
+          "runs": [
+            {
+              "index": 1,
+              "text": "应用案例",
+              "fontSize": 32
+            },
+            {
+              "index": 2,
+              "text": "2",
+              "fontSize": 32
+            },
+            {
+              "index": 3,
+              "text": "：为河南省科学院提供",
+              "fontSize": 32
+            },
+            {
+              "index": 4,
+              "text": "河南省域",
+              "fontSize": 32,
+              "typeface": "微软雅黑"
+            },
+            {
+              "index": 5,
+              "text": "小麦种植信息",
+              "fontSize": 32
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "10",
+      "name": "文本框 9",
+      "bbox": [
+        473.81,
+        10.38,
+        536.71,
+        55.12
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "产品服务及应用案例——应用效果",
+      "textPreview": "产品服务及应用案例——应用效果",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "产品服务及应用案例——应用效果"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "产品服务及应用案例——应用效果",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "产品服务及应用案例",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "——",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "应用效果",
+              "fontSize": 32,
+              "typeface": "Arial",
+              "color": "#FFC000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "11",
+      "name": "MH_Number_3",
+      "bbox": [
+        437.46,
+        24.88,
+        34.01,
+        34.02
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#00B050",
+      "lineWidth": 0.33
+    }
+  ],
+  "composeRuns": []
+}

@@ -10,7 +10,7 @@ const props = defineProps({
   routeTarget: { type: Object, default: null }
 });
 
-const emit = defineEmits(["select-poi", "search"]);
+const emit = defineEmits(["select-poi", "search", "map-interaction"]);
 
 const mapEl = ref(null);
 const loading = ref(true);
@@ -320,6 +320,8 @@ async function initMap() {
 
     map.on("click", closePopup);
     map.on("mapmove", closePopup);
+    map.on("dragstart", () => emit("map-interaction", "dragstart"));
+    map.on("zoomstart", () => emit("map-interaction", "zoomstart"));
   } catch {
     mapReady.value = false;
   } finally {
@@ -364,7 +366,7 @@ watch(() => props.routeTarget, (target) => { if (target) planRoutes(target); });
 </script>
 
 <template>
-  <section class="map-card">
+  <section class="map-card" @pointerdown="emit('map-interaction', 'pointerdown')">
     <div ref="mapEl" class="amap-stage" aria-label="钓点地图"></div>
     <div v-if="!mapReady" class="map-fallback" aria-label="钓点与热力图演示">
       <span class="fallback-water water-one"></span>

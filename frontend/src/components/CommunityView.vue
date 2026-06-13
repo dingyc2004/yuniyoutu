@@ -10,6 +10,7 @@ import {
 import ChatView from "./ChatView.vue";
 import PostViewer from "./PostViewer.vue";
 import PublishView from "./PublishView.vue";
+import UserProfileView from "./UserProfileView.vue";
 import { fetchCollection } from "../services/api";
 
 const props = defineProps({
@@ -30,11 +31,18 @@ const showChat = ref(false);
 const query = ref("");
 const activeChannel = ref("推荐");
 const selectedPost = ref(null);
+const selectedUser = ref(null);
 
 const groups = ref([]);
 const messages = ref([]);
 const messageCount = ref(10);
 const contacts = ref([]);
+
+const fallbackProfiles = {
+  "江风路亚": { id: "user_jiangfeng", nickname: "江风路亚", avatar: "江", city: "武汉市", level: 4, bio: "江边搜索型路亚玩家，周末常驻青山江滩。", preferred_methods: ["路亚", "野钓"], preferred_species: ["翘嘴", "鳜鱼"] },
+  "不空军的阿明": { id: "user_aming", nickname: "不空军的阿明", avatar: "明", city: "武汉市", level: 5, bio: "爱复盘饵料和窗口期，愿意带新手。", preferred_methods: ["台钓", "野钓"], preferred_species: ["鲫鱼", "鲤鱼"] },
+  "钓场探路官": { id: "user_tanchang", nickname: "钓场探路官", avatar: "探", city: "武汉市", level: 3, bio: "记录武汉周边钓场体验和收费信息。", preferred_methods: ["台钓"], preferred_species: ["草鱼", "鲢鳙"] }
+};
 
 onMounted(async () => {
   const [gData, mData, socialData] = await Promise.all([
@@ -80,6 +88,21 @@ const rightColumn = computed(() => shownFeed.value.filter((_, i) => i % 2 === 1)
 
 function openPost(post) {
   selectedPost.value = post;
+}
+
+function openAuthor(post) {
+  const matched = contacts.value.find((user) => user.id === post.user_id || user.nickname === post.author);
+  selectedUser.value = matched || fallbackProfiles[post.author] || {
+    id: `user_${String(post.author || "angler").replace(/\s/g, "_")}`,
+    nickname: post.author || "钓友",
+    avatar: post.avatar || "钓",
+    city: "武汉市",
+    level: 2 + ((post.author || "").length % 4),
+    bio: "喜欢记录鱼情、钓点和每一次出钓。",
+    preferred_methods: [post.postType || "野钓"],
+    preferred_species: post.fish_species || []
+  };
+  selectedPost.value = null;
 }
 
 function submitSearch() {
@@ -161,6 +184,17 @@ function coverAspect(post) {
     @back="selectedPost = null"
     @action="(message) => emit('action', message)"
     @toggle-favorite="(post) => emit('toggle-favorite', post)"
+    @open-author="openAuthor"
+  />
+
+  <UserProfileView
+    v-else-if="selectedUser"
+    :profile="selectedUser"
+    :posts="feedItems"
+    :current-user-id="props.currentUserId"
+    @back="selectedUser = null"
+    @action="(message) => emit('action', message)"
+    @open-post="(post) => { selectedUser = null; selectedPost = post; }"
   />
 
   <section v-else class="community-page">
@@ -214,10 +248,10 @@ function coverAspect(post) {
           <div class="community-card-body">
             <h3>{{ post.title }}</h3>
             <div class="community-card-foot">
-              <div class="community-card-author">
+              <button type="button" class="community-card-author" @click.stop="openAuthor(post)">
                 <el-avatar :size="22">{{ post.avatar }}</el-avatar>
                 <span>{{ post.author }}</span>
-              </div>
+              </button>
               <span class="community-card-like">
                 <el-icon><Star /></el-icon>
                 {{ post.likes }}
@@ -244,10 +278,10 @@ function coverAspect(post) {
           <div class="community-card-body">
             <h3>{{ post.title }}</h3>
             <div class="community-card-foot">
-              <div class="community-card-author">
+              <button type="button" class="community-card-author" @click.stop="openAuthor(post)">
                 <el-avatar :size="22">{{ post.avatar }}</el-avatar>
                 <span>{{ post.author }}</span>
-              </div>
+              </button>
               <span class="community-card-like">
                 <el-icon><Star /></el-icon>
                 {{ post.likes }}
