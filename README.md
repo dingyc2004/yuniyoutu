@@ -1,12 +1,12 @@
 # 鱼你有图
 
-“鱼你有图”是面向钓鱼爱好者的垂钓 GIS 社交平台。它把地图找点、POI 详情、规则推荐、鱼获发布、社区展示和教程学习放在同一个链路里，目标是让用户更快判断“去哪钓、能不能钓、现在适不适合钓”。
+"鱼你有图"是面向钓鱼爱好者的垂钓 GIS 社交平台。它把地图找点、POI 详情、规则推荐、鱼获发布、社区展示和教程学习放在同一个链路里，目标是让用户更快判断"去哪钓、能不能钓、现在适不适合钓"。
 
 ## 技术栈
 
-- 前端：Vue3 + Vite + 高德 JS API
+- 前端：Vue3 + Vite + Element Plus + 高德 JS API
 - 后端：FastAPI + Pydantic + httpx
-- 环境：conda + `requirements.txt`
+- 环境：conda (base 环境) + `requirements.txt`
 
 ## 项目结构
 
@@ -24,23 +24,14 @@ project-root/
 │   │   ├── schemas/
 │   │   ├── services/
 │   │   └── data/
+│   ├── tests/
 │   ├── requirements.txt
+│   ├── server.py
 │   └── README.md
 ├── data/
-│   ├── pois.json
-│   ├── pois.schema.json
-│   ├── posts.json
-│   ├── posts.schema.json
-│   ├── fish_species.json
-│   ├── fish_species.schema.json
-│   ├── tutorials.json
-│   ├── tutorials.schema.json
-│   ├── weather_snapshots.json
-│   ├── weather_snapshots.schema.json
-│   ├── records.json
-│   └── records.schema.json
+│   ├── *.json           (数据集合)
+│   └── *.schema.json    (JSON Schema)
 ├── docs/
-│   └── 开发设计书.md
 ├── .env.example
 ├── .gitignore
 └── README.md
@@ -51,10 +42,15 @@ project-root/
 ### 1. 启动后端
 
 ```bash
-conda create -n yuniyoutu-backend python=3.11
-conda activate yuniyoutu-backend
+conda activate base
 cd backend
 pip install -r requirements.txt
+python server.py
+```
+
+或直接：
+
+```bash
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
@@ -68,6 +64,14 @@ npm run dev
 
 前端默认运行在 `http://localhost:5173`，后端默认运行在 `http://127.0.0.1:8000`。
 
+### 3. 运行测试
+
+```bash
+cd backend
+pip install pytest httpx
+pytest tests/ -v
+```
+
 ## 环境变量
 
 项目根目录使用 `.env`，模板见 `.env.example`。
@@ -79,120 +83,119 @@ DEEPSEEK_API_KEY=
 APP_ENV=development
 ```
 
-说明：
-
-- `AMAP_WEB_SERVICE_KEY`：高德 Web 服务 Key，放后端使用
-- `AMAP_SECURITY_CODE`：高德 JS API 安全码
-- `DEEPSEEK_API_KEY`：DeepSeek Key，当前 AI 接口默认仍是 mock
-- `APP_ENV`：开发环境建议 `development`
-
 ## 后端接口说明
 
-当前 MVP 阶段接口如下：
+### 核心接口
 
 - `GET /api/health`
 - `GET /api/amap/config`
-- `GET /api/pois`
-- `GET /api/pois/{poi_id}`
-- `GET /api/posts`
-- `POST /api/posts`
-- `GET /api/feed`
-- `POST /api/catches`
-- `POST /api/recommendations`
-- `POST /api/ai/fishing-advice`
-- `GET /api/weather/current`
-- `GET /api/weather`
-- `GET /api/tutorials`
-- `GET /api/records`
-- `POST /api/records`
-- `GET /api/records/{record_id}`
-- `PATCH /api/records/{record_id}`
-- `DELETE /api/records/{record_id}`
+
+### 钓鱼记录
+
+- `GET /api/records` — 查询记录（支持 user_id）
+- `POST /api/records` — 创建记录
+- `GET /api/records/{record_id}` — 获取记录详情
+- `PATCH /api/records/{record_id}` — 更新记录
+- `DELETE /api/records/{record_id}` — 删除记录
+
+### 用户与会员
+
+- `GET /api/users/{user_id}` — 获取用户资料
+- `GET /api/users/{user_id}/membership` — 获取会员状态
+- `GET /api/users/{user_id}/profile-summary` — 获取个人档案汇总
+- `GET /api/users/{user_id}/reports` — 获取报告历史
+- `POST /api/users/{user_id}/reports` — 生成新报告
+- `GET /api/reports/{report_id}` — 获取单个报告
+
+### 社区帖子
+
+- `GET /api/posts` — 查询帖子（支持 channel, city, method, species）
+- `GET /api/feed` — 信息流
+- `POST /api/posts` — 发布帖子
+- `GET /api/posts/{post_id}` — 获取帖子详情
+
+### 社区互动
+
+- `POST /api/posts/{post_id}/comments` — 添加评论
+- `GET /api/posts/{post_id}/comments` — 查看评论
+- `POST /api/posts/{post_id}/reactions` — 点赞/收藏切换
+- `POST /api/users/{user_id}/follow` — 关注用户
+- `DELETE /api/users/{user_id}/follow` — 取消关注
+
+### 活动与群聊
+
+- `GET /api/events` — 活动列表
+- `POST /api/events` — 创建活动
+- `POST /api/events/{event_id}/register` — 报名活动
+- `POST /api/events/{event_id}/checkin` — 签到
+- `GET /api/groups` — 群组列表
+- `GET /api/groups/{group_id}/messages` — 获取消息
+- `POST /api/groups/{group_id}/messages` — 发送消息
+
+### 其他
+
+- `GET /api/pois` — POI 搜索
+- `POST /api/recommendations` — 推荐
+- `GET /api/weather/current` — 天气
+- `GET /api/tutorials` — 教程
+- `POST /api/ai/fishing-advice` — AI 建议
 
 返回值统一以 `data` 为主，便于前端对接和后续扩展。
 
-### 钓鱼记录接口
+## 数据持久化
 
-记录页用于一次出钓从开始计时到结束汇总的全流程。创建记录时主要字段如下：
+所有数据存储在 `data/` 目录的 JSON 文件中。新增记录和帖子后，后端会原子写入 JSON 文件，服务重启后数据不会丢失。每个集合都有对应的 `.schema.json` 描述文件。
 
-| 字段 | 类型 | 说明 |
-| --- | --- | --- |
-| `start_time` / `end_time` | datetime | 开始、结束时间 |
-| `duration_seconds` | int | 钓鱼时长（秒） |
-| `location_name` | string | 位置名称 |
-| `latitude` / `longitude` | float | 经纬度 |
-| `weather` / `temperature` | string / float | 天气与温度 |
-| `fish_count` / `fish_weight` | int / float | 鱼获数量与重量 |
-| `fish_species` / `fishing_method` / `bait` | string | 鱼种、钓法、饵料 |
-| `note` | string | 备注 |
-| `images` | string[] | 图片 URL，MVP 可为空 |
+### 数据集合
 
-示例：
+| 集合 | 用途 |
+| --- | --- |
+| `records` | 出钓记录 |
+| `posts` | 社区帖子 |
+| `users` | 用户资料 |
+| `memberships` | 单级会员状态 |
+| `report_snapshots` | 报告历史快照 |
+| `comments` | 帖子评论 |
+| `reactions` | 点赞/收藏 |
+| `follows` | 关注关系 |
+| `events` | 社群活动 |
+| `event_registrations` | 活动报名 |
+| `groups` | 群组 |
+| `group_members` | 群成员 |
+| `messages` | 群消息 |
+| `learning_progress` | 教程学习进度 |
+| `equipment` | 装备信息 |
+| `pois` | 钓点 POI |
+| `fish_species` | 鱼种百科 |
+| `tutorials` | 教程 |
+| `weather_snapshots` | 天气快照 |
 
-```bash
-curl -X POST http://127.0.0.1:8000/api/records \
-  -H "Content-Type: application/json" \
-  -d '{
-    "user_id": "demo_user",
-    "start_time": "2026-06-08T08:00:00+08:00",
-    "end_time": "2026-06-08T10:30:00+08:00",
-    "duration_seconds": 9000,
-    "location_name": "东湖绿道",
-    "latitude": 30.55,
-    "longitude": 114.37,
-    "weather": "多云",
-    "temperature": 26,
-    "fish_count": 3,
-    "fish_weight": 2.5,
-    "fish_species": "鲫鱼",
-    "fishing_method": "台钓",
-    "bait": "蚯蚓",
-    "note": "早口不错",
-    "images": []
-  }'
-```
+## 会员体系
 
-## 数据存储说明
+采用单级会员制度，状态为 `active`/`inactive`/`expired`：
+- 会员：完整档案、报告生成与分享
+- 非会员：完整记录和社区功能，报告能力受限
 
-当前不引入正式数据库，根目录 `data/` 用 JSON 模拟 NoSQL 集合：
+## 位置隐私
 
-- `pois.json`：垂钓 POI 集合
-- `posts.json`：鱼获、空军、探点等帖子集合
-- `fish_species.json`：鱼种百科集合
-- `tutorials.json`：教程集合
-- `weather_snapshots.json`：天气快照集合
-- `records.json`：钓鱼记录集合
+帖子发布时支持独立的**内容权限**和**位置精度**设置：
+- 内容权限：公开、朋友、私密
+- 位置精度：精确位置、水域模糊、仅城市、完全隐藏
 
-每个集合都有对应的 `.schema.json` 描述文件，用 JSON Schema 说明字段类型、必填项和业务含义。后端启动后读取这些 JSON 作为初始数据，`POST /api/posts` 当前仍只写入内存态列表，服务重启后新增内容会丢失。
-
-## 前端页面说明
-
-- 地图页：查看附近钓点、搜索、筛选、点选 POI、查看路线
-- 记录页：开始/结束计时、填写钓点与鱼获、汇总确认后保存钓鱼记录
-- 钓点详情：查看推荐理由、安全提示、鱼种和标签
-- 发布页：发布鱼获、空军和探点记录
-- 社区页：展示鱼获流和互动内容
-- 教程页：展示新手和进阶教程
-- 我的页：当前为基础骨架，后续接个人数据
+后端返回公开帖子前自动执行位置脱敏。
 
 ## 当前完成情况
 
 - 已完成 Vue3 + Vite 前端基础
 - 已完成 FastAPI 后端骨架
-- 已完成 POI、帖子、推荐、天气、AI 解释的接口骨架
-- 已完成 JSON 集合模拟 NoSQL 数据层和内存态发布链路
-- 已完成钓鱼记录页（计时、汇总弹窗、保存）及 `/api/records` CRUD 接口
-- 已完成高德 Key、DeepSeek Key 的环境变量方案
-- 已完成开发设计书更新
-- 旧版 Node 后端已保留为 legacy，不再作为主入口
-
-## 后续开发计划
-
-1. 继续把前端页面逐步切到 FastAPI 的稳定数据结构
-2. 接入真实高德 POI 和天气服务
-3. 把帖子、收藏、评论和 POI 详情联动做深
-4. 引入数据库和用户系统
-5. 在规则推荐基础上继续增强 AI 解释和复盘能力
+- 已完成 JSON 数据持久化（重启不丢失）
+- 已完成记录页鱼获完整输入（鱼种、条数、重量、钓法、饵料、最大单尾、空军标记）
+- 已完成用户资料与单级会员
+- 已完成报告服务（偏好分析 vs 效率分析分离）
+- 已完成社区互动（评论、点赞、关注）后端
+- 已完成活动、群聊基础后端
+- 已完成位置脱敏逻辑
+- 已完成后端 pytest 测试
 
 ## 小组协作规范
 

@@ -178,7 +178,9 @@ async function initMap() {
   error.value = "";
   try {
     const config = await fetchAmapConfig();
-    if (!config.key || !config.securityCode) throw new Error("map unavailable");
+    if (!config.ready) {
+      throw new Error(`地图配置缺失：${(config.missing || []).join("、")}`);
+    }
     await loadScript(config.key, config.securityCode);
     const center =
       Number.isFinite(props.longitude) && Number.isFinite(props.latitude)
@@ -206,7 +208,10 @@ async function initMap() {
     await new Promise((resolve) => requestAnimationFrame(resolve));
     map.resize();
   } catch (reason) {
-    error.value = "可以先手动填写位置名称";
+    const detail = reason instanceof Error ? reason.message : "";
+    error.value = detail.includes("地图配置缺失")
+      ? detail
+      : "高德 JS API 鉴权或网络加载失败，可先手动填写位置名称";
     destroyMap();
   } finally {
     loading.value = false;

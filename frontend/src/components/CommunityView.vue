@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import {
   Bell,
   CirclePlus,
@@ -7,23 +7,53 @@ import {
   Search,
   Star
 } from "@element-plus/icons-vue";
+import ChatView from "./ChatView.vue";
 import PostViewer from "./PostViewer.vue";
 import PublishView from "./PublishView.vue";
+import { fetchCollection } from "../services/api";
 
 const props = defineProps({
+  currentUserId: { type: String, default: "demo_user" },
+  openMessagesToken: { type: Number, default: 0 },
+  shareRecord: { type: Object, default: null },
   feed: { type: Array, default: () => [] },
   favorites: { type: Array, default: () => [] },
   pois: { type: Array, default: () => [] },
   records: { type: Array, default: () => [] }
 });
 
-const emit = defineEmits(["action", "toggle-favorite", "submit-post"]);
+const emit = defineEmits(["action", "toggle-favorite", "submit-post", "share-consumed"]);
 
 const showPublish = ref(false);
+const showChat = ref(false);
 
 const query = ref("");
 const activeChannel = ref("推荐");
 const selectedPost = ref(null);
+
+const groups = ref([]);
+const messages = ref([]);
+const messageCount = ref(10);
+const contacts = ref([]);
+
+onMounted(async () => {
+  const [gData, mData, socialData] = await Promise.all([
+    fetchCollection("/api/groups", null).catch(() => []),
+    fetchCollection("/api/groups/group_001/messages", null).catch(() => []),
+    fetchCollection(`/api/users/${encodeURIComponent(props.currentUserId)}/social`, null).catch(() => [])
+  ]);
+  groups.value = Array.isArray(gData) ? gData : [];
+  messages.value = Array.isArray(mData) ? mData : [];
+  messageCount.value = Array.isArray(mData) ? mData.length : 0;
+  contacts.value = Array.isArray(socialData) ? socialData : [];
+  if (props.openMessagesToken > 0) showChat.value = true;
+  if (props.shareRecord) showPublish.value = true;
+});
+
+watch(() => props.openMessagesToken, () => { showChat.value = true; });
+watch(() => props.shareRecord, (record) => {
+  if (record) showPublish.value = true;
+}, { immediate: true });
 
 const channels = ["推荐", "同城", "关注", "路亚", "台钓", "野钓", "海钓", "新手"];
 
@@ -112,8 +142,18 @@ function coverAspect(post) {
 </script>
 
 <template>
+  <ChatView
+    v-if="showChat"
+    :groups="groups"
+    :messages="messages"
+    :contacts="contacts"
+    :current-user-id="props.currentUserId"
+    @action="(msg) => emit('action', msg)"
+    @back="showChat = false"
+  />
+
   <PostViewer
-    v-if="selectedPost"
+    v-else-if="selectedPost"
     :post="selectedPost"
     :feed="feedItems"
     :favorites="favorites"
@@ -129,8 +169,13 @@ function coverAspect(post) {
         <el-icon aria-hidden="true"><Search /></el-icon>
         <input v-model="query" type="search" placeholder="搜索钓点、鱼种、技巧、用户" />
       </form>
-      <button type="button" class="community-msg-btn" aria-label="消息" @click="emit('action', '暂无新消息')">
+      <button type="button" class="community-publish-btn" aria-label="发布" @click="showPublish = true">
+        <el-icon><CirclePlus /></el-icon>
+        <span>发布</span>
+      </button>
+      <button type="button" class="community-msg-btn" aria-label="消息" @click="showChat = true">
         <el-icon><Bell /></el-icon>
+        <span v-if="messageCount" class="msg-badge">{{ messageCount > 99 ? '99+' : messageCount }}</span>
       </button>
     </header>
 
@@ -214,10 +259,6 @@ function coverAspect(post) {
       </div>
     </div>
 
-    <button class="community-fab" type="button" aria-label="发布" @click="showPublish = true">
-      <el-icon><CirclePlus /></el-icon>
-    </button>
-
     <Transition name="slide-up">
       <div v-if="showPublish" class="publish-overlay">
         <div class="publish-sheet">
@@ -229,10 +270,12 @@ function coverAspect(post) {
           </header>
           <div class="publish-sheet-body">
             <PublishView
+              :current-user-id="props.currentUserId"
               :pois="pois"
               :records="records"
+              :initial-record="props.shareRecord"
               @action="(msg) => emit('action', msg)"
-              @submit-post="(post) => { emit('submit-post', post); showPublish = false; }"
+              @submit-post="(post) => { emit('submit-post', post); emit('share-consumed'); showPublish = false; }"
             />
           </div>
         </div>

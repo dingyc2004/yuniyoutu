@@ -15,6 +15,7 @@
       "level": { "type": "string", "description": "难度等级，如入门、进阶、安全。" },
       "duration": { "type": "string", "description": "预计学习时长。" },
       "summary": { "type": "string", "description": "教程摘要。" },
+      "content": { "type": "string", "description": "教程正文，支持 Markdown。" },
       "tags": { "type": "array", "items": { "type": "string" }, "description": "教程标签。" },
       "coverTone": { "type": "string", "description": "前端封面色调。" }
     }

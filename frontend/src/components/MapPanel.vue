@@ -15,6 +15,7 @@ const emit = defineEmits(["select-poi", "search"]);
 const mapEl = ref(null);
 const loading = ref(true);
 const error = ref("");
+const mapReady = ref(false);
 const keyword = ref("");
 const routeMode = ref("driving");
 const routeData = ref({});
@@ -28,10 +29,36 @@ let markers = [];
 let routePolylines = [];
 let startMarker = null;
 let startLngLat = null;
+let heatmap = null;
 
 const START_ADDRESS = "武汉大学信息学部南二门";
 
 const firstPoi = computed(() => props.pois[0] || null);
+const fallbackPois = computed(() => {
+  const points = props.pois.map((poi) => ({ poi, position: parseLocation(poi) })).filter((item) => item.position);
+  if (!points.length) return [];
+  const lngs = points.map((item) => item.position[0]);
+  const lats = points.map((item) => item.position[1]);
+  const minLng = Math.min(...lngs);
+  const maxLng = Math.max(...lngs);
+  const minLat = Math.min(...lats);
+  const maxLat = Math.max(...lats);
+  return points.map(({ poi, position }, index) => ({
+    poi,
+    index,
+    style: {
+      left: `${12 + ((position[0] - minLng) / Math.max(maxLng - minLng, 0.001)) * 76}%`,
+      top: `${22 + (1 - (position[1] - minLat) / Math.max(maxLat - minLat, 0.001)) * 58}%`
+    },
+    heatStyle: {
+      left: `${12 + ((position[0] - minLng) / Math.max(maxLng - minLng, 0.001)) * 76}%`,
+      top: `${22 + (1 - (position[1] - minLat) / Math.max(maxLat - minLat, 0.001)) * 58}%`,
+      width: `${72 + Number(poi.social_heat || poi.score || 60)}px`,
+      height: `${72 + Number(poi.social_heat || poi.score || 60)}px`,
+      opacity: `${Math.min(0.68, 0.25 + Number(poi.social_heat || poi.score || 60) / 180)}`
+    }
+  }));
+});
 
 const routeModes = [
   { key: "driving", label: "驾车" },
@@ -59,7 +86,7 @@ function loadScript(key, securityCode) {
   return new Promise((resolve, reject) => {
     const script = document.createElement("script");
     script.dataset.amapJsapi = "true";
-    script.src = `https://webapi.amap.com/maps?v=2.0&key=${encodeURIComponent(key)}&plugin=AMap.Scale,AMap.ToolBar`;
+    script.src = `https://webapi.amap.com/maps?v=2.0&key=${encodeURIComponent(key)}&plugin=AMap.Scale,AMap.ToolBar,AMap.Geocoder,AMap.Driving,AMap.Walking,AMap.Transfer,AMap.HeatMap`;
     script.async = true;
     script.onload = resolve;
     script.onerror = () => reject(new Error("amap jsapi load failed"));
@@ -105,6 +132,29 @@ function syncMarkers() {
     map.add(markers);
     map.setFitView(markers, false, [92, 26, 118, 26], 15);
   }
+  syncHeatmap();
+}
+
+function syncHeatmap() {
+  if (!map || !window.AMap) return;
+  const data = props.pois
+    .map((poi) => {
+      const position = parseLocation(poi);
+      return position
+        ? { lng: position[0], lat: position[1], count: Number(poi.social_heat || poi.score || 50) }
+        : null;
+    })
+    .filter(Boolean);
+  window.AMap.plugin("AMap.HeatMap", () => {
+    if (!heatmap) {
+      heatmap = new window.AMap.HeatMap(map, {
+        radius: 44,
+        opacity: [0.12, 0.72],
+        gradient: { 0.35: "#55c9b7", 0.65: "#f1c75b", 0.9: "#ec765f" }
+      });
+    }
+    heatmap.setDataSet({ data, max: 100 });
+  });
 }
 
 function clearRoutes() {
@@ -141,17 +191,6 @@ async function planRoutes(target) {
   showRoutePanel.value = true;
 
   try {
-    const plugins = ["AMap.Driving", "AMap.Walking", "AMap.Transfer", "AMap.Geocoder"];
-    const missing = plugins.filter((p) => !window.AMap[p]);
-    if (missing.length) {
-      await new Promise((resolve, reject) => {
-        window.AMap.plugin(missing, () => {
-          missing.forEach((p) => { if (!window.AMap[p]) reject(new Error(`plugin ${p} load failed`)); });
-          resolve();
-        });
-      });
-    }
-
     if (!startLngLat) {
       const geocoder = new window.AMap.Geocoder();
       const result = await new Promise((resolve) => {
@@ -263,23 +302,26 @@ async function initMap() {
   error.value = "";
   try {
     const config = await fetchAmapConfig();
+    if (!config.ready) {
+      throw new Error(`地图配置缺失：${(config.missing || []).join("、")}`);
+    }
     await loadScript(config.key, config.securityCode);
     const center = parseLocation(firstPoi.value) || [114.3055, 30.5928];
     map = new window.AMap.Map(mapEl.value, {
       center,
       zoom: 12,
       viewMode: "2D",
-      mapStyle: "amap://styles/normal",
       resizeEnable: true
     });
     map.addControl(new window.AMap.Scale());
     map.addControl(new window.AMap.ToolBar({ position: "RT" }));
     syncMarkers();
+    mapReady.value = true;
 
     map.on("click", closePopup);
     map.on("mapmove", closePopup);
-  } catch (reason) {
-    error.value = "可以先查看钓点列表和详情";
+  } catch {
+    mapReady.value = false;
   } finally {
     loading.value = false;
   }
@@ -295,6 +337,7 @@ onBeforeUnmount(() => {
   clearRoutes();
   closePopup();
   if (map) { map.destroy(); map = null; }
+  heatmap = null;
 });
 
 watch(() => props.pois, () => { clearRoutes(); closePopup(); syncMarkers(); }, { deep: true });
@@ -323,6 +366,25 @@ watch(() => props.routeTarget, (target) => { if (target) planRoutes(target); });
 <template>
   <section class="map-card">
     <div ref="mapEl" class="amap-stage" aria-label="钓点地图"></div>
+    <div v-if="!mapReady" class="map-fallback" aria-label="钓点与热力图演示">
+      <span class="fallback-water water-one"></span>
+      <span class="fallback-water water-two"></span>
+      <span v-for="item in fallbackPois" :key="`heat-${item.poi.id}`" class="fallback-heat" :style="item.heatStyle"></span>
+      <button
+        v-for="item in fallbackPois"
+        :key="item.poi.id"
+        class="fallback-poi"
+        :class="{ banned: item.poi.is_banned, paid: item.poi.type === '钓场' }"
+        :style="item.style"
+        type="button"
+        :title="item.poi.name"
+        @click="emit('select-poi', item.poi)"
+      >
+        <span>{{ item.index + 1 }}</span>
+        <strong>{{ item.poi.name }}</strong>
+      </button>
+      <div class="fallback-legend"><span></span> 钓友活跃热力 <b>高</b></div>
+    </div>
 
     <form class="map-search" @submit.prevent="submitSearch">
       <el-icon aria-hidden="true"><Search /></el-icon>
@@ -331,11 +393,7 @@ watch(() => props.routeTarget, (target) => { if (target) planRoutes(target); });
 
     <div class="weather-pill">{{ weatherText }}</div>
 
-    <div v-if="loading" class="map-status">地图加载中</div>
-    <div v-else-if="error" class="map-status error">
-      <strong>暂时无法显示地图</strong>
-      <span>{{ error }}</span>
-    </div>
+    <div v-if="loading" class="map-status">正在加载钓点与热力数据</div>
 
     <div v-if="firstPoi && !showRoutePanel && !popupPoi" class="recommend-strip">
       <strong>今日推荐：{{ firstPoi.name }}</strong>

@@ -18,7 +18,8 @@ class Settings(BaseSettings):
     app_env: str = "development"
     api_prefix: str = "/api"
 
-    amap_web_service_key: str = "0313792450ec0c2b6da97e552c438fab"
+    amap_web_service_key: str = ""
+    amap_js_api_key: str = ""
     amap_security_code: str = ""
 
     deepseek_api_key: str = ""

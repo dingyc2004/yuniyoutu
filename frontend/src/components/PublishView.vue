@@ -1,7 +1,16 @@
 <script setup>
-import { reactive } from "vue";
+import { reactive, watch } from "vue";
+import { createPost } from "../services/api";
 
 const props = defineProps({
+  currentUserId: {
+    type: String,
+    default: "demo_user"
+  },
+  initialRecord: {
+    type: Object,
+    default: null
+  },
   pois: {
     type: Array,
     default: () => []
@@ -22,9 +31,24 @@ const form = reactive({
   fishSize: "28cm",
   fishWeight: "0.8斤",
   poiName: "",
-  privacy: "公开",
-  imageCount: 3
+  contentPrivacy: "public",
+  locationPrivacy: "area_blur",
+  imageCount: 3,
+  recordId: null
 });
+
+const contentPrivacyLabel = {
+  "public": "公开",
+  "friends": "朋友",
+  "private": "私密"
+};
+
+const locationPrivacyLabel = {
+  "precise": "精确位置",
+  "area_blur": "水域模糊",
+  "city_only": "仅城市",
+  "hidden": "完全隐藏"
+};
 
 function recordTitle(record) {
   const species = record.fish_species || "钓鱼";
@@ -55,37 +79,47 @@ function applyRecord(record) {
   form.fishWeight = record.fish_weight ? `${record.fish_weight}斤` : form.fishWeight;
   form.fishSize = "";
   form.poiName = spot;
+  form.recordId = record.id || null;
   form.imageCount = Math.max(1, Array.isArray(record.images) && record.images.length ? record.images.length : form.imageCount);
   emit("action", "已从记录填充发布信息");
 }
 
-function submit() {
-  const post = {
-    id: `mine_${Date.now()}`,
+watch(() => props.initialRecord, (record) => {
+  if (record) applyRecord(record);
+}, { immediate: true });
+
+async function submit() {
+  const postPayload = {
+    user_id: props.currentUserId,
     format: form.format,
+    post_type: form.format === "视频" ? "视频" : "鱼获",
     author: "武汉钓友 008",
-    avatar: "我",
+    avatar: "W",
     title: form.title,
     content: form.note,
-    excerpt: form.note,
-    meta: `${form.poiName || props.pois[0]?.name || "未选择钓点"} · ${form.fishSpecies} · ${form.fishSize} · ${form.fishWeight}`,
-    postType: form.format === "视频" ? "短视频" : "鱼获分享",
-    tags: [`#${form.fishSpecies}`, `#${form.privacy}`, "#鱼获"],
-    likes: 0,
-    comments: 0,
-    saves: 0,
-    coverTone: form.format === "视频" ? "blue" : "green",
-    imageCount: form.format === "图文" ? Number(form.imageCount) || 1 : 1,
-    privacy: form.privacy,
-    catch: {
-      species: form.fishSpecies,
-      size: form.fishSize,
-      weight: form.fishWeight,
-      location: form.poiName || props.pois[0]?.name || "未选择钓点"
-    }
+    poi_id: null,
+    poi_name: form.poiName || null,
+    record_id: form.recordId,
+    content_type: form.format === "视频" ? "视频" : "鱼获",
+    fish_species: form.fishSpecies ? [form.fishSpecies] : [],
+    tags: [`#${form.fishSpecies}`, "#鱼获"],
+    images: [],
+    visibility: form.contentPrivacy,
+    location_visibility: form.locationPrivacy,
+    location_text: form.poiName || null,
+    location_area_name: "武汉市",
+    latitude: null,
+    longitude: null,
+    equipment_ids: []
   };
-  emit("submit-post", post);
-  emit("action", `已发布${form.format}，可见范围：${form.privacy}`);
+
+  const created = await createPost(postPayload);
+  if (created) {
+    emit("submit-post", created);
+    emit("action", `已发布${form.format}，内容:${contentPrivacyLabel[form.contentPrivacy]}，位置:${locationPrivacyLabel[form.locationPrivacy]}`);
+  } else {
+    emit("action", "发布失败，请检查网络连接");
+  }
 }
 </script>
 
@@ -160,8 +194,23 @@ function submit() {
           </el-select>
         </div>
 
-        <div class="privacy-row" aria-label="公开方式">
-          <el-segmented v-model="form.privacy" :options="['私密', '仅朋友', '公开']" />
+        <div class="privacy-row" aria-label="内容可见范围">
+          <label>内容可见范围</label>
+          <el-segmented v-model="form.contentPrivacy" :options="[
+            { label: '公开', value: 'public' },
+            { label: '朋友', value: 'friends' },
+            { label: '私密', value: 'private' }
+          ]" />
+        </div>
+
+        <div class="privacy-row" aria-label="位置精度">
+          <label>位置精度</label>
+          <el-segmented v-model="form.locationPrivacy" :options="[
+            { label: '精确', value: 'precise' },
+            { label: '水域模糊', value: 'area_blur' },
+            { label: '仅城市', value: 'city_only' },
+            { label: '隐藏', value: 'hidden' }
+          ]" />
         </div>
 
         <el-button class="submit-btn" native-type="submit" type="primary" round>发布</el-button>

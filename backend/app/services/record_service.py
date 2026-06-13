@@ -4,9 +4,8 @@ from copy import deepcopy
 from datetime import datetime, timezone
 from typing import Any
 
-from app.data.json_store import load_collection
+from app.data.json_store import load_collection, save_collection
 from app.schemas.record import FishingRecordCreate, FishingRecordPatch
-
 
 RECORDS_STORAGE: list[dict[str, Any]] = load_collection("records")
 
@@ -17,6 +16,10 @@ def _utc_now() -> datetime:
 
 def _sort_records(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(items, key=lambda item: str(item.get("created_at", "")), reverse=True)
+
+
+def _persist() -> None:
+    save_collection("records", RECORDS_STORAGE)
 
 
 def list_records(*, user_id: str | None = None, limit: int = 20) -> tuple[list[dict[str, Any]], int]:
@@ -46,6 +49,7 @@ def create_record(payload: FishingRecordCreate) -> dict[str, Any]:
         }
     )
     RECORDS_STORAGE.append(record)
+    _persist()
     return deepcopy(record)
 
 
@@ -55,6 +59,7 @@ def update_record(record_id: str, payload: FishingRecordPatch) -> dict[str, Any]
         if record.get("id") == record_id:
             merged = {**record, **updates, "updated_at": _utc_now().isoformat()}
             RECORDS_STORAGE[index] = merged
+            _persist()
             return deepcopy(merged)
     return None
 
@@ -63,5 +68,6 @@ def delete_record(record_id: str) -> bool:
     for index, record in enumerate(RECORDS_STORAGE):
         if record.get("id") == record_id:
             RECORDS_STORAGE.pop(index)
+            _persist()
             return True
     return False
