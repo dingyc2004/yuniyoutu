@@ -1,0 +1,30 @@
+\section{推荐算法与 AI 能力}
+
+\subsection{推荐系统设计}
+
+（待填写：规则模型排序策略、多因子评分（距离、天气、禁渔规则、历史鱼获、社区活跃度）、推荐接口设计。）
+
+\subsection{AI 钓鱼建议}
+
+（待填写：DeepSeek API 接入方案、提示词设计、AI 建议输出格式、Mock 降级策略。）
+
+\subsection{偏好与效率分析}
+
+（待填写：偏好指标（最常用钓法、最常出钓时段）与效率指标（单位小时鱼获、空军率）的算法区分。）
+
+\begin{table}[H]
+  \centering
+  \caption{偏好分析 vs 效率分析}
+  \label{tab:analysis-compare}
+  \begin{tabularx}{0.85\textwidth}{p{2.5cm}|X|X}
+    \toprule
+    \textbf{维度} & \textbf{偏好分析} & \textbf{效率分析} \\
+    \midrule
+    计算方法 & 按记录出现次数统计 & 按单位时间产出计算 \\
+    \midrule
+    典型指标 & 最常用钓法、常钓鱼种、偏好时段 & 最高效钓法、最佳时段、最低空军率条件 \\
+    \midrule
+    数据要求 & 至少 1 条记录 & 至少 5 条有效记录 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}

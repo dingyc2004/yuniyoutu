@@ -1,0 +1,54 @@
+\section{数据模型与接口设计}
+
+\subsection{数据库设计}
+
+（待填写：JSON 文件集合设计理念、23 个数据集合列表、每个集合的 Schema 说明。）
+
+\subsection{核心数据模型}
+
+以出钓记录为例：
+
+\begin{lstlisting}[caption={出钓记录 JSON Schema（示例）},label={lst:record-schema}]
+{
+  "id": "rec_001",
+  "user_id": "u_001",
+  "start_time": "2026-07-01T06:30:00",
+  "end_time": "2026-07-01T10:45:00",
+  "poi_id": "poi_wh_001",
+  "fish_species": ["鲫鱼", "鲤鱼"],
+  "fish_count": 12,
+  "total_weight_kg": 3.8,
+  "max_single_weight_kg": 0.6,
+  "method": "台钓",
+  "bait": "商品饵",
+  "is_blank_trip": false,
+  "water_type": "lake",
+  "privacy_level": 1
+}
+\end{lstlisting}
+
+\subsection{API 接口总览}
+
+\begin{longtable}{|p{0.8cm}|p{3cm}|p{3.5cm}|p{3.5cm}|p{3cm}|}
+  \caption{API 接口总览表}
+  \label{tab:api-list}\\
+  \toprule
+  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{所属模块} \\
+  \midrule
+  \endfirsthead
+  \multicolumn{5}{c}{\tablename~\thetable\quad（续）}\\
+  \toprule
+  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{所属模块} \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endlastfoot
+  1  & /api/health       & GET  & 健康检查        & 元数据 \\
+  2  & /api/records       & GET/POST & 记录CRUD    & 出钓记录 \\
+  3  & /api/posts         & GET/POST & 帖子管理    & 社区 \\
+  % ---- 在此继续添加行 ----
+\end{longtable}
+
+\subsection{接口规范}
+
+（待填写：统一返回格式 \texttt{\{code, data, message\}}、错误码定义、分页参数约定。）

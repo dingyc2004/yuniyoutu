@@ -1,0 +1,154 @@
+% ============================================================
+%  鱼你有图 技术投标文件
+%  编译方式: xelatex main.tex
+%  文档类: ctexart (中文文章)
+% ============================================================
+\documentclass[12pt,a4paper]{ctexart}
+
+% ---------- 页面设置 ----------
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm]{geometry}
+
+% ---------- 字体 ----------
+\usepackage{fontspec}
+\setmonofont{Consolas}[
+  BoldFont={Consolas Bold},
+  ItalicFont={Consolas Italic},
+  BoldItalicFont={Consolas Bold Italic}
+]
+
+% ---------- 图表 ----------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\graphicspath{{figures/}}
+
+% ---------- 表格 ----------
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+
+% ---------- 代码块 ----------
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codebg}{RGB}{248,248,248}
+\definecolor{codeframe}{RGB}{220,220,220}
+\definecolor{codekey}{RGB}{0,119,170}
+\definecolor{codestr}{RGB}{17,140,55}
+\definecolor{codecmt}{RGB}{138,138,138}
+
+\lstset{
+  basicstyle          = \small\ttfamily,
+  backgroundcolor     = \color{codebg},
+  frame               = single,
+  framerule           = 0.5pt,
+  rulecolor           = \color{codeframe},
+  numbers             = left,
+  numberstyle         = \tiny\color{gray},
+  numbersep           = 6pt,
+  breaklines          = true,
+  breakatwhitespace   = false,
+  showstringspaces    = false,
+  captionpos          = t,
+  aboveskip           = 8pt,
+  belowskip           = 8pt,
+  keywordstyle        = \color{codekey}\bfseries,
+  stringstyle         = \color{codestr},
+  commentstyle        = \color{codecmt}\itshape,
+  extendedchars       = true,
+  literate            =
+    {。}{{。}}1
+    {，}{{，}}1
+    {；}{{；}}1
+    {：}{{：}}1
+    {！}{{！}}1
+    {？}{{？}}1
+    {（}{{（}}1
+    {）}{{）}}1
+    {「}{{「}}1
+    {」}{{」}}1
+}
+
+% ---------- 超链接 ----------
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+
+% ---------- 页眉页脚 ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 鱼你有图技术投标文件}
+\fancyhead[R]{\small 课程实习项目}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% ---------- 标题格式 ----------
+\ctexset{
+  section = {
+    format    = \Large\bfseries,
+    number    = \thesection,
+    aftername = \quad,
+  },
+  subsection = {
+    format    = \large\bfseries,
+    number    = \thesubsection,
+    aftername = \quad,
+  },
+}
+
+% ---------- 文档标题 ----------
+\title{\Huge\bfseries 鱼你有图技术投标文件}
+\author{}
+\date{}
+
+\begin{document}
+
+% ===== 封面 =====
+\begin{titlepage}
+  \centering
+  \vspace*{3cm}
+
+  {\Huge\bfseries 鱼你有图技术投标文件\par}
+  \vspace{0.8cm}
+  {\LARGE 面向垂钓场景的 GIS 智能推荐与社交平台\par}
+
+  \vspace{2.5cm}
+
+  \begin{tabular}{rl}
+    \textbf{项目类型} & 课程实习项目 \\[6pt]
+    \textbf{团队名称} & \quad 占位\_团队名称 \\[6pt]
+    \textbf{团队成员} & \quad 占位\_成员一、占位\_成员二、占位\_成员三 \\[6pt]
+    \textbf{编写日期} & \quad \today \\[6pt]
+    \textbf{版本号}   & \quad v1.0 \\
+  \end{tabular}
+
+  \vspace{2cm}
+  {\large 武汉大学}
+\end{titlepage}
+
+% ===== 目录 =====
+\tableofcontents
+\newpage
+
+% ===== 正文 =====
+\input{sections/01_project_overview}
+\input{sections/02_requirement_analysis}
+\input{sections/03_overall_solution}
+\input{sections/04_system_architecture}
+\input{sections/05_business_and_data_flow}
+\input{sections/06_function_response}
+\input{sections/07_core_function_design}
+\input{sections/08_data_model_and_api}
+\input{sections/09_recommendation_and_ai}
+\input{sections/10_technology_stack}
+\input{sections/11_third_party_services}
+\input{sections/12_security_privacy_compliance}
+\input{sections/13_deployment_plan}
+\input{sections/14_testing_acceptance}
+\input{sections/15_innovation_advantages}
+\input{sections/16_implementation_plan}
+\input{sections/17_risk_analysis}
+\input{sections/18_future_extension}
+\input{sections/19_appendix}
+
+\end{document}

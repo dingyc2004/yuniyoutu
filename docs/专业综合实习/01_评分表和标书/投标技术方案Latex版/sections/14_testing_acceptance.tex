@@ -1,0 +1,28 @@
+\section{测试与验收}
+
+\subsection{测试策略}
+
+（待填写：单元测试、集成测试、端到端测试的分层策略。）
+
+\subsection{测试方案}
+
+\begin{table}[H]
+  \centering
+  \caption{测试方案概览}
+  \label{tab:test-plan}
+  \begin{tabularx}{0.85\textwidth}{p{2cm}|X|p{2.5cm}|p{2cm}}
+    \toprule
+    \textbf{测试类型} & \textbf{范围} & \textbf{工具} & \textbf{覆盖率目标} \\
+    \midrule
+    后端单元测试  & Service 层 & pytest + httpx & $\ge 80\%$ \\
+    \midrule
+    前端组件测试  & 核心组件   & Vitest & $\ge 70\%$ \\
+    \midrule
+    E2E 测试      & 核心链路   & Playwright & 核心链路 100\% \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{验收标准}
+
+（待填写：各项功能的验收条件、性能基准、兼容性矩阵。）
