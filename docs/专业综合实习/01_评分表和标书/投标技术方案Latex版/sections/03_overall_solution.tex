@@ -2,17 +2,74 @@
 
 \subsection{方案架构概述}
 
-（待填写：前后端分离架构、移动端适配策略、整体技术路线。）
+本方案采用\textbf{前后端分离}的 Web 应用架构，前端负责页面渲染与用户交互，后端负责业务逻辑与数据持久化，前后端通过 RESTful API 通信。
+
+整体技术路线：
+
+\begin{itemize}
+  \item \textbf{前端}：Vue 3 + Vite + Element Plus + 高德 JS API 2.0，实现移动端优先的单页应用
+  \item \textbf{后端}：FastAPI（Python 3.11）+ Pydantic 2，提供统一 `/api` 入口
+  \item \textbf{数据层}：根目录 `data/` 下 JSON 文件模拟 NoSQL 集合，每个集合配 `.schema.json` 描述文件，写入采用临时文件 + 原子替换策略
+  \item \textbf{第三方服务}：高德 Web 服务（POI 搜索、天气查询）和 DeepSeek API（智能建议生成）均由后端代理调用，API Key 通过环境变量管理
+  \item \textbf{开发环境}：前端 `npm run dev`（Vite 开发服务器，端口 5173，代理 `/api` 到后端 8000）；后端 `uvicorn --reload`（端口 8000）；Python 依赖通过 conda 环境 `fish` + `requirements.txt` 管理
+\end{itemize}
 
 \subsection{核心设计理念}
 
-以「先记录，再连接，后服务」为核心链路：
+本方案以「\textbf{先记录，再连接，后服务}」为核心产品链路：
+
 \begin{enumerate}
-  \item 先记录：开竿计时 → 真实鱼获录入 → 形成个人钓鱼档案
-  \item 再连接：记录关联帖子 → 位置脱敏 → 社区互动
-  \item 后服务：报告识别短板 → 推荐教程/活动/装备 → 产生服务收入
+  \item \textbf{先记录}：开竿计时 → 真实鱼获录入（鱼种、条数、重量、钓法、饵料）→ 形成个人钓鱼档案。MVP 阶段已实现记录 CRUD 接口、收竿汇总弹窗和 JSON 文件持久化，确保数据在服务重启后不丢失。
+  \item \textbf{再连接}：记录关联帖子 → 位置脱敏（精确/模糊/隐藏三级）→ 社区互动。当前阶段帖子可从出钓记录一键生成，社区频道支持按内容类型筛选；后续可扩展评论、点赞、收藏的后端持久化。
+  \item \textbf{后服务}：报告识别短板 → 推荐教程/活动/装备 → 产生服务收入。MVP 阶段已实现基于前端的生涯汇总统计（总鱼获、常钓鱼种、高频钓点、偏好时段等），后续可扩展为后端计算的月报/年报和个性化推荐。
 \end{enumerate}
+
+\subsection{三层架构设计}
+
+后端采用经典的三层架构，职责清晰、便于测试和扩展：
+
+\begin{table}[H]
+  \centering
+  \caption{后端三层架构}
+  \label{tab:backend-layers}
+  \begin{tabularx}{\textwidth}{p{3cm}|p{6cm}|p{5cm}}
+    \toprule
+    \textbf{层次} & \textbf{职责} & \textbf{MVP 阶段实现} \\
+    \midrule
+    API 路由层 (\texttt{app/api/}) & 接收 HTTP 请求、参数校验、调用 Service、返回响应 & routes\_poi、routes\_posts、routes\_records、routes\_recommend、routes\_weather、routes\_ai \\
+    \hline
+    业务服务层 (\texttt{app/services/}) & 业务逻辑聚合、推荐计算、第三方服务封装 & poi\_service、record\_service、post\_service、recommend\_service \\
+    \hline
+    数据持久层 (\texttt{data/json\_store.py}) & JSON 集合的加载、保存、原子更新 & load\_collection、save\_collection、update\_collection（临时文件 + 原子替换） \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
 
 \subsection{关键指标响应}
 
-（待填写：对招标文件各项技术指标要求的逐项响应摘要。）
+针对课程实习技术评分表（50 分制，7 个维度），本方案的响应策略如下：
+
+\begin{table}[H]
+  \centering
+  \caption{关键评分指标响应摘要}
+  \label{tab:score-response}
+  \begin{tabularx}{\textwidth}{p{0.6cm}|p{3.5cm}|p{4.5cm}|p{5.5cm}}
+    \toprule
+    \textbf{序号} & \textbf{评分项} & \textbf{分值} & \textbf{方案响应要点} \\
+    \midrule
+    1 & 项目定位与需求响应 & 6 & 明确五个核心用户问题，划定 MVP 边界，不将非 MVP 内容作为当前交付 \\
+    \hline
+    2 & 核心功能完成度 & 15 & 跑通“地图找点→详情→推荐→发布→社区”主流程，各页面可演示且数据联动 \\
+    \hline
+    3 & 技术架构与接口设计 & 8 & 前后端边界清晰，接口字段稳定，第三方 Key 由后端环境变量管理 \\
+    \hline
+    4 & 推荐模型与AI解释 & 7 & 规则模型六维评分 + 硬性拦截，AI 只做解释不改排序 \\
+    \hline
+    5 & 数据结构与数据可用性 & 5 & 核心模型（FishingPOI、CatchPost 等）字段完整，JSON 集合配 schema 文件 \\
+    \hline
+    6 & 界面交互与演示体验 & 5 & 地图即首页，POI 卡片→详情→发布→社区路径顺畅，视觉风格统一 \\
+    \hline
+    7 & 文档规范与团队协作 & 4 & 技术投标文件、产品/功能/开发设计书齐备，编号统一，内容与实现一致 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
