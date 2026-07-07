@@ -1,8 +1,8 @@
 \section{系统架构设计}
 
-\subsection{整体架构图}
+\subsection{整体架构}
 
-（待放置系统架构图。）
+本系统采用前后端分离的四层架构：前端展示层 → API 网关层 → 业务服务层 → 数据持久层。
 
 \begin{figure}[H]
   \centering
@@ -13,12 +13,112 @@
 
 \subsection{分层说明}
 
-（待填写：前端展示层、API 网关层、业务服务层、数据持久层的详细说明。）
+\subsubsection{前端展示层}
 
-\subsection{前端架构}
+前端为 Vue 3 单页应用（SPA），无 vue-router，通过根组件 \texttt{App.vue} 的 tab 切换实现页面导航。技术组成：
 
-（待填写：Vue 3 + Vite + Element Plus 组件树、状态管理、路由设计。）
+\begin{itemize}
+  \item \textbf{Vue 3（Composition API）}：组件逻辑与状态管理
+  \item \textbf{Vite}：开发服务器与生产构建，配置代理 `/api → 127.0.0.1:8000`
+  \item \textbf{Element Plus}：UI 组件库，提供表单、卡片、弹窗、标签等移动端适配组件
+  \item \textbf{高德 JS API 2.0}：地图展示、POI 标记、定位、路径规划等 GIS 能力；JS API Key 由后端接口 `/api/amap/config` 下发，不硬编码在前端源码中
+\end{itemize}
 
-\subsection{后端架构}
+\subsubsection{API 网关层}
 
-（待填写：FastAPI 路由注册、Service 层设计、JSON Store 数据层。）
+FastAPI 应用在 \texttt{app/main.py} 中初始化，统一注册 CORS、挂载所有路由模块，暴露 `/api` 前缀。当前 API 清单见第 8 章“数据模型与接口设计”。
+
+前端所有 API 调用集中在 \texttt{frontend/src/services/api.js} 中，组件不直接构造请求，便于统一处理加载状态、错误兜底和接口变更。
+
+\subsubsection{业务服务层}
+
+业务逻辑封装在 \texttt{app/services/} 目录下，每个服务模块负责一个业务域：
+
+\begin{itemize}
+  \item \texttt{poi\_service.py}：POI 查询、筛选、详情聚合
+  \item \texttt{record\_service.py}：出钓记录的创建、更新、查询、删除，关联天气快照
+  \item \texttt{post\_service.py}：帖子发布、社区流查询、内容与位置权限处理
+  \item \texttt{recommend\_service.py}：六维规则模型评分、风险硬性拦截、候选排序
+  \item \texttt{report\_service.py}：个人统计计算（总鱼获、常钓鱼种、高频钓点、偏好时段等）
+\end{itemize}
+
+\subsubsection{数据持久层}
+
+\texttt{data/json\_store.py} 提供三个核心函数，封装 JSON 文件的原子读写：
+
+\begin{itemize}
+  \item \texttt{load\_collection(name)}：读取 `data/<name>.json`，返回列表
+  \item \texttt{save\_collection(name, items)}：先写入同目录临时文件，再原子替换正式 JSON，避免写入中断导致文件损坏
+  \item \texttt{update\_collection(name, updater)}：原子化的“读取 → 修改 → 写回”操作
+\end{itemize}
+
+MVP 阶段根目录 `data/` 下包含 \texttt{pois.json}、\texttt{posts.json}、\texttt{records.json}、\texttt{tutorials.json}、\texttt{weather\_snapshots.json} 等集合，每个 `.json` 文件配有同名 `.schema.json` 描述文件。
+
+\subsection{前端组件架构}
+
+前端页面组件与底部导航 Tab 的对应关系：
+
+\begin{table}[H]
+  \centering
+  \caption{前端组件与 Tab 映射}
+  \label{tab:components}
+  \begin{tabularx}{\textwidth}{p{1.5cm}|p{3cm}|p{5cm}|p{5cm}}
+    \toprule
+    \textbf{Tab} & \textbf{组件} & \textbf{核心职责} & \textbf{关键子组件/弹窗} \\
+    \midrule
+    地图 & MapView.vue & 地图展示、POI 搜索与筛选、天气摘要、今日推荐 & POI 详情弹窗、筛选标签栏 \\
+    \hline
+    社区 & CommunityView.vue & 社区鱼获流、频道切换、搜索 & PostViewer.vue（帖子详情） \\
+    \hline
+    发布 & PublishView.vue & 鱼获/空军/探点发布、关联钓点、位置隐私设置 & RecordLocationDialog.vue \\
+    \hline
+    记录 & RecordView.vue & 开竿计时、收竿汇总、鱼获信息填写 & 收竿汇总弹窗（鱼种、条数、重量、钓法、饵料） \\
+    \hline
+    教程 & TutorialsView.vue & 教程列表、分类筛选、难度/时长展示 & — \\
+    \hline
+    我的 & MineView.vue & 个人战绩、记录列表、会员报告生成 & MemberReportView.vue（报告弹窗与导出） \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{后端路由注册}
+
+FastAPI 路由模块与 URL 前缀：
+
+\begin{table}[H]
+  \centering
+  \caption{后端路由注册}
+  \label{tab:routes}
+  \begin{tabularx}{\textwidth}{p{5cm}|p{5cm}|p{5cm}}
+    \toprule
+    \textbf{路由模块} & \textbf{URL 前缀} & \textbf{核心端点} \\
+    \midrule
+    \texttt{routes\_poi.py} & \texttt{/api} & \texttt{GET /api/pois}、\texttt{GET /api/pois/\{poi\_id\}} \\
+    \hline
+    \texttt{routes\_posts.py} & \texttt{/api} & \texttt{GET /api/posts}、\texttt{POST /api/posts}、\texttt{GET /api/feed} \\
+    \hline
+    \texttt{routes\_records.py} & \texttt{/api} & \texttt{GET /api/records}、\texttt{POST /api/records}、\texttt{PUT /api/records/\{id\}} \\
+    \hline
+    \texttt{routes\_recommend.py} & \texttt{/api} & \texttt{POST /api/recommendations} \\
+    \hline
+    \texttt{routes\_weather.py} & \texttt{/api} & \texttt{GET /api/weather/current} \\
+    \hline
+    \texttt{routes\_ai.py} & \texttt{/api} & \texttt{POST /api/ai/fishing-advice} \\
+    \hline
+    \texttt{routes\_tutorials.py} & \texttt{/api} & \texttt{GET /api/tutorials} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{配置管理}
+
+\texttt{app/core/config.py} 使用 pydantic-settings 从项目根目录 `.env` 文件读取环境变量，通过 \texttt{@lru\_cache} 单例模式管理。当前配置项包括：
+
+\begin{itemize}
+  \item \texttt{AMAP\_WEB\_SERVICE\_KEY}：高德 Web 服务 API Key
+  \item \texttt{AMAP\_SECURITY\_CODE}：高德 JS API 安全码
+  \item \texttt{DEEPSEEK\_API\_KEY}：DeepSeek API Key
+  \item \texttt{APP\_ENV}：运行环境（development / production）
+\end{itemize}
+
+上述 Key 不写入代码、不提交至版本控制，模板见根目录 \texttt{.env.example}。
