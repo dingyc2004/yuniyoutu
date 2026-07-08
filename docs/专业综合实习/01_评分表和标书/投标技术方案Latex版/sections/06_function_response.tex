@@ -32,7 +32,7 @@
   % ===== 维度2：核心功能完成度（15分） =====
   2.1 & 地图首页与 POI 展示 & 已实现 & 前端 HomeView.vue 与 MapPanel.vue 集成高德 JS API 2.0，展示附近 POI 标记、支持搜索、地图热力表达和天气摘要条；POI 数据通过后端 `/api/pois` 接口从 `data/pois.json` 加载 & 前端运行后进入首页地图，检查 POI 标记、搜索功能和天气摘要 \\
   \hline
-  2.2 & 钓点详情 & 已实现 & 点击 POI 展示详情弹窗/页面：名称、类型、距离、鱼种、设施、评分分项、推荐理由、风险提示；数据来自 `/api/pois/{poi_id}` 接口 & 检查 POI 详情字段完整性，对照 FishingPOI 数据模型 \\
+  2.2 & 钓点详情 & 已实现 & 点击 POI 展示详情弹窗/页面：名称、类型、距离、鱼种、设施、评分分项、推荐理由、风险提示；数据来自 \texttt{/api/pois/\{poi\_id\}} 接口 & 检查 POI 详情字段完整性，对照 FishingPOI 数据模型 \\
   \hline
   2.3 & 鱼获/空军发布 & 已实现 & RecordView.vue 实现开竿计时和收竿汇总，收竿弹窗支持填写鱼种、条数、重量、钓法、饵料；条数为 0 时标记为空军；后端 `/api/records` POST 接口持久化到 `data/records.json` & 完成一次出钓记录（含鱼获和空军两种情况），重启后端检查数据是否仍存在 \\
   \hline
@@ -46,7 +46,7 @@
   % ===== 维度3：技术架构与接口设计（8分） =====
   3.1 & 前后端分离架构 & 已实现 & Vue 3 + Vite 前端与 FastAPI 后端通过 RESTful API 通信；Vite 代理 `/api` 到后端 8000 端口；前端 API 调用集中在 `api.js` & 检查 `vite.config.js` 代理配置和后端路由注册 \\
   \hline
-  3.2 & 后端三层架构 & 已实现 & 路由层（`app/api/`）→ 服务层（`app/services/`）→ 数据层（`app/data/json_store.py`），职责清晰 & 检查后端目录结构和模块间调用关系 \\
+  3.2 & 后端三层架构 & 已实现 & 路由层（`app/api/`）→ 服务层（`app/services/`）→ 数据层（\texttt{app/data/json\_store.py}），职责清晰 & 检查后端目录结构和模块间调用关系 \\
   \hline
   3.3 & API 接口完整性 & 已实现 & 已实现 POI、帖子、记录、推荐、天气、AI 解释、教程等核心接口，统一使用 `data` + `meta` 响应格式 & 通过浏览器开发者工具或接口测试工具检查各端点返回结构 \\
   \hline
@@ -66,7 +66,7 @@
   \hline
   5.2 & JSON 集合与 Schema & 已实现 & 根目录 `data/` 下每个 `.json` 集合配有同名 `.schema.json` 描述文件；当前包含 pois、posts、records、tutorials、weather\_snapshots 等集合 & 检查 `data/` 目录和 schema 文件内容 \\
   \hline
-  5.3 & 数据持久化 & 已实现 & `json_store.py` 的 `save_collection()` 采用临时文件 + 原子替换策略，避免写入中断导致数据损坏；记录和帖子的增删改操作均调用持久化 & 新增记录后重启后端，检查数据仍存在且不重复 \\
+  5.3 & 数据持久化 & 已实现 & \texttt{json\_store.py} 的 \texttt{save\_collection()} 采用临时文件 + 原子替换策略，避免写入中断导致数据损坏；记录和帖子的增删改操作均调用持久化 & 新增记录后重启后端，检查数据仍存在且不重复 \\
   \hline
 
   % ===== 维度6：界面交互与演示体验（5分） =====
