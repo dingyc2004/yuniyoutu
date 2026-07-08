@@ -1,0 +1,125 @@
+\contentsline {section}{\numberline {1}项目概述}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}项目背景}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}产品定位}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}项目目标}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}技术方案编制依据}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}需求分析}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}用户角色}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}功能需求}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}非功能需求}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}竞品分析}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}总体方案}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}方案架构概述}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}核心设计理念}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}三层架构设计}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}关键指标响应}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}系统架构设计}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}整体架构}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}分层说明}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}前端展示层}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}API 网关层}{12}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}业务服务层}{12}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}数据持久层}{13}{subsubsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.3}前端组件架构}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}后端路由注册}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}配置管理}{15}{subsection.4.5}%
+\contentsline {section}{\numberline {5}业务与数据流程}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}核心业务流程}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}数据流设计}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}关键数据实体关系}{18}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}当前实现状态}{18}{subsection.5.4}%
+\contentsline {section}{\numberline {6}功能响应表}{18}{section.6}%
+\contentsline {section}{\numberline {7}核心功能详细设计}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}地图与 POI 模块}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}出钓记录模块}{26}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}社区与发布模块}{28}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}推荐与 AI 模块}{31}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}个人主页与统计模块}{33}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}教程模块}{35}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}活动与社群模块（后续规划）}{37}{subsection.7.7}%
+\contentsline {section}{\numberline {8}数据模型与接口设计}{37}{section.8}%
+\contentsline {subsection}{\numberline {8.1}数据库设计}{37}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}核心数据模型}{37}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}API 接口总览}{38}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}接口规范}{38}{subsection.8.4}%
+\contentsline {section}{\numberline {9}推荐算法与 AI 能力}{38}{section.9}%
+\contentsline {subsection}{\numberline {9.1}推荐系统设计}{38}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}AI 钓鱼建议}{38}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}偏好与效率分析}{38}{subsection.9.3}%
+\contentsline {section}{\numberline {10}技术选型}{39}{section.10}%
+\contentsline {subsection}{\numberline {10.1}技术栈总览}{39}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}选型理由}{39}{subsection.10.2}%
+\contentsline {section}{\numberline {11}第三方服务集成}{40}{section.11}%
+\contentsline {subsection}{\numberline {11.1}高德地图服务}{40}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}DeepSeek API}{40}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}其他第三方依赖}{40}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}服务降级策略}{40}{subsection.11.4}%
+\contentsline {section}{\numberline {12}安全、隐私与合规}{40}{section.12}%
+\contentsline {subsection}{\numberline {12.1}数据安全}{40}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}位置隐私保护}{40}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}用户鉴权}{40}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}合规性}{40}{subsection.12.4}%
+\contentsline {section}{\numberline {13}部署与运行方案}{41}{section.13}%
+\contentsline {subsection}{\numberline {13.1}环境划分}{41}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}生产部署拓扑}{41}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}容器化与非容器化部署}{42}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}降级与容错设计}{42}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}运行监控机制}{42}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}版本发布与回滚}{43}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}运行支撑与交付}{43}{subsection.13.7}%
+\contentsline {section}{\numberline {14}测试与验收方案}{43}{section.14}%
+\contentsline {subsection}{\numberline {14.1}功能测试}{44}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}接口测试}{44}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}数据测试}{45}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}性能测试}{45}{subsection.14.4}%
+\contentsline {subsection}{\numberline {14.5}安全测试}{45}{subsection.14.5}%
+\contentsline {subsection}{\numberline {14.6}兼容性与易用性测试}{46}{subsection.14.6}%
+\contentsline {subsection}{\numberline {14.7}验收阶段与通过标准}{46}{subsection.14.7}%
+\contentsline {section}{\numberline {15}核心优势与创新点}{47}{section.15}%
+\contentsline {subsection}{\numberline {15.1}垂钓语义增强 POI}{47}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}个人出钓档案}{47}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}结构化社区}{48}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}规则优先、AI 解释的推荐机制}{48}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}位置隐私与知识共享的平衡}{48}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}商业服务与真实记录的连接}{48}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}MVP 可落地性}{49}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}综合优势与可量化指标}{49}{subsection.15.8}%
+\contentsline {section}{\numberline {16}项目实施计划}{49}{section.16}%
+\contentsline {subsection}{\numberline {16.1}阶段一：项目启动与范围确认（第 1—10 天）}{50}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}阶段二：需求分析与总体设计（第 11—30 天）}{50}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}阶段三：后端与数据基础开发（第 31—55 天）}{50}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}阶段四：前端页面与交互开发（第 46—75 天）}{51}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}阶段五：系统联调与上线试运行（第 76—90 天）}{51}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}阶段六：质量加固与验收准备（第 91—105 天）}{51}{subsection.16.6}%
+\contentsline {subsection}{\numberline {16.7}阶段七：终验交付（第 106—120 天）}{52}{subsection.16.7}%
+\contentsline {subsection}{\numberline {16.8}人员分工}{52}{subsection.16.8}%
+\contentsline {section}{\numberline {17}风险分析与应对措施}{52}{section.17}%
+\contentsline {subsection}{\numberline {17.1}钓点与规则数据风险}{53}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}位置隐私与用户信任风险}{53}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}第三方服务依赖风险}{53}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}推荐与 AI 输出风险}{54}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}数据持久化与并发风险}{54}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}账号权限与安全风险}{54}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}内容治理风险}{55}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}进度与范围蔓延风险}{55}{subsection.17.8}%
+\contentsline {subsection}{\numberline {17.9}验收表达风险}{55}{subsection.17.9}%
+\contentsline {subsection}{\numberline {17.10}风险管理的总体原则}{55}{subsection.17.10}%
+\contentsline {section}{\numberline {18}后续扩展规划}{56}{section.18}%
+\contentsline {subsection}{\numberline {18.1}第一阶段：数据与安全底座升级}{56}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}第二阶段：地图与钓点数据增强}{56}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}第三阶段：社群实时化与内容治理}{57}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}第四阶段：活动与商业闭环正式化}{57}{subsection.18.4}%
+\contentsline {subsection}{\numberline {18.5}第五阶段：公共服务与监管协同}{57}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}第六阶段：智能分析与算法优化}{58}{subsection.18.6}%
+\contentsline {subsection}{\numberline {18.7}版本规划}{58}{subsection.18.7}%
+\contentsline {section}{\numberline {19}附录}{58}{section.19}%
+\contentsline {subsection}{\numberline {19.1}附录A：项目交付物清单}{59}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}附录B：环境变量与配置项示例}{60}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}附录C：核心验收指标}{60}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}附录D：项目角色分工}{60}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}附录E：培训与维护安排}{61}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}附录F：点对点响应摘录}{61}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.7}附录G：演示数据与验收脚本}{62}{subsection.19.7}%
+\contentsline {subsection}{\numberline {19.8}附录H：术语说明}{62}{subsection.19.8}%
+\contentsline {subsection}{\numberline {19.9}缩略语对照表}{63}{subsection.19.9}%
+\contentsline {subsection}{\numberline {19.10}页面截图}{63}{subsection.19.10}%

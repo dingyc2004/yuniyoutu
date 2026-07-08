@@ -6,7 +6,7 @@
 
 正式部署时，系统划分为开发环境、测试环境、预生产环境和生产环境四类。开发环境用于小组成员本地调试，前端通过 \texttt{npm install} 和 \texttt{npm run dev} 启动，后端通过 Python 3.11、\texttt{requirements.txt} 和 \texttt{uvicorn app.main:app} 启动，环境变量统一放置在 \texttt{.env} 文件中；测试环境用于接口联调、功能测试和验收前缺陷修复；预生产环境用于模拟真实域名、真实地图 Key、真实对象存储和生产级数据库配置；生产环境用于正式运行。
 
-现有项目文档中已说明，当前 MVP 阶段根目录 \texttt{data/} 使用 JSON 模拟 NoSQL 数据库，每个 \texttt{.json} 对应一个集合，每个 \texttt{.schema.json} 对应集合字段说明；但正式运行阶段，JSON 文件只作为初始化演示数据和导入模板，不再承担多人并发写入职责。正式生产环境建议采用 PostgreSQL/PostGIS 存储钓点、鱼获、用户、帖子、活动、订单等结构化数据，采用 Redis 进行热点 POI、天气摘要、推荐结果和登录会话缓存，采用对象存储保存鱼获图片、视频、报告长图和用户头像，采用 Nginx 进行静态资源托管、HTTPS 终止、反向代理和 gzip/brotli 压缩。
+现有项目文档中已说明，当前 MVP 阶段根目录 \texttt{data/} 使用 JSON 模拟 NoSQL 数据库，每个 \texttt{.json} 对应一个集合，每个 \texttt{.schema.json} 对应集合字段说明；但正式运行阶段，JSON 文件只作为初始化演示数据和导入模板，不再承担多人并发写入职责。正式生产环境采用 PostgreSQL/PostGIS 存储钓点、鱼获、用户、帖子、活动、订单等结构化数据，采用 Redis 进行热点 POI、天气摘要、推荐结果和登录会话缓存，采用对象存储保存鱼获图片、视频、报告长图和用户头像，采用 Nginx 进行静态资源托管、HTTPS 终止、反向代理和 gzip/brotli 压缩。
 
 \subsection{生产部署拓扑}
 
