@@ -66,17 +66,17 @@ MVP 阶段根目录 `data/` 下包含 \texttt{pois.json}、\texttt{posts.json}�
     \toprule
     \textbf{Tab} & \textbf{组件} & \textbf{核心职责} & \textbf{关键子组件/弹窗} \\
     \midrule
-    地图 & MapView.vue & 地图展示、POI 搜索与筛选、天气摘要、今日推荐 & POI 详情弹窗、筛选标签栏 \\
+    首页/地图 & HomeView.vue + MapPanel.vue & 地图展示、POI 搜索与筛选、天气摘要、今日推荐 & POI 详情视图、地图浮层、搜索栏 \\
     \hline
     社区 & CommunityView.vue & 社区鱼获流、频道切换、搜索 & PostViewer.vue（帖子详情） \\
     \hline
-    发布 & PublishView.vue & 鱼获/空军/探点发布、关联钓点、位置隐私设置 & RecordLocationDialog.vue \\
+    发布入口 & PublishView.vue（由 CommunityView.vue 弹层承载） & 鱼获/空军/探点发布、关联钓点、位置隐私设置 & 从记录快速填充、内容/位置权限选择 \\
     \hline
     记录 & RecordView.vue & 开竿计时、收竿汇总、鱼获信息填写 & 收竿汇总弹窗（鱼种、条数、重量、钓法、饵料） \\
     \hline
     教程 & TutorialsView.vue & 教程列表、分类筛选、难度/时长展示 & — \\
     \hline
-    我的 & MineView.vue & 个人战绩、记录列表、会员报告生成 & MemberReportView.vue（报告弹窗与导出） \\
+    我的抽屉 & MineView.vue & 个人战绩、记录列表、会员报告生成 & 顶部菜单按钮打开，报告弹窗在组件内实现 \\
     \bottomrule
   \end{tabularx}
 \end{table}
@@ -97,7 +97,7 @@ FastAPI 路由模块与 URL 前缀：
     \hline
     \texttt{routes\_posts.py} & \texttt{/api} & \texttt{GET /api/posts}、\texttt{POST /api/posts}、\texttt{GET /api/feed} \\
     \hline
-    \texttt{routes\_records.py} & \texttt{/api} & \texttt{GET /api/records}、\texttt{POST /api/records}、\texttt{PUT /api/records/\{id\}} \\
+    \texttt{routes\_records.py} & \texttt{/api} & \texttt{GET /api/records}、\texttt{POST /api/records}、\texttt{PATCH /api/records/\{id\}} \\
     \hline
     \texttt{routes\_recommend.py} & \texttt{/api} & \texttt{POST /api/recommendations} \\
     \hline

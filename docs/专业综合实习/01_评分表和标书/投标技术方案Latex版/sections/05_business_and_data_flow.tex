@@ -50,11 +50,11 @@
     \toprule
     \textbf{实体} & \textbf{存储位置} & \textbf{关键关联} \\
     \midrule
-    FishingPOI（钓点） & \texttt{data/pois.json} & 被 CatchPost、Recommendation 引用；与高德 POI ID 关联 \\
+    FishingPOI（钓点） & \texttt{data/pois.json} & 被 FishingRecord、CatchPost、Recommendation 引用；与高德 POI ID 关联 \\
     \hline
-    CatchPost（鱼获记录） & \texttt{data/records.json} & 关联 POI（poi\_id）、用户（user\_id）、天气快照；可作为帖子来源 \\
+    FishingRecord（出钓记录） & \texttt{data/records.json} & 关联 POI/钓点名称、用户（user\_id）、天气快照；可作为帖子来源 \\
     \hline
-    Post（社区帖子） & \texttt{data/posts.json} & 可关联记录（record\_id）、POI（poi\_id）、用户（user\_id） \\
+    CatchPost（社区帖子） & \texttt{data/posts.json} & 可关联记录（record\_id）、POI（poi\_id）、用户（user\_id） \\
     \hline
     Recommendation（推荐） & 接口实时生成 & 引用 POI 列表、天气快照、用户偏好摘要 \\
     \hline
@@ -68,8 +68,8 @@
 实体间核心关系：
 
 \begin{itemize}
-  \item 一条 CatchPost 隶属于一个 POI 和一个用户，携带一个天气快照
-  \item 一条 Post 可选关联一条 CatchPost（从记录一键生成帖子），此时帖子可追溯到原始出钓数据
+  \item 一条 FishingRecord 隶属于一个用户，可关联钓点名称、坐标和天气快照
+  \item 一条 CatchPost 可选关联一条 FishingRecord（从记录一键生成帖子），此时帖子可追溯到原始出钓数据
   \item 一次 Recommendation 以用户位置和偏好为输入，输出一组候选 POI 及其评分明细
   \item 当前 MVP 阶段以 JSON 文件内 \texttt{\_id} 字段实现实体引用，不引入外键约束
 \end{itemize}

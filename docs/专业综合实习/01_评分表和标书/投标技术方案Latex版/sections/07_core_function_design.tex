@@ -15,16 +15,30 @@
 
 \textbf{处理逻辑：}
 \begin{enumerate}
-  \item 前端高德 JS API 展示地图，自动定位或使用用户选择的位置
+  \item 前端通过 MapPanel.vue 加载高德 JS API 展示地图，默认围绕武汉示例数据展示钓点，位置选择与手动修正能力由记录位置弹窗承接
   \item 根据视口范围和筛选条件请求 `/api/pois` 接口
   \item 后端从 `pois.json` 加载数据，按距离排序、按条件过滤
-  \item 前端渲染 POI 标记（不同图标区分野钓/钓场/海钓），展示禁钓区透明面图层
+  \item 前端渲染 POI 标记和热力表达，风险信息通过 POI 详情与推荐警告呈现；禁钓区面图层作为后续可扩展项
   \item 底部半屏卡片展示附近钓点列表，横滑查看今日推荐
 \end{enumerate}
 
 \textbf{输出结果：}地图上的 POI 标记 + 筛选后的钓点卡片列表 + 天气摘要条。
 
-\textbf{当前实现状态：}已实现。MapView.vue 集成高德 JS API 2.0，支持 POI 标记渲染、类型筛选标签和关键字搜索。POI 数据当前从 JSON 集合加载，后续可接入高德 POI 搜索 API 和自建垂钓 POI。
+\textbf{当前实现状态：}已实现。HomeView.vue 与 MapPanel.vue 集成高德 JS API 2.0，支持 POI 标记渲染、地图热力表达和关键字搜索。POI 数据当前从 JSON 集合加载，后续可接入高德 POI 搜索 API 和自建垂钓 POI。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_home.png}
+  \caption{首页地图与附近钓点展示}
+  \label{fig:page-home}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_spot_detail.png}
+  \caption{钓点详情与钓友评论页面}
+  \label{fig:page-spot-detail}
+\end{figure}
 
 \textbf{验证方式：}打开地图首页 → 检查附近 POI 是否正常展示 → 切换筛选条件 → 检查结果变化。
 
@@ -41,16 +55,23 @@
 
 \textbf{处理逻辑：}
 \begin{enumerate}
-  \item 用户点击“记一竿”开始计时，后端创建初始记录
+  \item 用户点击“记一竿”开始计时，前端记录开始时间并持续计时
   \item 收竿时弹出汇总表单：鱼种（标签选择+手动输入）、条数、重量、钓法（台钓/路亚/海钓等）、饵料
   \item 条数为 0 时自动标记为空军记录（\texttt{is\_blank\_trip = true}），允许用户补充空军原因和下次改进计划
   \item 提交后生成战绩摘要卡片（鱼种、数量、重量、钓法、地点按隐私设置显示）
   \item 记录通过 JSON 原子写入持久化，服务重启不丢失
 \end{enumerate}
 
-\textbf{输出结果：}结构化鱼获记录（CatchPost）+ 可分享战绩卡片。
+\textbf{输出结果：}结构化出钓记录（FishingRecord）+ 可分享战绩卡片。
 
 \textbf{当前实现状态：}已实现。RecordView.vue 实现开竿计时和收竿汇总弹窗，后端 Pydantic 模型包含鱼种、条数、重量、钓法、饵料、笔记和图片字段，记录通过 `json\_store` 持久化。海钓场景模板（潮汐、风浪、船次等字段）和装备关联（equipment\_ids）已预留但当前为 MVP 阶段暂不展开。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_record.png}
+  \caption{出钓记录与收竿汇总页面}
+  \label{fig:page-record}
+\end{figure}
 
 \textbf{验证方式：}完成一次开竿→填写鱼获→收竿→保存的完整流程 → 在个人主页检查统计更新 → 重启后端检查数据仍存在。
 
@@ -77,6 +98,20 @@
 
 \textbf{当前实现状态：}部分实现。PublishView.vue 支持图文发布、关联钓点和权限设置；CommunityView.vue 展示社区流和频道切换；PostViewer.vue 展示帖子详情。帖子与记录的关联（record\_id）已在数据模型中预留。评论/点赞/收藏的后端持久化当前为前端演示，后续将实现完整持久化。
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_community.png}
+  \caption{社区鱼获流与频道筛选页面}
+  \label{fig:page-community}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_publish.png}
+  \caption{发布动态与位置隐私设置页面}
+  \label{fig:page-publish}
+\end{figure}
+
 \textbf{验证方式：}从一条出钓记录一键生成帖子 → 选择模糊位置 → 发布 → 在社区流中检查帖子可见 → 检查详情页不暴露精确坐标。
 
 \subsection{推荐与 AI 模块}
@@ -95,12 +130,12 @@
 \begin{enumerate}
   \item 规则模型计算候选 POI 的六维评分：
   \begin{itemize}
-    \item 鱼情分（0.30）：近 7/30 天鱼获数量、鱼种匹配度、空军率
+    \item 鱼情分（0.25）：近 7/30 天鱼获数量、鱼种匹配度、空军率
     \item 合规分（0.25）：是否禁钓区、是否禁渔期、限钓规则
     \item 距离分（0.15）：用户到 POI 的距离和预计耗时
     \item 天气适配分（0.15）：当前天气对目标鱼种和钓法的适宜程度
     \item 设施便利分（0.10）：停车、厕所、补给、安全
-    \item 社交热度分（0.05）：收藏数、评论数、近期打卡数
+    \item 社交热度分（0.10）：收藏数、评论数、近期打卡数
   \end{itemize}
   \item 硬性拦截（直接排除或降权）：
   \begin{itemize}
@@ -114,7 +149,7 @@
 
 \textbf{输出结果：}推荐排名列表 + 分项评分 + 推荐理由 + 风险提示 + AI 生成的自然语言建议。
 
-\textbf{当前实现状态：}已实现。推荐接口 `/api/recommendations` 完成六维规则评分和硬性拦截逻辑。AI 接口 `/api/ai/fishing-advice` 已预留结构，若配置 `DEEPSEEK\_API\_KEY` 则可真实调用，否则返回 mock 解释。模型选择：实时推荐解释使用 deepseek-v4-flash，个人历史报告使用 deepseek-v4-pro。
+\textbf{当前实现状态：}已实现。推荐接口 `/api/recommendations` 完成六维规则评分和风险惩罚逻辑。AI 接口 `/api/ai/fishing-advice` 已预留结构，在 production 环境配置 `DEEPSEEK\_API\_KEY` 后可调用 DeepSeek；未配置时返回 mock 解释。具体模型由环境变量 `DEEPSEEK\_MODEL` 控制，默认值为 deepseek-chat。个人历史报告当前由后端统计服务生成，不依赖大模型。
 
 \textbf{验证方式：}调用推荐接口 → 检查返回的 score、breakdown、reasons、warnings 字段 → 检查禁钓 POI 是否被排除或标注风险 → 检查 AI 解释是否基于规则输出而非自行编造。
 
@@ -146,7 +181,21 @@
 
 \textbf{输出结果：}个人战绩面板 + 可导出的分享卡片。
 
-\textbf{当前实现状态：}部分实现。MineView.vue 已实现基于前端的生涯汇总统计和报告弹窗（含 Canvas 导出）。当前统计按出现次数计算（偏好口径），效率分析口径的修正（按单位时间计算）和报告后端化（report\_service）为后续优化方向。多级会员逻辑将在后续统一为单级会员。
+\textbf{当前实现状态：}部分实现。MineView.vue 已实现个人战绩展示和会员报告弹窗；后端 report\_service 已提供 `/api/users/\{user\_id\}/profile-summary` 与 `/api/users/\{user\_id\}/reports` 汇总接口，能够计算偏好指标和单位时间效率指标。Canvas 导出为后续可增强能力，多级会员逻辑将在后续统一为单级会员。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_mine.png}
+  \caption{个人主页与记录统计页面}
+  \label{fig:page-mine}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_report.png}
+  \caption{会员报告与生涯数据分析页面}
+  \label{fig:page-report}
+\end{figure}
 
 \textbf{验证方式：}录入多条不同条件的出钓记录 → 检查个人主页统计是否更新 → 生成报告弹窗 → 导出图片 → 检查统计数字一致性。
 
@@ -167,6 +216,13 @@
 \textbf{输出结果：}教程列表 + 教程详情 + 关联练习钓点。
 
 \textbf{当前实现状态：}已实现。TutorialsView.vue 展示教程列表，支持按入门/进阶和图文/视频筛选。当前教程内容为静态 JSON 数据，学习进度跟踪和个性化推荐为后续扩展方向。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.68\textheight]{figures/page_tutorials.png}
+  \caption{教程列表与学习路径页面}
+  \label{fig:page-tutorials}
+\end{figure}
 
 \textbf{验证方式：}进入教程页 → 切换分类 → 查看教程详情 → 检查关联钓点推荐。
 

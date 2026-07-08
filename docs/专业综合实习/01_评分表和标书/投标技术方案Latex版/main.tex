@@ -10,14 +10,10 @@
 
 % ---------- 字体 ----------
 \usepackage{fontspec}
-\setmonofont{Consolas}[
-  BoldFont={Consolas Bold},
-  ItalicFont={Consolas Italic},
-  BoldItalicFont={Consolas Bold Italic}
-]
+% 不指定系统特有等宽字体，避免跨设备编译失败（Overleaf / Linux 无 Consolas）
 
 % ---------- 图表 ----------
-\usepackage[draft]{graphicx}
+\usepackage{graphicx}
 \usepackage{float}
 \usepackage{subcaption}
 \graphicspath{{figures/}}

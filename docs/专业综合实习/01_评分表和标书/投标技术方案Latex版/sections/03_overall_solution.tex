@@ -40,7 +40,7 @@
     \hline
     业务服务层 (\texttt{app/services/}) & 业务逻辑聚合、推荐计算、第三方服务封装 & poi\_service、record\_service、post\_service、recommend\_service \\
     \hline
-    数据持久层 (\texttt{data/json\_store.py}) & JSON 集合的加载、保存、原子更新 & load\_collection、save\_collection、update\_collection（临时文件 + 原子替换） \\
+    数据持久层 (\texttt{backend/app/data/json\_store.py}) & JSON 集合的加载、保存、原子更新 & load\_collection、save\_collection、update\_collection（临时文件 + 原子替换） \\
     \bottomrule
   \end{tabularx}
 \end{table}
@@ -65,7 +65,7 @@
     \hline
     4 & 推荐模型与AI解释 & 7 & 规则模型六维评分 + 硬性拦截，AI 只做解释不改排序 \\
     \hline
-    5 & 数据结构与数据可用性 & 5 & 核心模型（FishingPOI、CatchPost 等）字段完整，JSON 集合配 schema 文件 \\
+    5 & 数据结构与数据可用性 & 5 & 核心模型（FishingPOI、FishingRecord、CatchPost 等）字段完整，JSON 集合配 schema 文件 \\
     \hline
     6 & 界面交互与演示体验 & 5 & 地图即首页，POI 卡片→详情→发布→社区路径顺畅，视觉风格统一 \\
     \hline

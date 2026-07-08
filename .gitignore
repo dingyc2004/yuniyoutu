@@ -29,3 +29,5 @@ Thumbs.db
 .env.local
 
 docs/*.pptx
+
+*.zip
