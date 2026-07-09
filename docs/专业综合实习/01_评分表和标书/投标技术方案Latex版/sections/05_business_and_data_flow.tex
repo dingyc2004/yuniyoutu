@@ -35,7 +35,7 @@
 \textbf{数据读写路径：}
 
 \begin{enumerate}
-  \item \textbf{读路径}：前端组件 → \texttt{api.js}（HTTP 请求）→ Vite 代理 `/api` → FastAPI 路由 → Service 层调用 \texttt{load\_collection()} → 读取 `data/*.json` → 返回结构化 JSON → 前端渲染
+  \item \textbf{读路径}：前端组件 → \texttt{api.js}（HTTP 请求）→ Vite 代理 \texttt{/api} → FastAPI 路由 → Service 层调用 \texttt{load\_collection()} → 读取 \texttt{data/*.json} → 返回结构化 JSON → 前端渲染
   \item \textbf{写路径}：前端表单提交 → \texttt{api.js} → FastAPI 路由（Pydantic 校验）→ Service 层处理业务逻辑 → \texttt{save\_collection()}（临时文件 + 原子替换）→ 返回写入结果 → 前端更新状态
   \item \textbf{第三方数据接入}：后端 Service 层封装高德 Web 服务（POI 搜索、天气查询）和 DeepSeek API 调用，前端不直接访问第三方服务。当前 MVP 阶段第三方数据以 mock 方式提供，预留真实接口结构。
 \end{enumerate}
@@ -61,6 +61,8 @@
     WeatherSnapshot（天气） & \texttt{data/weather\_snapshots.json} & 被 Record、Recommendation 引用 \\
     \hline
     Tutorial（教程） & \texttt{data/tutorials.json} & 关联 POI（练习钓点推荐） \\
+    \hline
+    Event / Order / Message（服务演示） & \texttt{data/events.json}、\texttt{data/orders.json}、\texttt{data/messages.json} & 支撑活动报名、签到、群聊消息、装备订单等 Demo 闭环 \\
     \bottomrule
   \end{tabularx}
 \end{table}
@@ -76,4 +78,4 @@
 
 \subsection{当前实现状态}
 
-当前 MVP 阶段已实现上述主流程中的关键节点：地图首页展示 POI、POI 详情查看、推荐接口返回评分与理由、记录 CRUD、帖子发布与社区流展示、个人统计汇总。数据持久化通过 JSON 原子写入实现，服务重启后数据不丢失。后续可在现有数据流基础上扩展用户系统、评论/点赞持久化和推荐算法优化。
+当前 MVP 阶段已实现上述主流程中的关键节点：地图首页展示 POI、POI 详情查看、推荐接口返回评分与理由、记录 CRUD、帖子发布与社区流展示、个人统计汇总。评论、点赞、收藏、关注、私信、活动报名/签到、群聊消息、教程进度和订单演示已作为扩展 Demo 接入同一 JSON 数据流。数据持久化通过 JSON 原子写入实现，服务重启后数据不丢失；正式多人使用时可在该数据流基础上迁移到 PostgreSQL/PostGIS、对象存储和统一鉴权。

@@ -10,14 +10,14 @@
 \begin{itemize}
   \item 用户当前位置（GPS / 手动选择城市）
   \item 筛选条件（类型、鱼种、钓法、费用、设施、夜钓、路亚等）
-  \item 高德 POI 搜索结果（当前 MVP 阶段使用 `data/pois.json` 模拟）
+  \item 高德 POI 搜索结果（当前 MVP 阶段使用 \texttt{data/pois.json} 模拟）
 \end{itemize}
 
 \textbf{处理逻辑：}
 \begin{enumerate}
   \item 前端通过 MapPanel.vue 加载高德 JS API 展示地图，默认围绕武汉示例数据展示钓点，位置选择与手动修正能力由记录位置弹窗承接
-  \item 根据视口范围和筛选条件请求 `/api/pois` 接口
-  \item 后端从 `pois.json` 加载数据，按距离排序、按条件过滤
+  \item 根据视口范围和筛选条件请求 \texttt{/api/pois} 接口
+  \item 后端从 \texttt{pois.json} 加载数据，按距离排序、按条件过滤
   \item 前端渲染 POI 标记和热力表达，风险信息通过 POI 详情与推荐警告呈现；禁钓区面图层作为后续可扩展项
   \item 底部半屏卡片展示附近钓点列表，横滑查看今日推荐
 \end{enumerate}
@@ -64,7 +64,7 @@
 
 \textbf{输出结果：}结构化出钓记录（FishingRecord）+ 可分享战绩卡片。
 
-\textbf{当前实现状态：}已实现。RecordView.vue 实现开竿计时和收竿汇总弹窗，后端 Pydantic 模型包含鱼种、条数、重量、钓法、饵料、笔记和图片字段，记录通过 `json\_store` 持久化。海钓场景模板（潮汐、风浪、船次等字段）和装备关联（equipment\_ids）已预留但当前为 MVP 阶段暂不展开。
+\textbf{当前实现状态：}已实现。RecordView.vue 实现开竿计时和收竿汇总弹窗，后端 Pydantic 模型包含鱼种、条数、重量、钓法、饵料、笔记和图片字段，记录通过 \texttt{json\_store} 持久化。海钓场景模板（潮汐、风浪、船次等字段）和装备关联（equipment\_ids）已预留但当前为 MVP 阶段暂不展开。
 
 \begin{figure}[H]
   \centering
@@ -96,7 +96,7 @@
 
 \textbf{输出结果：}社区帖子（Post）+ 帖子详情页（含互动区、地图位置、相似鱼获推荐）。
 
-\textbf{当前实现状态：}部分实现。PublishView.vue 支持图文发布、关联钓点和权限设置；CommunityView.vue 展示社区流和频道切换；PostViewer.vue 展示帖子详情。帖子与记录的关联（record\_id）已在数据模型中预留。评论/点赞/收藏的后端持久化当前为前端演示，后续将实现完整持久化。
+\textbf{当前实现状态：}部分实现。PublishView.vue 支持图文发布、关联钓点和权限设置；CommunityView.vue 展示社区流和频道切换；PostViewer.vue 展示帖子详情。帖子与记录的关联（record\_id）已在数据模型中预留。评论、点赞、收藏、关注、好友、私信和通知已提供后端 Demo 接口并写入 JSON 集合；正式登录鉴权、内容审核和更完整的社交风控作为后续工程化内容。
 
 \begin{figure}[H]
   \centering
@@ -149,7 +149,7 @@
 
 \textbf{输出结果：}推荐排名列表 + 分项评分 + 推荐理由 + 风险提示 + AI 生成的自然语言建议。
 
-\textbf{当前实现状态：}已实现。推荐接口 `/api/recommendations` 完成六维规则评分和风险惩罚逻辑。AI 接口 `/api/ai/fishing-advice` 已预留结构，在 production 环境配置 `DEEPSEEK\_API\_KEY` 后可调用 DeepSeek；未配置时返回 mock 解释。具体模型由环境变量 `DEEPSEEK\_MODEL` 控制，默认值为 deepseek-chat。个人历史报告当前由后端统计服务生成，不依赖大模型。
+\textbf{当前实现状态：}已实现。推荐接口 \texttt{/api/recommendations} 完成六维规则评分和风险惩罚逻辑。AI 接口 \texttt{/api/ai/fishing-advice} 已预留结构，在 production 环境配置 \texttt{DEEPSEEK\_API\_KEY} 后可调用 DeepSeek；未配置时返回 mock 解释。具体模型由环境变量 \texttt{DEEPSEEK\_MODEL} 控制，默认值为 deepseek-chat。个人历史报告当前由后端统计服务生成，不依赖大模型。
 
 \textbf{验证方式：}调用推荐接口 → 检查返回的 score、breakdown、reasons、warnings 字段 → 检查禁钓 POI 是否被排除或标注风险 → 检查 AI 解释是否基于规则输出而非自行编造。
 
@@ -157,7 +157,7 @@
 
 \textbf{模块目标：}沉淀个人成就，提供可分享的钓鱼生涯数据。
 
-\textbf{输入数据：}用户的所有出钓记录（来自 `data/records.json`）。
+\textbf{输入数据：}用户的所有出钓记录（来自 \texttt{data/records.json}）。
 
 \textbf{处理逻辑：}
 \begin{enumerate}
@@ -181,7 +181,7 @@
 
 \textbf{输出结果：}个人战绩面板 + 可导出的分享卡片。
 
-\textbf{当前实现状态：}部分实现。MineView.vue 已实现个人战绩展示和会员报告弹窗；后端 report\_service 已提供 `/api/users/\{user\_id\}/profile-summary` 与 `/api/users/\{user\_id\}/reports` 汇总接口，能够计算偏好指标和单位时间效率指标。Canvas 导出为后续可增强能力，多级会员逻辑将在后续统一为单级会员。
+\textbf{当前实现状态：}部分实现。MineView.vue 已实现个人战绩展示和会员报告弹窗；后端 report\_service 已提供 \texttt{/api/users/\{user\_id\}/profile-summary} 与 \texttt{/api/users/\{user\_id\}/reports} 汇总接口，能够计算偏好指标和单位时间效率指标。Canvas 导出为后续可增强能力，多级会员逻辑将在后续统一为单级会员。
 
 \begin{figure}[H]
   \centering
@@ -215,7 +215,7 @@
 
 \textbf{输出结果：}教程列表 + 教程详情 + 关联练习钓点。
 
-\textbf{当前实现状态：}已实现。TutorialsView.vue 展示教程列表，支持按入门/进阶和图文/视频筛选。当前教程内容为静态 JSON 数据，学习进度跟踪和个性化推荐为后续扩展方向。
+\textbf{当前实现状态：}部分实现。TutorialsView.vue 展示教程列表，支持按入门/进阶和图文/视频筛选。当前教程内容为静态 JSON 数据，后端已提供学习进度读取与更新接口；基于用户短板的个性化教程推荐仍作为后续扩展方向。
 
 \begin{figure}[H]
   \centering
@@ -226,7 +226,7 @@
 
 \textbf{验证方式：}进入教程页 → 切换分类 → 查看教程详情 → 检查关联钓点推荐。
 
-\subsection{活动与社群模块（后续规划）}
+\subsection{活动与社群模块}
 
 \textbf{模块目标：}围绕真实出钓场景组织同城约钓、比赛和社群活动。
 
@@ -238,4 +238,6 @@
   \item 群聊 MVP 使用轮询接口，暂不引入 WebSocket
 \end{itemize}
 
-\textbf{当前实现状态：}后续规划。PPT 已将同城约钓、比赛、拼船和活动群作为核心能力，但当前 MVP 阶段尚未开发对应代码。相关数据集合（events、event\_registrations、groups、group\_members、messages）已规划，将在后续路线中实现。
+\textbf{当前实现状态：}部分实现。当前后端已提供活动列表、活动详情、创建活动、报名、取消报名、签到、用户活动履历、从活动生成出钓记录、活动群消息和装备列表接口；服务页可用于课堂演示活动与社群扩展路径。真实活动审核、费用支付、退款结算、组织者后台和 WebSocket 实时群聊不作为本期交付，列入后续规划。
+
+\textbf{验证方式：}进入服务页 → 查看活动列表 → 报名活动 → 完成签到 → 查看活动履历或从活动生成记录 → 打开活动群消息列表，确认数据写入对应 JSON 集合。

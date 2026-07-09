@@ -8,10 +8,10 @@
 
 \begin{itemize}
   \item \textbf{前端}：Vue 3 + Vite + Element Plus + 高德 JS API 2.0，实现移动端优先的单页应用
-  \item \textbf{后端}：FastAPI（Python 3.11）+ Pydantic 2，提供统一 `/api` 入口
-  \item \textbf{数据层}：根目录 `data/` 下 JSON 文件模拟 NoSQL 集合，每个集合配 `.schema.json` 描述文件，写入采用临时文件 + 原子替换策略
+  \item \textbf{后端}：FastAPI（Python 3.11）+ Pydantic 2，提供统一 \texttt{/api} 入口
+  \item \textbf{数据层}：根目录 \texttt{data/} 下 JSON 文件模拟 NoSQL 集合，每个集合配 \texttt{.schema.json} 描述文件，写入采用临时文件 + 原子替换策略
   \item \textbf{第三方服务}：高德 Web 服务（POI 搜索、天气查询）和 DeepSeek API（智能建议生成）均由后端代理调用，API Key 通过环境变量管理
-  \item \textbf{开发环境}：前端 `npm run dev`（Vite 开发服务器，端口 5173，代理 `/api` 到后端 8000）；后端 `uvicorn --reload`（端口 8000）；Python 依赖通过 conda 环境 `fish` + `requirements.txt` 管理
+  \item \textbf{开发环境}：前端 \texttt{npm run dev}（Vite 开发服务器，端口 5173，代理 \texttt{/api} 到后端 8000）；后端 \texttt{uvicorn --reload}（端口 8000）；Python 依赖通过 conda 环境 \texttt{fish} + \texttt{requirements.txt} 管理
 \end{itemize}
 
 \subsection{核心设计理念}
@@ -20,8 +20,8 @@
 
 \begin{enumerate}
   \item \textbf{先记录}：开竿计时 → 真实鱼获录入（鱼种、条数、重量、钓法、饵料）→ 形成个人钓鱼档案。MVP 阶段已实现记录 CRUD 接口、收竿汇总弹窗和 JSON 文件持久化，确保数据在服务重启后不丢失。
-  \item \textbf{再连接}：记录关联帖子 → 位置脱敏（精确/模糊/隐藏三级）→ 社区互动。当前阶段帖子可从出钓记录一键生成，社区频道支持按内容类型筛选；后续可扩展评论、点赞、收藏的后端持久化。
-  \item \textbf{后服务}：报告识别短板 → 推荐教程/活动/装备 → 产生服务收入。MVP 阶段已实现基于前端的生涯汇总统计（总鱼获、常钓鱼种、高频钓点、偏好时段等），后续可扩展为后端计算的月报/年报和个性化推荐。
+  \item \textbf{再连接}：记录关联帖子 → 位置脱敏（精确/模糊/隐藏三级）→ 社区互动。当前阶段帖子可从出钓记录一键生成，社区频道支持按内容类型筛选；评论、点赞、收藏、关注、私信和活动群消息已提供 Demo 级持久化接口。
+  \item \textbf{后服务}：报告识别短板 → 推荐教程/活动/装备 → 形成后续服务入口。MVP 阶段已提供个人统计、会员报告、教程进度、活动报名/签到和装备订单演示，真实支付、商户结算和完整会员权益作为后续扩展。
 \end{enumerate}
 
 \subsection{三层架构设计}
@@ -36,9 +36,9 @@
     \toprule
     \textbf{层次} & \textbf{职责} & \textbf{MVP 阶段实现} \\
     \midrule
-    API 路由层 (\texttt{app/api/}) & 接收 HTTP 请求、参数校验、调用 Service、返回响应 & routes\_poi、routes\_posts、routes\_records、routes\_recommend、routes\_weather、routes\_ai \\
+    API 路由层 (\texttt{app/api/}) & 接收 HTTP 请求、参数校验、调用 Service、返回响应 & routes\_poi、routes\_posts、routes\_records、routes\_recommend、routes\_weather、routes\_ai、routes\_community、routes\_events、routes\_orders、routes\_reports、routes\_tutorials \\
     \hline
-    业务服务层 (\texttt{app/services/}) & 业务逻辑聚合、推荐计算、第三方服务封装 & poi\_service、record\_service、post\_service、recommend\_service \\
+    业务服务层 (\texttt{app/services/}) & 业务逻辑聚合、推荐计算、第三方服务封装 & poi\_service、record\_service、post\_service、recommend\_service、report\_service、weather\_service、ai\_service \\
     \hline
     数据持久层 (\texttt{backend/app/data/json\_store.py}) & JSON 集合的加载、保存、原子更新 & load\_collection、save\_collection、update\_collection（临时文件 + 原子替换） \\
     \bottomrule
