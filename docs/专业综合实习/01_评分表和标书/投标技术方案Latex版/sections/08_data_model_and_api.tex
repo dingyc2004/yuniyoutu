@@ -1,4 +1,4 @@
-﻿\section{数据模型与接口设计}
+\section{数据模型与接口设计}
 
 本章说明平台在 PostgreSQL + PostGIS 数据库下的数据模型、字段结构和接口规范。数据设计围绕“地图找点、规则判断、个性化推荐、出钓记录、社区分享、教程学习、活动服务”七类业务展开，要求结构清晰、字段可验证、空间查询可计算、隐私权限可控制。
 
@@ -20,7 +20,8 @@
 
 数据库表按业务域划分为用户与关系、垂钓主数据、记录与社区、推荐与报告、活动与服务、系统配置六类。
 
-\begin{longtable}{|p{3.2cm}|p{4cm}|p{6.8cm}|}
+{\small
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3.9cm}|>{\raggedright\arraybackslash}p{3.0cm}|>{\raggedright\arraybackslash}p{6.7cm}|}
   \caption{数据库核心表设计}
   \label{tab:postgres-tables}\\
   \toprule
@@ -74,6 +75,7 @@
   \hline
   equipment、orders & 装备与订单 & equipment\_id、user\_id、quantity、order\_status、pay\_status、created\_at \\
 \end{longtable}
+}
 
 \subsection{字段约束与索引设计}
 
@@ -112,7 +114,7 @@
 
 后端采用 FastAPI 提供统一 \texttt{/api} 前缀，接口以 RESTful 风格组织。接口覆盖地图 POI、天气、推荐、AI 解释、出钓记录、社区帖子、教程、用户报告、活动和服务订单等模块。
 
-\begin{longtable}{|p{0.8cm}|p{4.2cm}|p{1.8cm}|p{4.6cm}|p{2.6cm}|}
+\begin{longtable}{|p{0.7cm}|p{3.5cm}|p{2.5cm}|p{3.9cm}|p{2.0cm}|}
   \caption{API 接口总览表}
   \label{tab:api-list}\\
   \toprule
@@ -126,45 +128,45 @@
   \endhead
   \bottomrule
   \endlastfoot
-  1 & \path|/api/health| & GET & 服务健康检查 & 元数据 \\
+  1 & \path|/api/health| & {\scriptsize GET} & 服务健康检查 & 元数据 \\
   \hline
-  2 & \path|/api/amap/config| & GET & 返回前端加载高德 JS API 所需配置 & 地图配置 \\
+  2 & \path|/api/amap/config| & {\scriptsize GET} & 返回前端加载高德 JS API 所需配置 & 地图配置 \\
   \hline
-  3 & \path|/api/pois| & GET & 查询钓点列表，支持城市、关键词、距离等条件 & 地图 POI \\
+  3 & \path|/api/pois| & {\scriptsize GET} & 查询钓点列表，支持城市、关键词、距离等条件 & 地图 POI \\
   \hline
-  4 & \path|/api/pois/{poi_id}| & GET & 查询钓点详情 & 地图 POI \\
+  4 & \path|/api/pois/{poi_id}| & {\scriptsize GET} & 查询钓点详情 & 地图 POI \\
   \hline
-  5 & \path|/api/weather/current| & GET & 获取实时天气快照 & 天气服务 \\
+  5 & \path|/api/weather/current| & {\scriptsize GET} & 获取实时天气快照 & 天气服务 \\
   \hline
-  6 & \path|/api/recommendations| & POST & 根据位置、偏好、天气和候选 POI 返回推荐排序 & 推荐模型 \\
+  6 & \path|/api/recommendations| & {\scriptsize POST} & 根据位置、偏好、天气和候选 POI 返回推荐排序 & 推荐模型 \\
   \hline
-  7 & \path|/api/ai/fishing-advice| & POST & 根据推荐结果生成个性化出钓建议 & AI Agent \\
+  7 & \path|/api/ai/fishing-advice| & {\scriptsize POST} & 根据推荐结果生成个性化出钓建议 & AI Agent \\
   \hline
-  8 & \path|/api/records| & GET/POST & 查询和新增出钓记录 & 出钓记录 \\
+  8 & \path|/api/records| & {\scriptsize GET/POST} & 查询和新增出钓记录 & 出钓记录 \\
   \hline
-  9 & \path|/api/records/{record_id}| & GET/PATCH/DELETE & 查询、更新和删除单条出钓记录 & 出钓记录 \\
+  9 & \path|/api/records/{record_id}| & {\scriptsize\begin{tabular}[t]{@{}l@{}}GET\\PATCH\\DELETE\end{tabular}} & 查询、更新和删除单条出钓记录 & 出钓记录 \\
   \hline
-  10 & \path|/api/posts| & GET/POST & 查询和发布社区帖子 & 社区 \\
+  10 & \path|/api/posts| & {\scriptsize GET/POST} & 查询和发布社区帖子 & 社区 \\
   \hline
-  11 & \path|/api/feed| & GET & 获取社区信息流 & 社区 \\
+  11 & \path|/api/feed| & {\scriptsize GET} & 获取社区信息流 & 社区 \\
   \hline
-  12 & \path|/api/posts/{post_id}| & GET & 查询帖子详情 & 社区 \\
+  12 & \path|/api/posts/{post_id}| & {\scriptsize GET} & 查询帖子详情 & 社区 \\
   \hline
-  13 & \path|/api/posts/{post_id}/comments| & GET/POST & 查询或新增评论 & 社区互动 \\
+  13 & \path|/api/posts/{post_id}/comments| & {\scriptsize GET/POST} & 查询或新增评论 & 社区互动 \\
   \hline
-  14 & \path|/api/posts/{post_id}/reactions| & POST & 点赞、收藏等互动 & 社区互动 \\
+  14 & \path|/api/posts/{post_id}/reactions| & {\scriptsize POST} & 点赞、收藏等互动 & 社区互动 \\
   \hline
-  15 & \path|/api/tutorials| & GET & 查询教程列表 & 教程 \\
+  15 & \path|/api/tutorials| & {\scriptsize GET} & 查询教程列表 & 教程 \\
   \hline
-  16 & \path|/api/tutorials/{tutorial_id}/progress| & PUT & 更新学习进度 & 教程 \\
+  16 & \path|/api/tutorials/{tutorial_id}/progress| & {\scriptsize PUT} & 更新学习进度 & 教程 \\
   \hline
-  17 & \path|/api/users/{user_id}| & GET & 查询用户基础信息 & 用户 \\
+  17 & \path|/api/users/{user_id}| & {\scriptsize GET} & 查询用户基础信息 & 用户 \\
   \hline
-  18 & \path|/api/users/{user_id}/profile-summary| & GET & 获取个人统计摘要 & 个人报告 \\
+  18 & \path|/api/users/{user_id}/profile-summary| & {\scriptsize GET} & 获取个人统计摘要 & 个人报告 \\
   \hline
-  19 & \path|/api/users/{user_id}/reports| & GET/POST & 查询或生成报告快照 & 个人报告 \\
+  19 & \path|/api/users/{user_id}/reports| & {\scriptsize GET/POST} & 查询或生成报告快照 & 个人报告 \\
   \hline
-  20 & \path|/api/fish-species| & GET & 查询鱼种知识库 & 知识库 \\
+  20 & \path|/api/fish-species| & {\scriptsize GET} & 查询鱼种知识库 & 知识库 \\
 \end{longtable}
 
 \subsection{接口规范}

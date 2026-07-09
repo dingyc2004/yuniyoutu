@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.6)  9 JUL 2026 01:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.6)  9 JUL 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,173 +1771,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [39] (./sections/08_data_model_and_api.tex
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 nickname\TU/SimSun(0
-)/m/n/12 、| \TU/lmr/m/n/12 avatar\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 phone_h
-ash\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-\TU/lmr/m/n/12 city\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 level\TU/SimSun(0)/m/
-n/12 、| \TU/lmr/m/n/12 status\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 created_at\
-TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-[]|\TU/lmr/m/n/12 user_id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 target_fish\TU/
-SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 pre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\TU/lmr/m/n/12 ferred_methods\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 distance_li
-mit_m\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\TU/lmr/m/n/12 privacy_default\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 risk_toler
-ance\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 name\TU/SimSun(0)/m/
-n/12 、| \TU/lmr/m/n/12 area_type\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 city\TU/
-SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 geom\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/12 rule_text\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 rule_source\TU/S
-imSun(0)/m/n/12 、| \TU/lmr/m/n/12 effec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 name\TU/SimSun(0)/m/
-n/12 、| \TU/lmr/m/n/12 alias\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 habitat\TU/S
-imSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\TU/lmr/m/n/12 active_temperature\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-\TU/lmr/m/n/12 mon_methods\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 bait_tips\TU/S
-imSun(0)/m/n/12 、| \TU/lmr/m/n/12 sea-
- []
-
-
-Overfull \hbox (7.72328pt too wide) in paragraph at lines 49--49
-[]|\TU/lmr/m/n/12 weather_snapshots| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 user_id\TU/SimSun(0)
-/m/n/12 、| \TU/lmr/m/n/12 poi_id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 start_ti
-me\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/lmr/m/n/12 end_time\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 duration_seconds\
-TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/lmr/m/n/12 fish_count\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 fish_weight\TU/
-SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 method\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/lmr/m/n/12 bait\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 is_blank_trip\TU/SimS
-un(0)/m/n/12 、| \TU/lmr/m/n/12 privacy_level\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 record_id\TU/SimSun(
-0)/m/n/12 、| \TU/lmr/m/n/12 species\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 weigh
-t\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-\TU/lmr/m/n/12 length_cm\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 caught_at\TU/Sim
-Sun(0)/m/n/12 、| \TU/lmr/m/n/12 image_url\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 user_id\TU/SimSun(0)
-/m/n/12 、| \TU/lmr/m/n/12 post_type\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 title
-\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\TU/lmr/m/n/12 tent\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 poi_id\TU/SimSun(0)/m
-/n/12 、| \TU/lmr/m/n/12 record_id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 visibil
-ity\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\TU/lmr/m/n/12 location_visibility\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 locati
-on_text\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (22.29129pt too wide) in paragraph at lines 61--61
-[]|\TU/lmr/m/n/12 recommendation_logs| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 user_id\TU/SimSun(0)
-/m/n/12 、| \TU/lmr/m/n/12 request_json\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 re
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-\TU/lmr/m/n/12 duration\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 content\TU/SimSun
-(0)/m/n/12 、| \TU/lmr/m/n/12 related_poi_ids\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (0.81128pt too wide) in paragraph at lines 67--67
-[]|\TU/lmr/m/n/12 learning_progress| 
- []
-
-
-Overfull \hbox (8.32329pt too wide) in paragraph at lines 71--71
-[]|\TU/lmr/m/n/12 event_registrations| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-[]|\TU/lmr/m/n/12 id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 event_id\TU/SimSun(0
-)/m/n/12 、| \TU/lmr/m/n/12 user_id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 status
-\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-[]|\TU/lmr/m/n/12 group_id\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 user_id\TU/Sim
-Sun(0)/m/n/12 、| \TU/lmr/m/n/12 content\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 m
-es-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1966,130 +1799,112 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 88.
+nput line 90.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []|\TU/SimSun(0)/b/n/12 序
  []
 
 
-Overfull \hbox (22.56667pt too wide) in alignment at lines 115--121
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\TU/SimSun(0)/b/n/12 序
  []
 
 
-Overfull \hbox (22.56667pt too wide) in alignment at lines 121--126
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.56667pt too wide) in alignment at lines 126--128
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 131--131
-[]|\TU/SimSun(0)/m/n/12 返 回 前 端 加 载 高 德 \TU/lmr/m/n/12 JS
+Underfull \hbox (badness 6380) in paragraph at lines 133--133
+[]|\TU/SimSun(0)/m/n/12 返 回 前 端 加 载 高 德
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|$[][][][] [] [][][][][][][] []
+[]|$[][][][] [] [][][][] [] [][][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[]|$[][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]|$[][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 141--141
-[]|\TU/SimSun(0)/m/n/12 根 据 推 荐 结 果 生 成 个 性
- []
-
-
-Overfull \hbox (12.50496pt too wide) in paragraph at lines 143--143
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []|$[][][][] [] [][][][][][][] []
  []
 
 
-Overfull \hbox (75.62495pt too wide) in paragraph at lines 145--145
-[]|\TU/lmr/m/n/12 GET/PATCH/DELETE| 
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|$[][][][] []
  []
 
 
-Overfull \hbox (12.50496pt too wide) in paragraph at lines 147--147
-[]|\TU/lmr/m/n/12 GET/POST| 
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|$[][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|$[][][][] [] [][][][][] [] [][][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|$[][][][] [] [][][][][][][] []
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 147.
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Overfull \hbox (12.50496pt too wide) in paragraph at lines 153--153
-[]|\TU/lmr/m/n/12 GET/POST| 
+[]|$[][][][] [] [][][][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|$[][][][] [] [][][][][] [] [][][][][] []
+[]|$[][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]|$[][][][] [] [][][][][][][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[][][][][][][][][] [] [][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[][][][][] [] [][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--161
-[]|$[][][][] [] [][][][][] [] [][][][][] []
+[]|$[][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[][][][][][][][][] [] [][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
-[]|$[][][][] [] [][][][][] [] [][][][][] []
+[]|$[][][][] [] [][][][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]|$[][][][] [] [][][][][] [] [][][][][] []
+[]|$[][][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (12.50496pt too wide) in paragraph at lines 165--165
-[]|\TU/lmr/m/n/12 GET/POST| 
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (22.56667pt too wide) in alignment at lines 128--168
- [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|$[][][][] []
  []
 
 
@@ -2109,7 +1924,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44])
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2118,7 +1933,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45] (./sections/09_recommendation_and_ai.tex
+[45])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2127,7 +1942,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46]
+[46] (./sections/09_recommendation_and_ai.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2154,7 +1969,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49])
+[49]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2163,7 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50] (./sections/10_technology_stack.tex
+[50])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2172,7 +1987,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[51]
+[51] (./sections/10_technology_stack.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2181,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52])
+[52]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2190,7 +2005,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53] (./sections/11_third_party_services.tex
+[53])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[54] (./sections/11_third_party_services.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|\TU/SimSun(0)/m/n/12 天 气 结 果 转 换 为 统 一
  []
@@ -2208,7 +2032,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54]
+[55]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2217,7 +2041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[55])
+[56])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2226,16 +2050,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56] (./sections/12_security_privacy_compliance.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[57]
+[57] (./sections/12_security_privacy_compliance.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2253,7 +2068,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[59])
+[59]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2262,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[60] (./sections/13_deployment_plan.tex
+[60])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2271,7 +2086,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61]
+[61] (./sections/13_deployment_plan.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2280,7 +2095,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62])
+[62]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2289,7 +2104,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[63] (./sections/14_testing_acceptance.tex
+[63])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2298,7 +2113,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64]
+[64] (./sections/14_testing_acceptance.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2316,7 +2131,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66])
+[66]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2325,7 +2140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67] (./sections/15_innovation_advantages.tex
+[67])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2334,7 +2149,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68]
+[68] (./sections/15_innovation_advantages.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2343,7 +2158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69])
+[69]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2352,7 +2167,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70] (./sections/16_implementation_plan.tex
+[70])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2361,7 +2176,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71]
+[71] (./sections/16_implementation_plan.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2370,7 +2185,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72])
+[72]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2379,7 +2194,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73]
+[73])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2388,7 +2203,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74] (./sections/17_risk_analysis.tex
+[74]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2397,7 +2212,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75]
+[75] (./sections/17_risk_analysis.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2406,7 +2221,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[76])
+[76]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2415,7 +2230,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[77]
+[77])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2424,7 +2239,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[78] (./sections/18_future_extension.tex
+[78]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2433,7 +2248,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79]
+[79] (./sections/18_future_extension.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2442,7 +2257,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[80])
+[80]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2451,7 +2266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[81] (./sections/19_appendix.tex
+[81])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2460,7 +2275,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[82]
+[82] (./sections/19_appendix.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[83]
 Overfull \hbox (8.18633pt too wide) in paragraph at lines 31--32
 []\TU/SimSun(0)/m/n/12 后 端 配 置 包 括 \TU/lmtt/m/n/12 APP_ENV\TU/SimSun(0)/m/n/12 
 、| \TU/lmtt/m/n/12 BACKEND_HOST\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 BACKEND_
@@ -2483,15 +2307,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[83]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [84]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2502,6 +2317,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [85]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[86]
 Underfull \hbox (badness 1509) in paragraph at lines 138--138
 []|\TU/lmr/m/n/12 Geographic Information
  []
@@ -2549,7 +2373,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[86]
+[87]
 File: figures/page_home.png Graphic file (type bmp)
 <figures/page_home.png>
 )
@@ -2561,7 +2385,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[87]
+[88]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2570,7 +2394,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[88] (./main.aux)
+[89] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -2583,12 +2407,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 89E3B5E463751D0A2AD005DB135CEDAD;17015.
  ) 
 Here is how much of TeX's memory you used:
- 19439 strings out of 476720
- 434273 string characters out of 5801445
+ 19485 strings out of 476720
+ 436826 string characters out of 5801445
  2044842 words of memory out of 5000000
- 41144 multiletter control sequences out of 15000+600000
- 563111 words of font info for 86 fonts, out of 8000000 for 9000
+ 41185 multiletter control sequences out of 15000+600000
+ 563135 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,13n,97p,1190b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (89 pages).
+Output written on main.pdf (90 pages).
