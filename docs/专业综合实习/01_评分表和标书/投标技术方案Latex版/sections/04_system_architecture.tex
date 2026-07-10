@@ -19,14 +19,14 @@
 
 \begin{itemize}
   \item \textbf{Vue 3（Composition API）}：组件逻辑与状态管理
-  \item \textbf{Vite}：开发服务器与生产构建，配置代理 `/api → 127.0.0.1:8000`
+  \item \textbf{Vite}：开发服务器与生产构建，配置代理 \texttt{/api} 到 \texttt{127.0.0.1:8000}
   \item \textbf{Element Plus}：UI 组件库，提供表单、卡片、弹窗、标签等移动端适配组件
-  \item \textbf{高德 JS API 2.0}：地图展示、POI 标记、定位、路径规划等 GIS 能力；JS API Key 由后端接口 `/api/amap/config` 下发，不硬编码在前端源码中
+  \item \textbf{高德 JS API 2.0}：地图展示、POI 标记、定位、路径规划等 GIS 能力；JS API Key 由后端接口 \texttt{/api/amap/config} 下发，不硬编码在前端源码中
 \end{itemize}
 
 \subsubsection{API 网关层}
 
-FastAPI 应用在 \texttt{app/main.py} 中初始化，统一注册 CORS、挂载所有路由模块，暴露 `/api` 前缀。当前 API 清单见第 8 章“数据模型与接口设计”。
+FastAPI 应用在 \texttt{app/main.py} 中初始化，统一注册 CORS、挂载所有路由模块，暴露 \texttt{/api} 前缀。当前 API 清单见第 8 章“数据模型与接口设计”。
 
 前端所有 API 调用集中在 \texttt{frontend/src/services/api.js} 中，组件不直接构造请求，便于统一处理加载状态、错误兜底和接口变更。
 
@@ -40,6 +40,7 @@ FastAPI 应用在 \texttt{app/main.py} 中初始化，统一注册 CORS、挂载
   \item \texttt{post\_service.py}：帖子发布、社区流查询、内容与位置权限处理
   \item \texttt{recommend\_service.py}：六维规则模型评分、风险硬性拦截、候选排序
   \item \texttt{report\_service.py}：个人统计计算（总鱼获、常钓鱼种、高频钓点、偏好时段等）
+  \item \texttt{weather\_service.py} 与 \texttt{ai\_service.py}：天气快照封装、AI 解释 mock/真实模式切换
 \end{itemize}
 
 \subsubsection{数据持久层}
@@ -47,12 +48,12 @@ FastAPI 应用在 \texttt{app/main.py} 中初始化，统一注册 CORS、挂载
 \texttt{data/json\_store.py} 提供三个核心函数，封装 JSON 文件的原子读写：
 
 \begin{itemize}
-  \item \texttt{load\_collection(name)}：读取 `data/<name>.json`，返回列表
+  \item \texttt{load\_collection(name)}：读取 \texttt{data/<name>.json}，返回列表
   \item \texttt{save\_collection(name, items)}：先写入同目录临时文件，再原子替换正式 JSON，避免写入中断导致文件损坏
   \item \texttt{update\_collection(name, updater)}：原子化的“读取 → 修改 → 写回”操作
 \end{itemize}
 
-MVP 阶段根目录 `data/` 下包含 \texttt{pois.json}、\texttt{posts.json}、\texttt{records.json}、\texttt{tutorials.json}、\texttt{weather\_snapshots.json} 等集合，每个 `.json` 文件配有同名 `.schema.json` 描述文件。
+MVP 阶段根目录 \texttt{data/} 下包含 \texttt{pois.json}、\texttt{posts.json}、\texttt{records.json}、\texttt{tutorials.json}、\texttt{weather\_snapshots.json} 等集合，每个 \texttt{.json} 文件配有同名 \texttt{.schema.json} 描述文件。
 
 \subsection{前端组件架构}
 
@@ -105,14 +106,24 @@ FastAPI 路由模块与 URL 前缀：
     \hline
     \texttt{routes\_ai.py} & \texttt{/api} & \texttt{POST /api/ai/fishing-advice} \\
     \hline
-    \texttt{routes\_tutorials.py} & \texttt{/api} & \texttt{GET /api/tutorials} \\
+    \texttt{routes\_tutorials.py} & \texttt{/api} & \texttt{GET /api/tutorials}、\texttt{PUT /api/tutorials/\{id\}/progress} \\
+    \hline
+    \texttt{routes\_community.py} & \texttt{/api} & \texttt{POST /api/posts/\{id\}/comments}、\texttt{POST /api/posts/\{id\}/reactions}、\texttt{POST /api/users/\{id\}/follow}、\texttt{POST /api/direct-messages/\{peer\_id\}} \\
+    \hline
+    \texttt{routes\_events.py} & \texttt{/api} & \texttt{GET /api/events}、\texttt{POST /api/events/\{id\}/register}、\texttt{POST /api/events/\{id\}/checkin}、\texttt{GET /api/groups/\{id\}/messages}、\texttt{GET /api/equipment} \\
+    \hline
+    \texttt{routes\_orders.py} & \texttt{/api} & \texttt{GET /api/users/\{id\}/orders}、\texttt{POST /api/orders}、\texttt{POST /api/orders/\{id\}/pay}、\texttt{DELETE /api/orders/\{id\}} \\
+    \hline
+    \texttt{routes\_reports.py} & \texttt{/api} & \texttt{GET /api/users/\{id\}/profile-summary}、\texttt{GET/POST /api/users/\{id\}/reports}、\texttt{GET /api/users/\{id\}/service-recommendations} \\
+    \hline
+    \texttt{routes\_users.py}、\texttt{routes\_fish.py} & \texttt{/api} & \texttt{GET /api/users/\{id\}}、\texttt{GET /api/users/\{id\}/membership}、\texttt{GET /api/fish-species} \\
     \bottomrule
   \end{tabularx}
 \end{table}
 
 \subsection{配置管理}
 
-\texttt{app/core/config.py} 使用 pydantic-settings 从项目根目录 `.env` 文件读取环境变量，通过 \texttt{@lru\_cache} 单例模式管理。当前配置项包括：
+\texttt{app/core/config.py} 使用 pydantic-settings 从项目根目录 \texttt{.env} 文件读取环境变量，通过 \texttt{@lru\_cache} 单例模式管理。当前配置项包括：
 
 \begin{itemize}
   \item \texttt{AMAP\_WEB\_SERVICE\_KEY}：高德 Web 服务 API Key
@@ -121,4 +132,4 @@ FastAPI 路由模块与 URL 前缀：
   \item \texttt{APP\_ENV}：运行环境（development / production）
 \end{itemize}
 
-上述 Key 不写入代码、不提交至版本控制，模板见根目录 \texttt{.env.example}。
+上述 Key 不写入代码、不提交至版本控制。本期文档列出所需环境变量；若正式提交部署包，应同步提供不含真实密钥的环境变量模板文件。

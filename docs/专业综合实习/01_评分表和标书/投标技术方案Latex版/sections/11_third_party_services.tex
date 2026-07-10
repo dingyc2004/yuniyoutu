@@ -1,17 +1,100 @@
-\section{第三方服务集成}
+﻿\section{第三方服务集成}
+
+本章说明平台第三方服务的接入方式、责任边界、密钥管理和降级策略。当前 MVP 阶段重点接入高德 JS API、后端天气/POI 封装能力以及 DeepSeek AI 解释接口；对象存储、CDN、HTTPS 证书自动化和更完整的网关治理属于正式工程化阶段。系统设计要求第三方服务由后端统一封装，前端只获取必要的展示配置和业务结果，避免 Web 服务 Key、AI Key 等敏感信息暴露在前端代码中。
 
 \subsection{高德地图服务}
 
-（待填写：Web Service API 接入、JS API 2.0 前端加载、POI 搜索、地理编码、天气查询。）
+高德地图服务分为前端 JS API 和后端 Web Service 两类能力。
+
+\textbf{高德 JS API 2.0：}用于前端地图渲染、标记点展示、地图拖动缩放、关键字搜索体验和地图交互。首页地图、POI 标记、钓点详情入口和位置选择均基于该能力实现。前端加载地图所需配置通过 \texttt{/api/amap/config} 获取，不在页面中硬编码真实 Key。
+
+\textbf{高德 Web Service：}由后端封装，用于 POI 搜索、周边检索、天气查询、地理编码和逆地理编码。Web Service Key 只保存在服务端环境变量中，前端不得直接调用带密钥的 Web 服务接口。
+
+\begin{table}[H]
+  \centering
+  \caption{高德服务接入责任划分}
+  \label{tab:amap-integration}
+  \begin{tabularx}{\textwidth}{p{3cm}|p{4cm}|X}
+    \toprule
+    \textbf{能力} & \textbf{接入位置} & \textbf{设计说明} \\
+    \midrule
+    地图底图与标记渲染 & 前端 & 使用高德 JS API 2.0 渲染地图、POI 标记和交互状态 \\
+    \hline
+    JS API 配置下发 & 后端 & \texttt{/api/amap/config} 返回前端必要配置，便于环境隔离和集中管理 \\
+    \hline
+    POI 周边检索 & 后端 & 后端调用高德 Web Service，并结合自建垂钓 POI 做语义增强 \\
+    \hline
+    天气查询 & 后端 & 天气结果转换为统一 \texttt{WeatherSnapshot}，供推荐模型和页面摘要使用 \\
+    \hline
+    地理编码与逆地理编码 & 后端 & 用于记录位置回填、城市识别、地址展示和位置隐私模糊表达 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+高德 POI 提供通用地图点位，平台在此基础上叠加鱼种、设施、规则、风险、用户记录和社区热度，形成垂钓语义 POI。高德结果不直接等同于官方可钓点，合规判断必须结合平台维护的规则字段和公开管理要求。
 
 \subsection{DeepSeek API}
 
-（待填写：API Key 管理、请求封装、超时与重试策略、Mock 降级。）
+DeepSeek API 用于生成推荐解释、个性化出钓建议和复盘摘要。系统不把大模型作为排序器，也不让大模型生成未经校验的禁钓结论。DeepSeek 请求由后端统一封装，核心控制项如下：
 
-\subsection{其他第三方依赖}
+\begin{itemize}
+  \item \textbf{密钥管理：}通过 \texttt{DEEPSEEK\_API\_KEY} 环境变量配置，不写入代码、不传给前端。
+  \item \textbf{模型选择：}通过 \texttt{DEEPSEEK\_MODEL} 控制，默认使用稳定的对话模型，便于统一替换和灰度发布。
+  \item \textbf{超时控制：}后端调用设置超时时间，避免 AI 服务慢响应影响主流程。
+  \item \textbf{输入控制：}只传规则推荐结果、候选 POI 摘要、天气摘要、用户意图和授权画像摘要，不传完整隐私数据。
+  \item \textbf{输出控制：}要求返回结构化 JSON，前端只渲染指定字段，并由后端进行格式校验。
+\end{itemize}
 
-（待填写：HTTPS 证书、CDN 加速、图标库等。）
+\subsection{天气与环境数据服务}
+
+天气数据通过后端统一接口获取和标准化，不让业务层直接依赖第三方返回结构。天气字段包括城市、天气现象、温度、体感温度、风向、风力、湿度、气压、能见度、预警信息和更新时间。
+
+推荐模型使用天气数据时只做适宜度判断，不输出“必定爆护”等不可验证表述。遇到雷雨、大风、台风、暴雨等风险天气时，系统优先提示安全风险，并在推荐排序中降低户外野钓点位优先级。
+
+\subsection{对象存储与 CDN（后续规划）}
+
+当前课程 MVP 以页面演示和 JSON 数据为主，不把对象存储作为本期已接入能力。正式工程化阶段，鱼获图片、帖子图片、用户头像、教程视频封面和报告长图应存放在对象存储中，并通过 CDN 加速访问；数据库只保存文件 URL、文件类型、大小、归属用户、关联业务 ID 和审核状态，不直接存放大文件。
+
+对象存储集成策略如下：
+
+\begin{itemize}
+  \item 上传由后端生成受控上传地址或统一代理上传，限制文件类型、大小和数量。
+  \item 私密记录图片不直接公开访问，需结合权限校验或短期签名 URL。
+  \item 删除帖子或记录时，业务数据先软删除，文件清理由异步任务处理，避免误删。
+  \item 图片访问地址与审核状态绑定，未通过审核的图片不进入公开社区流。
+\end{itemize}
+
+\subsection{HTTPS、域名与证书（后续规划）}
+
+正式上线时，平台应通过 HTTPS 提供服务，避免用户位置、登录凭证、发帖内容和图片上传信息在传输过程中被窃听或篡改。Nginx 可负责 HTTPS 终止、证书自动续期、静态资源托管、访问日志和 \texttt{/api} 反向代理。课程验收环境以本地或测试服务器演示为主，重点验证密钥不写入前端代码和第三方异常可降级。
 
 \subsection{服务降级策略}
 
-（待填写：各第三方服务不可用时的降级方案，如地图加载失败展示静态列表、AI 不可用时回退规则推荐。）
+第三方服务不可用时，系统应保持核心流程可访问。降级策略如下：
+
+\begin{longtable}{|p{3cm}|p{4.5cm}|p{6cm}|}
+  \caption{第三方服务降级策略}
+  \label{tab:third-party-fallback}\\
+  \toprule
+  \textbf{服务} & \textbf{异常场景} & \textbf{降级方案} \\
+  \midrule
+  \endfirsthead
+  \multicolumn{3}{c}{\tablename~\thetable\quad（续）}\\
+  \toprule
+  \textbf{服务} & \textbf{异常场景} & \textbf{降级方案} \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endlastfoot
+  高德 JS API & 地图加载失败、Key 配置错误 & 前端展示钓点列表和错误提示，不影响查看 POI 文本信息 \\
+  \hline
+  高德 POI 服务 & 周边搜索失败或超时 & 使用平台自建 POI 和缓存数据，提示用户稍后刷新地图结果 \\
+  \hline
+  天气服务 & 天气接口失败 & 使用最近一次天气快照或展示天气未知，推荐模型降低天气因子权重 \\
+  \hline
+  DeepSeek API & 超时、限额、异常 & 返回规则模型解释模板，推荐排序结果不受影响 \\
+  \hline
+  对象存储/CDN & 图片上传或访问失败 & 保留文本记录和帖子，图片显示占位图，后台重试上传 \\
+\end{longtable}
+
+通过以上设计，第三方服务增强用户体验，但不成为核心业务闭环的单点故障。

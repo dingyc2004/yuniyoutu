@@ -1,54 +1,226 @@
 \section{数据模型与接口设计}
 
-\subsection{数据库设计}
+本章说明平台当前 MVP 阶段采用的 JSON 集合数据模型、字段结构和 API 接口规范。当前实现以根目录 \texttt{data/} 下的 \texttt{.json} 文件模拟 NoSQL 集合，并为每个集合提供同名 \texttt{.schema.json} 字段说明；正式多人使用时，可在不改变主要业务对象的前提下迁移到 PostgreSQL/PostGIS、Redis 和对象存储。
 
-（待填写：JSON 文件集合设计理念、23 个数据集合列表、每个集合的 Schema 说明。）
+\subsection{当前数据设计原则}
+
+当前数据层围绕“地图找点、规则推荐、出钓记录、社区分享、教程学习、活动服务和报告统计”组织，设计原则如下：
+
+\begin{enumerate}
+  \item \textbf{集合清晰：}钓点、记录、帖子、教程、活动、订单、消息、报告等业务对象分别保存为独立 JSON 集合，避免所有数据混在单一文件中。
+  \item \textbf{字段可验证：}每个集合配套 \texttt{.schema.json}，说明核心字段含义、类型和示例，便于评审人员对照接口返回结果检查。
+  \item \textbf{写入可恢复：}后端 \texttt{json\_store.py} 使用临时文件与原子替换写入，降低写入中断导致文件损坏的风险。
+  \item \textbf{关联轻量化：}集合间通过 \texttt{id}、\texttt{user\_id}、\texttt{poi\_id}、\texttt{record\_id} 等字段建立引用关系，当前阶段不引入数据库外键。
+  \item \textbf{扩展不混淆：}PostgreSQL/PostGIS、Redis、对象存储和统一鉴权属于正式工程化阶段能力，本期文档只给出迁移映射，不把它们写成当前已接入能力。
+\end{enumerate}
+
+\subsection{核心 JSON 集合设计}
+
+{\small
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3.8cm}|>{\raggedright\arraybackslash}p{3.0cm}|>{\raggedright\arraybackslash}p{6.8cm}|}
+  \caption{当前 JSON 集合设计}
+  \label{tab:json-collections}\\
+  \toprule
+  \textbf{集合文件} & \textbf{用途} & \textbf{主要字段设计} \\
+  \midrule
+  \endfirsthead
+  \multicolumn{3}{c}{\tablename~\thetable\quad（续）}\\
+  \toprule
+  \textbf{集合文件} & \textbf{用途} & \textbf{主要字段设计} \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endlastfoot
+  \texttt{users.json} & 用户基础信息 & id、nickname、avatar、city、level、stats、created\_at \\
+  \hline
+  \texttt{memberships.json} & 会员状态演示 & user\_id、member\_level、valid\_until、benefits、status \\
+  \hline
+  \texttt{pois.json} & 垂钓 POI & id、name、type、city、address、lng、lat、fish、tags、score、facilities、risk\_flags、compliance\_note \\
+  \hline
+  \texttt{fish\_species.json} & 鱼种知识库 & name、alias、habitat、active\_temperature、common\_methods、bait\_tips、season\_tips \\
+  \hline
+  \texttt{weather\_snapshots.json} & 天气快照 & id、city、weather、temperature、wind\_level、humidity、alerts、source、updated\_at \\
+  \hline
+  \texttt{records.json} & 出钓记录 & id、user\_id、poi\_id、start\_time、end\_time、fish\_count、fish\_weight、method、bait、is\_blank\_trip、privacy\_level \\
+  \hline
+  \texttt{posts.json} & 社区帖子 & id、user\_id、post\_type、title、content、poi\_id、record\_id、visibility、location\_visibility、created\_at \\
+  \hline
+  \texttt{comments.json}、\texttt{reactions.json} & 社区互动 & post\_id、user\_id、content、reaction\_type、created\_at、status \\
+  \hline
+  \texttt{follows.json}、\texttt{friendships.json}、\texttt{direct\_messages.json} & 社交关系与私信 & follower\_id、followee\_id、user\_id、peer\_id、content、read\_status、created\_at \\
+  \hline
+  \texttt{tutorials.json}、\texttt{learning\_progress.json} & 教程与学习进度 & title、category、difficulty、format、duration、content、tutorial\_id、user\_id、status、updated\_at \\
+  \hline
+  \texttt{events.json}、\texttt{event\_registrations.json} & 活动与报名 & id、title、city、poi\_id、start\_time、capacity、fee、status、checked\_in\_at \\
+  \hline
+  \texttt{groups.json}、\texttt{group\_members.json}、\texttt{messages.json} & 活动群与消息 & group\_id、user\_id、role、content、message\_type、created\_at \\
+  \hline
+  \texttt{equipment.json}、\texttt{orders.json} & 装备与订单演示 & equipment\_id、user\_id、quantity、order\_status、pay\_status、created\_at \\
+  \hline
+  \texttt{report\_snapshots.json} & 个人报告快照 & user\_id、period、summary、metrics、generated\_at、source \\
+\end{longtable}
+}
+
+\subsection{正式化数据迁移映射}
+
+当前 JSON 集合适合课程 Demo 和单机演示，不承担正式多人并发写入职责。正式工程化阶段可按表 \ref{tab:data-migration-map} 迁移，迁移目标不改变本期 API 的主要业务语义。
+
+\begin{table}[H]
+  \centering
+  \caption{JSON 集合到正式数据层的迁移映射}
+  \label{tab:data-migration-map}
+  \begin{tabularx}{\textwidth}{p{3.2cm}|p{4cm}|X}
+    \toprule
+    \textbf{当前集合} & \textbf{正式化目标} & \textbf{迁移说明} \\
+    \midrule
+    POI、天气、规则字段 & PostgreSQL/PostGIS & 使用空间字段和空间索引支持附近检索、范围查询和禁钓区域叠加判断 \\
+    \hline
+    记录、帖子、评论、互动 & PostgreSQL & 使用事务、索引、约束和软删除字段保证多人写入一致性 \\
+    \hline
+    图片、视频、报告长图 & 对象存储 & 数据库只保存文件元数据、审核状态和访问地址 \\
+    \hline
+    天气、热门 POI、推荐结果 & Redis & 缓存短期结果，降低第三方服务和后端计算压力 \\
+    \hline
+    登录会话、权限、审计 & 鉴权服务 + 审计日志 & 由令牌识别当前用户，替代 Demo 阶段前端传入 \texttt{user\_id} 的方式 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
 
 \subsection{核心数据模型}
 
-以出钓记录为例：
+出钓记录是连接地图、推荐、报告和社区的核心数据。记录中既保存用户填写的鱼种、重量、钓法、饵料，也保存与 POI、天气和位置相关的结构化字段，用于个性化推荐和生涯统计。
 
-\begin{lstlisting}[caption={出钓记录 JSON Schema（示例）},label={lst:record-schema}]
+\begin{lstlisting}[caption={出钓记录数据模型示例},label={lst:record-schema}]
 {
   "id": "rec_001",
   "user_id": "u_001",
   "start_time": "2026-07-01T06:30:00",
   "end_time": "2026-07-01T10:45:00",
+  "duration_seconds": 15300,
   "poi_id": "poi_wh_001",
-  "fish_species": ["鲫鱼", "鲤鱼"],
+  "location_name": "东湖磨山水域",
+  "latitude": 30.5501,
+  "longitude": 114.4085,
+  "weather": "多云",
+  "temperature": 28,
   "fish_count": 12,
-  "total_weight_kg": 3.8,
-  "max_single_weight_kg": 0.6,
-  "method": "台钓",
+  "fish_weight": 3.8,
+  "fish_species": "鲫鱼,鲤鱼",
+  "fishing_method": "台钓",
   "bait": "商品饵",
   "is_blank_trip": false,
-  "water_type": "lake",
-  "privacy_level": 1
+  "privacy_level": "private"
 }
 \end{lstlisting}
 
 \subsection{API 接口总览}
 
-\begin{longtable}{|p{0.8cm}|p{3cm}|p{3.5cm}|p{3.5cm}|p{3cm}|}
+后端采用 FastAPI 提供统一 \texttt{/api} 前缀，接口以 RESTful 风格组织。接口覆盖地图 POI、天气、推荐、AI 解释、出钓记录、社区帖子、社交互动、教程、用户报告、活动和订单演示等模块。
+
+\begin{longtable}{|p{0.7cm}|p{3.8cm}|p{2.1cm}|p{4.1cm}|p{2.2cm}|}
   \caption{API 接口总览表}
   \label{tab:api-list}\\
   \toprule
-  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{所属模块} \\
+  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{模块} \\
   \midrule
   \endfirsthead
   \multicolumn{5}{c}{\tablename~\thetable\quad（续）}\\
   \toprule
-  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{所属模块} \\
+  \textbf{序号} & \textbf{接口路径} & \textbf{方法} & \textbf{功能} & \textbf{模块} \\
   \midrule
   \endhead
   \bottomrule
   \endlastfoot
-  1  & /api/health       & GET  & 健康检查        & 元数据 \\
-  2  & /api/records       & GET/POST & 记录CRUD    & 出钓记录 \\
-  3  & /api/posts         & GET/POST & 帖子管理    & 社区 \\
-  % ---- 在此继续添加行 ----
+  1 & \path|/api/health| & GET & 服务健康检查 & 元数据 \\
+  \hline
+  2 & \path|/api/amap/config| & GET & 返回前端加载高德 JS API 所需配置 & 地图配置 \\
+  \hline
+  3 & \path|/api/pois| & GET & 查询钓点列表，支持城市、关键词、距离等条件 & 地图 POI \\
+  \hline
+  4 & \path|/api/pois/{poi_id}| & GET & 查询钓点详情 & 地图 POI \\
+  \hline
+  5 & \path|/api/weather/current| & GET & 获取实时天气快照 & 天气服务 \\
+  \hline
+  6 & \path|/api/recommendations| & POST & 根据位置、偏好、天气和候选 POI 返回推荐排序 & 推荐模型 \\
+  \hline
+  7 & \path|/api/ai/fishing-advice| & POST & 根据推荐结果生成个性化出钓建议 & AI 解释 \\
+  \hline
+  8 & \path|/api/records| & GET/POST & 查询和新增出钓记录 & 出钓记录 \\
+  \hline
+  9 & \path|/api/records/{record_id}| & GET/PATCH/DELETE & 查询、更新和删除单条出钓记录 & 出钓记录 \\
+  \hline
+  10 & \path|/api/posts| & GET/POST & 查询和发布社区帖子 & 社区 \\
+  \hline
+  11 & \path|/api/feed| & GET & 获取社区信息流 & 社区 \\
+  \hline
+  12 & \path|/api/posts/{post_id}| & GET & 查询帖子详情 & 社区 \\
+  \hline
+  13 & \path|/api/posts/{post_id}/comments| & GET/POST & 查询或新增评论 & 社区互动 \\
+  \hline
+  14 & \path|/api/posts/{post_id}/reactions| & POST & 点赞、收藏等互动 & 社区互动 \\
+  \hline
+  15 & \path|/api/users/{user_id}/follow| & POST/DELETE & 关注或取消关注用户 & 社交关系 \\
+  \hline
+  16 & \path|/api/direct-messages/{peer_id}| & POST & 发送私信 & 私信 \\
+  \hline
+  17 & \path|/api/direct-messages/{user_id}/{peer_id}| & GET & 查询私信消息 & 私信 \\
+  \hline
+  18 & \path|/api/tutorials| & GET & 查询教程列表 & 教程 \\
+  \hline
+  19 & \path|/api/tutorials/{tutorial_id}/progress| & PUT & 更新学习进度 & 教程 \\
+  \hline
+  20 & \path|/api/users/{user_id}/learning-progress| & GET & 查询用户学习进度 & 教程 \\
+  \hline
+  21 & \path|/api/users/{user_id}| & GET & 查询用户基础信息 & 用户 \\
+  \hline
+  22 & \path|/api/users/{user_id}/membership| & GET & 查询会员状态演示信息 & 用户 \\
+  \hline
+  23 & \path|/api/users/{user_id}/profile-summary| & GET & 获取个人统计摘要 & 个人报告 \\
+  \hline
+  24 & \path|/api/users/{user_id}/reports| & GET/POST & 查询或生成报告快照 & 个人报告 \\
+  \hline
+  25 & \path|/api/users/{user_id}/service-recommendations| & GET & 获取教程、活动、装备等服务建议 & 服务推荐 \\
+  \hline
+  26 & \path|/api/events| & GET/POST & 查询或创建活动 & 活动 \\
+  \hline
+  27 & \path|/api/events/{event_id}/register| & POST/DELETE & 报名或取消报名 & 活动 \\
+  \hline
+  28 & \path|/api/events/{event_id}/checkin| & POST & 活动签到 & 活动 \\
+  \hline
+  29 & \path|/api/events/{event_id}/create-record| & POST & 从活动生成出钓记录 & 活动 \\
+  \hline
+  30 & \path|/api/groups/{group_id}/messages| & GET/POST & 查询或发送活动群消息 & 活动群 \\
+  \hline
+  31 & \path|/api/equipment| & GET & 查询装备列表 & 装备 \\
+  \hline
+  32 & \path|/api/orders| & POST & 创建装备订单 & 订单演示 \\
+  \hline
+  33 & \path|/api/orders/{order_id}/pay| & POST & 模拟支付订单 & 订单演示 \\
+  \hline
+  34 & \path|/api/users/{user_id}/orders| & GET & 查询用户订单 & 订单演示 \\
+  \hline
+  35 & \path|/api/fish-species| & GET & 查询鱼种知识库 & 知识库 \\
 \end{longtable}
 
 \subsection{接口规范}
 
-（待填写：统一返回格式 \texttt{\{code, data, message\}}、错误码定义、分页参数约定。）
+接口响应统一采用“业务数据 + 元信息”的结构。列表接口返回 \texttt{data} 数组和 \texttt{meta} 元信息；详情接口返回单个 \texttt{data} 对象；创建接口成功时返回新建对象并使用 HTTP 201 状态码；删除接口成功时返回 HTTP 204。错误响应统一包含错误码、错误信息和请求路径，便于前端展示和后端排查。
+
+\begin{lstlisting}[caption={列表接口返回结构示例},label={lst:list-response}]
+{
+  "data": [
+    {
+      "id": "poi_wh_001",
+      "name": "东湖磨山水域",
+      "score": 86
+    }
+  ],
+  "meta": {
+    "total": 1,
+    "page": 1,
+    "page_size": 20
+  }
+}
+\end{lstlisting}
+
+分页参数统一采用 \texttt{page}、\texttt{page\_size}；筛选参数按模块扩展，例如 POI 接口支持 \texttt{city}、\texttt{keyword}、\texttt{lat}、\texttt{lng}、\texttt{radius\_m}，帖子接口支持 \texttt{channel}、\texttt{post\_type}，记录接口支持 \texttt{user\_id}。当前 Demo 阶段部分写接口仍通过请求体或查询参数携带 \texttt{user\_id}；正式工程化阶段应改为由登录令牌识别当前用户，并在服务层校验资源所有权。
