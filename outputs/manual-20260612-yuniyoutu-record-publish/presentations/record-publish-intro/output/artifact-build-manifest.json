@@ -1,0 +1,28 @@
+{
+  "output": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\output\\鱼你有图-记录与发布功能介绍.pptx",
+  "outputBytes": 25661,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\preview",
+  "previewPaths": [
+    "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\preview\\slide-01.png"
+  ],
+  "layoutDir": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\layout\\final",
+  "layoutResults": [
+    {
+      "layoutPath": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\layout\\final\\slide-01.layout.json"
+    }
+  ],
+  "contactSheet": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\preview\\contact-sheet.png",
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "D:\\course\\创新产品设计和团队实践\\大作业\\yuniyoutu\\outputs\\manual-20260612-yuniyoutu-record-publish\\presentations\\record-publish-intro\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}

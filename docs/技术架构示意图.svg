@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">图3-3 鱼你有图技术架构示意图</title>
+  <desc id="desc">基于当前 Vue3 Vite 前端、FastAPI 后端、JSON 数据集合和外部服务能力绘制的项目技术架构图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5fbff"/>
+      <stop offset="0.52" stop-color="#f7fbf6"/>
+      <stop offset="1" stop-color="#fff8ee"/>
+    </linearGradient>
+    <linearGradient id="appGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6f4ff"/>
+      <stop offset="1" stop-color="#eef9f2"/>
+    </linearGradient>
+    <linearGradient id="apiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eaf7f5"/>
+      <stop offset="1" stop-color="#f3f7ff"/>
+    </linearGradient>
+    <linearGradient id="svcGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#ecf8f1"/>
+    </linearGradient>
+    <linearGradient id="dataGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5f0ff"/>
+      <stop offset="1" stop-color="#fff7ec"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#20465a" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#54718a"/>
+    </marker>
+    <style>
+      .bg { fill: url(#bg); }
+      .title { font: 800 36px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #163b57; letter-spacing: 0; }
+      .subtitle { font: 400 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #6d7f8d; }
+      .layer { stroke: #7fa4bf; stroke-width: 2; filter: url(#shadow); }
+      .layer-title { font: 800 22px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #184965; }
+      .layer-note { font: 400 13px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #6a7d89; }
+      .pill { fill: rgba(255,255,255,0.82); stroke: #b7ccd9; stroke-width: 1.4; }
+      .pill-strong { fill: #ffffff; stroke: #7fa4bf; stroke-width: 1.7; }
+      .pill-text { font: 600 15px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #2d5368; }
+      .tiny { font: 500 12px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #607585; }
+      .tag { font: 700 13px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .flow { stroke: #54718a; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .flow-soft { stroke: #86a4b8; stroke-width: 1.8; stroke-dasharray: 7 7; fill: none; marker-end: url(#arrow); }
+      .side-card { fill: rgba(255,255,255,0.88); stroke: #b9ccd8; stroke-width: 1.5; filter: url(#shadow); }
+      .side-title { font: 800 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #244c63; }
+      .side-text { font: 500 13px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #5d717d; }
+      .warn { fill: #fff2df; stroke: #e3b874; stroke-width: 1.5; }
+      .warn-title { font: 800 15px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #95621a; }
+      .warn-text { font: 500 12px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #7b623c; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+  <circle cx="128" cy="110" r="92" fill="#dff2ff" opacity="0.55"/>
+  <circle cx="1450" cy="770" r="130" fill="#ffe8bd" opacity="0.35"/>
+  <circle cx="1390" cy="140" r="78" fill="#dff4e8" opacity="0.45"/>
+
+  <text x="80" y="64" class="title">图3-3 鱼你有图技术架构示意图</text>
+  <text x="80" y="94" class="subtitle">当前实现版：移动端 Web Demo + FastAPI 接口 + 领域服务 + JSON 集合持久化，外接地图、天气与 AI 能力</text>
+
+  <!-- Layer 1 -->
+  <rect x="70" y="130" width="1120" height="142" rx="18" fill="url(#appGrad)" class="layer"/>
+  <rect x="92" y="154" width="96" height="32" rx="16" fill="#1f6f8b"/>
+  <text x="112" y="176" class="tag">应用展示层</text>
+  <text x="210" y="176" class="layer-note">Vue3 + Vite + Element Plus，面向手机浏览器的产品 Demo</text>
+  <g>
+    <rect x="115" y="205" width="162" height="38" rx="10" class="pill-strong"/>
+    <text x="137" y="229" class="pill-text">首页地图 / POI</text>
+    <rect x="293" y="205" width="162" height="38" rx="10" class="pill"/>
+    <text x="330" y="229" class="pill-text">开竿记录</text>
+    <rect x="471" y="205" width="162" height="38" rx="10" class="pill"/>
+    <text x="506" y="229" class="pill-text">社区发布</text>
+    <rect x="649" y="205" width="162" height="38" rx="10" class="pill"/>
+    <text x="683" y="229" class="pill-text">教程学习</text>
+    <rect x="827" y="205" width="162" height="38" rx="10" class="pill"/>
+    <text x="859" y="229" class="pill-text">活动装备</text>
+    <rect x="1005" y="205" width="142" height="38" rx="10" class="pill"/>
+    <text x="1032" y="229" class="pill-text">我的报告</text>
+  </g>
+
+  <!-- Layer 2 -->
+  <rect x="70" y="315" width="1120" height="156" rx="18" fill="url(#apiGrad)" class="layer"/>
+  <rect x="92" y="339" width="96" height="32" rx="16" fill="#26796e"/>
+  <text x="112" y="361" class="tag">API 接入层</text>
+  <text x="210" y="361" class="layer-note">FastAPI app.main 统一挂载路由，CORS 配置，返回 data/meta 结构</text>
+  <g>
+    <rect x="115" y="390" width="184" height="36" rx="10" class="pill"/>
+    <text x="146" y="413" class="pill-text">records 记录</text>
+    <rect x="315" y="390" width="184" height="36" rx="10" class="pill"/>
+    <text x="352" y="413" class="pill-text">posts/feed 社区</text>
+    <rect x="515" y="390" width="184" height="36" rx="10" class="pill"/>
+    <text x="551" y="413" class="pill-text">poi/weather 地图</text>
+    <rect x="715" y="390" width="184" height="36" rx="10" class="pill"/>
+    <text x="747" y="413" class="pill-text">events/groups 活动</text>
+    <rect x="915" y="390" width="184" height="36" rx="10" class="pill"/>
+    <text x="944" y="413" class="pill-text">users/reports 用户</text>
+    <rect x="215" y="432" width="184" height="36" rx="10" class="pill"/>
+    <text x="259" y="455" class="pill-text">tutorials 教程</text>
+    <rect x="415" y="432" width="184" height="36" rx="10" class="pill"/>
+    <text x="467" y="455" class="pill-text">orders 装备订单</text>
+    <rect x="615" y="432" width="184" height="36" rx="10" class="pill"/>
+    <text x="658" y="455" class="pill-text">community 社交</text>
+    <rect x="815" y="432" width="184" height="36" rx="10" class="pill"/>
+    <text x="860" y="455" class="pill-text">recommend / ai</text>
+  </g>
+
+  <!-- Layer 3 -->
+  <rect x="70" y="515" width="1120" height="156" rx="18" fill="url(#svcGrad)" class="layer"/>
+  <rect x="92" y="539" width="96" height="32" rx="16" fill="#bf7a2a"/>
+  <text x="112" y="561" class="tag">领域服务层</text>
+  <text x="210" y="561" class="layer-note">把业务规则从路由中拆出，负责持久化、脱敏、统计、推荐和第三方接口适配</text>
+  <g>
+    <rect x="115" y="590" width="200" height="36" rx="10" class="pill"/>
+    <text x="146" y="613" class="pill-text">record_service</text>
+    <rect x="331" y="590" width="200" height="36" rx="10" class="pill"/>
+    <text x="363" y="613" class="pill-text">post_service / 脱敏</text>
+    <rect x="547" y="590" width="200" height="36" rx="10" class="pill"/>
+    <text x="585" y="613" class="pill-text">report_service</text>
+    <rect x="763" y="590" width="200" height="36" rx="10" class="pill"/>
+    <text x="801" y="613" class="pill-text">poi / recommend</text>
+    <rect x="979" y="590" width="168" height="36" rx="10" class="pill"/>
+    <text x="1018" y="613" class="pill-text">user_service</text>
+    <rect x="223" y="632" width="200" height="36" rx="10" class="pill"/>
+    <text x="261" y="655" class="pill-text">weather / amap</text>
+    <rect x="439" y="632" width="200" height="36" rx="10" class="pill"/>
+    <text x="482" y="655" class="pill-text">events / orders</text>
+    <rect x="655" y="632" width="200" height="36" rx="10" class="pill"/>
+    <text x="699" y="655" class="pill-text">chat / social</text>
+    <rect x="871" y="632" width="200" height="36" rx="10" class="pill"/>
+    <text x="907" y="655" class="pill-text">learning_progress</text>
+  </g>
+
+  <!-- Layer 4 -->
+  <rect x="70" y="715" width="1120" height="118" rx="18" fill="url(#dataGrad)" class="layer"/>
+  <rect x="92" y="739" width="96" height="32" rx="16" fill="#6a5aa8"/>
+  <text x="112" y="761" class="tag">数据持久层</text>
+  <text x="210" y="761" class="layer-note">根目录 data/*.json 模拟 NoSQL 集合，每个集合配套 *.schema.json 字段描述</text>
+  <g>
+    <rect x="115" y="790" width="212" height="34" rx="10" class="pill"/>
+    <text x="138" y="812" class="pill-text">records / posts / users</text>
+    <rect x="343" y="790" width="212" height="34" rx="10" class="pill"/>
+    <text x="371" y="812" class="pill-text">pois / weather / fish</text>
+    <rect x="571" y="790" width="212" height="34" rx="10" class="pill"/>
+    <text x="598" y="812" class="pill-text">events / groups / messages</text>
+    <rect x="799" y="790" width="212" height="34" rx="10" class="pill"/>
+    <text x="824" y="812" class="pill-text">comments / reactions / follows</text>
+    <rect x="1027" y="790" width="120" height="34" rx="10" class="pill"/>
+    <text x="1052" y="812" class="pill-text">orders</text>
+  </g>
+
+  <!-- Right column -->
+  <rect x="1230" y="130" width="300" height="170" rx="18" class="side-card"/>
+  <text x="1256" y="164" class="side-title">外部与设备能力</text>
+  <rect x="1256" y="186" width="230" height="30" rx="15" fill="#e9f5ff" stroke="#a9c6d9"/>
+  <text x="1276" y="206" class="side-text">高德 JS API / Web Service</text>
+  <rect x="1256" y="225" width="230" height="30" rx="15" fill="#edf8f1" stroke="#a9d0b8"/>
+  <text x="1276" y="245" class="side-text">浏览器定位与地图选点</text>
+  <rect x="1256" y="264" width="230" height="30" rx="15" fill="#fff4e4" stroke="#e2c188"/>
+  <text x="1276" y="284" class="side-text">DeepSeek / AI 建议（可选）</text>
+
+  <rect x="1230" y="332" width="300" height="166" rx="18" class="side-card"/>
+  <text x="1256" y="366" class="side-title">前端状态与降级</text>
+  <text x="1256" y="397" class="side-text">• API 超时后回退 seedData</text>
+  <text x="1256" y="424" class="side-text">• localStorage 保存我的发布/收藏</text>
+  <text x="1256" y="451" class="side-text">• 高德不可用时展示内置地图 Demo</text>
+  <text x="1256" y="478" class="side-text">• 会员/非会员可切换演示身份</text>
+
+  <rect x="1230" y="530" width="300" height="138" rx="18" class="side-card"/>
+  <text x="1256" y="564" class="side-title">质量保障</text>
+  <text x="1256" y="595" class="side-text">• FastAPI TestClient / pytest</text>
+  <text x="1256" y="622" class="side-text">• 覆盖记录 CRUD、报告、脱敏</text>
+  <text x="1256" y="649" class="side-text">• 覆盖活动、教程进度、订单 Demo</text>
+
+  <rect x="1230" y="700" width="300" height="132" rx="18" class="warn"/>
+  <text x="1256" y="732" class="warn-title">当前边界</text>
+  <text x="1256" y="760" class="warn-text">未接入真实登录鉴权、对象存储、</text>
+  <text x="1256" y="784" class="warn-text">WebSocket、真实支付、后台审核；</text>
+  <text x="1256" y="808" class="warn-text">当前定位为可运行产品 Demo。</text>
+
+  <!-- flows -->
+  <path d="M630 273 L630 312" class="flow"/>
+  <path d="M630 472 L630 512" class="flow"/>
+  <path d="M630 672 L630 712" class="flow"/>
+  <path d="M1190 201 C1210 201, 1210 215, 1230 215" class="flow-soft"/>
+  <path d="M1190 392 C1210 392, 1210 415, 1230 415" class="flow-soft"/>
+  <path d="M1190 593 C1210 593, 1210 599, 1230 599" class="flow-soft"/>
+  <path d="M1190 774 C1210 774, 1210 766, 1230 766" class="flow-soft"/>
+
+  <text x="80" y="870" class="tiny">说明：本图按当前代码实现绘制。主链路为“移动端页面 → FastAPI 路由 → 领域服务 → JSON 集合”；地图、天气和 AI 属外部增强能力；支付、上传、鉴权和审核仍为后续正式化方向。</text>
+</svg>
