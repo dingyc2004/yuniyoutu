@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.19)  10 JUL 2026 16:53
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.3.6)  9 JUL 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,14 +6,14 @@ entering extended mode
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/ctexart.cls
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/ctexart.cls
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+(d:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+(d:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 \g__graphics_track_int=\count184
 \l__pdf_internal_box=\box51
@@ -23,16 +23,16 @@ File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 ))
 Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
 TEX)
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+(d:/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+(d:/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
@@ -42,12 +42,12 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__ctex_section_depth_int=\count189
 \g__ctex_font_size_int=\count190
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/article.cls
+(d:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+(d:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count191
@@ -62,16 +62,15 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen141
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.d
-ef
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
- (d:/app/Latex/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.
-sty
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-
-2023-10-10.sty
+(d:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+(d:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10
+.sty
 Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen142
 \l__xtemplate_tmp_int=\count199
@@ -138,14 +137,13 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count276
 \l__xeCJK_verb_case_int=\count277
 \l__xeCJK_verb_exspace_skip=\skip57
-
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+(d:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count278
@@ -163,11 +161,11 @@ X
 \l__fontspec_tmpb_dim=\dimen171
 \l__fontspec_tmpc_dim=\dimen172
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+(d:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(d:/app/Latex/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(d:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 \ccwd=\dimen173
@@ -175,26 +173,24 @@ File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 )
 \l__ctex_ziju_dim=\dimen174
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(d:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count289
 \l__zhnum_tmp_int=\count290
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
 \l__ctex_heading_skip=\skip59
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese
--article.def
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+ef
 File: ctex-scheme-chinese-article.def 2022/07/14 v2.5.10 Chinese scheme for art
 icle (CTEX)
-
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+ (d:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windo
-ws.def
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
 
@@ -227,20 +223,21 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-)) (d:/app/Latex/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
+))
+(d:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+(d:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+(d:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count291
@@ -256,27 +253,27 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen182
 \Gm@dimlist=\toks18
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/float/float.sty
+(d:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count294
 \float@exts=\toks19
@@ -284,13 +281,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box56
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen185
 \captionmargin=\dimen186
@@ -311,10 +308,10 @@ Package caption Info: New subtype `subfigure' on input line 238.
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count298
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+(d:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+(d:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen193
 \ar@mcellbox=\box57
@@ -332,7 +329,7 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@cols=\count299
 \TX@ftn=\toks22
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+(d:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip62
 \LTright=\skip63
@@ -351,7 +348,7 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count304
 \LT@p@ftn=\toks23
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+(d:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen257
 \lightrulewidth=\dimen258
@@ -371,7 +368,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count308
 \@thisrulewidth=\dimen269
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+(d:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count309
 \lst@gtempboxa=\box64
 \lst@token=\toks24
@@ -385,34 +382,34 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \lst@lineno=\count314
 \lst@maxwidth=\dimen273
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+(d:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+(d:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 \c@lstnumber=\count315
 \lst@skipnumbers=\count316
 \lst@framebox=\box65
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
 ))
 Package: listings 2024/02/21 1.10 (Carsten Heinz)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+(d:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count317
 \l__xeCJK_listings_flag_int=\count318
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+(d:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(d:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(d:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
@@ -422,51 +419,53 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+(d:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(d:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (d:/app/Latex/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(d:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(d:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(d:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(d:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+(d:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+(d:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+(d:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring
-.sty
+(d:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (d:/app/Latex/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(d:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count319
-) (d:/app/Latex/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(d:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count320
 )
@@ -474,15 +473,15 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \Hy@linkcounter=\count321
 \Hy@pagecounter=\count322
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+(d:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count323
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4062.
@@ -496,17 +495,17 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count324
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/url/url.sty
+(d:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen275
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(d:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -521,7 +520,7 @@ Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(d:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -531,10 +530,10 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
+(d:/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+(d:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -544,23 +543,23 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Fld@listcount=\count331
 \c@bookmark@seq@number=\count332
 
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.s
-ty
+(d:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (d:/app/Latex/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+
+(d:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-(d:/app/Latex/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.s
-ty
+(d:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip66
-) (d:/app/Latex/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(d:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip67
@@ -572,8 +571,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip73
 \f@nch@O@olf=\skip74
 \f@nch@O@orf=\skip75
-)
-(./main.aux)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -693,14 +691,14 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-(d:/app/Latex/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+(d:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count333
 Package hyperref Info: Link coloring ON on input line 100.
-
-(./main.out) (./main.out)
+ (./main.out)
+(./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -850,6 +848,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10] (./sections/03_overall_solution.tex
+Overfull \hbox (8.08218pt too wide) in paragraph at lines 12--13
+[]\TU/SimSun(0)/b/n/12 数 据 层\TU/SimSun(0)/m/n/12 ：|  根 目 录 \TU/lmr/m/n/12 ‘data
+/‘ \TU/SimSun(0)/m/n/12 下 \TU/lmr/m/n/12 JSON \TU/SimSun(0)/m/n/12 文 件 模 拟 \TU/
+lmr/m/n/12 NoSQL \TU/SimSun(0)/m/n/12 集 合，|  每 个 集 合 配 \TU/lmr/m/n/12 ‘.schema.
+json‘
+ []
+
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -874,14 +879,6 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Overfull \hbox (8.87398pt too wide) in paragraph at lines 12--13
-[]\TU/SimSun(0)/b/n/12 数 据 层\TU/SimSun(0)/m/n/12 ：|  根 目 录 \TU/lmtt/m/n/12 data
-/ \TU/SimSun(0)/m/n/12 下 \TU/lmr/m/n/12 JSON \TU/SimSun(0)/m/n/12 文 件 模 拟 \TU/l
-mr/m/n/12 NoSQL \TU/SimSun(0)/m/n/12 集 合，|  每 个 集 合 配 \TU/lmtt/m/n/12 .schema.j
-son
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
 []|\TU/lmr/m/n/12 API \TU/SimSun(0)/m/n/12 路 由 层
  []
@@ -900,26 +897,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \TU/lmr/m/n/12 routes_recommend\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 routes_community\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 routes_events\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 routes_orders\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 routes_reports\TU/SimSun(0)/m/n/12 、|
  []
 
 
@@ -944,17 +921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 post_service\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 rec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 ommend_service\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\TU/lmr/m/n/12 report_service\TU/SimSun(0)/m/n/12 、|
+\TU/lmr/m/n/12 post_service\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 recom-
  []
 
 
@@ -1032,55 +999,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Overfull \hbox (49.63492pt too wide) in paragraph at lines 56--57
-[]\TU/lmr/m/n/12 MVP \TU/SimSun(0)/m/n/12 阶 段 根 目 录 \TU/lmtt/m/n/12 data/ \TU/S
-imSun(0)/m/n/12 下 包 含 \TU/lmtt/m/n/12 pois.json\TU/SimSun(0)/m/n/12 、| \TU/lmtt
-/m/n/12 posts.json\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 records.json\TU/SimSu
-n(0)/m/n/12 、| \TU/lmtt/m/n/12 tutorials.json\TU/SimSun(0)/m/n/12 、|
+Overfull \hbox (54.00293pt too wide) in paragraph at lines 55--56
+[]\TU/lmr/m/n/12 MVP \TU/SimSun(0)/m/n/12 阶 段 根 目 录 \TU/lmr/m/n/12 ‘data/‘ \TU/
+SimSun(0)/m/n/12 下 包 含 \TU/lmtt/m/n/12 pois.json\TU/SimSun(0)/m/n/12 、| \TU/lmt
+t/m/n/12 posts.json\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 records.json\TU/SimS
+un(0)/m/n/12 、| \TU/lmtt/m/n/12 tutorials.json\TU/SimSun(0)/m/n/12 、|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|\TU/lmr/m/n/12 HomeView.vue
  []
 
 
-Overfull \hbox (22.02974pt too wide) in paragraph at lines 82--82
+Overfull \hbox (22.02974pt too wide) in paragraph at lines 81--81
 []|\TU/lmr/m/n/12 CommunityView.vue| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|\TU/SimSun(0)/m/n/12 发 布 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|\TU/lmr/m/n/12 PublishView.vue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 |\TU/SimSun(0)/m/n/12 （由 \TU/lmr/m/n/12 Communi-
  []
 
 
-Overfull \hbox (7.72574pt too wide) in paragraph at lines 82--82
+Overfull \hbox (7.72574pt too wide) in paragraph at lines 81--81
 []|\TU/lmr/m/n/12 TutorialsView.vue| 
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 82--82
+Underfull \hbox (badness 1377) in paragraph at lines 81--81
 []|\TU/SimSun(0)/m/n/12 教 程 列 表、|  分 类 筛 选、|  难
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|\TU/SimSun(0)/m/n/12 我 的 抽
  []
 
 
-Overfull \hbox (23.59265pt too wide) in alignment at lines 82--82
+Overfull \hbox (23.59265pt too wide) in alignment at lines 81--81
 [][][][] 
  []
 
@@ -1093,189 +1060,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 GET /api/pois\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 GET
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 GET /api/posts\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/lmtt/m/n/12 /api/posts\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 GET
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 GET /api/records\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/lmtt/m/n/12 /api/records\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 PATCH
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 POST
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 GET
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/lmtt/m/n/12 POST
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 GET /api/tutorials\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 PU
-T
- []
-
-
-Overfull \hbox (30.77621pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/tutorials/{id}/progress| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (10.13434pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/posts/{id}/comments\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (16.31433pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/posts/{id}/reactions\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 POST
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/follow\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (43.13622pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/direct-messages/{peer_id}| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 GET /api/events\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (16.31433pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/events/{id}/register\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (10.13434pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/events/{id}/checkin\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 GET
- []
-
-
-Overfull \hbox (16.31433pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/groups/{id}/messages\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 GET
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/orders\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 POST /api/orders\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/orders/{id}/pay\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 GET
- []
-
-
-Overfull \hbox (53.39433pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/profile-summary\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 GET/POST
- []
-
-
-Overfull \hbox (3.95433pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/reports\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 GET
- []
-
-
-Overfull \hbox (98.75623pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/service-recommendations| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\TU/lmtt/m/n/12 routes_users.py\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (22.49432pt too wide) in paragraph at lines 121--121
-\TU/lmtt/m/n/12 /api/users/{id}/membership\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (25.41905pt too wide) in alignment at lines 121--121
+Overfull \hbox (25.41905pt too wide) in alignment at lines 110--110
 [][][] 
  []
 
@@ -1287,10 +1113,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
-Overfull \vbox (210.94946pt too high) has occurred while \output is active []
-
-
+[16])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1299,16 +1122,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[18] (./sections/05_business_and_data_flow.tex
+[17] (./sections/05_business_and_data_flow.tex
 File: figures/business_flow.png Graphic file (type bmp)
 <figures/business_flow.png>
 
@@ -1320,51 +1134,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19]
+[18]
 File: figures/data_flow.png Graphic file (type bmp)
 <figures/data_flow.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|\TU/lmr/m/n/12 FishingPOI |\TU/SimSun(0)/m/n/12 （钓
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|\TU/lmr/m/n/12 FishingRecord
  []
 
 
-Overfull \hbox (3.59775pt too wide) in paragraph at lines 67--67
+Overfull \hbox (3.59775pt too wide) in paragraph at lines 65--65
 []|\TU/lmr/m/n/12 Recommendation
  []
 
 
-Overfull \hbox (4.79774pt too wide) in paragraph at lines 67--67
+Overfull \hbox (4.79774pt too wide) in paragraph at lines 65--65
 []|\TU/lmr/m/n/12 WeatherSnapshot
  []
 
 
-Overfull \hbox (53.04898pt too wide) in paragraph at lines 67--67
+Overfull \hbox (53.04898pt too wide) in paragraph at lines 65--65
 []|\TU/lmtt/m/n/12 data/weather_snapshots.json| 
  []
 
 
-Overfull \hbox (3.60898pt too wide) in paragraph at lines 67--67
+Overfull \hbox (3.60898pt too wide) in paragraph at lines 65--65
 []|\TU/lmtt/m/n/12 data/tutorials.json| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\TU/lmtt/m/n/12 data/events.json\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-\TU/lmtt/m/n/12 data/orders.json\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (25.41904pt too wide) in alignment at lines 67--67
+Overfull \hbox (25.41904pt too wide) in alignment at lines 65--65
 [][][] 
  []
 
@@ -1376,7 +1180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20])
+[19])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1385,491 +1189,397 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21] (./sections/06_function_response.tex
-Overfull \hbox (33.94716pt too wide) in alignment at lines 24--30
+[20] (./sections/06_function_response.tex
+Overfull \hbox (16.87578pt too wide) in alignment at lines 5--11
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.94716pt too wide) in alignment at lines 30--36
+Overfull \hbox (16.87578pt too wide) in alignment at lines 11--17
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.94716pt too wide) in alignment at lines 36--40
+Overfull \hbox (16.87578pt too wide) in alignment at lines 17--21
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.94716pt too wide) in alignment at lines 40--43
+Overfull \hbox (16.87578pt too wide) in alignment at lines 21--24
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 45--46
-\TU/SimSun(0)/m/n/12 认 本 期 目 标 与 后 续
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 27--27
+[]|\TU/lmr/m/n/12 1.1| 
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 47--48
-\TU/SimSun(0)/m/n/12 商 户 后 台 写 成 当 前
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 29--29
+[]|\TU/lmr/m/n/12 1.2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]|\TU/SimSun(0)/m/n/12 检 查 开 发 设 计 书
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 33--33
+[]|\TU/lmr/m/n/12 2.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\TU/SimSun(0)/m/n/12 前 端 \TU/lmr/m/n/12 HomeView.vue \TU/SimSun(0)/m/n/12 与
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 35--35
+[]|\TU/lmr/m/n/12 2.2| 
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 37--37
+[]|\TU/lmr/m/n/12 2.3| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/lmr/m/n/12 RecordView.vue \TU/SimSun(0)/m/n/12 实 现 开
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/SimSun(0)/m/n/12 竿 计 时 和 收 竿 汇 总，|  收
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/SimSun(0)/m/n/12 数、|  重 量、|  钓 法、|  饵 料；|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/SimSun(0)/m/n/12 条 数 为 \TU/lmr/m/n/12 0 \TU/SimSun(0)/m/n/12 时 标 记 为 空
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/SimSun(0)/m/n/12 军；|  后 端 \TU/lmr/m/n/12 ‘/api/records‘
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/lmr/m/n/12 POST \TU/SimSun(0)/m/n/12 接 口 持 久 化 到
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 37--38
+|\TU/SimSun(0)/m/n/12 （含 鱼 获 和 空 军 两
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 39--39
+[]|\TU/lmr/m/n/12 2.4| 
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 39--39
+[]|\TU/lmr/m/n/12 CommunityView.vue \TU/SimSun(0)/m/n/12 展 示
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 39--39
+\TU/SimSun(0)/m/n/12 换  |（推 荐\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 同 城\TU/lmr/m/
+n/12 /\TU/SimSun(0)/m/n/12 话 题） ；|
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 41--41
+[]|\TU/lmr/m/n/12 2.5| 
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 41--41
+[]|\TU/lmr/m/n/12 TutorialsView.vue \TU/SimSun(0)/m/n/12 展 示 教
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]|\TU/SimSun(0)/m/n/12 检 查 教 程 列 表 渲
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 43--43
+[]|\TU/lmr/m/n/12 2.6| 
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 43--43
+\TU/lmr/m/n/12 profile-summary/report \TU/SimSun(0)/m/n/12 接
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 47--47
+[]|\TU/lmr/m/n/12 3.1| 
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 47--47
+[]|\TU/lmr/m/n/12 Vue 3 + Vite \TU/SimSun(0)/m/n/12 前 端 与
+ []
+
+
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 49--49
+[]|\TU/lmr/m/n/12 3.2| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\TU/lmtt/m/n/12 HomeView.vue \TU/SimSun(0)/m/n/12 与
+[]|\TU/SimSun(0)/m/n/12 路 由 层  |（\TU/lmr/m/n/12 ‘app/api/‘\TU/SimSun(0)/m/n/12 
+）|
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 49--50
-[]|\TU/SimSun(0)/m/n/12 打 开 首 页 地 图；|  调
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\TU/lmr/m/n/12 → \TU/SimSun(0)/m/n/12 服 务 层  |（\TU/lmr/m/n/12 ‘app/ser-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 49--50
-\TU/SimSun(0)/m/n/12 用 \TU/lmtt/m/n/12 GET /api/pois\TU/SimSun(0)/m/n/12 ；|
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\TU/lmr/m/n/12 vices/‘\TU/SimSun(0)/m/n/12 ）| \TU/lmr/m/n/12 → \TU/SimSun(0)/m/
+n/12 数 据 层
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-\TU/SimSun(0)/m/n/12 检 查 返 回 字 段
+Overfull \hbox (7.71184pt too wide) in paragraph at lines 49--49
+|\TU/SimSun(0)/m/n/12 （\TU/lmtt/m/n/12 app/data/json_store.py\TU/SimSun(0)/m/n/
+12 ） ，|
  []
 
 
-Overfull \hbox (104.84471pt too wide) in paragraph at lines 49--50
-\TU/lmtt/m/n/12 id/name/lat/lng/fish_species/score
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 51--51
+[]|\TU/lmr/m/n/12 3.3| 
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 51--52
-[]|\TU/SimSun(0)/m/n/12 打 开 钓 点 详 情；|  调
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 53--53
+[]|\TU/lmr/m/n/12 3.4| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/SimSun(0)/m/n/12 用 详 情 接 口；|  检
+Underfull \hbox (badness 1895) in paragraph at lines 53--53
+\TU/SimSun(0)/m/n/12 通 过 \TU/lmr/m/n/12 ‘.env‘ \TU/SimSun(0)/m/n/12 文 件 由 \TU/l
+mr/m/n/12 ‘con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/SimSun(0)/m/n/12 查 \TU/lmtt/m/n/12 risk_flags\TU/SimSun(0)/m/n/12 、|
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 57--57
+[]|\TU/lmr/m/n/12 4.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/lmtt/m/n/12 facilities\TU/SimSun(0)/m/n/12 、|
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\TU/SimSun(0)/m/n/12 的 \TU/lmr/m/n/12 score\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/
+12 break-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\TU/lmtt/m/n/12 score_breakdown
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 59--59
+[]|\TU/lmr/m/n/12 4.2| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-\TU/lmtt/m/n/12 score\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 breakdown\TU/SimSu
-n(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 53--54
-\TU/SimSun(0)/m/n/12 禁 钓 或 高 风 险 点 位
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 55--56
-[]|\TU/SimSun(0)/m/n/12 分 别 在 无 \TU/lmr/m/n/12 Key \TU/SimSun(0)/m/n/12 和
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\TU/SimSun(0)/m/n/12 有 \TU/lmr/m/n/12 Key \TU/SimSun(0)/m/n/12 环 境 调
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 55--56
-\TU/SimSun(0)/m/n/12 用 接 口；|  检 查 输 出
- []
-
-
-Overfull \hbox (95.81303pt too wide) in paragraph at lines 55--56
-\TU/lmtt/m/n/12 summary/top_recommendations/tips\TU/SimSun(0)/m/n/12 ，|
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 55--56
-\TU/SimSun(0)/m/n/12 确 认 解 释 不 改 变 推
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 57--58
-[]|\TU/SimSun(0)/m/n/12 完 成 一 次 鱼 获 记 录
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 57--58
-\TU/SimSun(0)/m/n/12 启 后 端 后 调 用 \TU/lmtt/m/n/12 GET
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 59--59
-[]|\TU/lmtt/m/n/12 CommunityView.vue \TU/SimSun(0)/m/n/12 展 示 社
- []
-
-
-Underfull \hbox (badness 4765) in paragraph at lines 59--59
-\TU/SimSun(0)/m/n/12 区 流，| \TU/lmtt/m/n/12 PublishView.vue \TU/SimSun(0)/m/n/12
- 支
+Underfull \hbox (badness 3396) in paragraph at lines 59--59
+[]|\TU/lmr/m/n/12 AI \TU/SimSun(0)/m/n/12 接 口 \TU/lmr/m/n/12 ‘/api/ai/fishing-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\TU/SimSun(0)/m/n/12 联 记 录 和 位 置 权 限；|  后 端
- []
-
-
-Underfull \hbox (badness 7667) in paragraph at lines 59--59
-\TU/lmtt/m/n/12 /api/posts\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 /api/feed \TU
-/SimSun(0)/m/n/12 提
+\TU/lmr/m/n/12 ‘DEEPSEEK_API_KEY‘
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
-[]|\TU/SimSun(0)/m/n/12 发 布 一 条 关 联
+\TU/SimSun(0)/m/n/12 隐 私 原 文）|  和 输
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 59--60
-\TU/lmtt/m/n/12 record_id \TU/SimSun(0)/m/n/12 的 帖 子；|
+Underfull \hbox (badness 1776) in paragraph at lines 59--60
+\TU/SimSun(0)/m/n/12 出 格 式  |（\TU/lmr/m/n/12 summary
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 59--60
-\TU/SimSun(0)/m/n/12 刷 新 社 区 流；|  检 查
+Underfull \hbox (badness 4303) in paragraph at lines 59--60
+\TU/lmr/m/n/12 + explanation +
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 61--61
-[]|\TU/lmtt/m/n/12 routes_community.py \TU/SimSun(0)/m/n/12 提 供
+Overfull \hbox (15.71136pt too wide) in paragraph at lines 59--60
+\TU/lmr/m/n/12 top_recommendations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-[]|\TU/SimSun(0)/m/n/12 调 用 \TU/lmtt/m/n/12 POST
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 61--61
+[]|\TU/lmr/m/n/12 4.3| 
  []
 
 
-Overfull \hbox (47.12302pt too wide) in paragraph at lines 61--62
-\TU/lmtt/m/n/12 /api/posts/{id}/comments\TU/SimSun(0)/m/n/12 、|
+Underfull \hbox (badness 5403) in paragraph at lines 61--61
+\TU/SimSun(0)/m/n/12 过 \TU/lmr/m/n/12 penalty\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/
+n/12 warnings \TU/SimSun(0)/m/n/12 和
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-\TU/lmtt/m/n/12 POST
- []
-
-
-Overfull \hbox (53.30301pt too wide) in paragraph at lines 61--62
-\TU/lmtt/m/n/12 /api/posts/{id}/reactions\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-\TU/lmtt/m/n/12 GET
- []
-
-
-Overfull \hbox (108.0324pt too wide) in paragraph at lines 61--62
-\TU/lmtt/m/n/12 /api/direct-messages/{user}/{peer}\TU/SimSun(0)/m/n/12 ；|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\TU/SimSun(0)/m/n/12 教 程 列 表 由
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\TU/lmtt/m/n/12 /api/tutorials \TU/SimSun(0)/m/n/12 返 回；|
- []
-
-
-Overfull \hbox (75.0151pt too wide) in paragraph at lines 63--63
-\TU/lmtt/m/n/12 /api/tutorials/{tutorial_id}/progress
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-[]|\TU/SimSun(0)/m/n/12 进 入 教 程 页 切 换
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-\TU/SimSun(0)/m/n/12 分 类；|  更 新 某 教
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 63--64
-\TU/SimSun(0)/m/n/12 程 进 度；|  调 用 \TU/lmtt/m/n/12 GET
- []
-
-
-Overfull \hbox (129.56471pt too wide) in paragraph at lines 63--64
-\TU/lmtt/m/n/12 /api/users/{user_id}/learning-progress
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 65--65
+[]|\TU/lmr/m/n/12 5.1| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\TU/lmtt/m/n/12 MineView.vue \TU/SimSun(0)/m/n/12 展 示
+[]|\TU/lmr/m/n/12 FishingPOI |\TU/SimSun(0)/m/n/12 （\TU/lmr/m/n/12 20+ \TU/SimS
+un(0)/m/n/12 字 段，|
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\TU/SimSun(0)/m/n/12 个 人 统 计 和 报 告 弹 窗；|
+\TU/lmr/m/n/12 FishingRecord |\TU/SimSun(0)/m/n/12 （鱼 种\TU/lmr/m/n/12 /\TU/SimS
+un(0)/m/n/12 重
  []
 
 
-Overfull \hbox (68.83511pt too wide) in paragraph at lines 65--65
-\TU/lmtt/m/n/12 /api/users/{user_id}/profile-summary
+Underfull \hbox (badness 1394) in paragraph at lines 65--65
+\TU/lmr/m/n/12 CatchPost |\TU/SimSun(0)/m/n/12 （帖 子 内 容、|  关
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\TU/SimSun(0)/m/n/12 与
+\TU/SimSun(0)/m/n/12 联 记 录、|  内 容 与 位 置 权
  []
 
 
-Overfull \hbox (19.39511pt too wide) in paragraph at lines 65--65
-\TU/lmtt/m/n/12 /api/users/{user_id}/reports
+Underfull \hbox (badness 1142) in paragraph at lines 65--65
+\TU/SimSun(0)/m/n/12 名\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 分 项 分\TU/lmr/m/n/12 
+/\TU/SimSun(0)/m/n/12 理 由\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 警 告） 、|
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 65--66
-[]|\TU/SimSun(0)/m/n/12 新 增 多 条 记 录 后 刷
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]|\TU/SimSun(0)/m/n/12 检 查 \TU/lmr/m/n/12 ‘ap-
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 65--66
-\TU/SimSun(0)/m/n/12 新 个 人 主 页；|  调 用
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\TU/lmr/m/n/12 p/schemas/‘ \TU/SimSun(0)/m/n/12 目
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 65--66
-\TU/lmr/m/n/12 profile-summary \TU/SimSun(0)/m/n/12 和
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 67--67
+[]|\TU/lmr/m/n/12 5.2| 
  []
 
 
-Overfull \hbox (3.83218pt too wide) in paragraph at lines 67--67
-[]|\TU/lmr/m/n/12 2.10| 
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\TU/lmr/m/n/12 JSON \TU/SimSun(0)/m/n/12 集 合 与
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]|\TU/SimSun(0)/m/n/12 打 开 服 务
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\TU/SimSun(0)/m/n/12 根 目 录 \TU/lmr/m/n/12 ‘data/‘ \TU/SimSun(0)/m/n/12 下 每
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\TU/SimSun(0)/m/n/12 页；|  调 用 \TU/lmtt/m/n/12 GET
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\TU/SimSun(0)/m/n/12 个 \TU/lmr/m/n/12 ‘.json‘ \TU/SimSun(0)/m/n/12 集 合 配 有 同
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\TU/lmtt/m/n/12 /api/events\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\TU/SimSun(0)/m/n/12 名 \TU/lmr/m/n/12 ‘.schema.json‘ \TU/SimSun(0)/m/n/12 描 述
  []
 
 
-Overfull \hbox (53.30301pt too wide) in paragraph at lines 67--68
-\TU/lmtt/m/n/12 /api/events/{id}/register\TU/SimSun(0)/m/n/12 、|
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\TU/SimSun(0)/m/n/12 文 件；|  当 前 包 含 \TU/lmr/m/n/12 pois\TU/SimSun(0)/m/n/12 、|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\TU/lmtt/m/n/12 POST
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\TU/lmr/m/n/12 posts\TU/SimSun(0)/m/n/12 、| \TU/lmr/m/n/12 records\TU/SimSun(0)
+/m/n/12 、| \TU/lmr/m/n/12 tutorials\TU/SimSun(0)/m/n/12 、|
  []
 
 
-Overfull \hbox (46.2324pt too wide) in paragraph at lines 67--68
-\TU/lmtt/m/n/12 /api/events/{id}/checkin\TU/SimSun(0)/m/n/12 ；|
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 69--69
+[]|\TU/lmr/m/n/12 5.3| 
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 67--68
-\TU/SimSun(0)/m/n/12 检 查 报 名 状 态 和 消
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\TU/lmtt/m/n/12 json_store.py \TU/SimSun(0)/m/n/12 的
  []
 
 
-Overfull \hbox (3.83218pt too wide) in paragraph at lines 69--69
-[]|\TU/lmr/m/n/12 2.11| 
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\TU/lmtt/m/n/12 save_collection() \TU/SimSun(0)/m/n/12 采
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-[]|\TU/SimSun(0)/m/n/12 调 用 \TU/lmtt/m/n/12 POST
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 73--73
+[]|\TU/lmr/m/n/12 6.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-\TU/lmtt/m/n/12 /api/orders\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 POST
+Underfull \hbox (badness 3942) in paragraph at lines 73--73
+[]|\TU/lmr/m/n/12 5 \TU/SimSun(0)/m/n/12 个 底 部 \TU/lmr/m/n/12 Tab |\TU/SimSun(0
+)/m/n/12 （首 页\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 社
  []
 
 
-Overfull \hbox (22.40302pt too wide) in paragraph at lines 69--70
-\TU/lmtt/m/n/12 /api/orders/{id}/pay\TU/SimSun(0)/m/n/12 、|
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 75--75
+[]|\TU/lmr/m/n/12 6.2| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-\TU/lmtt/m/n/12 GET
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 77--77
+[]|\TU/lmr/m/n/12 6.3| 
  []
 
 
-Overfull \hbox (33.8724pt too wide) in paragraph at lines 69--70
-\TU/lmtt/m/n/12 /api/users/{id}/orders\TU/SimSun(0)/m/n/12 ；|
+Underfull \hbox (badness 5578) in paragraph at lines 77--78
+[]|\TU/SimSun(0)/m/n/12 检 查 各 页 面 截 图，|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-[]|\TU/SimSun(0)/m/n/12 检 查
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 81--81
+[]|\TU/lmr/m/n/12 7.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\TU/lmtt/m/n/12 vite.config.js
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 83--83
+[]|\TU/lmr/m/n/12 7.2| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\TU/SimSun(0)/m/n/12 代 理 配 置、|
+Overfull \hbox (0.79764pt too wide) in paragraph at lines 85--85
+[]|\TU/lmr/m/n/12 7.3| 
  []
 
 
-Overfull \hbox (12.1447pt too wide) in paragraph at lines 71--72
-\TU/lmtt/m/n/12 backend/app/main.py
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 71--72
-\TU/SimSun(0)/m/n/12 路 由 注 册 和 浏 览 器
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-[]|\TU/SimSun(0)/m/n/12 检 查 \TU/lmtt/m/n/12 app/api/\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-\TU/lmtt/m/n/12 app/services/\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (33.87239pt too wide) in paragraph at lines 73--74
-\TU/lmtt/m/n/12 app/data/json_store.py\TU/SimSun(0)/m/n/12 ；|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-\TU/SimSun(0)/m/n/12 新 增 记 录 后 确 认
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\TU/SimSun(0)/m/n/12 数 据 模 型 与
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-[]|\TU/SimSun(0)/m/n/12 检 查 \TU/lmtt/m/n/12 data/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\TU/SimSun(0)/m/n/12 目 录；|  抽 查
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\TU/lmtt/m/n/12 pois.schema.json\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Overfull \hbox (16.223pt too wide) in paragraph at lines 75--76
-\TU/lmtt/m/n/12 records.schema.json\TU/SimSun(0)/m/n/12 、|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\TU/lmtt/m/n/12 posts.schema.json
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 75--76
-\TU/SimSun(0)/m/n/12 与 接 口 字 段 是 否 对
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 77--78
-[]|\TU/SimSun(0)/m/n/12 检 查 前 端 源 码 无 高
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 77--78
-\TU/SimSun(0)/m/n/12 充 部 署 材 料 中 的 环
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 79--80
-\TU/SimSun(0)/m/n/12 文 引 用 和 图 中 组 件
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-[]|\TU/SimSun(0)/m/n/12 根 据
- []
-
-
-Overfull \hbox (80.12471pt too wide) in paragraph at lines 81--82
-\TU/lmtt/m/n/12 figures/recommendation_flow.md
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 83--84
-[]|\TU/SimSun(0)/m/n/12 对 照 验 收 表 逐 项 演
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 85--85
-\TU/SimSun(0)/m/n/12 品\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 前 端\TU/lmr/m/n/12 /\
-TU/SimSun(0)/m/n/12 后 端\TU/lmr/m/n/12 /\TU/SimSun(0)/m/n/12 测 试\TU/lmr/m/n/12 /
-\TU/SimSun(0)/m/n/12 文 档 等
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 85--86
-\TU/SimSun(0)/m/n/12 不 把 后 续 工 程 化 能
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 85--86
-\TU/SimSun(0)/m/n/12 力 写 成 本 期 必 须 完
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 87--88
-[]|\TU/SimSun(0)/m/n/12 检 查 风 险 项 是 否 有
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 87--88
-\TU/SimSun(0)/m/n/12 续 规 划 未 误 写 为 当
- []
-
-
-Overfull \hbox (33.94716pt too wide) in alignment at lines 43--88
+Overfull \hbox (16.87578pt too wide) in alignment at lines 24--87
  [] [] [] [] [] 
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1896,7 +1606,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[24])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1905,16 +1615,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[26] (./sections/07_core_function_design.tex
+[25] (./sections/07_core_function_design.tex
 File: figures/page_home.png Graphic file (type bmp)
 <figures/page_home.png>
 
@@ -1926,7 +1627,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27]
+[26]
 File: figures/page_spot_detail.png Graphic file (type bmp)
 <figures/page_spot_detail.png>
 
@@ -1938,7 +1639,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28]
+[27]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1947,7 +1648,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[29]
+[28]
 File: figures/page_record.png Graphic file (type bmp)
 <figures/page_record.png>
 
@@ -1959,7 +1660,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30]
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1968,7 +1669,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31]
+[30]
 File: figures/page_community.png Graphic file (type bmp)
 <figures/page_community.png>
 
@@ -1980,10 +1681,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[32]
+[31]
 File: figures/page_publish.png Graphic file (type bmp)
 <figures/page_publish.png>
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2002,19 +1712,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [34]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[35]
-Overfull \hbox (117.19556pt too wide) in paragraph at lines 184--185
+Overfull \hbox (86.99174pt too wide) in paragraph at lines 184--185
 \TU/SimSun(0)/m/n/12 后 端 \TU/lmr/m/n/12 report_service \TU/SimSun(0)/m/n/12 已 提
- 供 \TU/lmtt/m/n/12 /api/users/{user_id}/profile-summary \TU/SimSun(0)/m/n/12 与 
-\TU/lmtt/m/n/12 /api/users/{user_id}/reports
+ 供 \TU/lmr/m/n/12 ‘/api/users/{user_id}/profile-summary‘ \TU/SimSun(0)/m/n/12 与
+ \TU/lmr/m/n/12 ‘/api/users/{user_id}/reports‘
  []
 
 File: figures/page_mine.png Graphic file (type bmp)
@@ -2027,7 +1728,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36]
+[35]
 File: figures/page_report.png Graphic file (type bmp)
 <figures/page_report.png>
 
@@ -2039,7 +1740,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[36]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2048,7 +1749,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38]
+[37]
 File: figures/page_tutorials.png Graphic file (type bmp)
 <figures/page_tutorials.png>
 
@@ -2060,7 +1761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39])
+[38])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2069,31 +1770,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40] (./sections/08_data_model_and_api.tex
-Overfull \hbox (18.35193pt too wide) in paragraph at lines 42--42
-[]|\TU/lmtt/m/n/10.95 weather_snapshots.json|  
- []
+[39] (./sections/08_data_model_and_api.tex
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-Overfull \hbox (6.85443pt too wide) in paragraph at lines 50--50
-\TU/lmtt/m/n/10.95 direct_messages.json|  
- []
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-
-Overfull \hbox (18.35193pt too wide) in paragraph at lines 52--52
-\TU/lmtt/m/n/10.95 learning_progress.json|  
- []
-
-
-Overfull \hbox (29.84943pt too wide) in paragraph at lines 54--54
-\TU/lmtt/m/n/10.95 event_registrations.json|  
- []
-
-
-Overfull \hbox (12.60318pt too wide) in paragraph at lines 60--60
-[]|\TU/lmtt/m/n/10.95 report_snapshots.json|  
- []
-
+[40]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2113,7 +1799,113 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 93.
+nput line 90.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\TU/SimSun(0)/b/n/12 序
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\TU/SimSun(0)/b/n/12 序
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 133--133
+[]|\TU/SimSun(0)/m/n/12 返 回 前 端 加 载 高 德
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|$[][][][] [] [][][][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|$[][][][] [] [][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|$[][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|$[][][][] [] [][][][][][][] []
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 147.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|$[][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[][][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|$[][][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|$[][][][] []
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2124,240 +1916,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]|\TU/SimSun(0)/b/n/12 序
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]|\TU/SimSun(0)/b/n/12 序
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[]|$[][][][] [] [][][][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[]|$[][][][] [] [][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[]|$[][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]|$[][][][] [] [][] []
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 148--148
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]|$[][][][] [] [][][][][][][] []
- []
-
-
-Overfull \hbox (67.08905pt too wide) in paragraph at lines 150--150
-[]|\TU/lmr/m/n/12 GET/PATCH/DELETE| 
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 152--152
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 158--158
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Overfull \hbox (27.05705pt too wide) in paragraph at lines 162--162
-[]|\TU/lmr/m/n/12 POST/DELETE| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
-[]|$[][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
-[][][][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|$[][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[][][][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[][][][][] [] [][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|$[][][][] [] [][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[][][][][][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]|$[][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[]|$[][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 180--180
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
-[]|$[][][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
-[][][][][] [] [][][] []
- []
-
-
-Overfull \hbox (34.51929pt too wide) in paragraph at lines 182--182
-[][][][][][][][][][][][][][][][][][][][][][][][]$| 
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 184--184
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|$[][][][] [] [][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[][][][][][] [] [][][] []
- []
-
-
-Overfull \hbox (27.05705pt too wide) in paragraph at lines 186--186
-[]|\TU/lmr/m/n/12 POST/DELETE| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|$[][][][] [] [][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[][][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]|$[][][][] [] [][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[][][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|$[][][][] [] [][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[][][][][][] [] [][][] []
- []
-
-
-Overfull \hbox (3.96906pt too wide) in paragraph at lines 192--192
-[]|\TU/lmr/m/n/12 GET/POST| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]|$[][][][] [] [][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]|$[][][][] [] [][][][][] [] [][][][][] []
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2375,7 +1933,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45]
+[45])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2384,7 +1942,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46])
+[46] (./sections/09_recommendation_and_ai.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2393,7 +1951,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[47] (./sections/09_recommendation_and_ai.tex
+[47]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2420,7 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50]
+[50])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2429,7 +1987,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[51])
+[51] (./sections/10_technology_stack.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2438,23 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52] (./sections/10_technology_stack.tex
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\TU/lmr/m/n/12 JSON \TU/SimSun(0)/m/n/12 集 合 \TU/lmr/m/n/12 +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\TU/SimSun(0)/m/n/12 生 产 环 境 配 置 \TU/lmr/m/n/12 Key \TU/SimSun(0)/m/n/12 时 调
- 用
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 31--31
-\TU/lmr/m/n/12 DeepSeek\TU/SimSun(0)/m/n/12 ；|  未 配 置 时 返 回 \TU/lmr/m/n/12 mock
-
- []
-
+[52]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2463,7 +2005,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53]
+[53])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2472,16 +2014,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[55] (./sections/11_third_party_services.tex
+[54] (./sections/11_third_party_services.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|\TU/SimSun(0)/m/n/12 天 气 结 果 转 换 为 统 一
  []
@@ -2499,7 +2032,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56]
+[55]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2508,7 +2041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[57])
+[56])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2517,7 +2050,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58] (./sections/12_security_privacy_compliance.tex
+[57] (./sections/12_security_privacy_compliance.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[58]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2535,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[60]
+[60])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2544,7 +2086,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61])
+[61] (./sections/13_deployment_plan.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2553,31 +2095,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62] (./sections/13_deployment_plan.tex
-Overfull \hbox (6.56343pt too wide) in paragraph at lines 54--54
-[]|\TU/lmtt/m/n/10.95 AMAP_JS_API_KEY|  
- []
-
-
-Overfull \hbox (23.80968pt too wide) in paragraph at lines 54--54
-[]|\TU/lmtt/m/n/10.95 AMAP_SECURITY_CODE|  
- []
-
-
-Overfull \hbox (35.30717pt too wide) in paragraph at lines 54--54
-[]|\TU/lmtt/m/n/10.95 AMAP_WEB_SERVICE_KEY|  
- []
-
-
-Overfull \hbox (12.31218pt too wide) in paragraph at lines 54--54
-[]|\TU/lmtt/m/n/10.95 DEEPSEEK_API_KEY|  
- []
-
-
-Overfull \hbox (0.81468pt too wide) in paragraph at lines 54--54
-[]|\TU/lmtt/m/n/10.95 DEEPSEEK_MODEL|  
- []
-
+[62]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2586,7 +2104,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[63]
+[63])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2595,7 +2113,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64])
+[64] (./sections/14_testing_acceptance.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2604,12 +2122,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[65] (./sections/14_testing_acceptance.tex
-Underfull \hbox (badness 7777) in paragraph at lines 29--29
-[]|\TU/SimSun(0)/m/n/10.95 手 机\TU/lmr/m/n/10.95 /\TU/SimSun(0)/m/n/10.95 平 板、| 
-\TU/lmr/m/n/10.95 iOS/Android\TU/SimSun(0)/m/n/10.95 、|
- []
-
+[65]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2627,7 +2140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67]
+[67])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2636,12 +2149,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 132.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 132.
-
+[68] (./sections/15_innovation_advantages.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2668,11 +2176,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71] (./sections/15_innovation_advantages.tex
-Underfull \hbox (badness 5970) in paragraph at lines 29--29
-[]|\TU/SimSun(0)/m/n/10.95 帖 子 关 联 真 实 出 钓 记 录，|  绑 定 钓
- []
-
+[71] (./sections/16_implementation_plan.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2690,7 +2194,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73]
+[73])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2699,7 +2203,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74])
+[74]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2708,7 +2212,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75] (./sections/16_implementation_plan.tex
+[75] (./sections/17_risk_analysis.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2726,7 +2230,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[77]
+[77])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2735,7 +2239,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[78])
+[78]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2744,7 +2248,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79]
+[79] (./sections/18_future_extension.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2753,10 +2257,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[80] (./sections/17_risk_analysis.tex
-
-LaTeX Warning: Float too large for page by 67.52942pt on input line 32.
-
+[80]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2765,7 +2266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[81]
+[81])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2774,7 +2275,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[82]
+[82] (./sections/19_appendix.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2783,7 +2284,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[83])
+[83]
+Overfull \hbox (8.18633pt too wide) in paragraph at lines 31--32
+[]\TU/SimSun(0)/m/n/12 后 端 配 置 包 括 \TU/lmtt/m/n/12 APP_ENV\TU/SimSun(0)/m/n/12 
+、| \TU/lmtt/m/n/12 BACKEND_HOST\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 BACKEND_
+PORT\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 DATABASE_URL\TU/SimSun(0)/m/n/12 、|
+ \TU/lmtt/m/n/12 REDIS_URL\TU/SimSun(0)/m/n/12 、|
+ []
+
+
+Overfull \hbox (9.06023pt too wide) in paragraph at lines 31--32
+\TU/lmtt/m/n/12 AMAP_JS_API_KEY\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 AMAP_SEC
+URITY_CODE\TU/SimSun(0)/m/n/12 、| \TU/lmtt/m/n/12 AMAP_WEB_SERVICE_KEY\TU/SimSu
+n(0)/m/n/12 、| \TU/lmtt/m/n/12 DEEPSEEK_API_KEY\TU/SimSun(0)/m/n/12 、|
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2801,7 +2316,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[85] (./sections/18_future_extension.tex
+[85]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2811,6 +2326,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [86]
+Underfull \hbox (badness 1509) in paragraph at lines 138--138
+[]|\TU/lmr/m/n/12 Geographic Information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/SimSun(0)/m/n/12 地 理 信 息 系
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/lmr/m/n/12 Application Program-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/SimSun(0)/m/n/12 应 用 程 序 接
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 138--138
+[]|\TU/lmr/m/n/12 Create, Read, Update,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/SimSun(0)/m/n/12 最 小 可 行 产
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 138--138
+[]|\TU/lmr/m/n/12 Content Delivery Net-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/SimSun(0)/m/n/12 内 容 分 发 网
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2820,10 +2374,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [87]
-Overfull \hbox (21.12465pt too wide) in paragraph at lines 61--61
-[]|\TU/lmr/m/n/10.95 PostgreSQL/PostGIS\TU/SimSun(0)/m/n/10.95 、| 
- []
-
+File: figures/page_home.png Graphic file (type bmp)
+<figures/page_home.png>
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2842,126 +2394,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[89] (./sections/19_appendix.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[90]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[91]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[92]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[93]
-Underfull \hbox (badness 1509) in paragraph at lines 195--195
-[]|\TU/lmr/m/n/12 Geographic Information
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/SimSun(0)/m/n/12 地 理 信 息 系
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/lmr/m/n/12 Application Program-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/SimSun(0)/m/n/12 应 用 程 序 接
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 195--195
-[]|\TU/lmr/m/n/12 Create, Read, Update,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/SimSun(0)/m/n/12 最 小 可 行 产
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 195--195
-[]|\TU/lmr/m/n/12 Content Delivery Net-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\TU/SimSun(0)/m/n/12 内 容 分 发 网
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[94]
-File: figures/page_home.png Graphic file (type bmp)
-<figures/page_home.png>
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[95]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[96] (./main.aux)
+[89] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6AC812A9F021E79B7CC9CB730B7AE5EB;17115.
+(rerunfilecheck)             Checksum: 89E3B5E463751D0A2AD005DB135CEDAD;17015.
  ) 
 Here is how much of TeX's memory you used:
- 19687 strings out of 474773
- 449752 string characters out of 5756839
- 2016842 words of memory out of 5000000
- 41504 multiletter control sequences out of 15000+600000
- 564083 words of font info for 96 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 93i,13n,97p,1190b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 19485 strings out of 476720
+ 436826 string characters out of 5801445
+ 2044842 words of memory out of 5000000
+ 41185 multiletter control sequences out of 15000+600000
+ 563135 words of font info for 89 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 93i,13n,97p,1190b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (97 pages).
+Output written on main.pdf (90 pages).
